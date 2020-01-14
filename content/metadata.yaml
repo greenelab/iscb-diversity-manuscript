@@ -17,11 +17,12 @@ authors:
       - Department of Something, University of Whatever
     funders: Grant XXXXXXXX
   -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: greenescientist
+    email: greenescientist@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+      - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
