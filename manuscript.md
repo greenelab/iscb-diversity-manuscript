@@ -133,10 +133,10 @@ A lack of diversity in science could lead to pernicious biases that hamper the e
 For example, finding that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238] could be interpreted either as minority scientists select topics in more poorly funded areas or that majority scientists score topics of particular interest to minority scientists as less worthy of funding.
 Consequently, it is important to examine peer recognition in fields.
 
-Gender bias among conference speakers has been recognized as an area that can be improved with targeted interventions [@doi:10.1371/journal.pcbi.1003903, @doi:10.1126/science.caredit.aaw9742, @doi:10.1038/ni.3707, @arxiv:1502.06326].
+Gender bias among conference speakers has been recognized as an area that can be improved with targeted interventions [@doi:10.1371/journal.pcbi.1003903; @doi:10.1126/science.caredit.aaw9742; @doi:10.1038/ni.3707; @arxiv:1502.06326].
 Having more female organizers on conference committees is associated with having more female speakers [@doi:10.1128/mBio.00846-13].
 At medical conferences in the US and Canada, the proportion of female speakers is increasing at a modest rate [@doi:10.1001/jamanetworkopen.2019.2103].
-Gender bias appears to also influence funding decisions: an examination of scoring of proposals in Canada found that reviewers asked to assess the science produced a smaller gender gap in scoring than reviewers asked to assess the applicant [@doi:10.1016/S0140-6736(18)32611-4].
+Gender bias appears to also influence funding decisions: an examination of scoring of proposals in Canada found that reviewers asked to assess the science produced a smaller gender gap in scoring than reviewers asked to assess the applicant [@doi:10/djc5].
 Challenges extend beyond gender: an analysis of awards at the NIH found that proposals by Asian, black or African-American applicants were less likely to be funded than those by white applicants [@doi:10.1126/science.1196783].
 There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color’s efforts to gain NIH funding [@doi:10.1097/ACM.0000000000001278].
 
@@ -183,7 +183,7 @@ We split names into first and last names as described for ISCB Fellows.
 
 We examined the webpage for each RECOMB meeting.
 We were able to successfully find pages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
-We were able to fill in the missing years using information from other sources [@doi:10.1007/978-3-319-31957-5, @doi:10.1145/565196, @doi:10.1145/640075, @doi:10.1145/974614, @doi:10.1007/b135594, @doi:10.1007/11732990, @doi:10.1007/978-3-642-02008-7].
+We were able to fill in the missing years using information from other sources [@doi:10.1007/978-3-319-31957-5; @doi:10.1145/565196; @doi:10.1145/640075; @doi:10.1145/974614; @doi:10.1007/b135594; @doi:10.1007/11732990; @doi:10.1007/978-3-642-02008-7].
 We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
 We used the name as provided on the site.
 We split names into first and last names as described for ISCB Fellows.
