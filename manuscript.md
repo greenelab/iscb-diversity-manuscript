@@ -1,7 +1,7 @@
 ---
 author-meta:
 - John Doe
-- Jane Roe
+- Casey S. Greene
 bibliography:
 - content/manual-references.json
 date-meta: '2020-01-14'
@@ -47,13 +47,15 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@johndoe" />
 
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Casey S. Greene" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
 
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author_institution" content="Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
+
+  <meta name="twitter:creator" content="@greenescientist" />
 
   <meta property="og:type" content="article" />
 
@@ -105,20 +107,69 @@ on January 14, 2020.
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**<br>
++ **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [cgreene](https://github.com/cgreene)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [greenescientist](https://twitter.com/greenescientist)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
   </small>
 
 
 
 ## Abstract {.page_break_before}
 
+Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge. Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition. We sought to understand the extent to which such recognitions reflected the composition of their corresponding field. We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows. We compared these individuals with last and corresponding author contributions in the society’s partner journals. We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors. Individuals from certain ancestries and countries appear to be under-recognized among honorees.
 
+
+## Introduction
+
+
+## Materials and Methods
+
+### Honoree Curation
+
+#### ISCB Fellows Recipients
+
+#### ISMB Keynote Speakers
+
+#### PSB Keynote Speakers
+
+#### RECOMB Keynote Speakers
+
+### Analysis of Bioinformatics and Computational Biology Publications
+
+### Estimation of Gender
+
+### Estimation of Race and Ethnicity
+
+### Estimation of Nationality
+
+#### Constructing a Name-to-Nationality Dataset
+
+#### Nationality Prediction with LSTM Neural Networks
+
+
+## Results
+
+### Curated Honorees and Literature-derived Potential Honorees
+
+### Assessing Gender Diversity of Authors and Honorees
+
+### Assessing the Racial and Ethnic Diversity of Authors and Honorees
+
+### Predicting Nationality with LSTM Neural Networks and Wikipedia
+
+### Assessing the Nationality Diversity of Authors and Honorees
+
+
+## Conclusions
+
+
+## Data and Resource Availability
 
 
 ## References {.page_break_before}
