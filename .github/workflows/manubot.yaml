@@ -10,11 +10,17 @@ jobs:
   build:
     name: Build Manuscript
     runs-on: ubuntu-latest
+    shell: bash --login {0}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Install Environment
-        run: source ci/install.sh
+        uses: goanpeca/setup-miniconda@v1
+        with:
+          activate-environment: manubot
+          environment-file: build/environment.yml
+          auto-activate-base: false
+          miniconda-version: 'latest'
       - name: Build Manuscript
         run: bash build/build.sh
       - name: Upload Artifacts
