@@ -12,6 +12,8 @@ REPO_SLUG=${TRAVIS_REPO_SLUG:-$GITHUB_REPOSITORY}
 COMMIT=${TRAVIS_COMMIT:-$GITHUB_SHA}
 BUILD_WEB_URL=${TRAVIS_BUILD_WEB_URL:-$BUILD_WEB_URL}
 JOB_WEB_URL=${TRAVIS_JOB_WEB_URL:-$JOB_WEB_URL}
+BRANCH=${TRAVIS_BRANCH:-master}
+
 # Add commit hash to the README
 OWNER_NAME="$(dirname "$REPO_SLUG")"
 REPO_NAME="$(basename "$REPO_SLUG")"
@@ -23,7 +25,7 @@ mv webpage/README-complete.md webpage/README.md
 git config --global push.default simple
 git config --global user.email "$(git log --max-count=1 --format='%ae')"
 git config --global user.name "$(git log --max-count=1 --format='%an')"
-git checkout "$TRAVIS_BRANCH"
+git checkout "$BRANCH"
 git remote set-url origin "git@github.com:$REPO_SLUG.git"
 
 # Decrypt and add SSH key
