@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/$TRAVIS_REPO_SLUG/tree/gh-pages) branch hosts the contents of this directory at https://$OWNER_NAME.github.io/$REPO_NAME/.
-The permalink for this webpage version is https://$OWNER_NAME.github.io/$REPO_NAME/v/$TRAVIS_COMMIT/.
+The [`gh-pages`](https://github.com/$REPO_SLUG/tree/gh-pages) branch hosts the contents of this directory at https://$OWNER_NAME.github.io/$REPO_NAME/.
+The permalink for this webpage version is https://$OWNER_NAME.github.io/$REPO_NAME/v/$COMMIT/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://$OWNER_NAME.github.io/$REPO_NAME/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`$TRAVIS_COMMIT`](https://github.com/$TRAVIS_REPO_SLUG/commit/$TRAVIS_COMMIT).
+[`$COMMIT`](https://github.com/$REPO_SLUG/commit/$COMMIT).
