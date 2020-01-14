@@ -89,30 +89,247 @@ Department of Systems Pharmacology and Translational Therapeutics, Perelman Scho
 <h2 class="page_break_before" id="abstract" class="page_break_before">Abstract</h2>
 <p>Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge. Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition. We sought to understand the extent to which such recognitions reflected the composition of their corresponding field. We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows. We compared these individuals with last and corresponding author contributions in the society’s partner journals. We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors. Individuals from certain ancestries and countries appear to be under-recognized among honorees.</p>
 <h2 id="introduction">Introduction</h2>
+<p>Scientists’ roles in society include identifying important topics of study, undertaking an investigation of those topics, and disseminating their findings broadly.
+The scientific enterprise is largely self-governing: scientists act as peer reviewers on papers and grants, comprise hiring committees in academia, make tenure decisions, and select which applicants will be admitted to doctoral programs.
+A lack of diversity in science could lead to pernicious biases that hamper the extent to which scientific findings are relevant to minority communities.
+For example, finding that minority scientists tend to apply for awards on topics with lower success rates <span class="citation" data-cites="hP9R3Quu">[<a href="#ref-hP9R3Quu" role="doc-biblioref">1</a>]</span> could be interpreted either as minority scientists select topics in more poorly funded areas or that majority scientists score topics of particular interest to minority scientists as less worthy of funding.
+Consequently, it is important to examine peer recognition in fields.</p>
+<p>Gender bias among conference speakers has been recognized as an area that can be improved with targeted interventions <span class="citation" data-cites="JHzGjxks">[<a href="#ref-JHzGjxks" role="doc-biblioref">2</a>]</span>.
+Having more female organizers on conference committees is associated with having more female speakers <span class="citation" data-cites="UxTZTP0G">[<a href="#ref-UxTZTP0G" role="doc-biblioref">6</a>]</span>.
+At medical conferences in the US and Canada, the proportion of female speakers is increasing at a modest rate <span class="citation" data-cites="6mHXFr1Z">[<a href="#ref-6mHXFr1Z" role="doc-biblioref">7</a>]</span>.
+Gender bias appears to also influence funding decisions: an examination of scoring of proposals in Canada found that reviewers asked to assess the science produced a smaller gender gap in scoring than reviewers asked to assess the applicant <span class="citation" data-cites="12Yo2Wqzk">[<span class="citeproc-not-found" data-reference-id="12Yo2Wqzk"><strong>???</strong></span>]</span>.
+Challenges extend beyond gender: an analysis of awards at the NIH found that proposals by Asian, black or African-American applicants were less likely to be funded than those by white applicants <span class="citation" data-cites="njNa3CYa">[<a href="#ref-njNa3CYa" role="doc-biblioref">8</a>]</span>.
+There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color’s efforts to gain NIH funding <span class="citation" data-cites="167tJVlJu">[<a href="#ref-167tJVlJu" role="doc-biblioref">9</a>]</span>.</p>
+<p>We sought to understand the extent to which honors and high-profile speaking invitations were distributed equitably among gender, race/ethnicity, and nationality groups by an international society and its associated meetings.
+As computational biologists, we focused on the International Society for Computational Biology (ISCB), its affiliated international meetings (ISMB, RECOMB, and PSB) as well as its honorary Fellows.
+We used multiple methods to predict the gender, race/ethnicity, and nationality of honorees.
+Existing methods were relatively US-centric as many derived data in whole or in part from the US Census.
+We scraped more than 700,000 entries from English-language Wikipedia that contained nationality information to complement these existing methods and built multiple machine learning classifiers to predict nationality.
+We also examined the last and corresponding authors for publications in ISCB partner journals to establish a field-specific baseline using the same metrics.
+The results were consistent across each approach: we found a dearth of minority speakers and honorees.
+The lack of Asian speakers was particularly pronounced when compared against the field-specific background.</p>
 <h2 id="materials-and-methods">Materials and Methods</h2>
 <h3 id="honoree-curation">Honoree Curation</h3>
 <h4 id="iscb-fellows-recipients">ISCB Fellows Recipients</h4>
+<p>We examined the ISCB webpage of ISCB Fellows <span class="citation" data-cites="RzXOTVT3">[<a href="#ref-RzXOTVT3" role="doc-biblioref">10</a>]</span>.
+We found recipients listed for the years 2009-2019.
+We gleaned the full name of the fellow as well as the year in which they received the honor.
+We used the name as provided on the site. For certain methods we were required to split the full name into first and last names.
+In this case we chose the first non-initial name as the first name and the final name as the last name.
+We did not consider a hyphen to be a name separator, so hyphenated names were both included.</p>
 <h4 id="ismb-keynote-speakers">ISMB Keynote Speakers</h4>
+<p>We examined the webpage for each ISMB meeting.
+We were able to successfully find pages with keynote speakers for the years 2002-2019.
+We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
+We used the name as provided on the site.
+We split names into first and last names as described for ISCB Fellows.</p>
 <h4 id="psb-keynote-speakers">PSB Keynote Speakers</h4>
+<p>We examined the webpage for each PSB meeting.
+We were able to successfully find pages with keynote speakers for the years 1999-2020.
+We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
+We used the name as provided on the site.
+We split names into first and last names as described for ISCB Fellows.</p>
 <h4 id="recomb-keynote-speakers">RECOMB Keynote Speakers</h4>
+<p>We examined the webpage for each RECOMB meeting.
+We were able to successfully find pages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
+We were able to fill in the missing years using information from other sources <span class="citation" data-cites="1Bji9UOxF">[<a href="#ref-1Bji9UOxF" role="doc-biblioref">11</a>]</span>.
+We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
+We used the name as provided on the site.
+We split names into first and last names as described for ISCB Fellows.</p>
 <h3 id="analysis-of-bioinformatics-and-computational-biology-publications">Analysis of Bioinformatics and Computational Biology Publications</h3>
+<p>We developed two distinct approaches to estimate the composition of research advisors in the field, who we expected would be those most likely to be invited for keynotes or to be honored as Fellows.
+We downloaded the author information for all papers published in ISCB Partner Journals (PLOS Computational Biology and Bioinformatics) as well as a field-specific journal that is not a partner (BMC Bioinformatics) from PubMed (PM) as well as PubMedCentral (PMC) from when each journal was established to the present.</p>
+<p>PM provided a more comprehensive resource.
+The PM set contained 12963 manuscripts published in Bioinformatics, 6349 published in PLOS Computational Biology, and 9124 published in BMC Bioinformatics.
+Despite being more comprehensive, the PM set of manuscripts did not provide corresponding author information.
+We inferred that the leading senior author of a manuscript would be in the last author position.
+We selected the last author from each paper as our set for consideration.</p>
+<p>PMC provided a more limited resource but contained more detailed corresponding author information.
+The PMC set contained 4797 articles published in Bioinformatics, 6296 published in PLOS Computational Biology, and 9099 published in BMC Bioinformatics.
+We examined the corresponding author number for each paper and found that all but 359 had at least one corresponding author.
+We manually examined a subset of the manuscripts without corresponding authors and found that many were editorials (e.g., the announcement of PLOS Computational Biology).
+The vast majority of publications (17064) had only a single corresponding author.
+We used the corresponding authors from the PMC set as our set for consideration.</p>
 <h3 id="estimation-of-gender">Estimation of Gender</h3>
+<p>We predicted the gender of honorees and authors using the genderize.io API <span class="citation" data-cites="15Jxi2IvD">[<a href="#ref-15Jxi2IvD" role="doc-biblioref">18</a>]</span>.
+We used author and honoree first names to retrieve predictions from genderize.io.
+The predictions, which consider gender as a binary trait, represent the probability of an honoree or author being male or female.</p>
 <h3 id="estimation-of-race-and-ethnicity">Estimation of Race and Ethnicity</h3>
+<p>We predicted the race and ethnicity of honorees and authors using the R package <code>wru</code>.
+<code>wru</code> implements methods described in Imai and Khanna <span class="citation" data-cites="VGmZCDFw">[<a href="#ref-VGmZCDFw" role="doc-biblioref">19</a>]</span> to predict race and ethnicity using surname and location information.
+The underlying data used for prediction are derived from the United States Census.
+We used the author or honoree surname to make predictions via the “predict_race” function.
+This prediction represents the probability of an honoree or author selecting a certain race or ethnicity on a census form if they lived within the United States.</p>
 <h3 id="estimation-of-nationality">Estimation of Nationality</h3>
 <h4 id="constructing-a-name-to-nationality-dataset">Constructing a Name-to-Nationality Dataset</h4>
 <h4 id="nationality-prediction-with-lstm-neural-networks">Nationality Prediction with LSTM Neural Networks</h4>
 <h2 id="results">Results</h2>
 <h3 id="curated-honorees-and-literature-derived-potential-honorees">Curated Honorees and Literature-derived Potential Honorees</h3>
+<p>We curated a dataset of ISCB honorees that included 412 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
+The ISCB Fellows set contained the complete set of fellows named (2009-2019).
+Keynote speakers were available for ISMB for all years from 2002-2019.
+Keynote speakers from PSB were available for all years from 1999-2020.
+Keynote speakers for RECOMB were available for 16 years between 1997 and 2019.</p>
+<p>We sought to compare this dataset with a background distribution of potential speakers, which we considered to be last or senior authors of bioinformatics and computational biology manuscripts.
+We used those published in Bioinformatics, BMC Bioinformatics, and PLOS Computational Biology as a set of bioinformatics and computational biology manuscripts.
+We downloaded metadata from PubMed for manuscripts published in these journals, which provided more than 29000 articles for evaluation.
+However, while PubMed provides author order it does not provide corresponding author information.</p>
+<p>We downloaded article information from PubMedCentral’s Open Access corpus, which provides corresponding author information to directly measure the fraction of manuscripts for which last authors were also corresponding authors in these journals.
+Of the 21411 articles in PMC’s OA set, the last author was also a corresponding author for 17401 of them.
+Because the concordance was high and the PubMed set was more complete, we used the PubMed last author set for all subsequent analyses.</p>
 <h3 id="assessing-gender-diversity-of-authors-and-honorees">Assessing Gender Diversity of Authors and Honorees</h3>
 <h3 id="assessing-the-racial-and-ethnic-diversity-of-authors-and-honorees">Assessing the Racial and Ethnic Diversity of Authors and Honorees</h3>
+<p>We predicted the race and ethnicity of authors and honorees using wru, which is based on US census data.
+We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig 2A).
+This was primarily driven by publications in Bioinformatics (Fig 2B) and BMC Bioinformatics (Fig 2C).
+We did not observe an increasing trend at PLOS Computational Biology (Fig 2D).
+We found a higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig 2E) than authors (Fig 2A).
+Separating honoree results by honor category did not reveal any clear differences (Supplementary Figure 2).</p>
+<p>We directly compared honoree and author results from 1999 to 2020 for the predicted proportion of white (Fig 2F), Asian (Fig 2G), and other (Fig 2H) categories.
+We find that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented since the year 2000.
+Though we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
+The proportion of Hispanic authors and honorees at these venues may also be influenced by authors from Spain instead of Latin America and is likely to understate the extent to which minoritized scientists are underrepresented among honorees and authors.</p>
 <h3 id="predicting-nationality-with-lstm-neural-networks-and-wikipedia">Predicting Nationality with LSTM Neural Networks and Wikipedia</h3>
 <h3 id="assessing-the-nationality-diversity-of-authors-and-honorees">Assessing the Nationality Diversity of Authors and Honorees</h3>
 <h2 id="conclusions">Conclusions</h2>
+<p>The presence of female STEM role models is associated with higher persistence for undergraduate women in geoscience <span class="citation" data-cites="1FX4fLEIy">[<a href="#ref-1FX4fLEIy" role="doc-biblioref">20</a>]</span>.
+Efforts are underway to create Wikipedia entries for more female <span class="citation" data-cites="zdS2Wmy2">[<a href="#ref-zdS2Wmy2" role="doc-biblioref">21</a>]</span> and black, Asian, and minority scientists <span class="citation" data-cites="yaljvCUU">[<a href="#ref-yaljvCUU" role="doc-biblioref">22</a>]</span>, which can help early-career scientists identify role models.
+Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role as well.
+We find that ISCB’s honorees and keynote speakers, though not yet reaching gender parity, appear to be more evenly split between men and women than the field as a whole.
+On the other hand, we find that honorees include significantly few people of color than the field as a whole, and that Asian scientists are dramatically under-represented among honorees.</p>
+<p>The central role that scientists play in evaluating each other and each other’s findings makes diversity particularly critical.
+Even many nominally objective methods of assessing excellence (h-index, grant funding obtained, number of high-impact peer-reviewed publications, total number of peer-reviewed publications) are subject to the bias of peers during review.
+These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer’s own background <span class="citation" data-cites="hP9R3Quu">[<a href="#ref-hP9R3Quu" role="doc-biblioref">1</a>]</span>.
+Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, scientists of color do not appear to be recognized at levels consistent with their membership among the pool of potential honorees.</p>
 <h2 id="data-and-resource-availability">Data and Resource Availability</h2>
 <h2 class="page_break_before" id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-hP9R3Quu">
+<p>1. <strong>Topic choice contributes to the lower rate of NIH awards to African-American/black scientists</strong><br />
+Travis A. Hoppe, Aviva Litovitz, Kristine A. Willis, Rebecca A. Meseroll, Matthew J. Perkins, B. Ian Hutchins, Alison F. Davis, Michael S. Lauer, Hannah A. Valantine, James M. Anderson, George M. Santangelo<br />
+<em>Science Advances</em> (2019-10) <a href="https://doi.org/gghp8t">https://doi.org/gghp8t</a><br />
+DOI: <a href="https://doi.org/10.1126/sciadv.aaw7238">10.1126/sciadv.aaw7238</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31633016">31633016</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785250">PMC6785250</a></p>
+</div>
+<div id="ref-JHzGjxks">
+<p>2. <strong>Ten Simple Rules to Achieve Conference Speaker Gender Balance</strong><br />
+Jennifer L. Martin<br />
+<em>PLoS Computational Biology</em> (2014-11-20) <a href="https://doi.org/gf853n">https://doi.org/gf853n</a><br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1003903">10.1371/journal.pcbi.1003903</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25411977">25411977</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4238945">PMC4238945</a></p>
+</div>
+<div id="ref-w8Lq7zPE">
+<p>3. <strong>How scientists are fighting against gender bias in conference speaker lineups</strong><br />
+Katie Langin<br />
+<em>Science</em> (2019-02-11) <a href="https://doi.org/gghp8v">https://doi.org/gghp8v</a><br />
+DOI: <a href="https://doi.org/10.1126/science.caredit.aaw9742">10.1126/science.caredit.aaw9742</a></p>
+</div>
+<div id="ref-1G16T65Sv">
+<p>4. <strong>Speaking out about gender imbalance in invited speakers improves diversity</strong><br />
+Robyn S Klein, Rhonda Voskuhl, Benjamin M Segal, Bonnie N Dittel, Thomas E Lane, John R Bethea, Monica J Carson, Carol Colton, Susanna Rosi, Aileen Anderson, … Anne H Cross<br />
+<em>Nature Immunology</em> (2017-05) <a href="https://doi.org/gghp8s">https://doi.org/gghp8s</a><br />
+DOI: <a href="https://doi.org/10.1038/ni.3707">10.1038/ni.3707</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28418385">28418385</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5775963">PMC5775963</a></p>
+</div>
+<div id="ref-1Hmlj5vSu">
+<p>5. <strong>Addressing the underrepresentation of women in mathematics conferences</strong><br />
+Greg Martin<br />
+<em>arXiv</em> (2015-02-23) <a href="https://arxiv.org/abs/1502.06326v1">https://arxiv.org/abs/1502.06326v1</a></p>
+</div>
+<div id="ref-UxTZTP0G">
+<p>6. <strong>The Presence of Female Conveners Correlates with a Higher Proportion of Female Speakers at Scientific Symposia</strong><br />
+Arturo Casadevall, Jo Handelsman<br />
+<em>mBio</em> (2014-01-07) <a href="https://doi.org/qsh">https://doi.org/qsh</a><br />
+DOI: <a href="https://doi.org/10.1128/mbio.00846-13">10.1128/mbio.00846-13</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24399856">24399856</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3884059">PMC3884059</a></p>
+</div>
+<div id="ref-6mHXFr1Z">
+<p>7. <strong>Trends in the Proportion of Female Speakers at Medical Conferences in the United States and in Canada, 2007 to 2017</strong><br />
+Shannon M. Ruzycki, Sarah Fletcher, Madalene Earp, Aleem Bharwani, Kirstie C. Lithgow<br />
+<em>JAMA Network Open</em> (2019-04-12) <a href="https://doi.org/gghp8r">https://doi.org/gghp8r</a><br />
+DOI: <a href="https://doi.org/10.1001/jamanetworkopen.2019.2103">10.1001/jamanetworkopen.2019.2103</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30977853">30977853</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6481599">PMC6481599</a></p>
+</div>
+<div id="ref-njNa3CYa">
+<p>8. <strong>Race, Ethnicity, and NIH Research Awards</strong><br />
+D. K. Ginther, W. T. Schaffer, J. Schnell, B. Masimore, F. Liu, L. L. Haak, R. Kington<br />
+<em>Science</em> (2011-08-18) <a href="https://doi.org/csf8j8">https://doi.org/csf8j8</a><br />
+DOI: <a href="https://doi.org/10.1126/science.1196783">10.1126/science.1196783</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21852498">21852498</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3412416">PMC3412416</a></p>
+</div>
+<div id="ref-167tJVlJu">
+<p>9. <strong>Gender, Race/Ethnicity, and National Institutes of Health R01 Research Awards</strong><br />
+Donna K. Ginther, Shulamit Kahn, Walter T. Schaffer<br />
+<em>Academic Medicine</em> (2016-08) <a href="https://doi.org/f8zzw4">https://doi.org/f8zzw4</a><br />
+DOI: <a href="https://doi.org/10.1097/acm.0000000000001278">10.1097/acm.0000000000001278</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27306969">27306969</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4965301">PMC4965301</a></p>
+</div>
+<div id="ref-RzXOTVT3">
+<p>10. <strong>ISCB Fellows</strong><a href="https://www.iscb.org/iscb-fellows">https://www.iscb.org/iscb-fellows</a></p>
+</div>
+<div id="ref-1Bji9UOxF">
+<p>11. <strong>Research in Computational Molecular Biology</strong><br />
+Mona Singh (editor)<br />
+<em>Lecture Notes in Computer Science</em> (2016) <a href="https://doi.org/gghp87">https://doi.org/gghp87</a><br />
+DOI: <a href="https://doi.org/10.1007/978-3-319-31957-5">10.1007/978-3-319-31957-5</a></p>
+</div>
+<div id="ref-131BFqgDL">
+<p>12. <strong>Proceedings of the sixth annual international conference on Computational biology - RECOMB ’02</strong><br />
+ACM Press<br />
+(2002) <a href="https://doi.org/dgpbk7">https://doi.org/dgpbk7</a><br />
+DOI: <a href="https://doi.org/10.1145/565196">10.1145/565196</a></p>
+</div>
+<div id="ref-TZRCCOdE">
+<p>13. <strong>Proceedings of the seventh annual international conference on Computational molecular biology - RECOMB ’03</strong><br />
+ACM Press<br />
+(2003) <a href="https://doi.org/b6dzzk">https://doi.org/b6dzzk</a><br />
+DOI: <a href="https://doi.org/10.1145/640075">10.1145/640075</a></p>
+</div>
+<div id="ref-1C9U70WBp">
+<p>14. <strong>Proceedings of the eighth annual international conference on Computational molecular biology - RECOMB ’04</strong><br />
+ACM Press<br />
+(2004) <a href="https://doi.org/bg67mj">https://doi.org/bg67mj</a><br />
+DOI: <a href="https://doi.org/10.1145/974614">10.1145/974614</a></p>
+</div>
+<div id="ref-qjTgJWi0">
+<p>15. <strong>Research in Computational Molecular Biology</strong><br />
+Satoru Miyano, Jill Mesirov, Simon Kasif, Sorin Istrail, Pavel A. Pevzner, Michael Waterman (editors)<br />
+<em>Lecture Notes in Computer Science</em> (2005) <a href="https://doi.org/cgvm3x">https://doi.org/cgvm3x</a><br />
+DOI: <a href="https://doi.org/10.1007/b135594">10.1007/b135594</a></p>
+</div>
+<div id="ref-1bBSouEf">
+<p>16. <strong>Research in Computational Molecular Biology</strong><br />
+Alberto Apostolico, Concettina Guerra, Sorin Istrail, Pavel A. Pevzner, Michael Waterman (editors)<br />
+<em>Lecture Notes in Computer Science</em> (2006) <a href="https://doi.org/fvtvsm">https://doi.org/fvtvsm</a><br />
+DOI: <a href="https://doi.org/10.1007/11732990">10.1007/11732990</a></p>
+</div>
+<div id="ref-EFjmCSij">
+<p>17. <strong>Research in Computational Molecular Biology</strong><br />
+Serafim Batzoglou (editor)<br />
+<em>Lecture Notes in Computer Science</em> (2009) <a href="https://doi.org/brb6zh">https://doi.org/brb6zh</a><br />
+DOI: <a href="https://doi.org/10.1007/978-3-642-02008-7">10.1007/978-3-642-02008-7</a></p>
+</div>
+<div id="ref-15Jxi2IvD">
+<p>18. <strong>Genderize.io | Determine the gender of a name</strong><a href="https://genderize.io/">https://genderize.io/</a></p>
+</div>
+<div id="ref-VGmZCDFw">
+<p>19. <strong>Improving Ecological Inference by Predicting Individual Ethnicity from Voter Registration Records</strong><br />
+Kosuke Imai, Kabir Khanna<br />
+<em>Political Analysis</em> (2016) <a href="https://doi.org/f8ntmv">https://doi.org/f8ntmv</a><br />
+DOI: <a href="https://doi.org/10.1093/pan/mpw001">10.1093/pan/mpw001</a></p>
+</div>
+<div id="ref-1FX4fLEIy">
+<p>20. <strong>Role modeling is a viable retention strategy for undergraduate women in the geosciences</strong><br />
+Paul R. Hernandez, Brittany Bloodhart, Amanda S. Adams, Rebecca T. Barnes, Melissa Burt, Sandra M. Clinton, Wenyi Du, Elaine Godfrey, Heather Henderson, Ilana B. Pollack, Emily V. Fischer<br />
+<em>Geosphere</em> (2018-10-31) <a href="https://doi.org/gghp9d">https://doi.org/gghp9d</a><br />
+DOI: <a href="https://doi.org/10.1130/ges01659.1">10.1130/ges01659.1</a></p>
+</div>
+<div id="ref-zdS2Wmy2">
+<p>21. <strong>Why we’re editing women scientists onto Wikipedia</strong><br />
+Jess Wade, Maryam Zaringhalam<br />
+<em>Nature</em> (2018-08-14) <a href="https://doi.org/gdz52z">https://doi.org/gdz52z</a><br />
+DOI: <a href="https://doi.org/10.1038/d41586-018-05947-8">10.1038/d41586-018-05947-8</a></p>
+</div>
+<div id="ref-yaljvCUU">
+<p>22. <strong>Why we’re creating Wikipedia profiles for BAME scientists</strong><br />
+Nicola O’Reilly<br />
+<em>Nature</em> (2019-03-07) <a href="https://doi.org/gfwhcr">https://doi.org/gfwhcr</a><br />
+DOI: <a href="https://doi.org/10.1038/d41586-019-00812-8">10.1038/d41586-019-00812-8</a></p>
+</div>
 </div>
 <!-- default theme -->
 
