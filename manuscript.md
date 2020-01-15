@@ -74,6 +74,7 @@ keywords:
 - manubot
 lang: en-US
 manubot-clear-requests-cache: false
+manubot-fail-on-errors: true
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
