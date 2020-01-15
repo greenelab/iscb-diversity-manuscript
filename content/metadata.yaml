@@ -17,6 +17,15 @@ authors:
       - Department of Something, University of Whatever
     funders: Grant XXXXXXXX
   -
+    github: trang1618
+    name: Trang T. Le
+    initials: TTL
+    orcid: 0000-0003-3737-6565
+    twitter: trang1618
+    email: ttle@pennmedicine.upenn.edu
+    affiliations:
+      - Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania
+  -
     github: cgreene
     name: Casey S. Greene
     initials: CSG
