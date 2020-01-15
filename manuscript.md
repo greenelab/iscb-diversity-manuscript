@@ -1,10 +1,10 @@
 ---
 author-meta:
-- John Doe
+- Trang T. Le
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-14'
+date-meta: '2020-01-15'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-01-14" />
+  <meta name="dc.date" content="2020-01-15" />
 
-  <meta name="citation_publication_date" content="2020-01-14" />
+  <meta name="citation_publication_date" content="2020-01-15" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -39,13 +39,13 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Trang T. Le" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0003-3737-6565" />
 
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="twitter:creator" content="@trang1618" />
 
   <meta name="citation_author" content="Casey S. Greene" />
 
@@ -88,23 +88,22 @@ title: Manuscript Title
 <small><em>
 This manuscript
 was automatically generated
-on January 14, 2020.
+on January 15, 2020.
 </em></small>
 
 ## Authors
 
 
 
-+ **John Doe**<br>
++ **Trang T. Le**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-3737-6565](https://orcid.org/0000-0003-3737-6565)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [trang1618](https://github.com/trang1618)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [trang1618](https://twitter.com/trang1618)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania
   </small>
 
 + **Casey S. Greene**<br>
@@ -138,15 +137,15 @@ Having more female organizers on conference committees is associated with having
 At medical conferences in the US and Canada, the proportion of female speakers is increasing at a modest rate [@doi:10.1001/jamanetworkopen.2019.2103].
 Gender bias appears to also influence funding decisions: an examination of scoring of proposals in Canada found that reviewers asked to assess the science produced a smaller gender gap in scoring than reviewers asked to assess the applicant [@doi:10/djc5].
 Challenges extend beyond gender: an analysis of awards at the NIH found that proposals by Asian, black or African-American applicants were less likely to be funded than those by white applicants [@doi:10.1126/science.1196783].
-There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color’s efforts to gain NIH funding [@doi:10.1097/ACM.0000000000001278].
+There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color's efforts to gain NIH funding [@doi:10.1097/ACM.0000000000001278].
 
 We sought to understand the extent to which honors and high-profile speaking invitations were distributed equitably among gender, race/ethnicity, and nationality groups by an international society and its associated meetings.
-As computational biologists, we focused on the International Society for Computational Biology (ISCB), its affiliated international meetings (ISMB, RECOMB, and PSB) as well as its honorary Fellows.
+As computational biologists, we focused on the International Society for Computational Biology (ISCB), its honorary Fellows as well as its affiliated international meetings: Intelligent Systems for Molecular Biology (ISMB), Research in Computational Molecular Biology (RECOMB), and Pacific Symposium on Biocomputing (PSB).
 We used multiple methods to predict the gender, race/ethnicity, and nationality of honorees.
-Existing methods were relatively US-centric as many derived data in whole or in part from the US Census.
+Existing methods were relatively US-centric because most of the data was derived in whole or in part from the US Census.
 We scraped more than 700,000 entries from English-language Wikipedia that contained nationality information to complement these existing methods and built multiple machine learning classifiers to predict nationality.
 We also examined the last and corresponding authors for publications in ISCB partner journals to establish a field-specific baseline using the same metrics.
-The results were consistent across each approach: we found a dearth of minority speakers and honorees.
+The results were consistent across all approaches: we found a dearth of minority speakers and honorees.
 The lack of Asian speakers was particularly pronounced when compared against the field-specific background.
 
 
@@ -161,7 +160,7 @@ We found recipients listed for the years 2009-2019.
 We gleaned the full name of the fellow as well as the year in which they received the honor.
 We used the name as provided on the site. For certain methods we were required to split the full name into first and last names.
 In this case we chose the first non-initial name as the first name and the final name as the last name.
-We did not consider a hyphen to be a name separator, so hyphenated names were both included.
+We did not consider a hyphen to be a name separator: for hyphenated names, all components were included.
 
 #### ISMB Keynote Speakers
 
@@ -182,7 +181,7 @@ We split names into first and last names as described for ISCB Fellows.
 #### RECOMB Keynote Speakers
 
 We examined the webpage for each RECOMB meeting.
-We were able to successfully find pages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
+We were able to successfully find conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
 We were able to fill in the missing years using information from other sources [@doi:10.1007/978-3-319-31957-5; @doi:10.1145/565196; @doi:10.1145/640075; @doi:10.1145/974614; @doi:10.1007/b135594; @doi:10.1007/11732990; @doi:10.1007/978-3-642-02008-7].
 We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
 We used the name as provided on the site.
@@ -217,7 +216,9 @@ The predictions, which consider gender as a binary trait, represent the probabil
 We predicted the race and ethnicity of honorees and authors using the R package `wru`.
 `wru` implements methods described in Imai and Khanna [@doi:10.1093/pan/mpw001] to predict race and ethnicity using surname and location information.
 The underlying data used for prediction are derived from the United States Census.
-We used the author or honoree surname to make predictions via the “predict_race” function.
+We used only the surname of author or honoree to make predictions via the `predict_race()` function.
+However, in the case of names that were not observed in the census, the function's behavior was to use the average demographic distribution from the census.
+We modified the function to return a status denoting that results were inconclusive instead.
 This prediction represents the probability of an honoree or author selecting a certain race or ethnicity on a census form if they lived within the United States.
 
 ### Estimation of Nationality
@@ -235,15 +236,15 @@ We curated a dataset of ISCB honorees that included 412 honorees who were keynot
 The ISCB Fellows set contained the complete set of fellows named (2009-2019).
 Keynote speakers were available for ISMB for all years from 2002-2019.
 Keynote speakers from PSB were available for all years from 1999-2020.
-Keynote speakers for RECOMB were available for 16 years between 1997 and 2019.
+Keynote speakers for RECOMB were available for all years from 1997-2019.
 
 We sought to compare this dataset with a background distribution of potential speakers, which we considered to be last or senior authors of bioinformatics and computational biology manuscripts.
 We used those published in Bioinformatics, BMC Bioinformatics, and PLOS Computational Biology as a set of bioinformatics and computational biology manuscripts.
-We downloaded metadata from PubMed for manuscripts published in these journals, which provided more than 29000 articles for evaluation.
-However, while PubMed provides author order it does not provide corresponding author information.
+We downloaded the metadata of manuscripts published in these journals from PubMed, which provided more than 30000 articles for evaluation.
+However, although PubMed provides author order, it does not provide corresponding author information.
 
-We downloaded article information from PubMedCentral’s Open Access corpus, which provides corresponding author information to directly measure the fraction of manuscripts for which last authors were also corresponding authors in these journals.
-Of the 21411 articles in PMC’s OA set, the last author was also a corresponding author for 17401 of them.
+We downloaded article information from PubMedCentral's Open Access (PMC's OA) corpus, which provides corresponding author information to directly measure the fraction of manuscripts for which last authors were also corresponding authors in these journals.
+Of the 21411 articles in PMC's OA set, the last author was also a corresponding author for 17401 of them.
 Because the concordance was high and the PubMed set was more complete, we used the PubMed last author set for all subsequent analyses.
 
 ### Assessing Gender Diversity of Authors and Honorees
@@ -254,7 +255,7 @@ We predicted the race and ethnicity of authors and honorees using wru, which is 
 We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig 2A).
 This was primarily driven by publications in Bioinformatics (Fig 2B) and BMC Bioinformatics (Fig 2C).
 We did not observe an increasing trend at PLOS Computational Biology (Fig 2D).
-We found a higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig 2E) than authors (Fig 2A).
+A higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig 2E) than authors (Fig 2A).
 Separating honoree results by honor category did not reveal any clear differences (Supplementary Figure 2).
 
 We directly compared honoree and author results from 1999 to 2020 for the predicted proportion of white (Fig 2F), Asian (Fig 2G), and other (Fig 2H) categories.
