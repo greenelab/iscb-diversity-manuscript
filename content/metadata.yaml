@@ -25,3 +25,5 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
+pandoc:
+  manubot-fail-on-errors: True
