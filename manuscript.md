@@ -57,6 +57,24 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@greenescientist" />
 
+  <link rel="canonical" href="https://greenelab.github.io/iscb-diversity-manuscript/" />
+
+  <meta property="og:url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
+
+  <meta property="twitter:url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
+
+  <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
+
+  <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
+
+  <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
+
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/" />
+
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/" />
+
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/manuscript.pdf" />
+
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
@@ -88,7 +106,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/))
 was automatically generated
+from [greenelab/iscb-diversity-manuscript@4cd7611](https://github.com/greenelab/iscb-diversity-manuscript/tree/4cd761169991dabcbb28991f090a0efa13a8812a)
 on January 15, 2020.
 </em></small>
 
