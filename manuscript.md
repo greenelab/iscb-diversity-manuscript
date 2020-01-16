@@ -69,11 +69,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +106,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@3f0c971](https://github.com/greenelab/iscb-diversity-manuscript/tree/3f0c9714727ce1967e459bcef10066bbff35b203)
+from [greenelab/iscb-diversity-manuscript@9846039](https://github.com/greenelab/iscb-diversity-manuscript/tree/9846039a2e6f653e13229bcecf81a57db2b49a78)
 on January 16, 2020.
 </em></small>
 
@@ -324,6 +324,9 @@ Our efforts to measure the diversity of honorees in an international society sug
 
 
 ## Data and Resource Availability
+
+A manubot instance that hosts version history for this manuscript is available under the Creative Commons Attribution License at https://github.com/greenelab/iscb-diversity-manuscript.
+Our analysis of authors and ISCB-associated honorees is available under the Creative Commons Attribution License at https://github.com/greenelab/iscb-diversity, with source code also distributed under a BSD 3-Clause License.
 
 
 ## References {.page_break_before}
