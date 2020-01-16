@@ -1,6 +1,7 @@
 ---
 author-meta:
 - Trang T. Le
+- Daniel S. Himmelstein
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
@@ -47,6 +48,14 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@trang1618" />
 
+  <meta name="citation_author" content="Daniel S. Himmelstein" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
+
+  <meta name="citation_author_orcid" content="0000-0002-3012-7446" />
+
+  <meta name="twitter:creator" content="@dhimmel" />
+
   <meta name="citation_author" content="Casey S. Greene" />
 
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
@@ -69,11 +78,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/0776fb3cc87ab6a17302b5d1631f404253fa7e32/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/0776fb3cc87ab6a17302b5d1631f404253fa7e32/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/0776fb3cc87ab6a17302b5d1631f404253fa7e32/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,9 +115,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9846039a2e6f653e13229bcecf81a57db2b49a78/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/0776fb3cc87ab6a17302b5d1631f404253fa7e32/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@9846039](https://github.com/greenelab/iscb-diversity-manuscript/tree/9846039a2e6f653e13229bcecf81a57db2b49a78)
+from [greenelab/iscb-diversity-manuscript@0776fb3](https://github.com/greenelab/iscb-diversity-manuscript/tree/0776fb3cc87ab6a17302b5d1631f404253fa7e32)
 on January 16, 2020.
 </em></small>
 
@@ -127,6 +136,17 @@ on January 16, 2020.
      Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania
   </small>
 
++ **Daniel S. Himmelstein**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [dhimmel](https://github.com/dhimmel)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [dhimmel](https://twitter.com/dhimmel)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+  </small>
+
 + **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
@@ -142,7 +162,13 @@ on January 16, 2020.
 
 ## Abstract {.page_break_before}
 
-Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge. Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition. We sought to understand the extent to which such recognitions reflected the composition of their corresponding field. We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows. We compared these individuals with last and corresponding author contributions in the society’s partner journals. We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors. Individuals from certain ancestries and countries appear to be under-recognized among honorees.
+Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge.
+Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition.
+We sought to understand the extent to which such recognitions reflected the composition of their corresponding field.
+We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows.
+We compared these individuals with last and corresponding author contributions in the society’s partner journals.
+We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors. 
+Individuals from certain ancestries and countries appear to be under-recognized among honorees.
 
 
 ## Introduction
@@ -161,7 +187,8 @@ Challenges extend beyond gender: an analysis of awards at the NIH found that pro
 There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color's efforts to gain NIH funding [@doi:10.1097/ACM.0000000000001278].
 
 We sought to understand the extent to which honors and high-profile speaking invitations were distributed equitably among gender, race/ethnicity, and nationality groups by an international society and its associated meetings.
-As computational biologists, we focused on the International Society for Computational Biology (ISCB), its honorary Fellows as well as its affiliated international meetings: Intelligent Systems for Molecular Biology (ISMB), Research in Computational Molecular Biology (RECOMB), and Pacific Symposium on Biocomputing (PSB).
+As computational biologists, we focused on the [International Society for Computational Biology](https://www.iscb.org/) (ISCB), its honorary Fellows as well as its affiliated international meetings: [Intelligent Systems for Molecular Biology](https://en.wikipedia.org/wiki/Intelligent_Systems_for_Molecular_Biology) (ISMB), [Research in Computational Molecular Biology](https://en.wikipedia.org/wiki/Research_in_Computational_Molecular_Biology) (RECOMB), and [Pacific Symposium on Biocomputing](https://psb.stanford.edu/) (PSB).
+
 We used multiple methods to predict the gender, race/ethnicity, and nationality of honorees.
 Existing methods were relatively US-centric because most of the data was derived in whole or in part from the US Census.
 We scraped more than 700,000 entries from English-language Wikipedia that contained nationality information to complement these existing methods and built multiple machine learning classifiers to predict nationality.
@@ -176,12 +203,14 @@ The lack of Asian speakers was particularly pronounced when compared against the
 
 #### ISCB Fellows Recipients
 
-We examined the ISCB webpage of ISCB Fellows [@url:https://www.iscb.org/iscb-fellows].
+We examined the ISCB [webpage of ISCB Fellows](http://web.archive.org/web/20200116150052/https://www.iscb.org/iscb-fellows).
 We found recipients listed for the years 2009-2019.
 We gleaned the full name of the fellow as well as the year in which they received the honor.
-We used the name as provided on the site. For certain methods we were required to split the full name into first and last names.
+We used the name as provided on the site.
+For certain methods we were required to split the full name into first and last names.
 In this case we chose the first non-initial name as the first name and the final name as the last name.
-We did not consider a hyphen to be a name separator: for hyphenated names, all components were included.
+We did not consider a hyphen to be a name separator:
+for hyphenated names, all components were included.
 
 #### ISMB Keynote Speakers
 
@@ -202,12 +231,12 @@ We split names into first and last names as described for ISCB Fellows.
 #### RECOMB Keynote Speakers
 
 We examined the webpage for each RECOMB meeting.
-We were able to successfully find conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
+We found conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
 We were able to fill in the missing years using information from the RECOMB 2016 proceedings, which summarizes the first 20 years of the RECOMB conference [@doi:10.1007/978-3-319-31957-5].
 This volume has two tables of keynote speakers from 1997-2006 (Table 14, page XXVII) and 2007-2016 (Table 4, page 8).
-We used these tables to verify the conference webpages and arrived at two special instances of inclusion/exclusion.
+Using these tables to verify the conference speaker lists, we arrived at two special instances of inclusion/exclusion.
 Although Jun Wang was not included in these tables, we were able to confirm that he was a keynote speaker in 2011 with the RECOMB 2011 proceedings [@doi:10.1007/978-3-642-20036-6], and thus we include this speaker in the dataset.
-Marian Walhout was invited as a keynote speaker but had to cancel the talk due to other obligations [@url:http://recomb2015.mimuw.edu.pl/node/18.html].
+Marian Walhout was invited as a keynote speaker but had to [cancel](http://recomb2015.mimuw.edu.pl/node/18.html) the talk due to other obligations.
 Because her name was neither mentioned in the 2015 proceedings [@doi:10.1007/978-3-319-16706-0] nor in the earlier tables, we exclude this speaker from our dataset.
 For other keynote speakers, we gleaned their full name as well as the year in which they delivered a keynote.
 We used the name as provided on the site.
@@ -233,7 +262,7 @@ We used the corresponding authors from the PMC set as our set for consideration.
 
 ### Estimation of Gender
 
-We predicted the gender of honorees and authors using the genderize.io API [@url:https://genderize.io] that produces predictions based on a dataset of more than 100 million entries.
+We predicted the gender of honorees and authors using the <https://genderize.io> API that produces predictions trained on over 100 million name-gender pairings collected from the web.
 We used author and honoree first names to retrieve predictions from genderize.io.
 The predictions, which consider gender as a binary trait, represent the probability of an honoree or author being male or female.
 
