@@ -4,7 +4,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-15'
+date-meta: '2020-01-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-01-15" />
+  <meta name="dc.date" content="2020-01-16" />
 
-  <meta name="citation_publication_date" content="2020-01-15" />
+  <meta name="citation_publication_date" content="2020-01-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -69,11 +69,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -106,10 +106,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/4cd761169991dabcbb28991f090a0efa13a8812a/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/3f0c9714727ce1967e459bcef10066bbff35b203/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@4cd7611](https://github.com/greenelab/iscb-diversity-manuscript/tree/4cd761169991dabcbb28991f090a0efa13a8812a)
-on January 15, 2020.
+from [greenelab/iscb-diversity-manuscript@3f0c971](https://github.com/greenelab/iscb-diversity-manuscript/tree/3f0c9714727ce1967e459bcef10066bbff35b203)
+on January 16, 2020.
 </em></small>
 
 ## Authors
@@ -203,8 +203,13 @@ We split names into first and last names as described for ISCB Fellows.
 
 We examined the webpage for each RECOMB meeting.
 We were able to successfully find conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
-We were able to fill in the missing years using information from other sources [@doi:10.1007/978-3-319-31957-5; @doi:10.1145/565196; @doi:10.1145/640075; @doi:10.1145/974614; @doi:10.1007/b135594; @doi:10.1007/11732990; @doi:10.1007/978-3-642-02008-7].
-We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
+We were able to fill in the missing years using information from the RECOMB 2016 proceedings, which summarizes the first 20 years of the RECOMB conference [@doi:10.1007/978-3-319-31957-5].
+This volume has two tables of keynote speakers from 1997-2006 (Table 14, page XXVII) and 2007-2016 (Table 4, page 8).
+We used these tables to verify the conference webpages and arrived at two special instances of inclusion/exclusion.
+Although Jun Wang was not included in these tables, we were able to confirm that he was a keynote speaker in 2011 with the RECOMB 2011 proceedings [@doi:10.1007/978-3-642-20036-6], and thus we include this speaker in the dataset.
+Marian Walhout was invited as a keynote speaker but had to cancel the talk due to other obligations [@url:http://recomb2015.mimuw.edu.pl/node/18.html].
+Because her name was neither mentioned in the 2015 proceedings [@doi:10.1007/978-3-319-16706-0] nor in the earlier tables, we exclude this speaker from our dataset.
+For other keynote speakers, we gleaned their full name as well as the year in which they delivered a keynote.
 We used the name as provided on the site.
 We split names into first and last names as described for ISCB Fellows.
 
@@ -228,7 +233,7 @@ We used the corresponding authors from the PMC set as our set for consideration.
 
 ### Estimation of Gender
 
-We predicted the gender of honorees and authors using the genderize.io API [@url:https://genderize.io].
+We predicted the gender of honorees and authors using the genderize.io API [@url:https://genderize.io] that produces predictions based on a dataset of more than 100 million entries.
 We used author and honoree first names to retrieve predictions from genderize.io.
 The predictions, which consider gender as a binary trait, represent the probability of an honoree or author being male or female.
 
@@ -270,16 +275,31 @@ Because the concordance was high and the PubMed set was more complete, we used t
 
 ### Assessing Gender Diversity of Authors and Honorees
 
+Although Bioinformatics was established in 1998 and BMC Bioinformatics in 2000, the metadata for these journal papers before 2002 only have initials for first and/or middle author names.
+Therefore, without first and middle names, we do not have author gender predictions before this year.
+
+There is a slow increase of the proportion of predicted female authors, arriving at just over 20% on average in 2019 (Fig. {@fig:gender_breakdown}A).
+We observe very similar trend within each journal, but estimated female proportion has increased the least in _PLOS Computational Biology_ (Supplementary Fig S1).
+ISCB fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}B); however, it has not yet reached parity.
+The overall increasing female proportion trend seems to be present in each honor category, especially in the group of ISCB Fellows (Fig. {@fig:gender_breakdown}C), which seems to have markedly increased after 2015.
+PSB has only one or two keynotes per year, so its estimated proportion of female speakers varies considerably (Fig. {@fig:gender_breakdown}C).
+However, the 2020 PSB keynotes were the only set of honorees across our analysis for which nearly all the probability was ascribed to female speakers.
+
+
+![Estimated proportion of gender prediction over the years of all Pubmed journal authors (A), of all ISCB fellows and keynote speakers (B) and of ISCB honorees in each honor category (C).](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/gender_breakdown.png){#fig:gender_breakdown}
+
 ### Assessing the Racial and Ethnic Diversity of Authors and Honorees
 
 We predicted the race and ethnicity of authors and honorees using wru, which is based on US census data.
-We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig 2A).
-This was primarily driven by publications in Bioinformatics (Fig 2B) and BMC Bioinformatics (Fig 2C).
-We did not observe an increasing trend at PLOS Computational Biology (Fig 2D).
-A higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig 2E) than authors (Fig 2A).
-Separating honoree results by honor category did not reveal any clear differences (Supplementary Figure 2).
+We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig {@fig:racial_makeup}A).
+This was primarily driven by publications in Bioinformatics and BMC Bioinformatics (Fig {@fig:racial_makeup}B, top).
+We did not observe an increase at PLOS Computational Biology (Fig {@fig:racial_makeup}B, bottom).
+A higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig {@fig:racial_makeup}C) than authors (Fig {@fig:racial_makeup}A).
+Separating honoree results by honor category did not reveal any clear differences (Fig {@fig:racial_makeup}D).
 
-We directly compared honoree and author results from 1999 to 2020 for the predicted proportion of white (Fig 2F), Asian (Fig 2G), and other (Fig 2H) categories.
+![Estimated proportion of census-based race prediction over the years of all Pubmed journal authors (A), of authors in each computational biology and bioinformatics journal (B), of all ISCB fellows and keynote speakers (C) and of ISCB honorees in each honor category (D).](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/racial_makeup.png){#fig:racial_makeup}
+
+We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Supplementary Fig S2).
 We find that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented since the year 2000.
 Though we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
 The proportion of Hispanic authors and honorees at these venues may also be influenced by authors from Spain instead of Latin America and is likely to understate the extent to which minoritized scientists are underrepresented among honorees and authors.
@@ -294,10 +314,10 @@ The proportion of Hispanic authors and honorees at these venues may also be infl
 The presence of female STEM role models is associated with higher persistence for undergraduate women in geoscience [@doi:10.1130/GES01659.1].
 Efforts are underway to create Wikipedia entries for more female [@doi:10.1038/d41586-018-05947-8] and black, Asian, and minority scientists [@doi:10.1038/d41586-019-00812-8], which can help early-career scientists identify role models.
 Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role as well.
-We find that ISCB’s honorees and keynote speakers, though not yet reaching gender parity, appear to be more evenly split between men and women than the field as a whole.
+We find that ISCB's honorees and keynote speakers, though not yet reaching gender parity, appear to be more evenly split between men and women than the field as a whole.
 On the other hand, we find that honorees include significantly few people of color than the field as a whole, and that Asian scientists are dramatically under-represented among honorees.
 
-The central role that scientists play in evaluating each other and each other’s findings makes diversity particularly critical.
+The central role that scientists play in evaluating each other and each other's findings makes diversity particularly critical.
 Even many nominally objective methods of assessing excellence (h-index, grant funding obtained, number of high-impact peer-reviewed publications, total number of peer-reviewed publications) are subject to the bias of peers during review.
 These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer's own background [@doi:10.1126/sciadv.aaw7238].
 Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, scientists of color do not appear to be recognized at levels consistent with their membership among the pool of potential honorees.
