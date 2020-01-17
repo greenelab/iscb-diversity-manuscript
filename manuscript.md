@@ -78,11 +78,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -115,9 +115,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@6edd349](https://github.com/greenelab/iscb-diversity-manuscript/tree/6edd349a64bf9afdf39b3cec1f91f32c3ea88786)
+from [greenelab/iscb-diversity-manuscript@1071cf5](https://github.com/greenelab/iscb-diversity-manuscript/tree/1071cf5e939ebf187fd53b55d7e7438adbe548cc)
 on January 17, 2020.
 </em></small>
 
@@ -329,34 +329,39 @@ Although Bioinformatics was established in 1998 and BMC Bioinformatics in 2000, 
 Therefore, without first and middle names, we do not have author gender predictions before this year.
 
 There is a slow increase of the proportion of predicted female authors, arriving at just over 20% on average in 2019 (Fig. {@fig:gender_breakdown}A).
-We observe very similar trend within each journal, but estimated female proportion has increased the least in _PLOS Computational Biology_ (Supplementary Fig S1).
+We observe very similar trend within each journal, but estimated female proportion has increased the least in _PLOS Computational Biology_ (Supplementary Fig. S1).
 ISCB fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}B); however, it has not yet reached parity.
 The overall increasing female proportion trend seems to be present in each honor category, especially in the group of ISCB Fellows (Fig. {@fig:gender_breakdown}C), which seems to have markedly increased after 2015.
 PSB has only one or two keynotes per year, so its estimated proportion of female speakers varies considerably (Fig. {@fig:gender_breakdown}C).
 However, the 2020 PSB keynotes were the only set of honorees across our analysis for which nearly all the probability was ascribed to female speakers.
 
 
-![Estimated proportion of gender prediction over the years of all Pubmed journal authors (A),
-  of all ISCB fellows and keynote speakers (B),
-  and of ISCB honorees in each honor category (C).
+![ISCB fellows and keynote speakers appear more evenly split between men and women compared to Pubmed authors, but the proportion has not reached parity. Estimated composition of gender prediction over the years of 
+  (A) all Pubmed computational biology and bioinformatics journal authors,
+  (B) all ISCB fellows and keynote speakers,
+  and (C) ISCB honorees in each honor category.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/gender_breakdown.png){#fig:gender_breakdown}
 
 ### Assessing the Racial and Ethnic Diversity of Authors and Honorees
 
 We predicted the race and ethnicity of authors and honorees using wru, which is based on US census data.
-We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig {@fig:racial_makeup}A).
-This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig {@fig:racial_makeup}B, top).
-We did not observe an increase at PLOS Computational Biology (Fig {@fig:racial_makeup}B, bottom).
-A higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig {@fig:racial_makeup}C) than authors (Fig {@fig:racial_makeup}A).
-Separating honoree results by honor category did not reveal any clear differences (Fig {@fig:racial_makeup}D).
+We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}A).
+This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:racial_makeup}B, top).
+We did not observe an increase at _PLOS Computational Biology_ (Fig. {@fig:racial_makeup}B, bottom).
+A higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig. {@fig:racial_makeup}C) than authors (Fig. {@fig:racial_makeup}A).
+Separating honoree results by honor category did not reveal any clear differences (Fig. {@fig:racial_makeup}D).
 
-![Estimated proportion of census-based race prediction over the years of all Pubmed journal authors (A),
-  of authors in each computational biology and bioinformatics journal (B), of all ISCB fellows and keynote speakers (C),
-  and of ISCB honorees in each honor category (D).
+![We find an overrepresentation of white and underrepresentation of Asian honorees as compared to authors. Estimated composition of census-based race/ethnicity prediction over the years of 
+  (A) all Pubmed computational biology and bioinformatics journal authors,
+  (B) authors in each journal, 
+  (C) all ISCB Fellows and keynote speakers,
+  (D) ISCB honorees in each honor category
+  and (E) the composition's statistics of Pubmed authors (blue LOESS curve) and ISCB honorees (mean and 95% confidence interval, vertical) for each race/ethnicity category.
+  
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/racial_makeup.png){#fig:racial_makeup}
 
-We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Supplementary Fig S2).
-We find that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented since the year 2000.
+We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:racial_makeup}E).
+We find that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented in most years.
 Though we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
 The proportion of Hispanic authors and honorees at these venues may also be influenced by authors from Spain instead of Latin America and is likely to understate the extent to which minoritized scientists are underrepresented among honorees and authors.
 
@@ -367,9 +372,11 @@ The proportion of Hispanic authors and honorees at these venues may also be infl
 
 ## Conclusions
 
-The presence of female STEM role models is associated with higher persistence for undergraduate women in geoscience [@doi:10.1130/GES01659.1].
+We estimate the composition of the field using corresponding author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956] women are underrepresented among such authors.
+Such an effect would cause us to underestimate the number of women in the field.
+In addition to holding fewer corresponding authorship positions, female scientists are cited less often [@arxiv:2001.01002], invited by journals to submit papers less often [@doi:10.1371/journal.pbio.2004956] and suggested as reviewers less often [@doi:10.1038/541455a].
+Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which, for example, may lead to higher persistence for undergraduate women in geoscience [@doi:10.1130/GES01659.1].
 Efforts are underway to create Wikipedia entries for more female [@doi:10.1038/d41586-018-05947-8] and black, Asian, and minority scientists [@doi:10.1038/d41586-019-00812-8], which can help early-career scientists identify role models.
-Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role as well.
 We find that ISCB's honorees and keynote speakers, though not yet reaching gender parity, appear to be more evenly split between men and women than the field as a whole.
 On the other hand, we find that honorees include significantly few people of color than the field as a whole, and that Asian scientists are dramatically under-represented among honorees.
 
