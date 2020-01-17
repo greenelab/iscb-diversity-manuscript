@@ -78,11 +78,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -115,9 +115,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@c288625](https://github.com/greenelab/iscb-diversity-manuscript/tree/c2886254d3f7ca6ec496acc432b3605be750e7f5)
+from [greenelab/iscb-diversity-manuscript@6edd349](https://github.com/greenelab/iscb-diversity-manuscript/tree/6edd349a64bf9afdf39b3cec1f91f32c3ea88786)
 on January 17, 2020.
 </em></small>
 
@@ -306,11 +306,13 @@ This prediction represents the probability of an honoree or author selecting a c
 
 ### Curated Honorees and Literature-derived Potential Honorees
 
-We curated a dataset of ISCB honorees that included 412 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
+We curated a dataset of ISCB honorees that included 411 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
 The ISCB Fellows set contained the complete set of fellows named (2009-2019).
 Keynote speakers were available for ISMB for all years from 2002-2019.
 Keynote speakers from PSB were available for all years from 1999-2020.
 Keynote speakers for RECOMB were available for all years from 1997-2019.
+We included individuals who were honored multiple times as separate entries.
+For example, Christine Orengo was a keynote speaker at RECOMB 2004 and became an ISCB Fellow in 2016, and thus was counted twice in this list.
 
 We sought to compare this dataset with a background distribution of potential speakers, which we considered to be last or senior authors of bioinformatics and computational biology manuscripts.
 We used those published in [Bioinformatics](https://academic.oup.com/bioinformatics), [BMC Bioinformatics](https://bmcbioinformatics.biomedcentral.com/), and [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/) as a set of bioinformatics and computational biology manuscripts.
