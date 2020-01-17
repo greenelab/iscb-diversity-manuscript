@@ -7,14 +7,14 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2020-01-16",
+    "date-meta": "2020-01-17",
     "author-meta": [
       "Trang T. Le",
       "Daniel S. Himmelstein",
       "Casey S. Greene"
     ],
     "manubot-fail-on-errors": true,
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2020-01-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-01-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Trang T. Le\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3737-6565\" />\n<meta name=\"twitter:creator\" content=\"@trang1618\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@greenescientist\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Manuscript Title\" />\n<meta name=\"citation_title\" content=\"Manuscript Title\" />\n<meta property=\"og:title\" content=\"Manuscript Title\" />\n<meta property=\"twitter:title\" content=\"Manuscript Title\" />\n<meta name=\"dc.date\" content=\"2020-01-17\" />\n<meta name=\"citation_publication_date\" content=\"2020-01-17\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Trang T. Le\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, Epidemiology and Informatics, Institute for Biomedical Informatics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3737-6565\" />\n<meta name=\"twitter:creator\" content=\"@trang1618\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania\" />\n<meta name=\"citation_author_institution\" content=\"Childhood Cancer Data Lab, Alex&#39;s Lemonade Stand Foundation\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@greenescientist\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -24,7 +24,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "January 16, 2020",
+    "date": "January 17, 2020",
     "authors": [
       {
         "github": "trang1618",
@@ -90,19 +90,19 @@
       "repo_slug": "greenelab/iscb-diversity-manuscript",
       "repo_owner": "greenelab",
       "repo_name": "iscb-diversity-manuscript",
-      "commit": "33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b",
-      "triggering_commit": "33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b",
-      "build_url": "https://github.com/greenelab/iscb-diversity-manuscript/commit/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/checks",
+      "commit": "c2886254d3f7ca6ec496acc432b3605be750e7f5",
+      "triggering_commit": "c2886254d3f7ca6ec496acc432b3605be750e7f5",
+      "build_url": "https://github.com/greenelab/iscb-diversity-manuscript/commit/c2886254d3f7ca6ec496acc432b3605be750e7f5/checks",
       "job_url": "https://github.com/greenelab/iscb-diversity-manuscript/runs/run1"
     },
     "html_url": "https://greenelab.github.io/iscb-diversity-manuscript/",
     "pdf_url": "https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf",
-    "html_url_versioned": "https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/",
-    "pdf_url_versioned": "https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/manuscript.pdf",
+    "html_url_versioned": "https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/",
+    "pdf_url_versioned": "https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/manuscript.pdf",
     "manubot_version": "0.3.0",
     "rootstock_commit": null,
     "manuscript_stats": {
-      "word_count": 2895
+      "word_count": 3173
     }
   }
 }

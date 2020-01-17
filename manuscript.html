@@ -7,7 +7,7 @@
   <meta name="author" content="Trang T. Le" />
   <meta name="author" content="Daniel S. Himmelstein" />
   <meta name="author" content="Casey S. Greene" />
-  <meta name="dcterms.date" content="2020-01-16" />
+  <meta name="dcterms.date" content="2020-01-17" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Manuscript Title</title>
   <style>
@@ -30,8 +30,8 @@
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2020-01-16" />
-  <meta name="citation_publication_date" content="2020-01-16" />
+  <meta name="dc.date" content="2020-01-17" />
+  <meta name="citation_publication_date" content="2020-01-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -57,9 +57,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -73,10 +73,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/33dceddc07d1dc5ad8e92e9d3b983bf0d4cede0b">greenelab/iscb-diversity-manuscript@33dcedd</a>
-on January 16, 2020.
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/c2886254d3f7ca6ec496acc432b3605be750e7f5">greenelab/iscb-diversity-manuscript@c288625</a>
+on January 17, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -174,20 +174,36 @@ Because her name was neither mentioned in the 2015 proceedings <span class="cita
 For other keynote speakers, we gleaned their full name as well as the year in which they delivered a keynote.
 We used the name as provided on the site.
 We split names into first and last names as described for ISCB Fellows.</p>
-<h3 id="analysis-of-bioinformatics-and-computational-biology-publications">Analysis of Bioinformatics and Computational Biology Publications</h3>
-<p>We developed two distinct approaches to estimate the composition of research advisors in the field, who we expected would be those most likely to be invited for keynotes or to be honored as Fellows.
-We downloaded the author information for all papers published in ISCB Partner Journals (PLOS Computational Biology and Bioinformatics) as well as a field-specific journal that is not a partner (BMC Bioinformatics) from PubMed (PM) as well as PubMedCentral (PMC) from when each journal was established to the present.</p>
-<p>PM provided a more comprehensive resource.
-The PM set contained 12963 manuscripts published in Bioinformatics, 6349 published in PLOS Computational Biology, and 9124 published in BMC Bioinformatics.
-Despite being more comprehensive, the PM set of manuscripts did not provide corresponding author information.
-We inferred that the leading senior author of a manuscript would be in the last author position.
-We selected the last author from each paper as our set for consideration.</p>
-<p>PMC provided a more limited resource but contained more detailed corresponding author information.
-The PMC set contained 4797 articles published in Bioinformatics, 6296 published in PLOS Computational Biology, and 9099 published in BMC Bioinformatics.
-We examined the corresponding author number for each paper and found that all but 359 had at least one corresponding author.
-We manually examined a subset of the manuscripts without corresponding authors and found that many were editorials (e.g., the announcement of PLOS Computational Biology).
-The vast majority of publications (17064) had only a single corresponding author.
-We used the corresponding authors from the PMC set as our set for consideration.</p>
+<h3 id="corresponding-author-extraction">Corresponding author extraction</h3>
+<p>We assumed that research advisors in the field would be those most likely to be invited for keynotes or to be honored as Fellows.
+Therefore, we collected corresponding author names to assess the composition of the field, weighted by the number of publications.</p>
+<p>We evaluated two resources for extracting corresponding authors from papers: <a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> and <a href="https://www.ncbi.nlm.nih.gov/pmc/">PubMed Central</a> (PMC).
+Both resources are provided by the U.S. National Library of Medicine and index scholarly articles.
+PubMed contains a record for every article published in journals it indexes (30 million records total circa 2020) and provides abstracts but not fulltext.
+PMC, which provides fulltext access, does not contain every article from every journal (5.9 million records total circa 2020).
+In general, open access journals will deposit their entire catalog to PMC (e.g. <em>BMC Bioinformatics</em> &amp; <em>PLOS Computational Biology</em>), while toll access journals (e.g. <em>Bioinformatics</em>) will only deposit articles when funders require it.
+Since PMC requires publishers to submit fulltext articles in a structured XML format, the machine-readability and breadth of metadata in PMC is often superior to PubMed.</p>
+<p>Of PMC’s 5.9 million fulltext articles, only 2.7 million are part of the “<a href="https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/">Open Access Subset</a>” which allows for downloading the structured fulltext as opposed to just viewing the article online.
+However, authorship information does not require full text records.
+We were able to download structured frontmatter (rather than fulltext) records from PMC’s <a href="https://www.ncbi.nlm.nih.gov/pmc/tools/oai/">OAI-PMH service</a>, so we were not limited to just the Open Access Subset.
+For PubMed, we used the E-Utilities APIs.
+For PubMed records, we were able to extract author names (first and last) and order.
+For PMC, we were able to extract these fields as well as whether each author was a corresponding author.
+To automate and generalize these tasks, we created the <a href="https://github.com/dhimmel/pubmedpy">pubmedpy</a> Python package.</p>
+<p>We selected three journals to represent the field of bioinformatics and computational biology, including two ISCB Partner Journals (<em>PLOS Computational Biology</em> and <em>Bioinformatics</em>) and one field-specific journal that is not a partner (<em>BMC Bioinformatics</em>).
+From PubMed, we compiled a catalog of 29,755 journal articles published from when each journal was established through 2019.
+We were able to retrieve authorship information for all but 6 of these articles using PubMed or PubMed Central.</p>
+<p>To determine corresponding authors for an article, we relied on PMC data if available (20,696 articles) and otherwise fellback to PubMed data (9,053 articles).
+Almost all articles without PMC data were from <em>Bioinformatics</em>, since its a “selective deposit” rather than “full paricipation” journal in PMC.
+We assumed the last author was corresponding when coded corresponding author status was not available (120 articles from PMC and all articles from PubMed).</p>
+<p>We performed further analysis on PMC authors to learn more about corresponding author practices.
+81% of articles had a single corresponding author.
+1.7% had no corresponding authors.
+We examined a subset and found that many were editorials (e.g. the announcement of <em>PLOS Computational Biology</em>).
+A very small number of papers had over 10 corresponding authors.
+Some of these instances were true outliers, like <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001208/">PMC5001208</a> with 21 corresponding authors.
+Others like <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509495/">PMC3509495</a> were incorrect, due to upstream errors.
+To not give undue influence to papers with multiple corresponding authors, subsequent analyses on corresponding authors are weighted by 1 divided by the number of corresponding authors per paper.</p>
 <h3 id="estimation-of-gender">Estimation of Gender</h3>
 <p>We predicted the gender of honorees and authors using the <a href="https://genderize.io" class="uri">https://genderize.io</a> API that produces predictions trained on over 100 million name-gender pairings collected from the web.
 We used author and honoree first names to retrieve predictions from genderize.io.
@@ -236,7 +252,7 @@ and of ISCB honorees in each honor category (C).</figcaption>
 <h3 id="assessing-the-racial-and-ethnic-diversity-of-authors-and-honorees">Assessing the Racial and Ethnic Diversity of Authors and Honorees</h3>
 <p>We predicted the race and ethnicity of authors and honorees using wru, which is based on US census data.
 We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig <a href="#fig:racial_makeup">2</a>A).
-This was primarily driven by publications in Bioinformatics and BMC Bioinformatics (Fig <a href="#fig:racial_makeup">2</a>B, top).
+This was primarily driven by publications in <em>Bioinformatics</em> and <em>BMC Bioinformatics</em> (Fig <a href="#fig:racial_makeup">2</a>B, top).
 We did not observe an increase at PLOS Computational Biology (Fig <a href="#fig:racial_makeup">2</a>B, bottom).
 A higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig <a href="#fig:racial_makeup">2</a>C) than authors (Fig <a href="#fig:racial_makeup">2</a>A).
 Separating honoree results by honor category did not reveal any clear differences (Fig <a href="#fig:racial_makeup">2</a>D).</p>
