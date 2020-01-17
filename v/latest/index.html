@@ -57,9 +57,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -73,9 +73,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/c2886254d3f7ca6ec496acc432b3605be750e7f5/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/6edd349a64bf9afdf39b3cec1f91f32c3ea88786/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/c2886254d3f7ca6ec496acc432b3605be750e7f5">greenelab/iscb-diversity-manuscript@c288625</a>
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/6edd349a64bf9afdf39b3cec1f91f32c3ea88786">greenelab/iscb-diversity-manuscript@6edd349</a>
 on January 17, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -221,11 +221,13 @@ This prediction represents the probability of an honoree or author selecting a c
 <h4 id="nationality-prediction-with-lstm-neural-networks">Nationality Prediction with LSTM Neural Networks</h4>
 <h2 id="results">Results</h2>
 <h3 id="curated-honorees-and-literature-derived-potential-honorees">Curated Honorees and Literature-derived Potential Honorees</h3>
-<p>We curated a dataset of ISCB honorees that included 412 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
+<p>We curated a dataset of ISCB honorees that included 411 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
 The ISCB Fellows set contained the complete set of fellows named (2009-2019).
 Keynote speakers were available for ISMB for all years from 2002-2019.
 Keynote speakers from PSB were available for all years from 1999-2020.
-Keynote speakers for RECOMB were available for all years from 1997-2019.</p>
+Keynote speakers for RECOMB were available for all years from 1997-2019.
+We included individuals who were honored multiple times as separate entries.
+For example, Christine Orengo was a keynote speaker at RECOMB 2004 and became an ISCB Fellow in 2016, and thus was counted twice in this list.</p>
 <p>We sought to compare this dataset with a background distribution of potential speakers, which we considered to be last or senior authors of bioinformatics and computational biology manuscripts.
 We used those published in <a href="https://academic.oup.com/bioinformatics">Bioinformatics</a>, <a href="https://bmcbioinformatics.biomedcentral.com/">BMC Bioinformatics</a>, and <a href="https://journals.plos.org/ploscompbiol/">PLOS Computational Biology</a> as a set of bioinformatics and computational biology manuscripts.
 We downloaded the metadata of manuscripts published in these journals from PubMed, which provided more than 30000 articles for evaluation.
