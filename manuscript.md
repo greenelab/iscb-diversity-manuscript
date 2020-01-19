@@ -5,7 +5,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-17'
+date-meta: '2020-01-19'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,9 +24,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-01-17" />
+  <meta name="dc.date" content="2020-01-19" />
 
-  <meta name="citation_publication_date" content="2020-01-17" />
+  <meta name="citation_publication_date" content="2020-01-19" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -78,11 +78,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -115,10 +115,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/1071cf5e939ebf187fd53b55d7e7438adbe548cc/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@1071cf5](https://github.com/greenelab/iscb-diversity-manuscript/tree/1071cf5e939ebf187fd53b55d7e7438adbe548cc)
-on January 17, 2020.
+from [greenelab/iscb-diversity-manuscript@58aeec5](https://github.com/greenelab/iscb-diversity-manuscript/tree/58aeec5939e9047a2669e57c7e4d5d39c0af1034)
+on January 19, 2020.
 </em></small>
 
 ## Authors
@@ -268,12 +268,16 @@ We were able to retrieve authorship information for all but 6 of these articles 
 
 To determine corresponding authors for an article, we relied on PMC data if available (20,696 articles) and otherwise fellback to PubMed data (9,053 articles).
 Almost all articles without PMC data were from _Bioinformatics_, since its a "selective deposit" rather than "full paricipation" journal in PMC.
-We assumed the last author was corresponding when coded corresponding author status was not available (120 articles from PMC and all articles from PubMed).
 
 We performed further analysis on PMC authors to learn more about corresponding author practices.
-81% of articles had a single corresponding author.
+First, we developed and evaluated a method to infer a corresponding author when the coded corresponding status was not available.
+For papers with multiple authors and at least one corresponding author, the first author was corresponding 43% of the time, whearas the last author was corresponding 62% of the time.
+Therefore, we assumed the last author was corresponding when coded corresponding author status was not available (120 articles from PMC and all articles from PubMed).
+
+Second, we investigated the number of corresponding authors for PMC articles.
+81% of these articles had a single corresponding author.
 1.7% had no corresponding authors.
-We examined a subset and found that many were editorials (e.g. the announcement of _PLOS Computational Biology_).
+Of these, many were editorials (e.g. [PMC1183510](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183510/), the announcement of _PLOS Computational Biology_).
 A very small number of papers had over 10 corresponding authors.
 Some of these instances were true outliers, like [PMC5001208](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001208/) with 21 corresponding authors.
 Others like [PMC3509495](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509495/) were incorrect, due to upstream errors.
