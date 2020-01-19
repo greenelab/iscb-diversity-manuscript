@@ -7,8 +7,8 @@ on:
     branches:
       - master
 jobs:
-  build:
-    name: Build Manuscript
+  manubot:
+    name: Manubot
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -21,6 +21,8 @@ jobs:
           auto-activate-base: false
           miniconda-version: 'latest'
       - name: Build Manuscript
+        env:
+          GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
         shell: bash --login {0}
         run: bash build/build.sh
       - name: Upload Artifacts
@@ -28,14 +30,16 @@ jobs:
         with:
           name: output
           path: output
-      - name: Deploy
-        if: (
-          github.ref == 'refs/heads/master' &&
-          github.event_name == 'push' &&
-          job.status == 'success')
+      - name: Deploy Manuscript
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         env:
           MANUBOT_SSH_PRIVATE_KEY: ${{ secrets.MANUBOT_SSH_PRIVATE_KEY }}
           BUILD_WEB_URL: https://github.com/${{ github.repository }}/commit/${{ github.sha }}/checks
-          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         shell: bash --login {0}        
-        run: bash ci/deploy.sh
+        run: |
+          if [ "$MANUBOT_SSH_PRIVATE_KEY" != "" ]; then
+            bash ci/deploy.sh
+          else
+            echo >&2 "Skipping deployment because the MANUBOT_SSH_PRIVATE_KEY secret is not set.
+            Instructions at https://github.com/manubot/rootstock/blob/master/SETUP.md#deploy-key"
+          fi
