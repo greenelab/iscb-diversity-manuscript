@@ -78,11 +78,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -115,9 +115,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/58aeec5939e9047a2669e57c7e4d5d39c0af1034/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@58aeec5](https://github.com/greenelab/iscb-diversity-manuscript/tree/58aeec5939e9047a2669e57c7e4d5d39c0af1034)
+from [greenelab/iscb-diversity-manuscript@9975103](https://github.com/greenelab/iscb-diversity-manuscript/tree/99751030850bda0cc5c6c2d67edb3996fb3db306)
 on January 19, 2020.
 </em></small>
 
