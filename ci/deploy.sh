@@ -35,7 +35,7 @@ set +o xtrace  # disable xtrace in subshell for private key operations
 if [ -v MANUBOT_SSH_PRIVATE_KEY ]; then
   base64 --decode <<< "$MANUBOT_SSH_PRIVATE_KEY" | ssh-add -
 else
-echo "DeprecationWarning: Loading deploy.key from an encrypted file.
+echo >&2 "DeprecationWarning: Loading deploy.key from an encrypted file.
 In the future, using the MANUBOT_SSH_PRIVATE_KEY environment variable may be required."
 openssl aes-256-cbc \
   -K $encrypted_9befd6eddffe_key \
@@ -61,7 +61,8 @@ manubot webpage \
 
 # Commit message
 MESSAGE="\
-$(git log --max-count=1 --format='%s') [ci skip]
+$(git log --max-count=1 --format='%s')
+[ci skip]
 
 This build is based on
 https://github.com/$REPO_SLUG/commit/$COMMIT.
@@ -69,10 +70,6 @@ https://github.com/$REPO_SLUG/commit/$COMMIT.
 This commit was created by the following CI build and job:
 $BUILD_WEB_URL
 $JOB_WEB_URL
-
-The full commit message that triggered this build is copied below:
-
-$COMMIT_MESSAGE
 "
 
 # Deploy the manubot outputs to output
