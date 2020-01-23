@@ -2,10 +2,11 @@
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
+- Ariel A. Hippen Anderson
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-19'
+date-meta: '2020-01-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -24,9 +25,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-01-19" />
+  <meta name="dc.date" content="2020-01-23" />
 
-  <meta name="citation_publication_date" content="2020-01-19" />
+  <meta name="citation_publication_date" content="2020-01-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -56,6 +57,14 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@dhimmel" />
 
+  <meta name="citation_author" content="Ariel A. Hippen Anderson" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
+
+  <meta name="citation_author_orcid" content="0000-0001-9336-6543" />
+
+  <meta name="twitter:creator" content="@AHippenAnderson" />
+
   <meta name="citation_author" content="Casey S. Greene" />
 
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
@@ -78,11 +87,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -115,10 +124,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/99751030850bda0cc5c6c2d67edb3996fb3db306/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@9975103](https://github.com/greenelab/iscb-diversity-manuscript/tree/99751030850bda0cc5c6c2d67edb3996fb3db306)
-on January 19, 2020.
+from [greenelab/iscb-diversity-manuscript@dd48cda](https://github.com/greenelab/iscb-diversity-manuscript/tree/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9)
+on January 23, 2020.
 </em></small>
 
 ## Authors
@@ -143,6 +152,17 @@ on January 19, 2020.
     [dhimmel](https://github.com/dhimmel)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [dhimmel](https://twitter.com/dhimmel)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+  </small>
+
++ **Ariel A. Hippen Anderson**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-9336-6543](https://orcid.org/0000-0001-9336-6543)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [arielah](https://github.com/arielah)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [AHippenAnderson](https://twitter.com/AHippenAnderson)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
   </small>
@@ -301,9 +321,35 @@ This prediction represents the probability of an honoree or author selecting a c
 
 ### Estimation of Nationality
 
+To complement wru's race and ethnicity estimation, we applied the Python package `ethnicolr` developed by Sood and Laohaprapanon [@arxiv:1805.02109].
+`ethnicolr` also uses United States Census data, but also adds in data curated from Wikipedia in 2009 [@doi:10.1145/1557019.1557032].
+While ethnicolr overcomes some of the limitations of wru, its international representation is still limited.
+For instance, 76% of the names in ethnicolr’s Wikipedia dataset are European in origin, and the dataset contains remarkably fewer Asian, African, and Middle Eastern names compared to that of wru. 
+
+A number of the limitations of ethnicolr are related to the source data.
+Since Wikipedia has grown substantially since 2009, we created an updated dataset and set of predictors based on the ethnicolr methodology, which are described below.
+
 #### Constructing a Name-to-Nationality Dataset
 
+To generate a training dataset for nationality prediction, we scraped Wikipedia’s category of [Living People](https://en.wikipedia.org/wiki/Category:Living_people) (approximately 930,000 pages when we did our data scrape in November 2019).
+This category is regularly curated and allowed us to avoid pages related to non-persons and to reflect a modern naming landscape.
+For each Wikipedia page, we used two strategies to find a full birth name and nationality for that person.
+First, we pulled information from the personal details sidebar; the information in this sidebar varied widely but usually contained a full name and a place of birth.
+Second, in the body of the text of most English-language biographical Wikipedia pages, the first sentence usually begins with, for example, “John Edward Smith (born 1 January 1970) is an American novelist known for ...”
+We used regular expressions to parse out the person’s name from this structure, as well as checking that the expression after “is a” matched a list of possible nationalities.
+Using a union of these strategies, we were able to define a name and nationality for 708,493 people via their Wikipedia pages.
+Our Wikipedia-based process returned only a nationality or country of origin, which was more fine-grained than the broader regional patterns that we sought to examine among ISCB honorees and bioinformatics authors.
+We initially annotated based on continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by NamePrism [@doi:10.1145/3132847.3133008]. 
+After several iterations, we settled on the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, SouthAsian, EastAsian, European (non-British, non-Iberian), and CelticEnglish (including United States, Canada, and Australia).
+We make this dataset, which we term Wiki2019, available at <https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv>.
+
 #### Nationality Prediction with LSTM Neural Networks
+
+We trained a Long Short-term Memory (LSTM) neural network, the same kind of classifier used by ethnicolr.
+This classifier learned to recognize patterns in the sequences of letters in a name to infer region of origin.
+We evaluated multiple lengths of letters and, based on this comparison, used tri-characters for the primary results described in this work.
+To evaluate our classifier, we used unseen examples from ethnicolr’s Wiki2009 dataset as ground truth to test our best model (LSTM, 3-grams).
+Our prediction model, which we term Wiki2019-LSTM is available at <https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5>.
 
 
 ## Results
@@ -371,7 +417,17 @@ The proportion of Hispanic authors and honorees at these venues may also be infl
 
 ### Predicting Nationality with LSTM Neural Networks and Wikipedia
 
+We achieved a high overall accuracy on this test data with similar precision-recall values over the classes as we saw for our Wiki2019 dataset’s test set, giving confidence in our model.
+We also tested the accuracy of the LSTM trained on the ethnicolr Wiki2009 dataset in predicting the labels for unseen names in our Wiki2019 dataset.
+Importantly, this model did not achieve as high an accuracy as the model trained on Wiki2019 and tested on either dataset, suggesting our new, larger dataset was an improvement.
+
 ### Assessing the Nationality Diversity of Authors and Honorees
+
+We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of corresponding authors.
+We saw proportional discrepancies between the two groups, namely a large overrepresentation of CelticEnglish (including American) keynote speakers and a large underrepresentation of East Asian keynote speakers.
+The proportion of keynote speakers of African, Muslim, and Hispanic origin were also slightly smaller than the field of computational biology as a whole, as represented by corresponding authors in major journals.
+Notably, our regional classifier did not distinguish between names from Iberia (Spain and Portugal) and names from Spanish and Portuguese-speaking countries in Latin America.
+Discrepancies in representation between these groups are thus undetectable by our classifier, but anecdotal evidence indicates that Iberian keynote speakers may make up a disproportionate amount of the Hispanic group.
 
 
 ## Conclusions
