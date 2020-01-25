@@ -6,7 +6,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-23'
+date-meta: '2020-01-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -25,9 +25,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-01-23" />
+  <meta name="dc.date" content="2020-01-25" />
 
-  <meta name="citation_publication_date" content="2020-01-23" />
+  <meta name="citation_publication_date" content="2020-01-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -87,11 +87,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -124,10 +124,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@dd48cda](https://github.com/greenelab/iscb-diversity-manuscript/tree/dd48cda0015ade7f7cd75a89fb63aa2cf1735ab9)
-on January 23, 2020.
+from [greenelab/iscb-diversity-manuscript@ff1c69f](https://github.com/greenelab/iscb-diversity-manuscript/tree/ff1c69ff745826f5872eef9353c60c5166880f9f)
+on January 25, 2020.
 </em></small>
 
 ## Authors
@@ -398,7 +398,7 @@ We predicted the race and ethnicity of authors and honorees using wru, which is 
 We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}A).
 This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:racial_makeup}B, top).
 We did not observe an increase at _PLOS Computational Biology_ (Fig. {@fig:racial_makeup}B, bottom).
-A higher proportion of individuals who had last names associated with selecting white as a race/ethnicity category in the US census were ISCB honorees (Fig. {@fig:racial_makeup}C) than authors (Fig. {@fig:racial_makeup}A).
+Compared to Pubmed authors, ISCB honorees have a higher proportion of individuals whose last names associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}C vs. A).
 Separating honoree results by honor category did not reveal any clear differences (Fig. {@fig:racial_makeup}D).
 
 ![We find an overrepresentation of white and underrepresentation of Asian honorees as compared to authors. Estimated composition of census-based race/ethnicity prediction over the years of 
@@ -406,7 +406,7 @@ Separating honoree results by honor category did not reveal any clear difference
   (B) authors in each journal, 
   (C) all ISCB Fellows and keynote speakers,
   (D) ISCB honorees in each honor category
-  and (E) the composition's statistics of Pubmed authors (blue LOESS curve) and ISCB honorees (mean and 95% confidence interval, vertical) for each race/ethnicity category.
+  and (E) the composition's statistics of Pubmed authors (teal LOESS curve) and ISCB honorees (mean and 95% confidence interval, vertical) for each race/ethnicity category.
   
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/racial_makeup.png){#fig:racial_makeup}
 
@@ -429,6 +429,14 @@ The proportion of keynote speakers of African, Muslim, and Hispanic origin were 
 Notably, our regional classifier did not distinguish between names from Iberia (Spain and Portugal) and names from Spanish and Portuguese-speaking countries in Latin America.
 Discrepancies in representation between these groups are thus undetectable by our classifier, but anecdotal evidence indicates that Iberian keynote speakers may make up a disproportionate amount of the Hispanic group.
 
+![Compared to the name collection of Pubmed authors, Celtic English honorees are overrepresented while East Asian honorees are underrepresented. Estimated composition of nationality prediction over the years of 
+  (A) all Pubmed computational biology and bioinformatics journal authors,
+  (B) authors in each journal, 
+  (C) all ISCB Fellows and keynote speakers,
+  (D) ISCB honorees in each honor category
+  and (E) the composition's statistics of Pubmed authors (teal LOESS curve) and ISCB honorees (mean and 95% confidence interval, vertical) for each region.
+  
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/region_breakdown.png){#fig:region_breakdown}
 
 ## Conclusions
 
