@@ -6,7 +6,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-25'
+date-meta: '2020-01-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -17,17 +17,17 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-01-25" />
+  <meta name="dc.date" content="2020-01-27" />
 
-  <meta name="citation_publication_date" content="2020-01-25" />
+  <meta name="citation_publication_date" content="2020-01-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -87,11 +87,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/395ff75adb62e1be674753a47a78f4e8178af74c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/395ff75adb62e1be674753a47a78f4e8178af74c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/395ff75adb62e1be674753a47a78f4e8178af74c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -105,16 +105,16 @@ header-includes: '<!--
 
   <!-- end Manubot generated metadata -->'
 keywords:
-- markdown
-- publishing
-- manubot
+- computational biology
+- iscb
+- disparities
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-fail-on-errors: true
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Analysis of ISCB honorees and keynotes reveals disparities
 ...
 
 
@@ -124,10 +124,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/ff1c69ff745826f5872eef9353c60c5166880f9f/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/395ff75adb62e1be674753a47a78f4e8178af74c/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@ff1c69f](https://github.com/greenelab/iscb-diversity-manuscript/tree/ff1c69ff745826f5872eef9353c60c5166880f9f)
-on January 25, 2020.
+from [greenelab/iscb-diversity-manuscript@395ff75](https://github.com/greenelab/iscb-diversity-manuscript/tree/395ff75adb62e1be674753a47a78f4e8178af74c)
+on January 27, 2020.
 </em></small>
 
 ## Authors
@@ -185,10 +185,11 @@ on January 25, 2020.
 Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge.
 Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition.
 We sought to understand the extent to which such recognitions reflected the composition of their corresponding field.
-We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows.
-We compared these individuals with last and corresponding author contributions in the society’s partner journals.
-We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors. 
-Individuals from certain ancestries and countries appear to be under-recognized among honorees.
+We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows, an honorary group within the society.
+We compared these honorees with last and corresponding author contributions in field-specific journals.
+We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors.
+To address weaknesses in existing approaches we built a new dataset of more than 700,000 people-nationality pairs from Wikipedia and trained long short-term memory neural networks to make predictions.
+Every approach consistently shows that white scientists are overrepresented among speakers and honorees, while scientists of color are underrepresented.
 
 
 ## Introduction
@@ -196,7 +197,7 @@ Individuals from certain ancestries and countries appear to be under-recognized 
 Scientists' roles in society include identifying important topics of study, undertaking an investigation of those topics, and disseminating their findings broadly.
 The scientific enterprise is largely self-governing: scientists act as peer reviewers on papers and grants, comprise hiring committees in academia, make tenure decisions, and select which applicants will be admitted to doctoral programs.
 A lack of diversity in science could lead to pernicious biases that hamper the extent to which scientific findings are relevant to minority communities.
-For example, finding that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238] could be interpreted either as minority scientists select topics in more poorly funded areas or that majority scientists score topics of particular interest to minority scientists as less worthy of funding.
+For example, finding that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238] could be interpreted either as minority scientists select topics in more poorly funded areas or that majority scientists consider topics of particular interest to minority scientists as less worthy of funding.
 Consequently, it is important to examine peer recognition in fields.
 
 Gender bias among conference speakers has been recognized as an area that can be improved with targeted interventions [@doi:10.1371/journal.pcbi.1003903; @doi:10.1126/science.caredit.aaw9742; @doi:10.1038/ni.3707; @arxiv:1502.06326].
@@ -213,19 +214,19 @@ We used multiple methods to predict the gender, race/ethnicity, and nationality 
 Existing methods were relatively US-centric because most of the data was derived in whole or in part from the US Census.
 We scraped more than 700,000 entries from English-language Wikipedia that contained nationality information to complement these existing methods and built multiple machine learning classifiers to predict nationality.
 We also examined the last and corresponding authors for publications in ISCB partner journals to establish a field-specific baseline using the same metrics.
-The results were consistent across all approaches: we found a dearth of minority speakers and honorees.
-The lack of Asian speakers was particularly pronounced when compared against the field-specific background.
+The results were consistent across all approaches: we found a dearth of non-white speakers and honorees.
+The lack of Asian scientists among keynote speakers and Fellows was particularly pronounced when compared against the field-specific background.
 
 
 ## Materials and Methods
 
 ### Honoree Curation
 
-#### ISCB Fellows Recipients
+#### ISCB Fellows
 
-We examined the ISCB [webpage of ISCB Fellows](http://web.archive.org/web/20200116150052/https://www.iscb.org/iscb-fellows).
+We examined ISCB's [webpage listing ISCB Fellows](http://web.archive.org/web/20200116150052/https://www.iscb.org/iscb-fellows).
 We found recipients listed for the years 2009-2019.
-We gleaned the full name of the fellow as well as the year in which they received the honor.
+We gleaned the full name of the Fellow as well as the year in which they received the honor.
 We used the name as provided on the site.
 For certain methods we were required to split the full name into first and last names.
 In this case we chose the first non-initial name as the first name and the final name as the last name.
@@ -305,9 +306,12 @@ To not give undue influence to papers with multiple corresponding authors, subse
 
 ### Estimation of Gender
 
-We predicted the gender of honorees and authors using the <https://genderize.io> API that produces predictions trained on over 100 million name-gender pairings collected from the web.
+We predicted the gender of honorees and authors using the <https://genderize.io> API, which produces predictions trained on over 100 million name-gender pairings collected from the web.
 We used author and honoree first names to retrieve predictions from genderize.io.
-The predictions, which consider gender as a binary trait, represent the probability of an honoree or author being male or female.
+The predictions represent the probability of an honoree or author being male or female.
+We used the estimated probabilities and did not convert to a hard group assignment.
+For example, a query to <https://genderize.io> on January 26, 2020 for "Casey" returns a probability of male of .74 and a probability of female of 0.26, which we would add for an author with this first name.
+Because of the limitations of considering gender as a binary trait and inferring it from first names, we only consider predictions in aggregate and not as individual values for specific scientists.
 
 ### Estimation of Race and Ethnicity
 
@@ -324,31 +328,30 @@ This prediction represents the probability of an honoree or author selecting a c
 To complement wru's race and ethnicity estimation, we applied the Python package `ethnicolr` developed by Sood and Laohaprapanon [@arxiv:1805.02109].
 `ethnicolr` also uses United States Census data, but also adds in data curated from Wikipedia in 2009 [@doi:10.1145/1557019.1557032].
 While ethnicolr overcomes some of the limitations of wru, its international representation is still limited.
-For instance, 76% of the names in ethnicolr’s Wikipedia dataset are European in origin, and the dataset contains remarkably fewer Asian, African, and Middle Eastern names compared to that of wru. 
-
-A number of the limitations of ethnicolr are related to the source data.
-Since Wikipedia has grown substantially since 2009, we created an updated dataset and set of predictors based on the ethnicolr methodology, which are described below.
+For instance, 76% of the names in ethnicolr’s Wikipedia dataset are European in origin, and the dataset contains remarkably fewer Asian, African, and Middle Eastern names compared to that of wru.
+Because the primary weaknesses of ethnicolr were related to the source data, we created an updated training dataset and set of predictors based on the ethnicolr methodology.
 
 #### Constructing a Name-to-Nationality Dataset
 
-To generate a training dataset for nationality prediction, we scraped Wikipedia’s category of [Living People](https://en.wikipedia.org/wiki/Category:Living_people) (approximately 930,000 pages when we did our data scrape in November 2019).
-This category is regularly curated and allowed us to avoid pages related to non-persons and to reflect a modern naming landscape.
+To generate a training dataset for nationality prediction, we scraped English Wikipedia’s category of [Living People](https://en.wikipedia.org/wiki/Category:Living_people), which contained approximately 930,000 pages at the time of processing in November 2019.
+This category reflects a modern naming landscape.
+It is regularly curated and allowed us to avoid pages related to non-persons.
 For each Wikipedia page, we used two strategies to find a full birth name and nationality for that person.
-First, we pulled information from the personal details sidebar; the information in this sidebar varied widely but usually contained a full name and a place of birth.
+First, we used information from the personal details sidebar; the information in this sidebar varied widely but often contained a full name and a place of birth.
 Second, in the body of the text of most English-language biographical Wikipedia pages, the first sentence usually begins with, for example, “John Edward Smith (born 1 January 1970) is an American novelist known for ...”
-We used regular expressions to parse out the person’s name from this structure, as well as checking that the expression after “is a” matched a list of possible nationalities.
-Using a union of these strategies, we were able to define a name and nationality for 708,493 people via their Wikipedia pages.
-Our Wikipedia-based process returned only a nationality or country of origin, which was more fine-grained than the broader regional patterns that we sought to examine among ISCB honorees and bioinformatics authors.
-We initially annotated based on continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by NamePrism [@doi:10.1145/3132847.3133008]. 
-After several iterations, we settled on the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, SouthAsian, EastAsian, European (non-British, non-Iberian), and CelticEnglish (including United States, Canada, and Australia).
-We make this dataset, which we term Wiki2019, available at <https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv>.
+We used regular expressions to parse out the person’s name from this structure and checked that the expression after “is a” matched a list of possible nationalities.
+We were able to define a name and nationality for 708,493 people by using the union of these strategies.
+Our Wikipedia-based process returned a nationality or country of origin, which was more fine-grained than the broader regional patterns that we sought to examine among honorees and authors.
+We initially grouped names by continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
+We used on the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, SouthAsian, EastAsian, European (non-British, non-Iberian), and CelticEnglish (including United States, Canada, and Australia).
+Our dataset, which we term Wiki2019, is available at <https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv>.
 
 #### Nationality Prediction with LSTM Neural Networks
 
-We trained a Long Short-term Memory (LSTM) neural network, the same kind of classifier used by ethnicolr.
-This classifier learned to recognize patterns in the sequences of letters in a name to infer region of origin.
-We evaluated multiple lengths of letters and, based on this comparison, used tri-characters for the primary results described in this work.
-To evaluate our classifier, we used unseen examples from ethnicolr’s Wiki2009 dataset as ground truth to test our best model (LSTM, 3-grams).
+We trained a Long Short-term Memory (LSTM) neural network, which was also used for ethnicolr.
+This classifier is trained to infer the region of origin from patterns in the sequences of letters.
+We evaluated multiple letter lengths and, based on this comparison, used tri-characters for the primary results described in this work.
+We compared our best performing classifier (LSTM, 3-grams) to ethnicolr's using held out examples from ethnicolr’s Wiki2009 dataset as ground truth.
 Our prediction model, which we term Wiki2019-LSTM is available at <https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5>.
 
 
@@ -357,7 +360,7 @@ Our prediction model, which we term Wiki2019-LSTM is available at <https://githu
 ### Curated Honorees and Literature-derived Potential Honorees
 
 We curated a dataset of ISCB honorees that included 411 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
-The ISCB Fellows set contained the complete set of fellows named (2009-2019).
+The ISCB Fellows set contained the complete set of Fellows named (2009-2019).
 Keynote speakers were available for ISMB for all years from 2002-2019.
 Keynote speakers from PSB were available for all years from 1999-2020.
 Keynote speakers for RECOMB were available for all years from 1997-2019.
@@ -370,25 +373,25 @@ We downloaded the metadata of manuscripts published in these journals from PubMe
 However, although PubMed provides author order, it does not provide corresponding author information.
 
 We downloaded article information from PubMed Central (PMC), which provides corresponding author information to directly measure the fraction of manuscripts for which last authors were also corresponding authors in these journals.
-Of the 21411 articles in PMC's, the last author was also a corresponding author for 17401 of them.
-Because the concordance was high and the PubMed set was more complete, we used the PubMed last author set for all subsequent analyses.
+Of the 21411 articles in PMC, the last author was also a corresponding author for 17401 of them.
+Because the concordance was high and the PubMed set was more complete, we used the PMC corresponding author information when it was available and the PubMed last author as a fallback when corresponding author information was missing.
 
 ### Assessing Gender Diversity of Authors and Honorees
 
 Although Bioinformatics was established in 1998 and BMC Bioinformatics in 2000, the metadata for these journal papers before 2002 only have initials for first and/or middle author names.
 Therefore, without first and middle names, we do not have author gender predictions before this year.
 
-There is a slow increase of the proportion of predicted female authors, arriving at just over 20% on average in 2019 (Fig. {@fig:gender_breakdown}A).
+We observed a slow increase of the proportion of predicted female authors, arriving at just over 20% in 2019 (Fig. {@fig:gender_breakdown}A).
 We observe very similar trend within each journal, but estimated female proportion has increased the least in _PLOS Computational Biology_ (Supplementary Fig. S1).
-ISCB fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}B); however, it has not yet reached parity.
-The overall increasing female proportion trend seems to be present in each honor category, especially in the group of ISCB Fellows (Fig. {@fig:gender_breakdown}C), which seems to have markedly increased after 2015.
-PSB has only one or two keynotes per year, so its estimated proportion of female speakers varies considerably (Fig. {@fig:gender_breakdown}C).
-However, the 2020 PSB keynotes were the only set of honorees across our analysis for which nearly all the probability was ascribed to female speakers.
+ISCB Fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}B); however, it has not yet reached parity.
+We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (Fig. {@fig:gender_breakdown}C), which markedly increased after 2015.
+Through 2019 there were a number of examples of meetings or ISCB Fellow classes with a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
+However, the 2020 PSB keynotes, though outside of the primary range of our analyses, had nearly all the probability ascribed to female speakers.
 
 
-![ISCB fellows and keynote speakers appear more evenly split between men and women compared to Pubmed authors, but the proportion has not reached parity. Estimated composition of gender prediction over the years of 
+![ISCB Fellows and keynote speakers appear more evenly split between men and women than PubMed authors, but the proportion has not reached parity. Estimated composition of gender prediction over the years of
   (A) all Pubmed computational biology and bioinformatics journal authors,
-  (B) all ISCB fellows and keynote speakers,
+  (B) all ISCB Fellows and keynote speakers,
   and (C) ISCB honorees in each honor category.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/gender_breakdown.png){#fig:gender_breakdown}
 
@@ -397,23 +400,21 @@ However, the 2020 PSB keynotes were the only set of honorees across our analysis
 We predicted the race and ethnicity of authors and honorees using wru, which is based on US census data.
 We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}A).
 This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:racial_makeup}B, top).
-We did not observe an increase at _PLOS Computational Biology_ (Fig. {@fig:racial_makeup}B, bottom).
-Compared to Pubmed authors, ISCB honorees have a higher proportion of individuals whose last names associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}C vs. A).
+We did not observe a corresponding increase at _PLOS Computational Biology_ (Fig. {@fig:racial_makeup}B, bottom).
+Compared to Pubmed authors, ISCB honorees have a higher proportion of individuals whose last names we associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}C vs. A).
 Separating honoree results by honor category did not reveal any clear differences (Fig. {@fig:racial_makeup}D).
 
-![We find an overrepresentation of white and underrepresentation of Asian honorees as compared to authors. Estimated composition of census-based race/ethnicity prediction over the years of 
+![We find an overrepresentation of white and underrepresentation of Asian honorees as compared to authors. Estimated composition of census-based race/ethnicity prediction over the years of
   (A) all Pubmed computational biology and bioinformatics journal authors,
-  (B) authors in each journal, 
+  (B) authors in each journal,
   (C) all ISCB Fellows and keynote speakers,
   (D) ISCB honorees in each honor category
   and (E) the composition's statistics of Pubmed authors (teal LOESS curve) and ISCB honorees (mean and 95% confidence interval, vertical) for each race/ethnicity category.
-  
+
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/racial_makeup.png){#fig:racial_makeup}
 
 We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:racial_makeup}E).
-We find that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented in most years.
-Though we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
-The proportion of Hispanic authors and honorees at these venues may also be influenced by authors from Spain instead of Latin America and is likely to understate the extent to which minoritized scientists are underrepresented among honorees and authors.
+We found that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented in most years.
 
 ### Predicting Nationality with LSTM Neural Networks and Wikipedia
 
@@ -424,34 +425,51 @@ Importantly, this model did not achieve as high an accuracy as the model trained
 ### Assessing the Nationality Diversity of Authors and Honorees
 
 We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of corresponding authors.
-We saw proportional discrepancies between the two groups, namely a large overrepresentation of CelticEnglish (including American) keynote speakers and a large underrepresentation of East Asian keynote speakers.
+We found that the proportion of authors in the CelticEnglish categories had decreased (Fig. {@fig:region_breakdown}A), particularly for papers published in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:region_breakdown}B).
+Among keynote speakers and fellows we found that the majority of honorees are predicted to be from CelticEnglish countries ({@fig:region_breakdown}C).
+Though sample sizes were small, we did observe some differences between meetings.
+ISMB keynotes had more probability attributable to Israel, while RECOMB had more attributable to EastAsian countries ({@fig:region_breakdown}D).
+When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of CelticEnglish (including American) keynote speakers and a substantial underrepresentation of East Asian keynote speakers ({@fig:region_breakdown}E).
 The proportion of keynote speakers of African, Muslim, and Hispanic origin were also slightly smaller than the field of computational biology as a whole, as represented by corresponding authors in major journals.
-Notably, our regional classifier did not distinguish between names from Iberia (Spain and Portugal) and names from Spanish and Portuguese-speaking countries in Latin America.
-Discrepancies in representation between these groups are thus undetectable by our classifier, but anecdotal evidence indicates that Iberian keynote speakers may make up a disproportionate amount of the Hispanic group.
 
-![Compared to the name collection of Pubmed authors, Celtic English honorees are overrepresented while East Asian honorees are underrepresented. Estimated composition of nationality prediction over the years of 
+
+![Compared to the name collection of Pubmed authors, Celtic English honorees are overrepresented while East Asian honorees are underrepresented. Estimated composition of nationality prediction over the years of
   (A) all Pubmed computational biology and bioinformatics journal authors,
-  (B) authors in each journal, 
+  (B) authors in each journal,
   (C) all ISCB Fellows and keynote speakers,
   (D) ISCB honorees in each honor category
   and (E) the composition's statistics of Pubmed authors (teal LOESS curve) and ISCB honorees (mean and 95% confidence interval, vertical) for each region.
-  
+
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/region_breakdown.png){#fig:region_breakdown}
+
 
 ## Conclusions
 
+A major challenge that we faced in carrying out this work is that it can be difficult to predict precise geographic origins for some groups of names.
+For example, we were unable to construct a classifier that could distinguish between names from Iberia (Spain and Portugal) and names from Spanish and Portuguese-speaking countries in Latin America.
+Discrepancies in representation between these groups are thus undetectable by our classifier.
+Hispanic honoree counts are influenced from Spain as well as Latin America.
+In these cases our analyses may substantially understate the extent to which minoritized scientists are underrepresented among honorees and authors.
+
+Biases in authorship practices may also cause us to underestimate the composition of minoritized scientists within the field.
 We estimate the composition of the field using corresponding author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956] women are underrepresented among such authors.
 Such an effect would cause us to underestimate the number of women in the field.
+Though this effect has been studied with respect to gender, we are not aware of similar work examining race, ethnicity, or nationality.
+
+Measuring representation can lead to the questions about what the right level of representation is.
+We suggest that considering equity may be more appropriate than strictly diversity.
 In addition to holding fewer corresponding authorship positions, female scientists are cited less often [@arxiv:2001.01002], invited by journals to submit papers less often [@doi:10.1371/journal.pbio.2004956] and suggested as reviewers less often [@doi:10.1038/541455a].
 Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which, for example, may lead to higher persistence for undergraduate women in geoscience [@doi:10.1130/GES01659.1].
 Efforts are underway to create Wikipedia entries for more female [@doi:10.1038/d41586-018-05947-8] and black, Asian, and minority scientists [@doi:10.1038/d41586-019-00812-8], which can help early-career scientists identify role models.
 We find that ISCB's honorees and keynote speakers, though not yet reaching gender parity, appear to be more evenly split between men and women than the field as a whole.
-On the other hand, we find that honorees include significantly few people of color than the field as a whole, and that Asian scientists are dramatically under-represented among honorees.
+On the other hand, honorees include significantly few people of color than the field as a whole, and Asian scientists are dramatically under-represented among honorees.
+Though we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
+Societies can play a positive role in enhancing equity if they design policies to honor scientists in ways that counter these biases.
 
-The central role that scientists play in evaluating each other and each other's findings makes diversity particularly critical.
+The central role that scientists play in evaluating each other and each other's findings makes equity critical.
 Even many nominally objective methods of assessing excellence (h-index, grant funding obtained, number of high-impact peer-reviewed publications, total number of peer-reviewed publications) are subject to the bias of peers during review.
 These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer's own background [@doi:10.1126/sciadv.aaw7238].
-Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, scientists of color do not appear to be recognized at levels consistent with their membership among the pool of potential honorees.
+Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.
 
 
 ## Data and Resource Availability
