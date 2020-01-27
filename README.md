@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Analysis of ISCB honorees and keynotes reveals disparities
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,8 +10,13 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge.
+Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition.
+We sought to understand the extent to which such recognitions reflected the composition of their corresponding field.
+We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows.
+We compared these individuals with last and corresponding author contributions in the society’s partner journals.
+We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors.
+Individuals from certain ancestries and countries appear to be under-recognized among honorees.
 
 ## Manubot
 
