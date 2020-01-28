@@ -8,7 +8,7 @@
   <meta name="author" content="Daniel S. Himmelstein" />
   <meta name="author" content="Ariel A. Hippen Anderson" />
   <meta name="author" content="Casey S. Greene" />
-  <meta name="dcterms.date" content="2020-01-27" />
+  <meta name="dcterms.date" content="2020-01-28" />
   <meta name="keywords" content="computational biology, iscb, disparities" />
   <title>Analysis of ISCB honorees and keynotes reveals disparities</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
   <meta property="og:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
-  <meta name="dc.date" content="2020-01-27" />
-  <meta name="citation_publication_date" content="2020-01-27" />
+  <meta name="dc.date" content="2020-01-28" />
+  <meta name="citation_publication_date" content="2020-01-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/e4e115a996310ab11d30eba5a89bf593d8d0e6f7/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e4e115a996310ab11d30eba5a89bf593d8d0e6f7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e4e115a996310ab11d30eba5a89bf593d8d0e6f7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,10 +78,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/e4e115a996310ab11d30eba5a89bf593d8d0e6f7/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/e4e115a996310ab11d30eba5a89bf593d8d0e6f7">greenelab/iscb-diversity-manuscript@e4e115a</a>
-on January 27, 2020.
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/76e2b94036d30e691daad24d818f344043685aa3">greenelab/iscb-diversity-manuscript@76e2b94</a>
+on January 28, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -228,6 +228,11 @@ The predictions represent the probability of an honoree or author being male or 
 We used the estimated probabilities and did not convert to a hard group assignment.
 For example, a query to <a href="https://genderize.io" class="uri">https://genderize.io</a> on January 26, 2020 for “Casey” returns a probability of male of .74 and a probability of female of 0.26, which we would add for an author with this first name.
 Because of the limitations of considering gender as a binary trait and inferring it from first names, we only consider predictions in aggregate and not as individual values for specific scientists.</p>
+<p>Of 411 ISCB honorees, genderize.io fails to provide gender predictions for two names.
+Of 34,005 corresponding authors, 45 were missing a fore name altogether in the raw paper metadata and 1,466 had fore names consisting only initials.
+Of the remaining authors, genderize.io failed to predict gender for 1,578 of these fore names.
+We note that approximately 52% of these NA predictions are hyphenated names, which is likely because they are more unique and thus are more difficult to find predictions for.
+87% of these names were predicted to be of Asian origin by last name (see the race/ethnicity prediction below).</p>
 <h3 id="estimation-of-race-and-ethnicity">Estimation of Race and Ethnicity</h3>
 <p>We predicted the race and ethnicity of honorees and authors using the R package <code>wru</code>.
 <code>wru</code> implements methods described in Imai and Khanna <span class="citation" data-cites="VGmZCDFw">[<a href="#ref-VGmZCDFw" role="doc-biblioref">14</a>]</span> to predict race and ethnicity using surname and location information.
@@ -236,6 +241,9 @@ We used only the surname of author or honoree to make predictions via the <code>
 However, in the case of names that were not observed in the census, the function’s behavior was to use the average demographic distribution from the census.
 We modified the function to return a status denoting that results were inconclusive instead.
 This prediction represents the probability of an honoree or author selecting a certain race or ethnicity on a census form if they lived within the United States.</p>
+<p>Of 411 ISCB honorees, <code>wru</code> fails to provide race/ethnicity predictions for 98 names.
+Of 34,050 corresponding authors, 40 were missing a last name in the paper metadata, and 8,770 had a last name for which <code>wru</code> did not provide predictions.
+One limitation of <code>wru</code> and other methods that infer race, ethnicity, or nationality from last names is potentially inaccurate prediction for scientists who changed their last name during marriage, a practice more common among women than men.</p>
 <h3 id="estimation-of-nationality">Estimation of Nationality</h3>
 <p>To complement wru’s race and ethnicity estimation, we applied the Python package <code>ethnicolr</code> developed by Sood and Laohaprapanon <span class="citation" data-cites="1Fj9uUALi">[<a href="#ref-1Fj9uUALi" role="doc-biblioref">15</a>]</span>.
 <code>ethnicolr</code> also uses United States Census data, but also adds in data curated from Wikipedia in 2009 <span class="citation" data-cites="Wcublhdw">[<a href="#ref-Wcublhdw" role="doc-biblioref">16</a>]</span>.
@@ -279,16 +287,16 @@ To determine corresponding authors for an article, we used the PMC corresponding
 <p>Although <em>Bioinformatics</em> was established in 1998 and <em>BMC Bioinformatics</em> in 2000, the metadata for these journal papers before 2002 only have initials for first and/or middle author names.
 Therefore, without first and middle names, we do not have author gender predictions before this year.</p>
 <p>We observed a slow increase of the proportion of predicted female authors, arriving at just over 20% in 2019 (Fig. <a href="#fig:gender_breakdown">1</a>, left).
-We observe very similar trend within each journal, but estimated female proportion has increased the least in <em>PLOS Computational Biology</em> (Supplementary Fig. S1A).
+We observe very similar trend within each journal, but estimated female proportion has increased the least in <em>PLOS Computational Biology</em> (<a href="https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1">supplementary notebook</a>).
 ISCB Fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. <a href="#fig:gender_breakdown">1</a>, right); however, it has not yet reached parity.
-We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (Supplementary Fig. S1B), which markedly increased after 2015.
+We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (<a href="https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1">supplementary notebook</a>), which markedly increased after 2015.
 Through 2019 there were a number of examples of meetings or ISCB Fellow classes with a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
 However, the 2020 PSB keynotes, though outside of the primary range of our analyses, had nearly all the probability ascribed to female speakers.</p>
 <div id="fig:gender_breakdown" class="fignos">
 <figure>
 <img src="https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/gender_breakdown.png" style="width:70.0%" alt="" /><figcaption><span>Figure 1:</span> ISCB Fellows and keynote speakers appear more evenly split between men and women than PubMed authors, but the proportion has not reached parity. Estimated composition of gender prediction over the years of
-(A) all Pubmed computational biology and bioinformatics journal authors,
-and (B) all ISCB Fellows and keynote speakers
+all Pubmed computational biology and bioinformatics journal authors (left),
+and all ISCB Fellows and keynote speakers (right)
 was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.</figcaption>
 </figure>
 </div>
@@ -318,10 +326,10 @@ We also tested the accuracy of the LSTM trained on the ethnicolr Wiki2009 datase
 Importantly, this model did not achieve as high an accuracy as the model trained on Wiki2019 and tested on either dataset, suggesting our new, larger dataset was an improvement.</p>
 <h3 id="assessing-the-nationality-diversity-of-authors-and-honorees">Assessing the Nationality Diversity of Authors and Honorees</h3>
 <p>We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of corresponding authors.
-We found that the proportion of authors in the Celtic English categories had decreased (Fig. <a href="#fig:region_breakdown">3</a>A, left), particularly for papers published in <em>Bioinformatics</em> and <em>BMC Bioinformatics</em> (Supplementary Fig. [S4]A).
+We found that the proportion of authors in the Celtic English categories had decreased (Fig. <a href="#fig:region_breakdown">3</a>A, left), particularly for papers published in <em>Bioinformatics</em> and <em>BMC Bioinformatics</em> (<a href="https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4">supplementary notebook</a>).
 Among keynote speakers and fellows we found that the majority of honorees are predicted to be from Celtic English countries (<a href="#fig:region_breakdown">3</a>A, right).
 Though sample sizes were small, we did observe some differences in the composition of minority groups between meetings.
-ISMB keynotes had more probability attributable to Israel, while RECOMB had more attributable to East Asian countries (Supplementary Fig. [S4]B).
+ISMB keynotes had more probability attributable to Israel, while RECOMB had more attributable to East Asian countries (<a href="https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4">supplementary notebook</a>).
 When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of CelticEnglish (including American) keynote speakers and a substantial underrepresentation of East Asian keynote speakers (<a href="#fig:region_breakdown">3</a>B).
 Outside of the primary range of our analyses, the two names of 2020 PSB keynote speakers were predicted to be of Celtic English origin (65% probability) and African origin (99% probability), respectively.</p>
 <div id="fig:region_breakdown" class="fignos">
