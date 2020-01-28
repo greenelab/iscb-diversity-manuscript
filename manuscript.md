@@ -87,11 +87,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -124,9 +124,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/76e2b94036d30e691daad24d818f344043685aa3/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@76e2b94](https://github.com/greenelab/iscb-diversity-manuscript/tree/76e2b94036d30e691daad24d818f344043685aa3)
+from [greenelab/iscb-diversity-manuscript@af75df3](https://github.com/greenelab/iscb-diversity-manuscript/tree/af75df398ba53ffdaf63cb7462ea8e67c2967c9b)
 on January 28, 2020.
 </em></small>
 
@@ -222,44 +222,28 @@ The lack of Asian scientists among keynote speakers and Fellows was particularly
 
 ### Honoree Curation
 
-#### ISCB Fellows
-
-From [ISCB's webpage listing ISCB Distinguished Fellows](http://web.archive.org/web/20200116150052/https://www.iscb.org/iscb-fellows), we found recipients listed for the years 2009-2019.
+From [ISCB's webpage listing **ISCB Distinguished Fellows**](http://web.archive.org/web/20200116150052/https://www.iscb.org/iscb-fellows), we found recipients listed by their full names for the years 2009-2019.
 We gleaned the full name of the Fellow as well as the year in which they received the honor.
-We used the name as provided on the site.
-Because our prediction methods required the full name to be split into first and last names, we chose the first non-initial name as the first name and the final name as the last name.
-We did not consider a hyphen to be a name separator:
-for hyphenated names, all components were included.
+To identify **ISMB Keynote Speakers**, we examined the webpage for each ISMB meeting.
+We found webpages with full names for keynote speakers for the years 2002-2019.
+On the PSB conference webpages, we found **PSB Keynote Speakers** for the years 1999-2020.
 
-#### ISMB Keynote Speakers
-
-We examined the webpage for each ISMB meeting.
-We were able to successfully find pages with keynote speakers for the years 2002-2019.
-We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
-We used the name as provided on the site.
-We split names into first and last names as described for ISCB Fellows.
-
-#### PSB Keynote Speakers
-
-We examined the webpage for each PSB meeting.
-We were able to successfully find pages with keynote speakers for the years 1999-2020.
-We gleaned the full name of each keynote speaker as well as the year in which they delivered a keynote.
-We used the name as provided on the site.
-We split names into first and last names as described for ISCB Fellows.
-
-#### RECOMB Keynote Speakers
-
-We examined the webpage for each RECOMB meeting.
-We found conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
+For the RECOMB meeting, we found conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
 We were able to fill in the missing years using information from the RECOMB 2016 proceedings, which summarizes the first 20 years of the RECOMB conference [@doi:10.1007/978-3-319-31957-5].
 This volume has two tables of keynote speakers from 1997-2006 (Table 14, page XXVII) and 2007-2016 (Table 4, page 8).
 Using these tables to verify the conference speaker lists, we arrived at two special instances of inclusion/exclusion.
 Although Jun Wang was not included in these tables, we were able to confirm that he was a keynote speaker in 2011 with the RECOMB 2011 proceedings [@doi:10.1007/978-3-642-20036-6], and thus we included this speaker in the dataset.
 Marian Walhout was invited as a keynote speaker but had to [cancel](http://recomb2015.mimuw.edu.pl/node/18.html) the talk due to other obligations.
 Because her name was neither mentioned in the 2015 proceedings [@doi:10.1007/978-3-319-16706-0] nor in the above-mentioned tables, we excluded this speaker from our dataset.
-For other keynote speakers, we gleaned their full name as well as the year in which they delivered a keynote.
-We used the name as provided on the site.
-We split names into first and last names as described for ISCB Fellows.
+
+#### Name processing
+
+When extracting honoree names, we began with the full name as provided on the site.
+Because our prediction methods required separated first and last names, we chose the first non-initial name as the first name and the final name as the last name.
+We did not consider a hyphen to be a name separator:
+for hyphenated names, all components were included.
+For metadata from, PubMed and PMC where first (fore) and last names are coded separately, we applied the same cleaning steps.
+We created [functions to simplify names](https://git.dhimmel.com/pubmedpy/names.html) in the pubmedpy Python package to support standardized fore and last name processing.
 
 ### Corresponding author extraction
 
