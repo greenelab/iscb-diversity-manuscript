@@ -62,9 +62,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,9 +78,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/b47900bd6a914fec0490d6963de601ea3fd4aa87">greenelab/iscb-diversity-manuscript@b47900b</a>
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/85f2510955bdb36e96f0857440668bec168f0036">greenelab/iscb-diversity-manuscript@85f2510</a>
 on January 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -250,13 +250,74 @@ We were able to define a name and nationality for 708,493 people by using the un
 Our Wikipedia-based process returned a nationality or country of origin, which was more fine-grained than the broader regional patterns that we sought to examine among honorees and authors.
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by <a href="http://www.name-prism.com/about">NamePrism</a> <span class="citation" data-cites="OqLU02w9">[<a href="#ref-OqLU02w9" role="doc-biblioref">17</a>]</span>.
 Consequently, we used the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, SouthAsian, EastAsian, European (non-British, non-Iberian), and CelticEnglish (including United States, Canada, and Australia).
-Our dataset, which we term Wiki2019, is available at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv</a>.</p>
+Table <a href="#tbl:example_names">1</a> shows the size of the training set for each of these regions, as well as examples of PubMed author names which classified to that region with greater than 95% probability.
+Our dataset, which we term Wiki2019, is available at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv</a>.
+Full information about which countries comprised each region can be found at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/data/country_to_region.tsv" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/data/country_to_region.tsv</a>.</p>
+<div id="tbl:example_names" class="tablenos">
+<table>
+<caption><span>Table 1:</span> Example of author names labeled to each region with high probability. </caption>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 41%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Region</th>
+<th>Training Size</th>
+<th>Sample Names</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Celtic English</td>
+<td>280644</td>
+<td>Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge</td>
+</tr>
+<tr class="even">
+<td>European</td>
+<td>188918</td>
+<td>Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman</td>
+</tr>
+<tr class="odd">
+<td>Hispanic</td>
+<td>66391</td>
+<td>Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente</td>
+</tr>
+<tr class="even">
+<td>East Asian</td>
+<td>54197</td>
+<td>Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi</td>
+</tr>
+<tr class="odd">
+<td>Muslim</td>
+<td>30703</td>
+<td>Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah</td>
+</tr>
+<tr class="even">
+<td>South Asian</td>
+<td>20025</td>
+<td>Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon</td>
+</tr>
+<tr class="odd">
+<td>African</td>
+<td>16105</td>
+<td>Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi</td>
+</tr>
+<tr class="even">
+<td>Israeli</td>
+<td>4549</td>
+<td>Tal Vider-Shalit, Itsik Pe’er, Michal Lavidor, Yoav Gothilf, Dvir Netanely</td>
+</tr>
+</tbody>
+</table>
+</div>
 <h4 id="nationality-prediction-with-lstm-neural-networks">Nationality Prediction with LSTM Neural Networks</h4>
-<p>We trained a Long Short-term Memory (LSTM) neural network, which was also used for ethnicolr.
+<p>We trained a Long Short-term Memory (LSTM) neural network, the same type of classifier used by ethnicolr.
 This classifier is trained to infer the region of origin from patterns in the sequences of letters.
-We evaluated multiple letter lengths and, based on this comparison, used tri-characters for the primary results described in this work.
-We compared our best performing classifier (LSTM, 3-grams) to ethnicolr’s using held out examples from ethnicolr’s Wiki2009 dataset as ground truth.
-Our prediction model, which we term Wiki2019-LSTM, is available at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5</a>.</p>
+We tested multiple character sequence lengths and, based on this comparison, used tri-characters for the primary results described in this work.
+We trained our prediction model on 80% of the Wiki2019 dataset (described above) and evaluated its performance using the remaining 20%.
+This model, which we term Wiki2019-LSTM, is available at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5</a>.</p>
 <h2 id="results">Results</h2>
 <h3 id="curated-honorees-and-literature-derived-potential-honorees">Curated Honorees and Literature-derived Potential Honorees</h3>
 <p>We curated a dataset of ISCB honorees that included 411 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
@@ -309,9 +370,13 @@ For each race/ethnicity category, the mean predicted probability of Pubmed artic
 <p>We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Fig. <a href="#fig:racial_makeup">2</a>E).
 We found that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented in most years.</p>
 <h3 id="predicting-nationality-with-lstm-neural-networks-and-wikipedia">Predicting Nationality with LSTM Neural Networks and Wikipedia</h3>
-<p>We achieved a high overall accuracy on this test data with similar precision-recall values over the classes as we saw for our Wiki2019 dataset’s test set, giving confidence in our model.
-We also tested the accuracy of the LSTM trained on the ethnicolr Wiki2009 dataset in predicting the labels for unseen names in our Wiki2019 dataset.
-Importantly, this model did not achieve as high an accuracy as the model trained on Wiki2019 and tested on either dataset, suggesting our new, larger dataset was an improvement.</p>
+<p>We next aimed to predict the nationality of honorees and authors.
+We constructed a training dataset with more than 700,000 name-nationality pairs by parsing English-language Wikipedia.
+We trained a LSTM neural network on n-grams to predict nationality.
+We found similar performance across 1, 2, and 3-grams; however, the classifier required fewer epochs to train with 3-grams so we used this length in the model that we term Wiki2019-LSTM.
+Our Wiki2019-LSTM returns, for each given name, a probability of that name originating from each of our 8 regions.
+We observed a multiclass ROC/AUC score of 0.954 for the classifier, indicating that the classifier can recapitulate name origin with high sensitivity and specificity.
+AUC calculated for each region individually was also high (Fig. <a href="#fig:wiki2019_lstm">3</a>), suggesting that our classifier was sufficient for use in a broad-scale examination of disparities.</p>
 <div id="fig:wiki2019_lstm" class="fignos">
 <figure>
 <img src="https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/fig_3.png" style="width:60.0%" alt="" /><figcaption><span>Figure 3:</span> The Wiki2019-LSTM model ranks the true nationality of Wikipedia names highly on testing data.
@@ -360,7 +425,8 @@ These could be affected by explicit biases, implicit biases, or pernicious biase
 Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.</p>
 <h2 id="data-and-resource-availability">Data and Resource Availability</h2>
 <p>A manubot instance that hosts version history for this manuscript is available under the Creative Commons Attribution License at <a href="https://github.com/greenelab/iscb-diversity-manuscript" class="uri">https://github.com/greenelab/iscb-diversity-manuscript</a>.
-Our analysis of authors and ISCB-associated honorees is available under the Creative Commons Attribution License at <a href="https://github.com/greenelab/iscb-diversity" class="uri">https://github.com/greenelab/iscb-diversity</a>, with source code also distributed under a BSD 3-Clause License.</p>
+Our analysis of authors and ISCB-associated honorees is available under the Creative Commons Attribution License at <a href="https://github.com/greenelab/iscb-diversity" class="uri">https://github.com/greenelab/iscb-diversity</a>, with source code also distributed under a BSD 3-Clause License.
+Our Wikipedia name dataset is dedicated to the public domain under CC0 License at <a href="https://github.com/greenelab/wiki-nationality-estimate" class="uri">https://github.com/greenelab/wiki-nationality-estimate</a>, with source code to construct the dataset available under a BSD 3-Clause License.</p>
 <h2 class="page_break_before" id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
