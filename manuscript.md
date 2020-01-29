@@ -6,7 +6,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-28'
+date-meta: '2020-01-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -25,9 +25,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-01-28" />
+  <meta name="dc.date" content="2020-01-29" />
 
-  <meta name="citation_publication_date" content="2020-01-28" />
+  <meta name="citation_publication_date" content="2020-01-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -87,11 +87,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -124,10 +124,10 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@af75df3](https://github.com/greenelab/iscb-diversity-manuscript/tree/af75df398ba53ffdaf63cb7462ea8e67c2967c9b)
-on January 28, 2020.
+from [greenelab/iscb-diversity-manuscript@b47900b](https://github.com/greenelab/iscb-diversity-manuscript/tree/b47900bd6a914fec0490d6963de601ea3fd4aa87)
+on January 29, 2020.
 </em></small>
 
 ## Authors
@@ -408,9 +408,13 @@ We found that white honorees have been significantly overrepresented and Asian h
 
 ### Predicting Nationality with LSTM Neural Networks and Wikipedia
 
-We achieved a high overall accuracy on this test data with similar precision-recall values over the classes as we saw for our Wiki2019 dataset’s test set, giving confidence in our model.
+We achieved a high overall accuracy on this test data with similar precision-recall values over the classes as we saw for our Wiki2019 dataset's test set, giving confidence in our model.
 We also tested the accuracy of the LSTM trained on the ethnicolr Wiki2009 dataset in predicting the labels for unseen names in our Wiki2019 dataset.
 Importantly, this model did not achieve as high an accuracy as the model trained on Wiki2019 and tested on either dataset, suggesting our new, larger dataset was an improvement.
+
+![The Wiki2019-LSTM model ranks the true nationality of Wikipedia names highly on testing data.
+The area under the ROC curve is above 94% for each category, showing strong performance regardless of nationality.
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/fig_3.png){#fig:wiki2019_lstm width=60%}
 
 ### Assessing the Nationality Diversity of Authors and Honorees
 
