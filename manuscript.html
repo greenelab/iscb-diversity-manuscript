@@ -67,9 +67,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,9 +83,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/aa94dd0735aae1f310a2a394e8761c7781e34bf4">greenelab/iscb-diversity-manuscript@aa94dd0</a>
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc">greenelab/iscb-diversity-manuscript@9c2c20e</a>
 on January 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -266,62 +266,65 @@ Our Wikipedia-based process returned a nationality or country of origin, which w
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by <a href="http://www.name-prism.com/about">NamePrism</a> <span class="citation" data-cites="OqLU02w9">[<a href="#ref-OqLU02w9" role="doc-biblioref">17</a>]</span>.
 Consequently, we used the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, SouthAsian, EastAsian, European (non-British, non-Iberian), and CelticEnglish (including United States, Canada, and Australia).
 Table <a href="#tbl:example_names">1</a> shows the size of the training set for each of these regions, as well as examples of PubMed author names which classified to that region with greater than 95% probability.
-Our dataset, which we term Wiki2019, is available at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv</a>.
-Full information about which countries comprised each region can be found at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/data/country_to_region.tsv" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/data/country_to_region.tsv</a>.</p>
+We refer to this dataset as Wiki2019 (available online in <a href="https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv"><code>annotated_names.tsv</code></a>).</p>
 <div id="tbl:example_names" class="tablenos">
 <table>
-<caption><span>Table 1:</span> Example of author names labeled to each region with high probability. </caption>
+<caption><span>Table 1:</span> <strong>Predicting nationality of names trained on Wikipedia’s living people.</strong>
+The table lists the 8 grouped regions of countries and the number of living people for each region that the LSTM was trained on.
+Example names shows actual author names that received a high prediction for each region.
+Full information about which countries comprised each region can be found in the online dataset <a href="https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/country_to_region.tsv"><code>country_to_region.tsv</code></a>.
+</caption>
 <colgroup>
-<col style="width: 19%" />
-<col style="width: 41%" />
-<col style="width: 38%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 62%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Region</th>
 <th>Training Size</th>
-<th>Sample Names</th>
+<th>Example Names</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Celtic English</td>
-<td>280644</td>
+<td>280,644</td>
 <td>Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge</td>
 </tr>
 <tr class="even">
 <td>European</td>
-<td>188918</td>
+<td>188,918</td>
 <td>Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman</td>
 </tr>
 <tr class="odd">
 <td>Hispanic</td>
-<td>66391</td>
+<td>66,391</td>
 <td>Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente</td>
 </tr>
 <tr class="even">
 <td>East Asian</td>
-<td>54197</td>
+<td>54,197</td>
 <td>Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi</td>
 </tr>
 <tr class="odd">
 <td>Muslim</td>
-<td>30703</td>
+<td>30,703</td>
 <td>Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah</td>
 </tr>
 <tr class="even">
 <td>South Asian</td>
-<td>20025</td>
+<td>20,025</td>
 <td>Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon</td>
 </tr>
 <tr class="odd">
 <td>African</td>
-<td>16105</td>
+<td>16,105</td>
 <td>Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi</td>
 </tr>
 <tr class="even">
 <td>Israeli</td>
-<td>4549</td>
+<td>4,549</td>
 <td>Tal Vider-Shalit, Itsik Pe’er, Michal Lavidor, Yoav Gothilf, Dvir Netanely</td>
 </tr>
 </tbody>
@@ -332,7 +335,7 @@ Full information about which countries comprised each region can be found at <a 
 This classifier is trained to infer the region of origin from patterns in the sequences of letters.
 We tested multiple character sequence lengths and, based on this comparison, used tri-characters for the primary results described in this work.
 We trained our prediction model on 80% of the Wiki2019 dataset (described above) and evaluated its performance using the remaining 20%.
-This model, which we term Wiki2019-LSTM, is available at <a href="https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5" class="uri">https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5</a>.</p>
+This model, which we term Wiki2019-LSTM, is available in the online file <a href="https://github.com/greenelab/wiki-nationality-estimate/blob/master/models/LSTM.h5"><code>LSTM.h5</code></a>.</p>
 <h2 id="results">Results</h2>
 <h3 id="curated-honorees-and-literature-derived-potential-honorees">Curated Honorees and Literature-derived Potential Honorees</h3>
 <p>We curated a dataset of ISCB honorees that included 411 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
@@ -439,8 +442,11 @@ Even many nominally objective methods of assessing excellence (e.g., h-index, gr
 These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer’s own background <span class="citation" data-cites="hP9R3Quu">[<a href="#ref-hP9R3Quu" role="doc-biblioref">1</a>]</span>.
 Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.</p>
 <h2 id="data-and-resource-availability">Data and Resource Availability</h2>
-<p>A manubot instance that hosts version history for this manuscript is available under the Creative Commons Attribution License at <a href="https://github.com/greenelab/iscb-diversity-manuscript" class="uri">https://github.com/greenelab/iscb-diversity-manuscript</a>.
-Our analysis of authors and ISCB-associated honorees is available under the Creative Commons Attribution License at <a href="https://github.com/greenelab/iscb-diversity" class="uri">https://github.com/greenelab/iscb-diversity</a>, with source code also distributed under a BSD 3-Clause License.
+<p>This manuscript was written <a href="https://github.com/greenelab/iscb-diversity-manuscript">openly on GitHub</a> using Manubot <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">26</a>]</span>.
+The Manubot HTML version is available under a Creative Commons Attribution (CC BY 4.0) License at <a href="https://greenelab.github.io/iscb-diversity-manuscript/" class="uri">https://greenelab.github.io/iscb-diversity-manuscript/</a>.
+Our analysis of authors and ISCB-associated honorees is available under CC BY 4.0 at <a href="https://github.com/greenelab/iscb-diversity" class="uri">https://github.com/greenelab/iscb-diversity</a>, with source code also distributed under a BSD 3-Clause License.
+Rendered Python and R notebooks from this repository are browsable at <a href="https://greenelab.github.io/iscb-diversity/" class="uri">https://greenelab.github.io/iscb-diversity/</a>.
+Our analysis of PubMed, PubMed Central, and author names relies on the Python pubmedpy package, developed as part of this project and available under a Blue Oak Model License 1.0 at <a href="https://github.com/dhimmel/pubmedpy" class="uri">https://github.com/dhimmel/pubmedpy</a> and on <a href="https://pypi.org/project/pubmedpy/">PyPI</a>.
 Our Wikipedia name dataset is dedicated to the public domain under CC0 License at <a href="https://github.com/greenelab/wiki-nationality-estimate" class="uri">https://github.com/greenelab/wiki-nationality-estimate</a>, with source code to construct the dataset available under a BSD 3-Clause License.</p>
 <h2 class="page_break_before" id="references" class="page_break_before">References</h2>
 <!-- Explicitly insert bibliography here -->
@@ -592,6 +598,12 @@ DOI: <a href="https://doi.org/10.1038/d41586-018-05947-8">10.1038/d41586-018-059
 Nicola O’Reilly<br />
 <em>Nature</em> (2019-03-07) <a href="https://doi.org/gfwhcr">https://doi.org/gfwhcr</a><br />
 DOI: <a href="https://doi.org/10.1038/d41586-019-00812-8">10.1038/d41586-019-00812-8</a></p>
+</div>
+<div id="ref-YuJbg3zO">
+<p>26. <strong>Open collaborative writing with Manubot</strong><br />
+Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
+<em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a><br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
 </div>
 </div>
 <!-- default theme -->

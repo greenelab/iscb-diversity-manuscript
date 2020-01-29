@@ -96,11 +96,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -133,9 +133,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@aa94dd0](https://github.com/greenelab/iscb-diversity-manuscript/tree/aa94dd0735aae1f310a2a394e8761c7781e34bf4)
+from [greenelab/iscb-diversity-manuscript@9c2c20e](https://github.com/greenelab/iscb-diversity-manuscript/tree/9c2c20e494ad3f497ecd4c6957ec1e109feac0cc)
 on January 29, 2020.
 </em></small>
 
@@ -357,21 +357,24 @@ Our Wikipedia-based process returned a nationality or country of origin, which w
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
 Consequently, we used the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, SouthAsian, EastAsian, European (non-British, non-Iberian), and CelticEnglish (including United States, Canada, and Australia).
 Table @tbl:example_names shows the size of the training set for each of these regions, as well as examples of PubMed author names which classified to that region with greater than 95% probability.
-Our dataset, which we term Wiki2019, is available at <https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv>.
-Full information about which countries comprised each region can be found at <https://github.com/greenelab/wiki-nationality-estimate/master/data/country_to_region.tsv>.
+We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
 
-| Region | Training Size | Sample Names |
-| ------ | ------------- | ------------ |
-| Celtic English | 280644 | Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge |
-| European | 188918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
-| Hispanic | 66391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
-| East Asian | 54197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
-| Muslim | 30703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
-| South Asian | 20025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
-| African | 16105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
-| Israeli | 4549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
- 
-Table: Example of author names labeled to each region with high probability. {#tbl:example_names}
+| Region | Training Size | Example Names |
+| ------ | ------ | -------------------- |
+| Celtic English | 280,644 | Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge |
+| European | 188,918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
+| Hispanic | 66,391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
+| East Asian | 54,197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
+| Muslim | 30,703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
+| South Asian | 20,025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
+| African | 16,105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
+| Israeli | 4,549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
+
+Table: **Predicting nationality of names trained on Wikipedia's living people.**
+The table lists the 8 grouped regions of countries and the number of living people for each region that the LSTM was trained on.
+Example names shows actual author names that received a high prediction for each region.
+Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/country_to_region.tsv).
+{#tbl:example_names}
 
 #### Nationality Prediction with LSTM Neural Networks
 
@@ -379,7 +382,7 @@ We trained a Long Short-term Memory (LSTM) neural network, the same type of clas
 This classifier is trained to infer the region of origin from patterns in the sequences of letters.
 We tested multiple character sequence lengths and, based on this comparison, used tri-characters for the primary results described in this work.
 We trained our prediction model on 80% of the Wiki2019 dataset (described above) and evaluated its performance using the remaining 20%.
-This model, which we term Wiki2019-LSTM, is available at <https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5>.
+This model, which we term Wiki2019-LSTM, is available in the online file [`LSTM.h5`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/models/LSTM.h5).
 
 
 ## Results
@@ -506,8 +509,11 @@ Our efforts to measure the diversity of honorees in an international society sug
 
 ## Data and Resource Availability
 
-A manubot instance that hosts version history for this manuscript is available under the Creative Commons Attribution License at <https://github.com/greenelab/iscb-diversity-manuscript>.
-Our analysis of authors and ISCB-associated honorees is available under the Creative Commons Attribution License at <https://github.com/greenelab/iscb-diversity>, with source code also distributed under a BSD 3-Clause License.
+This manuscript was written [openly on GitHub](https://github.com/greenelab/iscb-diversity-manuscript) using Manubot [@doi:10.1371/journal.pcbi.1007128].
+The Manubot HTML version is available under a Creative Commons Attribution (CC BY 4.0) License at <https://greenelab.github.io/iscb-diversity-manuscript/>.
+Our analysis of authors and ISCB-associated honorees is available under CC BY 4.0 at <https://github.com/greenelab/iscb-diversity>, with source code also distributed under a BSD 3-Clause License.
+Rendered Python and R notebooks from this repository are browsable at <https://greenelab.github.io/iscb-diversity/>.
+Our analysis of PubMed, PubMed Central, and author names relies on the Python pubmedpy package, developed as part of this project and available under a Blue Oak Model License 1.0 at <https://github.com/dhimmel/pubmedpy> and on [PyPI](https://pypi.org/project/pubmedpy/).
 Our Wikipedia name dataset is dedicated to the public domain under CC0 License at <https://github.com/greenelab/wiki-nationality-estimate>, with source code to construct the dataset available under a BSD 3-Clause License.
 
 
