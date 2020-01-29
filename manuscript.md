@@ -3,6 +3,7 @@ author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
 - Ariel A. Hippen Anderson
+- Matthew R. Gazzara
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
@@ -65,6 +66,14 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@AHippenAnderson" />
 
+  <meta name="citation_author" content="Matthew R. Gazzara" />
+
+  <meta name="citation_author_institution" content="Department of Genetics, Perelman School of Medicine, University of Pennsylvania" />
+
+  <meta name="citation_author_orcid" content="0000-0001-7710-4551" />
+
+  <meta name="twitter:creator" content="@MR_Gazzara" />
+
   <meta name="citation_author" content="Casey S. Greene" />
 
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
@@ -87,11 +96,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -124,9 +133,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/aa94dd0735aae1f310a2a394e8761c7781e34bf4/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@85f2510](https://github.com/greenelab/iscb-diversity-manuscript/tree/85f2510955bdb36e96f0857440668bec168f0036)
+from [greenelab/iscb-diversity-manuscript@aa94dd0](https://github.com/greenelab/iscb-diversity-manuscript/tree/aa94dd0735aae1f310a2a394e8761c7781e34bf4)
 on January 29, 2020.
 </em></small>
 
@@ -165,6 +174,17 @@ on January 29, 2020.
     [AHippenAnderson](https://twitter.com/AHippenAnderson)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
+  </small>
+
++ **Matthew R. Gazzara**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-7710-4551](https://orcid.org/0000-0001-7710-4551)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [mrgazzara](https://github.com/mrgazzara)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [MR_Gazzara](https://twitter.com/MR_Gazzara)<br>
+  <small>
+     Department of Genetics, Perelman School of Medicine, University of Pennsylvania
   </small>
 
 + **Casey S. Greene**<br>
