@@ -87,11 +87,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -124,9 +124,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/85f2510955bdb36e96f0857440668bec168f0036/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@b47900b](https://github.com/greenelab/iscb-diversity-manuscript/tree/b47900bd6a914fec0490d6963de601ea3fd4aa87)
+from [greenelab/iscb-diversity-manuscript@85f2510](https://github.com/greenelab/iscb-diversity-manuscript/tree/85f2510955bdb36e96f0857440668bec168f0036)
 on January 29, 2020.
 </em></small>
 
@@ -336,15 +336,30 @@ We were able to define a name and nationality for 708,493 people by using the un
 Our Wikipedia-based process returned a nationality or country of origin, which was more fine-grained than the broader regional patterns that we sought to examine among honorees and authors.
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
 Consequently, we used the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, SouthAsian, EastAsian, European (non-British, non-Iberian), and CelticEnglish (including United States, Canada, and Australia).
+Table @tbl:example_names shows the size of the training set for each of these regions, as well as examples of PubMed author names which classified to that region with greater than 95% probability.
 Our dataset, which we term Wiki2019, is available at <https://github.com/greenelab/wiki-nationality-estimate/master/data/annotated_names.tsv>.
+Full information about which countries comprised each region can be found at <https://github.com/greenelab/wiki-nationality-estimate/master/data/country_to_region.tsv>.
+
+| Region | Training Size | Sample Names |
+| ------ | ------------- | ------------ |
+| Celtic English | 280644 | Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge |
+| European | 188918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
+| Hispanic | 66391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
+| East Asian | 54197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
+| Muslim | 30703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
+| South Asian | 20025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
+| African | 16105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
+| Israeli | 4549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
+ 
+Table: Example of author names labeled to each region with high probability. {#tbl:example_names}
 
 #### Nationality Prediction with LSTM Neural Networks
 
-We trained a Long Short-term Memory (LSTM) neural network, which was also used for ethnicolr.
+We trained a Long Short-term Memory (LSTM) neural network, the same type of classifier used by ethnicolr.
 This classifier is trained to infer the region of origin from patterns in the sequences of letters.
-We evaluated multiple letter lengths and, based on this comparison, used tri-characters for the primary results described in this work.
-We compared our best performing classifier (LSTM, 3-grams) to ethnicolr's using held out examples from ethnicolr's Wiki2009 dataset as ground truth.
-Our prediction model, which we term Wiki2019-LSTM, is available at <https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5>.
+We tested multiple character sequence lengths and, based on this comparison, used tri-characters for the primary results described in this work.
+We trained our prediction model on 80% of the Wiki2019 dataset (described above) and evaluated its performance using the remaining 20%.
+This model, which we term Wiki2019-LSTM, is available at <https://github.com/greenelab/wiki-nationality-estimate/master/models/LSTM.h5>.
 
 
 ## Results
@@ -408,9 +423,13 @@ We found that white honorees have been significantly overrepresented and Asian h
 
 ### Predicting Nationality with LSTM Neural Networks and Wikipedia
 
-We achieved a high overall accuracy on this test data with similar precision-recall values over the classes as we saw for our Wiki2019 dataset's test set, giving confidence in our model.
-We also tested the accuracy of the LSTM trained on the ethnicolr Wiki2009 dataset in predicting the labels for unseen names in our Wiki2019 dataset.
-Importantly, this model did not achieve as high an accuracy as the model trained on Wiki2019 and tested on either dataset, suggesting our new, larger dataset was an improvement.
+We next aimed to predict the nationality of honorees and authors.
+We constructed a training dataset with more than 700,000 name-nationality pairs by parsing English-language Wikipedia.
+We trained a LSTM neural network on n-grams to predict nationality.
+We found similar performance across 1, 2, and 3-grams; however, the classifier required fewer epochs to train with 3-grams so we used this length in the model that we term Wiki2019-LSTM.
+Our Wiki2019-LSTM returns, for each given name, a probability of that name originating from each of our 8 regions.
+We observed a multiclass ROC/AUC score of 0.954 for the classifier, indicating that the classifier can recapitulate name origin with high sensitivity and specificity.
+AUC calculated for each region individually was also high (Fig. {@fig:wiki2019_lstm}), suggesting that our classifier was sufficient for use in a broad-scale examination of disparities.
 
 ![The Wiki2019-LSTM model ranks the true nationality of Wikipedia names highly on testing data.
 The area under the ROC curve is above 94% for each category, showing strong performance regardless of nationality.
@@ -469,6 +488,7 @@ Our efforts to measure the diversity of honorees in an international society sug
 
 A manubot instance that hosts version history for this manuscript is available under the Creative Commons Attribution License at <https://github.com/greenelab/iscb-diversity-manuscript>.
 Our analysis of authors and ISCB-associated honorees is available under the Creative Commons Attribution License at <https://github.com/greenelab/iscb-diversity>, with source code also distributed under a BSD 3-Clause License.
+Our Wikipedia name dataset is dedicated to the public domain under CC0 License at <https://github.com/greenelab/wiki-nationality-estimate>, with source code to construct the dataset available under a BSD 3-Clause License.
 
 
 ## References {.page_break_before}
