@@ -8,7 +8,7 @@
   <meta name="author" content="Daniel S. Himmelstein" />
   <meta name="author" content="Ariel A. Hippen Anderson" />
   <meta name="author" content="Casey S. Greene" />
-  <meta name="dcterms.date" content="2020-01-28" />
+  <meta name="dcterms.date" content="2020-01-29" />
   <meta name="keywords" content="computational biology, iscb, disparities" />
   <title>Analysis of ISCB honorees and keynotes reveals disparities</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
   <meta property="og:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
-  <meta name="dc.date" content="2020-01-28" />
-  <meta name="citation_publication_date" content="2020-01-28" />
+  <meta name="dc.date" content="2020-01-29" />
+  <meta name="citation_publication_date" content="2020-01-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,10 +78,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/af75df398ba53ffdaf63cb7462ea8e67c2967c9b/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/b47900bd6a914fec0490d6963de601ea3fd4aa87/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/af75df398ba53ffdaf63cb7462ea8e67c2967c9b">greenelab/iscb-diversity-manuscript@af75df3</a>
-on January 28, 2020.
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/b47900bd6a914fec0490d6963de601ea3fd4aa87">greenelab/iscb-diversity-manuscript@b47900b</a>
+on January 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -312,17 +312,23 @@ We found that white honorees have been significantly overrepresented and Asian h
 <p>We achieved a high overall accuracy on this test data with similar precision-recall values over the classes as we saw for our Wiki2019 dataset’s test set, giving confidence in our model.
 We also tested the accuracy of the LSTM trained on the ethnicolr Wiki2009 dataset in predicting the labels for unseen names in our Wiki2019 dataset.
 Importantly, this model did not achieve as high an accuracy as the model trained on Wiki2019 and tested on either dataset, suggesting our new, larger dataset was an improvement.</p>
+<div id="fig:wiki2019_lstm" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/fig_3.png" style="width:60.0%" alt="" /><figcaption><span>Figure 3:</span> The Wiki2019-LSTM model ranks the true nationality of Wikipedia names highly on testing data.
+The area under the ROC curve is above 94% for each category, showing strong performance regardless of nationality.</figcaption>
+</figure>
+</div>
 <h3 id="assessing-the-nationality-diversity-of-authors-and-honorees">Assessing the Nationality Diversity of Authors and Honorees</h3>
 <p>We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of corresponding authors.
-We found that the proportion of authors in the Celtic English categories had decreased (Fig. <a href="#fig:region_breakdown">3</a>A, left), particularly for papers published in <em>Bioinformatics</em> and <em>BMC Bioinformatics</em> (<a href="https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4">supplementary notebook</a>).
-Among keynote speakers and fellows we found that the majority of honorees are predicted to be from Celtic English countries (<a href="#fig:region_breakdown">3</a>A, right).
+We found that the proportion of authors in the Celtic English categories had decreased (Fig. <a href="#fig:region_breakdown">4</a>A, left), particularly for papers published in <em>Bioinformatics</em> and <em>BMC Bioinformatics</em> (<a href="https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4">supplementary notebook</a>).
+Among keynote speakers and fellows we found that the majority of honorees are predicted to be from Celtic English countries (<a href="#fig:region_breakdown">4</a>A, right).
 Though sample sizes were small, we did observe some differences in the composition of minority groups between meetings.
 ISMB keynotes had more probability attributable to Israel, while RECOMB had more attributable to East Asian countries (<a href="https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4">supplementary notebook</a>).
-When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of CelticEnglish (including American) keynote speakers and a substantial underrepresentation of East Asian keynote speakers (<a href="#fig:region_breakdown">3</a>B).
+When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of CelticEnglish (including American) keynote speakers and a substantial underrepresentation of East Asian keynote speakers (<a href="#fig:region_breakdown">4</a>B).
 Outside of the primary range of our analyses, the two names of 2020 PSB keynote speakers were predicted to be of Celtic English origin (65% probability) and African origin (99% probability), respectively.</p>
 <div id="fig:region_breakdown" class="fignos">
 <figure>
-<img src="https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/region_breakdown.png" alt="" /><figcaption><span>Figure 3:</span> Compared to the name collection of Pubmed authors, Celtic English honorees are overrepresented while East Asian honorees are underrepresented. Estimated composition of nationality prediction over the years of
+<img src="https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/region_breakdown.png" alt="" /><figcaption><span>Figure 4:</span> Compared to the name collection of Pubmed authors, Celtic English honorees are overrepresented while East Asian honorees are underrepresented. Estimated composition of nationality prediction over the years of
 (A) all Pubmed computational biology and bioinformatics journal authors,
 and (B) all ISCB Fellows and keynote speakers
 was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
