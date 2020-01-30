@@ -96,15 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9db99b8da37b941d50216b2d9a97ff962fb66f6f/build/assets/thumbnail.png" />
+
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9db99b8da37b941d50216b2d9a97ff962fb66f6f/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,9 +137,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@cf6d5dd](https://github.com/greenelab/iscb-diversity-manuscript/tree/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079)
+from [greenelab/iscb-diversity-manuscript@9db99b8](https://github.com/greenelab/iscb-diversity-manuscript/tree/9db99b8da37b941d50216b2d9a97ff962fb66f6f)
 on January 30, 2020.
 </em></small>
 
