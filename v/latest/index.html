@@ -67,13 +67,13 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9db99b8da37b941d50216b2d9a97ff962fb66f6f/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9db99b8da37b941d50216b2d9a97ff962fb66f6f/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/abafcc8de04b475884b97b924afdbbfbcdcb1162/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/abafcc8de04b475884b97b924afdbbfbcdcb1162/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/9db99b8da37b941d50216b2d9a97ff962fb66f6f/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/9db99b8da37b941d50216b2d9a97ff962fb66f6f">greenelab/iscb-diversity-manuscript@9db99b8</a>
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/abafcc8de04b475884b97b924afdbbfbcdcb1162">greenelab/iscb-diversity-manuscript@abafcc8</a>
 on January 30, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -393,12 +393,19 @@ We found similar performance across 1, 2, and 3-grams; however, the classifier r
 Our Wiki2019-LSTM returns, for each given name, a probability of that name originating from each of the specified eight regions.
 We observed a multiclass area under the receiver operating characteristic curve (AUC) score of 95.4% for the classifier, indicating that the classifier can recapitulate name origins with high sensitivity and specificity.
 For each individual region, the high AUC (above 94%, Fig. <a href="#fig:wiki2019_lstm">3</a>A) suggests that our classifier was sufficient for use in a broad-scale examination of disparities.
-We also observed that the model was well calibrated (Fig. <a href="#fig:wiki2019_lstm">3</a>B).</p>
+We also observed that the model was well calibrated (Fig. <a href="#fig:wiki2019_lstm">3</a>B).
+We also examined potential systematic errors between pairs of nationality groupings with a confusion heatmap and did not find off-diagonal enrichment for any pairing (Fig. <a href="#fig:wiki2019_lstm">3</a>C).</p>
 <div id="fig:wiki2019_lstm" class="fignos">
 <figure>
 <img src="https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/fig_3.png" style="width:100.0%" alt="" /><figcaption><span>Figure 3:</span> The Wiki2019-LSTM model ranks the true nationality of Wikipedia names highly on testing data.
 The area under the ROC curve is above 94% for each category, showing strong performance regardless of nationality (A).
-Calibration curve shows consistency between the predicted probabilities (midpoints of each fixed-width bin) and the observed fraction of names in each bin (B).</figcaption>
+A calibration curve, computed with the caret R package, shows consistency between the predicted probabilities (midpoints of each fixed-width bin) and the observed fraction of names in each bin (B).
+Heatmap showing whether names from a given region (x-axis) received higher (purple) or lower (green) predictions for each region (y-axis) than would be expected by region prevalence alone (C).
+The values represent log<sub>2</sub> fold change between the average predicted probability and the prevalence of the corresponding predicted region in the testing dataset (null).
+Scaling by region prevalence accounts for the imbalance of regions in the testing dataset.
+In all cases, the classifier predicts the true region above the expected null probability (matrix diagonals are all purple).
+For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
+For example, the classifier does not often mistake Hispanic names as Israeli, but is more prone to mistaking Muslim names as South Asian.</figcaption>
 </figure>
 </div>
 <h3 id="assessing-the-nationality-diversity-of-authors-and-honorees">Assessing the Nationality Diversity of Authors and Honorees</h3>
