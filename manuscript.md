@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/664cf755b6c29de3ec9ed592c04a462068f2ef12/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/664cf755b6c29de3ec9ed592c04a462068f2ef12/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/664cf755b6c29de3ec9ed592c04a462068f2ef12/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/abafcc8de04b475884b97b924afdbbfbcdcb1162/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/664cf755b6c29de3ec9ed592c04a462068f2ef12/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/abafcc8de04b475884b97b924afdbbfbcdcb1162/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/664cf755b6c29de3ec9ed592c04a462068f2ef12/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -137,9 +137,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/abafcc8de04b475884b97b924afdbbfbcdcb1162/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/664cf755b6c29de3ec9ed592c04a462068f2ef12/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@abafcc8](https://github.com/greenelab/iscb-diversity-manuscript/tree/abafcc8de04b475884b97b924afdbbfbcdcb1162)
+from [greenelab/iscb-diversity-manuscript@664cf75](https://github.com/greenelab/iscb-diversity-manuscript/tree/664cf755b6c29de3ec9ed592c04a462068f2ef12)
 on January 30, 2020.
 </em></small>
 
@@ -204,7 +204,7 @@ on January 30, 2020.
 
 
 
-## Abstract {.page_break_before}
+## Abstract
 
 Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge.
 Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition.
