@@ -96,11 +96,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -133,9 +133,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@9d566e6](https://github.com/greenelab/iscb-diversity-manuscript/tree/9d566e667b41281c24c0620c411616f8398bb20d)
+from [greenelab/iscb-diversity-manuscript@cf6d5dd](https://github.com/greenelab/iscb-diversity-manuscript/tree/cf6d5dd92bbbf97063b64f1fdd9b2b7516269079)
 on January 30, 2020.
 </em></small>
 
@@ -517,5 +517,3 @@ Our Wikipedia name dataset is dedicated to the public domain under CC0 License a
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
-
-
