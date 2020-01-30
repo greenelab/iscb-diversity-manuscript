@@ -96,11 +96,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b9ce9db7659af5b467fcf86f2f89b768fd41a746/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b9ce9db7659af5b467fcf86f2f89b768fd41a746/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b9ce9db7659af5b467fcf86f2f89b768fd41a746/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -133,9 +133,9 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b9ce9db7659af5b467fcf86f2f89b768fd41a746/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9d566e667b41281c24c0620c411616f8398bb20d/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@b9ce9db](https://github.com/greenelab/iscb-diversity-manuscript/tree/b9ce9db7659af5b467fcf86f2f89b768fd41a746)
+from [greenelab/iscb-diversity-manuscript@9d566e6](https://github.com/greenelab/iscb-diversity-manuscript/tree/9d566e667b41281c24c0620c411616f8398bb20d)
 on January 30, 2020.
 </em></small>
 
