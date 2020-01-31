@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-30'
+date-meta: '2020-01-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-01-30" />
+  <meta name="dc.date" content="2020-01-31" />
 
-  <meta name="citation_publication_date" content="2020-01-30" />
+  <meta name="citation_publication_date" content="2020-01-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c6e19bb21a2fa3b0dc21409343a9c3730cf8978b/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c6e19bb21a2fa3b0dc21409343a9c3730cf8978b/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c6e19bb21a2fa3b0dc21409343a9c3730cf8978b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c6e19bb21a2fa3b0dc21409343a9c3730cf8978b/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/eb784d1b8746caf9c585288714990ae131d473e5/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c6e19bb21a2fa3b0dc21409343a9c3730cf8978b/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/eb784d1b8746caf9c585288714990ae131d473e5/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -137,10 +137,10 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c6e19bb21a2fa3b0dc21409343a9c3730cf8978b/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@c6e19bb](https://github.com/greenelab/iscb-diversity-manuscript/tree/c6e19bb21a2fa3b0dc21409343a9c3730cf8978b)
-on January 30, 2020.
+from [greenelab/iscb-diversity-manuscript@eb784d1](https://github.com/greenelab/iscb-diversity-manuscript/tree/eb784d1b8746caf9c585288714990ae131d473e5)
+on January 31, 2020.
 </em></small>
 
 ## Authors
@@ -294,7 +294,7 @@ From PubMed, we compiled a catalog of 29,755 journal articles published from whe
 We were able to retrieve authorship information for all but 6 of these articles using PubMed or PubMed Central.
 
 To determine corresponding authors for an article, we relied on PMC data if available (20,696 articles) and otherwise fell back to PubMed data (9,053 articles).
-Almost all articles without PMC data were from _Bioinformatics_ because it is a "selective deposit" rather than "full paricipation" journal in PMC.
+Almost all articles without PMC data were from _Bioinformatics_ because it is a "selective deposit" rather than "full participation" journal in PMC.
 
 We performed further analysis on PMC authors to learn more about corresponding author practices.
 First, we developed and evaluated a method to infer a corresponding author when the coded corresponding status was not available.
