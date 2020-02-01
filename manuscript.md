@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9e5f468a0cee58d93409c4006e47e64f70f46579/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9e5f468a0cee58d93409c4006e47e64f70f46579/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...9e5f468a0cee58d93409c4006e47e64f70f46579) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...95aa2ef7ba251e02bd23e38ac21a0e7c5573a012) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@9e5f468](https://github.com/greenelab/iscb-diversity-manuscript/tree/9e5f468a0cee58d93409c4006e47e64f70f46579)
+from [greenelab/iscb-diversity-manuscript@95aa2ef](https://github.com/greenelab/iscb-diversity-manuscript/tree/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012)
 on February 1, 2020.
 </em></small>
 
@@ -329,7 +329,7 @@ For example, a query to <https://genderize.io> on January 26, 2020 for "Casey" r
 Because of the limitations of considering gender as a binary trait and inferring it from first names, we only consider predictions in aggregate and not as individual values for specific scientists.
 
 Of 411 ISCB honorees, genderize.io fails to provide gender predictions for two names.
-Of 34,005 corresponding authors, 45 were missing a fore name altogether in the raw paper metadata and 1,466 had fore names consisting only initials.
+Of 34,005 corresponding authors, 45 were missing a fore name altogether in the raw paper metadata and 1,466 had fore names consisting of only initials.
 Of the remaining authors, genderize.io failed to predict gender for 1,578 of these fore names.
 We note that approximately 52% of these NA predictions are hyphenated names, which is likely because they are more unique and thus are more difficult to find predictions for.
 87% of these names were predicted to be of Asian origin by last name (see the race/ethnicity prediction model below).
