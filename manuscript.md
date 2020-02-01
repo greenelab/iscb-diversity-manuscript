@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-01-31'
+date-meta: '2020-02-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-01-31" />
+  <meta name="dc.date" content="2020-02-01" />
 
-  <meta name="citation_publication_date" content="2020-01-31" />
+  <meta name="citation_publication_date" content="2020-02-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/2cd0277f3e085f2eda5851daf9952c994577cb66/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2cd0277f3e085f2eda5851daf9952c994577cb66/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2cd0277f3e085f2eda5851daf9952c994577cb66/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/eb784d1b8746caf9c585288714990ae131d473e5/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2cd0277f3e085f2eda5851daf9952c994577cb66/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/eb784d1b8746caf9c585288714990ae131d473e5/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2cd0277f3e085f2eda5851daf9952c994577cb66/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,24 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...2cd0277f3e085f2eda5851daf9952c994577cb66) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/eb784d1b8746caf9c585288714990ae131d473e5/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/2cd0277f3e085f2eda5851daf9952c994577cb66/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@eb784d1](https://github.com/greenelab/iscb-diversity-manuscript/tree/eb784d1b8746caf9c585288714990ae131d473e5)
-on January 31, 2020.
+from [greenelab/iscb-diversity-manuscript@2cd0277](https://github.com/greenelab/iscb-diversity-manuscript/tree/2cd0277f3e085f2eda5851daf9952c994577cb66)
+on February 1, 2020.
 </em></small>
+
+<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+[
+[]{.fas .fa-info-circle .fa-lg} **Nationality groupings under revision**<br>
+Please see [discussion here](https://github.com/greenelab/iscb-diversity-manuscript/issues/27) regarding possible issues with this manuscript's usage of nationality and grouping of countries based on the Name-Prism terminology.
+We are working to modify this study to address the concerns.
+]{.banner .lightred}
 
 ## Authors
 
