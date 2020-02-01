@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/50b2081865cba645a653636648d3abe67692f469/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9e5f468a0cee58d93409c4006e47e64f70f46579/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/50b2081865cba645a653636648d3abe67692f469/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9e5f468a0cee58d93409c4006e47e64f70f46579/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...50b2081865cba645a653636648d3abe67692f469) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...9e5f468a0cee58d93409c4006e47e64f70f46579) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9e5f468a0cee58d93409c4006e47e64f70f46579/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@50b2081](https://github.com/greenelab/iscb-diversity-manuscript/tree/50b2081865cba645a653636648d3abe67692f469)
+from [greenelab/iscb-diversity-manuscript@9e5f468](https://github.com/greenelab/iscb-diversity-manuscript/tree/9e5f468a0cee58d93409c4006e47e64f70f46579)
 on February 1, 2020.
 </em></small>
 
@@ -307,7 +307,7 @@ Almost all articles without PMC data were from _Bioinformatics_ because it is a 
 
 We performed further analysis on PMC authors to learn more about corresponding author practices.
 First, we developed and evaluated a method to infer a corresponding author when the coded corresponding status was not available.
-For papers with multiple authors and at least one corresponding author, the first author was corresponding 43% of the time, whearas the last author was corresponding 62% of the time.
+For papers with multiple authors and at least one corresponding author, the first author was corresponding 43% of the time, whereas the last author was corresponding 62% of the time.
 Therefore, we assumed the last author was corresponding when coded corresponding author status was not available (120 articles from PMC and all articles from PubMed).
 
 Second, we investigated the number of corresponding authors for PMC articles.
