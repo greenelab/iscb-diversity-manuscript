@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/3da6108b9910bf1a2b55f1e148a038bb71747f58/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/50b2081865cba645a653636648d3abe67692f469/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/3da6108b9910bf1a2b55f1e148a038bb71747f58/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/50b2081865cba645a653636648d3abe67692f469/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...3da6108b9910bf1a2b55f1e148a038bb71747f58) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...50b2081865cba645a653636648d3abe67692f469) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/50b2081865cba645a653636648d3abe67692f469/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@3da6108](https://github.com/greenelab/iscb-diversity-manuscript/tree/3da6108b9910bf1a2b55f1e148a038bb71747f58)
+from [greenelab/iscb-diversity-manuscript@50b2081](https://github.com/greenelab/iscb-diversity-manuscript/tree/50b2081865cba645a653636648d3abe67692f469)
 on February 1, 2020.
 </em></small>
 
@@ -373,7 +373,7 @@ We used regular expressions to parse out the person's name from this structure a
 We were able to define a name and nationality for 708,493 people by using the union of these strategies.
 This process produced country labels that were more fine-grained than the broader regional patterns that we sought to examine among honorees and authors.
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
-Consequently, we used the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Muslim, South Asian, East Asian, European (non-British, non-Iberian), and Celtic English (including US, Canada, and Australia).
+Consequently, we used the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Arabic, South Asian, East Asian, European (non-British, non-Iberian), and Celtic English (including US, Canada, and Australia).
 Table @tbl:example_names shows the size of the training set for each of these regions as well as a few examples of PubMed author names that had at least 90% prediction probability in that region.
 We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
 
@@ -383,7 +383,7 @@ We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`
 | European | 188,918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
 | Hispanic | 66,391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
 | East Asian | 54,197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
-| Muslim | 30,703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
+| Arabic | 30,703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
 | South Asian | 20,025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
 | African | 16,105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
 | Israeli | 4,549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
@@ -474,7 +474,7 @@ The values represent log~2~ fold change between the average predicted probabilit
 Scaling by region prevalence accounts for the imbalance of regions in the testing dataset.
 In all cases, the classifier predicts the true region above the expected null probability (matrix diagonals are all purple).
 For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
-For example, the classifier does not often mistake Hispanic names as Israeli, but is more prone to mistaking Muslim names as South Asian.
+For example, the classifier does not often mistake Hispanic names as Israeli, but is more prone to mistaking Arabic names as South Asian.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
 
 ### Assessing the Name Origin Diversity of Authors and Honorees
