@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/3da6108b9910bf1a2b55f1e148a038bb71747f58/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/3da6108b9910bf1a2b55f1e148a038bb71747f58/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...3da6108b9910bf1a2b55f1e148a038bb71747f58) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/3da6108b9910bf1a2b55f1e148a038bb71747f58/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@e642781](https://github.com/greenelab/iscb-diversity-manuscript/tree/e64278142b4fdd02cdbed5a8b6823cf58ecd9ebc)
+from [greenelab/iscb-diversity-manuscript@3da6108](https://github.com/greenelab/iscb-diversity-manuscript/tree/3da6108b9910bf1a2b55f1e148a038bb71747f58)
 on February 1, 2020.
 </em></small>
 
@@ -366,6 +366,7 @@ For each Wikipedia page, we used two strategies to find a full birth name and lo
 First, we used information from the personal details sidebar; the information in this sidebar varied widely but often contained a full name and a place of birth.
 Second, in the body of the text of most English-language biographical Wikipedia pages, the first sentence usually begins with, for example, "John Edward Smith (born 1 January 1970) is an American novelist known for ..."
 This structure comes from editor [guidance on biography articles](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Biography#Context) and is designed to capture:
+
 > ... the country of which the person is a citizen, national or permanent resident, or if the person is notable mainly for past events, the country where the person was a citizen, national or permanent resident when the person became notable.
 
 We used regular expressions to parse out the person's name from this structure and checked that the expression after "is a" matched a list of nationalities.
