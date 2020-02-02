@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-02-01'
+date-meta: '2020-02-02'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-02-01" />
+  <meta name="dc.date" content="2020-02-02" />
 
-  <meta name="citation_publication_date" content="2020-02-01" />
+  <meta name="citation_publication_date" content="2020-02-02" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...95aa2ef7ba251e02bd23e38ac21a0e7c5573a012) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@95aa2ef](https://github.com/greenelab/iscb-diversity-manuscript/tree/95aa2ef7ba251e02bd23e38ac21a0e7c5573a012)
-on February 1, 2020.
+from [greenelab/iscb-diversity-manuscript@f2c24e3](https://github.com/greenelab/iscb-diversity-manuscript/tree/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2)
+on February 2, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -220,9 +220,9 @@ Being invited to deliver a keynote at an international society meeting or named 
 We sought to understand the extent to which such recognitions reflected the composition of their corresponding field.
 We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows, an honorary group within the society.
 We compared these honorees with last and corresponding author contributions in field-specific journals.
-We used multiple methods to estimate the race, ethnicity, gender, and name origin of authors and the recipients of these honors.
+We used multiple methods to estimate the race, ethnicity, gender, and name groupings of authors and the recipients of these honors.
 To address weaknesses in existing approaches, we built a new dataset of more than 700,000 people with name-nationality pairs from Wikipedia and trained long short-term memory neural networks to make predictions.
-Every approach consistently shows that white scientists are overrepresented among speakers and honorees, while scientists of color are underrepresented.
+Every approach consistently suggests that white scientists are overrepresented among speakers and honorees, while scientists of color are underrepresented.
 
 
 ## Introduction
@@ -371,25 +371,31 @@ This structure comes from editor [guidance on biography articles](https://en.wik
 
 We used regular expressions to parse out the person's name from this structure and checked that the expression after "is a" matched a list of nationalities.
 We were able to define a name and nationality for 708,493 people by using the union of these strategies.
-This process produced country labels that were more fine-grained than the broader regional patterns that we sought to examine among honorees and authors.
-We initially grouped names by continent, but later decided to model our categorization after the hierarchical nationality taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
-Consequently, we used the following categories: Hispanic (including Latin America and Iberia), African, Israeli, Arabic, South Asian, East Asian, European (non-British, non-Iberian), and Celtic English (including US, Canada, and Australia).
-Table @tbl:example_names shows the size of the training set for each of these regions as well as a few examples of PubMed author names that had at least 90% prediction probability in that region.
+This process produced country labels that were more fine-grained than the broader patterns that we sought to examine among honorees and authors.
+We initially grouped names by continent, but later decided to model our categorization after the hierarchical taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
+The NamePrism taxonomy was derived from name-country pairs by producing an embedding of names by Twitter contact patterns and then grouping countries using the similarity of names from those countries.
+In an earlier version of this manuscript we also used category names derived from NamePrism, but the titles of the groupings were problematic so we have recoded the groupings to letters.
+The countries associated with each grouping are shown in Fig {@fig:wiki2019_lstm}.
+Table @tbl:example_names shows the size of the training set for each of these groupings as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
 We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
 
-| Region | Training Size | Example Names |
-| ------ | ------ | -------------------- |
-| Celtic English | 280,644 | Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge |
-| European | 188,918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
-| Hispanic | 66,391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
-| East Asian | 54,197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
-| Arabic | 30,703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
-| South Asian | 20,025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
-| African | 16,105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
-| Israeli | 4,549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
+![NamePrism groups countries by name similarity. We used this grouping and
+ recoded names assigned to groups in the initial publication to letter keys.
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="70%"}
 
-Table: **Predicting name-origin regions of names trained on Wikipedia's living people.**
-The table lists the 8 grouped regions of countries and the number of living people for each region that the LSTM was trained on.
+| Group | Training Size | Example Names |
+| ------ | ------ | -------------------- |
+| A | 280,644 | Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge |
+| B | 188,918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
+| C | 54,197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
+| D | 66,391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
+| E | 20,025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
+| F | 30,703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
+| G | 4,549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
+| H | 16,105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
+
+Table: **Predicting name-origin groups of names trained on Wikipedia's living people.**
+The table lists the 8 groups and the number of living people for each region that the LSTM was trained on.
 Example names shows actual author names that received a high prediction for each region.
 Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/country_to_region.tsv).
 {#tbl:example_names}
@@ -458,37 +464,37 @@ We found that white honorees have been significantly overrepresented and Asian h
 
 We next aimed to predict the name origin groups of honorees and authors.
 We constructed a training dataset with more than 700,000 name-nationality pairs by parsing the English-language Wikipedia.
-We trained a LSTM neural network on n-grams to predict name origin regions.
+We trained a LSTM neural network on n-grams to predict name groups.
 We found similar performance across 1, 2, and 3-grams; however, the classifier required fewer epochs to train with 3-grams so we used this length in the model that we term Wiki2019-LSTM.
-Our Wiki2019-LSTM returns, for each given name, a probability of that name originating from each of the specified eight regions.
+Our Wiki2019-LSTM returns, for each given name, a probability of that name originating from each of the specified eight groups.
 We observed a multiclass area under the receiver operating characteristic curve (AUC) score of 95.4% for the classifier, indicating that the classifier can recapitulate name origins with high sensitivity and specificity.
-For each individual region, the high AUC (above 94%, Fig. {@fig:wiki2019_lstm}A) suggests that our classifier was sufficient for use in a broad-scale examination of disparities.
+For each individual group, the high AUC (above 94%, Fig. {@fig:wiki2019_lstm}A) suggests that our classifier was sufficient for use in a broad-scale examination of disparities.
 We also observed that the model was well calibrated (Fig. {@fig:wiki2019_lstm}B).
 We also examined potential systematic errors between pairs of name origin groupings with a confusion heatmap and did not find off-diagonal enrichment for any pairing (Fig. {@fig:wiki2019_lstm}C).
 
 ![The Wiki2019-LSTM model performs well on held-out test data.
 The area under the ROC curve is above 94% for each category, showing strong performance across origin categories (A).
 A calibration curve, computed with the caret R package, shows consistency between the predicted probabilities (midpoints of each fixed-width bin) and the observed fraction of names in each bin (B).
-Heatmap showing whether names from a given region (x-axis) received higher (purple) or lower (green) predictions for each region (y-axis) than would be expected by region prevalence alone (C).
-The values represent log~2~ fold change between the average predicted probability and the prevalence of the corresponding predicted region in the testing dataset (null).
-Scaling by region prevalence accounts for the imbalance of regions in the testing dataset.
-In all cases, the classifier predicts the true region above the expected null probability (matrix diagonals are all purple).
+Heatmap showing whether names from a given group (x-axis) received higher (purple) or lower (green) predictions for each group (y-axis) than would be expected by group prevalence alone (C).
+The values represent log~2~ fold change between the average predicted probability and the prevalence of the corresponding predicted group in the testing dataset (null).
+Scaling by group prevalence accounts for the imbalance of groups in the testing dataset.
+In all cases, the classifier predicts the true groups above the expected null probability (matrix diagonals are all purple).
 For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
-For example, the classifier does not often mistake Hispanic names as Israeli, but is more prone to mistaking Arabic names as South Asian.
+For example, the classifier does not often mistake Group D names as Group G, but is more prone to mistaking Group F names as Group E.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
 
 ### Assessing the Name Origin Diversity of Authors and Honorees
 
 We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of corresponding authors.
-We found that the proportion of authors in the Celtic English categories had decreased (Fig. {@fig:region_breakdown}A, left), particularly for papers published in _Bioinformatics_ and _BMC Bioinformatics_ (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4)).
-Among keynote speakers and fellows we found that the majority of honorees are predicted to be from Celtic English countries ({@fig:region_breakdown}A, right).
-Though sample sizes were small, we did observe some differences in the composition of minority groups between meetings.
-ISMB keynotes had more probability attributable to Israel, while RECOMB had more attributable to East Asian countries (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4)).
-When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of CelticEnglish (including American) keynote speakers and a substantial underrepresentation of East Asian keynote speakers ({@fig:region_breakdown}B).
-Outside of the primary range of our analyses, the two names of 2020 PSB keynote speakers were predicted to be of Celtic English origin (65% probability) and African origin (99% probability), respectively.
+We found that the proportion of authors in Group A had decreased (Fig. {@fig:region_breakdown}A, left), particularly for papers published in _Bioinformatics_ and _BMC Bioinformatics_ (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4)).
+Among keynote speakers and fellows we found that the majority of honorees are predicted to be from Group A ({@fig:region_breakdown}A, right).
+Though sample sizes were small, we did observe some differences in the composition of groups between meetings.
+ISMB keynotes had more probability attributable to Group G, while RECOMB had more attributable to Group C (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4)).
+When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of Group A keynote speakers and a substantial underrepresentation of Group C keynote speakers ({@fig:region_breakdown}B).
+Outside of the primary range of our analyses, the two names of 2020 PSB keynote speakers were predicted to be of Group A (65% probability) and Group H (99% probability), respectively.
 
 
-![Compared to the name collection of Pubmed authors, Celtic English honorees are overrepresented while East Asian honorees are underrepresented. Estimated composition of name origin prediction over the years of
+![Compared to the name collection of Pubmed authors, Group A honorees are overrepresented while Group C honorees are underrepresented. Estimated composition of name origin prediction over the years of
   (A, left) all Pubmed computational biology and bioinformatics journal authors,
   and (A, right) all ISCB Fellows and keynote speakers
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
@@ -499,11 +505,12 @@ Outside of the primary range of our analyses, the two names of 2020 PSB keynote 
 
 ## Conclusions
 
-A major challenge that we faced in carrying out this work is to predict precise geographic origins for some groups of names.
-For example, we were unable to construct a classifier that could distinguish between names from Iberia (Spain and Portugal) and names from Spanish and Portuguese-speaking countries in Latin America.
+A major challenge that we faced in carrying out this work was to narrow down geographic origins for some groups of names.
+Some groupings, such as Group D, are geographically disparate.
+We were unable to construct a classifier that could distinguish between names from Iberian countries in Group D (Spain and Portugal) from those in Latin America.
 Discrepancies in representation between these groups are thus undetectable by our classifier.
-Hispanic honoree counts are influenced from Spain as well as Latin America.
-In these cases, our analyses may substantially understate the extent to which minoritized scientists are underrepresented among honorees and authors.
+Group D honoree counts are influenced from Spain as well as Latin America.
+In such cases, our analyses may substantially understate the extent to which minoritized scientists are underrepresented among honorees and authors.
 
 Biases in authorship practices may also result in our underestimation of the composition of minoritized scientists within the field.
 We estimate the composition of the field using corresponding author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956] women are underrepresented among such authors.
@@ -511,10 +518,10 @@ Such an effect would cause us to underestimate the number of women in the field.
 Though this effect has been studied with respect to gender, we are not aware of similar work examining race, ethnicity, or name origins.
 
 Focusing on an international society and meetings, we measured honor and authorship rates worldwide.
-In this setting, we observe disparities by name origin groups.
+In this setting, we observe disparities by name groups.
 Future studies are needed to unravel the basis of the disparities.
-It is possible that invitation and honor patterns are driven by not only biases but also geographic or other factors.
-Cross-referencing name origin group predictions with author affiliations could disentangle the relationship between geographic regions, name origins and invitation probabilities.
+Invitation and honor patterns could be driven by biases associated with name groups, geography, or other factors.
+Cross-referencing name group predictions with author affiliations could help to disentangle the relationship between geographic regions, name groups and invitation probabilities.
 
 An important questions to ask when measuring representation is what the right level of representation is.
 We suggest that considering equity may be more appropriate than strictly diversity.
