@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@f2c24e3](https://github.com/greenelab/iscb-diversity-manuscript/tree/f2c24e392e1cfe17f1f063a4ca9d3b53d94139f2)
+from [greenelab/iscb-diversity-manuscript@21b48d8](https://github.com/greenelab/iscb-diversity-manuscript/tree/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941)
 on February 2, 2020.
 </em></small>
 
@@ -348,7 +348,7 @@ Of 411 ISCB honorees, wru fails to provide race/ethnicity predictions for 98 nam
 Of 34,050 corresponding authors, 40 were missing a last name in the paper metadata, and 8,770 had a last name for which wru did not provide predictions.
 One limitation of wru and other methods that infer race, ethnicity, or nationality from last names is the potentially inaccurate prediction for scientists who changed their last name during marriage, a practice more common among women than men.
 
-### Estimation of Name Origin
+### Estimation of Name Origin Groups
 
 To complement wru's race and ethnicity estimation, we developed a model to predict geographical origins of names.
 The existing Python package ethnicolr [@arxiv:1805.02109] produces reasonable predictions, but its international representation in the data curated from Wikipedia in 2009 [@doi:10.1145/1557019.1557032] is still limited.
