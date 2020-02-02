@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/881fa61e7c105395728021d391667a17e2bdb220/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/881fa61e7c105395728021d391667a17e2bdb220/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/881fa61e7c105395728021d391667a17e2bdb220/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/881fa61e7c105395728021d391667a17e2bdb220/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/881fa61e7c105395728021d391667a17e2bdb220/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...881fa61e7c105395728021d391667a17e2bdb220) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/881fa61e7c105395728021d391667a17e2bdb220/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@21b48d8](https://github.com/greenelab/iscb-diversity-manuscript/tree/21b48d8e0f2a4322da3a37cefc0eaf4bdfeea941)
+from [greenelab/iscb-diversity-manuscript@881fa61](https://github.com/greenelab/iscb-diversity-manuscript/tree/881fa61e7c105395728021d391667a17e2bdb220)
 on February 2, 2020.
 </em></small>
 
@@ -494,7 +494,7 @@ When we directly compared honoree composition with PubMed, we observed discrepan
 Outside of the primary range of our analyses, the two names of 2020 PSB keynote speakers were predicted to be of Group A (65% probability) and Group H (99% probability), respectively.
 
 
-![Compared to the name collection of Pubmed authors, Group A honorees are overrepresented while Group C honorees are underrepresented. Estimated composition of name origin prediction over the years of
+![Compared to the name collection of Pubmed authors, Group A honorees are overrepresented while Group C honorees are underrepresented. Category O represents all other groups. Estimated composition of name origin prediction over the years of
   (A, left) all Pubmed computational biology and bioinformatics journal authors,
   and (A, right) all ISCB Fellows and keynote speakers
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
