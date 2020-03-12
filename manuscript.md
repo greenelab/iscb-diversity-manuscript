@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-09'
+date-meta: '2020-03-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-09" />
+  <meta name="dc.date" content="2020-03-12" />
 
-  <meta name="citation_publication_date" content="2020-03-09" />
+  <meta name="citation_publication_date" content="2020-03-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/a9aba21001657878e72924e51a674c4dd4167a90/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/a9aba21001657878e72924e51a674c4dd4167a90/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/a9aba21001657878e72924e51a674c4dd4167a90/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/a9aba21001657878e72924e51a674c4dd4167a90/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/0c7ca7c469db3614371b380324f98b26147f8bc3/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/a9aba21001657878e72924e51a674c4dd4167a90/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/0c7ca7c469db3614371b380324f98b26147f8bc3/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...a9aba21001657878e72924e51a674c4dd4167a90) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...0c7ca7c469db3614371b380324f98b26147f8bc3) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/a9aba21001657878e72924e51a674c4dd4167a90/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@a9aba21](https://github.com/greenelab/iscb-diversity-manuscript/tree/a9aba21001657878e72924e51a674c4dd4167a90)
-on March 9, 2020.
+from [greenelab/iscb-diversity-manuscript@0c7ca7c](https://github.com/greenelab/iscb-diversity-manuscript/tree/0c7ca7c469db3614371b380324f98b26147f8bc3)
+on March 12, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -318,6 +318,31 @@ A very small number of papers had over 10 corresponding authors.
 Some of these instances were true outliers, like [PMC5001208](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001208/) with 21 corresponding authors.
 Others like [PMC3509495](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509495/) were incorrect, due to upstream errors.
 To not give undue influence to papers with multiple corresponding authors, subsequent analyses on corresponding authors are inversely weighted by the number of corresponding authors per paper.
+
+### Countries of Affiliations
+
+Publications often provide affiliation lists for authors, which generally associate authors with research organizations and their corresponding physical addresses.
+We implemented affiliation extraction in the pubmedpy Python package for both PubMed and PMC XML records.
+These methods extract a sequence of textual affiliations for each author.
+While ideally each affiliation record would refer to one and only one research organization, sometimes journals deposit multiple affiliations in a single structured affiliation.
+For example, we extracted the following composite affiliation for all authors of [PMC4147893](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4147893/):
+
+> 'Multimodal Computing and Interaction', Saarland University & Department for Computational Biology and Applied Computing, Max Planck Institute for Informatics, Saarbrücken, 66123 Saarland, Germany, Ray and Stephanie Lane Center for Computational Biology, Carnegie Mellon University, Pittsburgh, 15206 PA, USA, Department of Mathematics and Computer Science, Freie Universität Berlin, 14195 Berlin, Germany, Université Pierre et Marie Curie, UMR7238, CNRS-UPMC, Paris, France and CNRS, UMR7238, Laboratory of Computational and Quantitative Biology, Paris, France.
+
+We designed a method for extracting countries from affiliations that accommodated multiple countries.
+We relied on two Python utilities to extract countries from text: [geotext](https://github.com/elyase/geotext) and [`geopy.geocoders.Nominatim`](https://geopy.readthedocs.io/en/stable/#nominatim).
+The first, geotext, used regular expressions to find mentions of places from the [GeoNames database](http://www.geonames.org/).
+In the above text, geotext detected four mentions of places in Germany: Saarland, Saarbrücken, Saarland, Germany.
+Anytime geotext identified 2 or more mentions of a country, we labeled the affiliation as including that country.
+
+`geopy.geocoders.Nominatim` converts names / addresses to geographic coordinates using the OpenStreetMap's [Nomatim](https://nominatim.org/) service.
+We split textual affiliations by punctuation and found the first segment, in reverse order, that returned any Nomatim search results.
+For the above affiliation, the search order was "France", "Paris", "Laboratory of Computational and Quantitative Biology", etcetera.
+Since searching "France" returns a match by Nomatim, the following queries would not be made.
+When a match was found, we extracted the country containing the location.
+This approach returns a single country for an affiliation when successful.
+When labeling affiliations with countries, we only used these values when geotext did not return results or had ambiguity amongst countries without multiple matches.
+For more details on this approach, consult the accompanying [notebook](https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/07.affiliations-to-countries.ipynb) and [label dataset](https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/data/affiliations/geocode.jsonl).
 
 ### Estimation of Gender
 
