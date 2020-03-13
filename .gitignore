@@ -38,3 +38,8 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+.Rproj.user
+
+## R
+iscb-diversity-manuscript.Rproj
+.Rhistory
