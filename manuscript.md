@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-12'
+date-meta: '2020-03-13'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-12" />
+  <meta name="dc.date" content="2020-03-13" />
 
-  <meta name="citation_publication_date" content="2020-03-12" />
+  <meta name="citation_publication_date" content="2020-03-13" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/0c7ca7c469db3614371b380324f98b26147f8bc3/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/47bd0382a2c1be780a6bd621c3d9d84127946f65/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/0c7ca7c469db3614371b380324f98b26147f8bc3/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/47bd0382a2c1be780a6bd621c3d9d84127946f65/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...0c7ca7c469db3614371b380324f98b26147f8bc3) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...47bd0382a2c1be780a6bd621c3d9d84127946f65) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/0c7ca7c469db3614371b380324f98b26147f8bc3/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@0c7ca7c](https://github.com/greenelab/iscb-diversity-manuscript/tree/0c7ca7c469db3614371b380324f98b26147f8bc3)
-on March 12, 2020.
+from [greenelab/iscb-diversity-manuscript@47bd038](https://github.com/greenelab/iscb-diversity-manuscript/tree/47bd0382a2c1be780a6bd621c3d9d84127946f65)
+on March 13, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -425,6 +425,14 @@ Example names shows actual author names that received a high prediction for each
 Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/country_to_region.tsv).
 {#tbl:example_names}
 
+### Affiliation Analysis
+
+Along with the corresponding author names, we collected their affiliations recorded in each publication for this analysis.
+During the honoree curation process, if an honoree was listed with their affiliation at the time, we recorded this affiliation for analysis.
+For ISCB Fellows, we used the affiliation listed on the ISCB page.
+Because we could not find affiliations for the 1997 and 1998 RECOMB keynote speakers' listed for these years, they were left blank.
+If an author or speaker has more than one affiliation, each is inversely weighted by the number of affiliations that individual has.
+
 
 ## Results
 
@@ -512,7 +520,7 @@ For example, the classifier does not often mistake Group D names as Group G, but
 
 We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of corresponding authors.
 We found that the proportion of authors in Group A had decreased (Fig. {@fig:region_breakdown}A, left), particularly for papers published in _Bioinformatics_ and _BMC Bioinformatics_ (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4)).
-Among keynote speakers and fellows we found that the majority of honorees are predicted to be from Group A ({@fig:region_breakdown}A, right).
+Among keynote speakers and fellows we found that the majority of honorees are predicted to be from Group A (Fig. {@fig:region_breakdown}A, right).
 Though sample sizes were small, we did observe some differences in the composition of groups between meetings.
 ISMB keynotes had more probability attributable to Group G, while RECOMB had more attributable to Group C (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4)).
 When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of Group A keynote speakers and a substantial underrepresentation of Group C keynote speakers ({@fig:region_breakdown}B).
@@ -523,7 +531,7 @@ Outside of the primary range of our analyses, the two names of 2020 PSB keynote 
   (A, left) all Pubmed computational biology and bioinformatics journal authors,
   and (A, right) all ISCB Fellows and keynote speakers
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
-  For each region, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines (B).
+  (B) For each region, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/region_breakdown.png){#fig:region_breakdown}
 
