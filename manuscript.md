@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b5352d7d260e43e510e46f9db30f77e053036753/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b5352d7d260e43e510e46f9db30f77e053036753/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,24 +133,19 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...44a45b16aa3a5bbe71acecde3f930eb0756d59ce) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b5352d7d260e43e510e46f9db30f77e053036753) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@44a45b1](https://github.com/greenelab/iscb-diversity-manuscript/tree/44a45b16aa3a5bbe71acecde3f930eb0756d59ce)
+from [greenelab/iscb-diversity-manuscript@b5352d7](https://github.com/greenelab/iscb-diversity-manuscript/tree/b5352d7d260e43e510e46f9db30f77e053036753)
 on March 14, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-[
-[]{.fas .fa-info-circle .fa-lg} **Nationality groupings under revision**<br>
-Please see [discussion here](https://github.com/greenelab/iscb-diversity-manuscript/issues/27) regarding possible issues with this manuscript's usage of nationality and grouping of countries based on the Name-Prism terminology.
-We are working to modify this study to address the concerns.
-]{.banner .lightred}
 
 ## Authors
 
