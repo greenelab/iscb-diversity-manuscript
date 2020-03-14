@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b5352d7d260e43e510e46f9db30f77e053036753/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/1608683e5a9a0e89380262dc18f27c32f65fe97f/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b5352d7d260e43e510e46f9db30f77e053036753/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/1608683e5a9a0e89380262dc18f27c32f65fe97f/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b5352d7d260e43e510e46f9db30f77e053036753) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...1608683e5a9a0e89380262dc18f27c32f65fe97f) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b5352d7d260e43e510e46f9db30f77e053036753/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@b5352d7](https://github.com/greenelab/iscb-diversity-manuscript/tree/b5352d7d260e43e510e46f9db30f77e053036753)
+from [greenelab/iscb-diversity-manuscript@1608683](https://github.com/greenelab/iscb-diversity-manuscript/tree/1608683e5a9a0e89380262dc18f27c32f65fe97f)
 on March 14, 2020.
 </em></small>
 
@@ -275,7 +275,7 @@ We created [functions to simplify names](https://git.dhimmel.com/pubmedpy/names.
 
 ### Corresponding author extraction
 
-We assumed that research advisors in the field would be those most likely to be invited for keynotes or to be honored as Fellows.
+We assumed that, in the list of authors for a specific paper, corresponding authors (often research advisors) would be most likely to be invited for keynotes or to be honored as Fellows.
 Therefore, we collected corresponding author names to assess the composition of the field, weighted by the number of corresponding authors per publication.
 
 We evaluated two resources for extracting corresponding authors from papers: [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/) (PMC).
