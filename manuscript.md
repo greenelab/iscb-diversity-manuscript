@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/424738f7b2d1e8a71f7da3d68f092fbea682fd25/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b13489521919078f739084b218d7caad7fcebeeb/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/424738f7b2d1e8a71f7da3d68f092fbea682fd25/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b13489521919078f739084b218d7caad7fcebeeb/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...424738f7b2d1e8a71f7da3d68f092fbea682fd25) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b13489521919078f739084b218d7caad7fcebeeb) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@424738f](https://github.com/greenelab/iscb-diversity-manuscript/tree/424738f7b2d1e8a71f7da3d68f092fbea682fd25)
+from [greenelab/iscb-diversity-manuscript@b134895](https://github.com/greenelab/iscb-diversity-manuscript/tree/b13489521919078f739084b218d7caad7fcebeeb)
 on March 14, 2020.
 </em></small>
 
@@ -398,7 +398,7 @@ This process produced country labels that were more fine-grained than the broade
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
 The NamePrism taxonomy was derived from name-country pairs by producing an embedding of names by Twitter contact patterns and then grouping countries using the similarity of names from those countries.
 In an earlier version of this manuscript we also used category names derived from NamePrism, but the titles of the groupings were problematic so we have recoded the groupings to letters.
-The countries associated with each grouping are shown in Fig {@fig:wiki2019_lstm}.
+The countries associated with each grouping are shown in Fig {@fig:nameprism_countries}.
 Table @tbl:example_names shows the size of the training set for each of these groupings as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
 We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
 
