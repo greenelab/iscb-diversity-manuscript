@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b13489521919078f739084b218d7caad7fcebeeb/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f976cd767f4d2f8b85545d2da8e03afeae678120/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b13489521919078f739084b218d7caad7fcebeeb/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f976cd767f4d2f8b85545d2da8e03afeae678120/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b13489521919078f739084b218d7caad7fcebeeb) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f976cd767f4d2f8b85545d2da8e03afeae678120) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b13489521919078f739084b218d7caad7fcebeeb/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@b134895](https://github.com/greenelab/iscb-diversity-manuscript/tree/b13489521919078f739084b218d7caad7fcebeeb)
+from [greenelab/iscb-diversity-manuscript@f976cd7](https://github.com/greenelab/iscb-diversity-manuscript/tree/f976cd767f4d2f8b85545d2da8e03afeae678120)
 on March 14, 2020.
 </em></small>
 
@@ -420,7 +420,7 @@ We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`
 Table: **Predicting name-origin groups of names trained on Wikipedia's living people.**
 The table lists the 8 groups and the number of living people for each region that the LSTM was trained on.
 Example names shows actual author names that received a high prediction for each region.
-Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/country_to_region.tsv).
+Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/iscb-diversity/blob/make-letters/data/countries/2020-01-31_groupings.tsv).
 {#tbl:example_names}
 
 ### Affiliation Analysis
@@ -525,7 +525,7 @@ When we directly compared honoree composition with PubMed, we observed discrepan
 Outside of the primary range of our analyses, the two names of 2020 PSB keynote speakers were predicted to be of Group A (65% probability) and Group H (99% probability), respectively.
 
 
-![Compared to the name collection of Pubmed authors, Group A honorees are overrepresented while Group C honorees are underrepresented. Category O represents all other groups. Estimated composition of name origin prediction over the years of
+![Compared to the name collection of Pubmed authors, Group A honorees are overrepresented while Group C honorees are underrepresented. Category O represents all other groups (D, E, F, G and H, see Table @tbl:example_names). Estimated composition of name origin prediction over the years of
   (A, left) all Pubmed computational biology and bioinformatics journal authors,
   and (A, right) all ISCB Fellows and keynote speakers
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
