@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-13'
+date-meta: '2020-03-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-13" />
+  <meta name="dc.date" content="2020-03-14" />
 
-  <meta name="citation_publication_date" content="2020-03-13" />
+  <meta name="citation_publication_date" content="2020-03-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/47bd0382a2c1be780a6bd621c3d9d84127946f65/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/47bd0382a2c1be780a6bd621c3d9d84127946f65/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...47bd0382a2c1be780a6bd621c3d9d84127946f65) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...44a45b16aa3a5bbe71acecde3f930eb0756d59ce) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/47bd0382a2c1be780a6bd621c3d9d84127946f65/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/44a45b16aa3a5bbe71acecde3f930eb0756d59ce/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@47bd038](https://github.com/greenelab/iscb-diversity-manuscript/tree/47bd0382a2c1be780a6bd621c3d9d84127946f65)
-on March 13, 2020.
+from [greenelab/iscb-diversity-manuscript@44a45b1](https://github.com/greenelab/iscb-diversity-manuscript/tree/44a45b16aa3a5bbe71acecde3f930eb0756d59ce)
+on March 14, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -365,8 +365,8 @@ We predicted the race and ethnicity of honorees and authors using the R package 
 wru implements methods described in Imai and Khanna [@doi:10.1093/pan/mpw001] to predict race and ethnicity using surname and location information.
 The underlying data used for prediction are derived from the US Census.
 We used only the surname of author or honoree to make predictions via the *predict_race()* function.
-However, in the case of names that were not observed in the census, the function's behavior was to use the average demographic distribution from the census.
-We modified the function to return a status denoting that results were inconclusive instead.
+However, in the case of names that were not observed in the census, the function outputs the average demographic distribution from the census, which may produce misleading results.
+To avoid this suboptimal imputation, we modified the function to return a status denoting that results were inconclusive (NA) instead.
 This prediction represents the probability of an honoree or author selecting a certain race or ethnicity on a census form if they lived within the US.
 
 Of 411 ISCB honorees, wru fails to provide race/ethnicity predictions for 98 names.
