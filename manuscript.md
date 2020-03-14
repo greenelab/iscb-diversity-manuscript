@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/1608683e5a9a0e89380262dc18f27c32f65fe97f/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/424738f7b2d1e8a71f7da3d68f092fbea682fd25/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/1608683e5a9a0e89380262dc18f27c32f65fe97f/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/424738f7b2d1e8a71f7da3d68f092fbea682fd25/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...1608683e5a9a0e89380262dc18f27c32f65fe97f) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...424738f7b2d1e8a71f7da3d68f092fbea682fd25) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/1608683e5a9a0e89380262dc18f27c32f65fe97f/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/424738f7b2d1e8a71f7da3d68f092fbea682fd25/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@1608683](https://github.com/greenelab/iscb-diversity-manuscript/tree/1608683e5a9a0e89380262dc18f27c32f65fe97f)
+from [greenelab/iscb-diversity-manuscript@424738f](https://github.com/greenelab/iscb-diversity-manuscript/tree/424738f7b2d1e8a71f7da3d68f092fbea682fd25)
 on March 14, 2020.
 </em></small>
 
@@ -358,8 +358,11 @@ We note that approximately 52% of these NA predictions are hyphenated names, whi
 
 We predicted the race and ethnicity of honorees and authors using the R package wru.
 wru implements methods described in Imai and Khanna [@doi:10.1093/pan/mpw001] to predict race and ethnicity using surname and location information.
-The underlying data used for prediction are derived from the US Census.
-We used only the surname of author or honoree to make predictions via the *predict_race()* function.
+The underlying data used for prediction are derived from the US Census, in which an individual's race and ethnicity are based on their self-identification with one or more groups.
+Specifically, the race categories include White, Black or African American, American Indian or Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, Other race, and Two or more races [@url:https://factfinder.census.gov/help/en/race.htm], and ethnicity categories include Hispanic/Latino or Not Hispanic/Latino [@url:https://web.archive.org/web/20010405061504/http://www.census.gov/Press-Release/www/2001/raceqandas.html].
+wru uses similar race/ethnicity categories but groups American Indian or Alaska Native and Native Hawaiian or Other Pacific Islander to form the Other category.
+
+We used only the surname of author or honoree to make predictions via the *predict_race()* function from wru.
 However, in the case of names that were not observed in the census, the function outputs the average demographic distribution from the census, which may produce misleading results.
 To avoid this suboptimal imputation, we modified the function to return a status denoting that results were inconclusive (NA) instead.
 This prediction represents the probability of an honoree or author selecting a certain race or ethnicity on a census form if they lived within the US.
