@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-14'
+date-meta: '2020-03-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-14" />
+  <meta name="dc.date" content="2020-03-16" />
 
-  <meta name="citation_publication_date" content="2020-03-14" />
+  <meta name="citation_publication_date" content="2020-03-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/66181d7c876d3488dfdf4f404ee59a162c2975cc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/66181d7c876d3488dfdf4f404ee59a162c2975cc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/66181d7c876d3488dfdf4f404ee59a162c2975cc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f976cd767f4d2f8b85545d2da8e03afeae678120/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/66181d7c876d3488dfdf4f404ee59a162c2975cc/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f976cd767f4d2f8b85545d2da8e03afeae678120/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/66181d7c876d3488dfdf4f404ee59a162c2975cc/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f976cd767f4d2f8b85545d2da8e03afeae678120) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...66181d7c876d3488dfdf4f404ee59a162c2975cc) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f976cd767f4d2f8b85545d2da8e03afeae678120/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/66181d7c876d3488dfdf4f404ee59a162c2975cc/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@f976cd7](https://github.com/greenelab/iscb-diversity-manuscript/tree/f976cd767f4d2f8b85545d2da8e03afeae678120)
-on March 14, 2020.
+from [greenelab/iscb-diversity-manuscript@66181d7](https://github.com/greenelab/iscb-diversity-manuscript/tree/66181d7c876d3488dfdf4f404ee59a162c2975cc)
+on March 16, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -397,7 +397,7 @@ We were able to define a name and nationality for 708,493 people by using the un
 This process produced country labels that were more fine-grained than the broader patterns that we sought to examine among honorees and authors.
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
 The NamePrism taxonomy was derived from name-country pairs by producing an embedding of names by Twitter contact patterns and then grouping countries using the similarity of names from those countries.
-In an earlier version of this manuscript we also used category names derived from NamePrism, but the titles of the groupings were problematic so we have recoded the groupings to letters.
+In an earlier version of this manuscript we also used category names derived from NamePrism, but the titles of the groupings were problematic, so we have recoded the groupings to letters.
 The countries associated with each grouping are shown in Fig {@fig:nameprism_countries}.
 Table @tbl:example_names shows the size of the training set for each of these groupings as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
 We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
@@ -544,15 +544,18 @@ Group D honoree counts are influenced from Spain as well as Latin America.
 In such cases, our analyses may substantially understate the extent to which minoritized scientists are underrepresented among honorees and authors.
 
 Biases in authorship practices may also result in our underestimation of the composition of minoritized scientists within the field.
-We estimate the composition of the field using corresponding author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956] women are underrepresented among such authors.
+We estimated the composition of the field using corresponding author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956] women are underrepresented among such authors.
 Such an effect would cause us to underestimate the number of women in the field.
 Though this effect has been studied with respect to gender, we are not aware of similar work examining race, ethnicity, or name origins.
 
+We acknowledged that our supervised learning approaches are neither error free nor bias free.
+Because wru was trained on the US census to make predictions, many of the missing predictions are on names not observed in the US census.
+Although the underestimation of the proportion of these names could not be compared between the list of authors and honorees, we complemented this race/ethnicity prediction method with an additional name origin analysis.
+By integrating different methods and preserving uncertainty by analyzing prediction probabilities rather than applying a hard assignment for each prediction, we hope to alleviate these biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
+
 Focusing on an international society and meetings, we measured honor and authorship rates worldwide.
 In this setting, we observe disparities by name groups.
-Future studies are needed to unravel the basis of the disparities.
-Invitation and honor patterns could be driven by biases associated with name groups, geography, or other factors.
-Cross-referencing name group predictions with author affiliations could help to disentangle the relationship between geographic regions, name groups and invitation probabilities.
+Because invitation and honor patterns could be driven by biases associated with name groups, geography, or other factors, we cross-referenced name group predictions with author affiliations could help to disentangle the relationship between geographic regions, name groups and invitation probabilities.
 
 An important questions to ask when measuring representation is what the right level of representation is.
 We suggest that considering equity may be more appropriate than strictly diversity.
