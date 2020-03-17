@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/24f03c08b70baec0f7d559c68dcc9632e5897930/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b2fbc081be2b51b8d375ad4cc02a2dc016262262/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/24f03c08b70baec0f7d559c68dcc9632e5897930/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b2fbc081be2b51b8d375ad4cc02a2dc016262262/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/24f03c08b70baec0f7d559c68dcc9632e5897930/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b2fbc081be2b51b8d375ad4cc02a2dc016262262/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/24f03c08b70baec0f7d559c68dcc9632e5897930/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b2fbc081be2b51b8d375ad4cc02a2dc016262262/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/24f03c08b70baec0f7d559c68dcc9632e5897930/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b2fbc081be2b51b8d375ad4cc02a2dc016262262/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...24f03c08b70baec0f7d559c68dcc9632e5897930) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b2fbc081be2b51b8d375ad4cc02a2dc016262262) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/24f03c08b70baec0f7d559c68dcc9632e5897930/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b2fbc081be2b51b8d375ad4cc02a2dc016262262/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@24f03c0](https://github.com/greenelab/iscb-diversity-manuscript/tree/24f03c08b70baec0f7d559c68dcc9632e5897930)
+from [greenelab/iscb-diversity-manuscript@b2fbc08](https://github.com/greenelab/iscb-diversity-manuscript/tree/b2fbc081be2b51b8d375ad4cc02a2dc016262262)
 on March 17, 2020.
 </em></small>
 
@@ -458,7 +458,7 @@ Therefore, without first and middle names, we do not have author gender predicti
 We observed a slow increase of the proportion of predicted female authors, arriving at just over 20% in 2019 (Fig. {@fig:gender_breakdown}, left).
 We observe very similar trend within each journal, but estimated female proportion has increased the least in _PLOS Computational Biology_ (see [notebook](https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1)).
 ISCB Fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}, right); however, it has not yet reached parity.
-Further, taking all the years together, a Welch two-sample t-test does not reveal any statistically significant difference in the mean probability of ISCB speakers predicted to be female compared to that of authors ($t_418 = 0.753$, $p = 0.226$).
+Further, taking all the years together, a Welch two-sample t-test does not reveal any statistically significant difference in the mean probability of ISCB speakers predicted to be female compared to that of authors ($t_{418} = 0.753$, $p = 0.226$).
 We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (see [notebook](https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1)), which markedly increased after 2015.
 Through 2019, there were a number of examples of meetings or ISCB Fellow classes with a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
 However, the 2020 PSB keynotes, though outside of the primary range of our analyses, had nearly all the probability ascribed to female speakers.
@@ -490,7 +490,8 @@ Separating honoree results by honor category did not reveal any clear difference
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/racial_makeup.png){#fig:racial_makeup}
 
 We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:racial_makeup}E).
-We found that white honorees have been significantly overrepresented and Asian honorees have been significantly underrepresented in most years.
+We found that, over the years, white honorees have been significantly overrepresented ($t_{348} = 15.0$, $p < 10^{-16}$) and Asian honorees have been significantly underrepresented ($t_{368} = -21.8$, $p < 10^{-16}$).
+We also observed a higher mean probability of ISCB speakers predicted to be in Other categories compared to authors ($t_{336} = 2.18$, $p = 0.0296$).
 
 ### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
 
