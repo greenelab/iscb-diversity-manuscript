@@ -1,6 +1,6 @@
 # Response to Reviewers
 
-The text of these reviews was copied from Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/37>.
+The text of these reviews was copied from <https://github.com/greenelab/iscb-diversity-manuscript/issues/37>.
 Add responses to this document.
 
 ## Review 1
@@ -18,7 +18,7 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/38>
 Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/39>
 
 
-> #40 It is also unclear why this is the right strategy for the identification of the origin of the awardees/speakers. Direct searches for the names in bibliographic databases or in the society affiliations could be alternative possibilities.
+> It is also unclear why this is the right strategy for the identification of the origin of the awardees/speakers. Direct searches for the names in bibliographic databases or in the society affiliations could be alternative possibilities.
 
 Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/40>
 
