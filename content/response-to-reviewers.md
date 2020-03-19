@@ -91,7 +91,7 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/49>
 > p. 3, paragraph 2: research advisors don't seem to be the best proxy for senior faculty who would be invited for keynotes or honored as fellows
 
 We did not make this point clear.
-What we meant was to contrast advisors with their trainees.
+What we meant was that, as authors on a specific paper, compared to their trainees, research advisor would be more likely to be invited for keynotes or honored as Fellows.
 In the revised manuscript, we have clarified this point at the beginning of the subsection **Corresponding author extraction**:
 
 "We assumed that, in the list of authors for a specific paper, corresponding authors (often research advisors) would be those most likely to be invited for keynotes or to be honored as Fellows."
@@ -117,7 +117,8 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 
 > p. 4, paragraph 4: Why is using the average demographic distribution a reasonable assumption to make?
 
-It is not, and we modified modified the function to return NAs as to not use average demographic distribution.
+It is not.
+We had exactly the same concerns when we performed the work, so we modified the function to return NAs so as to not use average demographic distribution.
 We have clarified the **Estimation of Race and Ethnicity** subsection of the **Methods** section of the revised manuscript:
 
 "However, in the case of names that were not observed in the census, the function outputs the average demographic distribution from the census, which may produce misleading results.
