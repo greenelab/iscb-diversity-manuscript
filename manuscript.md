@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2001465edf8ac343a7d4b0026fd72f4ad0518ede/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2001465edf8ac343a7d4b0026fd72f4ad0518ede/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...2001465edf8ac343a7d4b0026fd72f4ad0518ede) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@2001465](https://github.com/greenelab/iscb-diversity-manuscript/tree/2001465edf8ac343a7d4b0026fd72f4ad0518ede)
+from [greenelab/iscb-diversity-manuscript@fc6d7be](https://github.com/greenelab/iscb-diversity-manuscript/tree/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4)
 on March 19, 2020.
 </em></small>
 
@@ -338,6 +338,14 @@ When a match was found, we extracted the country containing the location.
 This approach returns a single country for an affiliation when successful.
 When labeling affiliations with countries, we only used these values when geotext did not return results or had ambiguity amongst countries without multiple matches.
 For more details on this approach, consult the accompanying [notebook](https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/07.affiliations-to-countries.ipynb) and [label dataset](https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/data/affiliations/geocode.jsonl).
+
+Our ability to assign countries to authors was largely driven by the availability of affiliations.
+In our catalog of corresponding authors, 95.7% of authors from PubMed Central records were assigned at least one country.
+The country-assignment-rate for corresponding authors from PubMed records was only 32.2%. 
+This reflects the varying availability of affiliation metadata by journal.
+Countries were assigned to all corresponding authors for 99.9% of articles in _BMC Bioinformatics_ 98.7% in _PLOS Computational Biology_, and 49.6% in _Bioinformatics_.
+Country assignment for corresponding authors in _Bioinformatics_ were unavailable for over half of all articles annually from 1998--2013.
+_Bioinformatics_ affiliation metadata improved starting in 2014, and the country-assignment-rate has hovered around ~95% for the last few years (see [notebook](https://github.com/greenelab/iscb-diversity/blob/a7fcc7c229672b56626f0dc68d04064079ff3a49/08.corresponding-authors.ipynb)).
 
 For ISCB honorees, during the curation process, if an honoree was listed with their affiliation at the time, we recorded this affiliation for analysis.
 For ISCB Fellows, we used the affiliation listed on the ISCB page.
