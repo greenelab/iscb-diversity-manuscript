@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2001465edf8ac343a7d4b0026fd72f4ad0518ede/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2001465edf8ac343a7d4b0026fd72f4ad0518ede/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...5dc6311c9519b47e4aa088c2b776aeab3d8a3e80) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...2001465edf8ac343a7d4b0026fd72f4ad0518ede) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@5dc6311](https://github.com/greenelab/iscb-diversity-manuscript/tree/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80)
+from [greenelab/iscb-diversity-manuscript@2001465](https://github.com/greenelab/iscb-diversity-manuscript/tree/2001465edf8ac343a7d4b0026fd72f4ad0518ede)
 on March 19, 2020.
 </em></small>
 
@@ -339,6 +339,11 @@ This approach returns a single country for an affiliation when successful.
 When labeling affiliations with countries, we only used these values when geotext did not return results or had ambiguity amongst countries without multiple matches.
 For more details on this approach, consult the accompanying [notebook](https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/07.affiliations-to-countries.ipynb) and [label dataset](https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/data/affiliations/geocode.jsonl).
 
+For ISCB honorees, during the curation process, if an honoree was listed with their affiliation at the time, we recorded this affiliation for analysis.
+For ISCB Fellows, we used the affiliation listed on the ISCB page.
+Because we could not find affiliations for the 1997 and 1998 RECOMB keynote speakers' listed for these years, they were left blank.
+If an author or speaker had more than one affiliation, each was inversely weighted by the number of affiliations that individual had.
+
 ### Estimation of Gender
 
 We predicted the gender of honorees and authors using the <https://genderize.io> API, which produces predictions trained on over 100 million name-gender pairings collected from the web.
@@ -425,11 +430,10 @@ Full information about which countries comprised each region can be found in the
 
 ### Affiliation Analysis
 
-Along with the corresponding author names, we collected their affiliations recorded in each publication for this analysis.
-During the honoree curation process, if an honoree was listed with their affiliation at the time, we recorded this affiliation for analysis.
-For ISCB Fellows, we used the affiliation listed on the ISCB page.
-Because we could not find affiliations for the 1997 and 1998 RECOMB keynote speakers' listed for these years, they were left blank.
-If an author or speaker has more than one affiliation, each is inversely weighted by the number of affiliations that individual has.
+For each country, we computed the expected number of honorees by multiplying the proportion of authors whose affiliations were in that country with the total number of honorees.
+We then performed an enrichment analysis to examine the difference in country affiliation proportions between ISCB honorees and field-specific corresponding authors.
+We calculated each country's enrichment by dividing the observed proportion of honorees by the expected proportion of honorees.
+The variance of the log~2~ enrichment was estimated using the delta method with a small continuity correction to avoid dividing by 0 [@isbn:978-0849394447].
 
 
 ## Results
@@ -458,7 +462,7 @@ Therefore, without first and middle names, we do not have author gender predicti
 We observed a slow increase of the proportion of predicted female authors, arriving at just over 20% in 2019 (Fig. {@fig:gender_breakdown}, left).
 We observe very similar trend within each journal, but estimated female proportion has increased the least in _PLOS Computational Biology_ (see [notebook](https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1)).
 ISCB Fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}, right); however, it has not yet reached parity.
-Further, taking all the years together, a Welch two-sample t-test does not reveal any statistically significant difference in the mean probability of ISCB speakers predicted to be female compared to that of authors ($t_{418} = 0.753$, $p = 0.226$).
+Further, taking all the years together, a Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB honorees predicted to be female compared to that of authors (t~418~ = 0.753, _p_ = 0.226).
 We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (see [notebook](https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1)), which markedly increased after 2015.
 Through 2019, there were a number of examples of meetings or ISCB Fellow classes with a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
 However, the 2020 PSB keynotes, though outside of the primary range of our analyses, had nearly all the probability ascribed to female speakers.
@@ -490,8 +494,8 @@ Separating honoree results by honor category did not reveal any clear difference
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/racial_makeup.png){#fig:racial_makeup}
 
 We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:racial_makeup}E).
-We found that, over the years, white honorees have been significantly overrepresented ($t_{348} = 15.0$, $p < 10^{-16}$) and Asian honorees have been significantly underrepresented ($t_{368} = -21.8$, $p < 10^{-16}$).
-We also observed a higher mean probability of ISCB speakers predicted to be in Other categories compared to authors ($t_{336} = 2.18$, $p = 0.0296$).
+We found that, over the years, white honorees have been significantly overrepresented (t~348~ = 15.0, _p_ < 10^-16^) and Asian honorees have been significantly underrepresented (t~368~ = -21.8, _p_ < 10^-16^).
+We also observed a higher mean probability of ISCB speakers predicted to be in Other categories compared to authors (t~336~ = 2.18, _p_ = 0.0296).
 
 ### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
 
@@ -534,6 +538,51 @@ Outside of the primary range of our analyses, the two names of 2020 PSB keynote 
   (B) For each region, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/region_breakdown.png){#fig:region_breakdown}
+
+### Affiliation Analysis
+
+We analyzed the countries of affiliation between corresponding authors and ISCB honorees.
+For each country, we report a value of log enrichment (LOE) and its 95% confidence intervals  (Table @tbl:country-enrichment).
+A positive value of LOE indicates a higher proportion of honorees affiliated with that country compared to authors.
+A LOE value of 1 represents a one-fold enrichment (i.e., observed number of honorees is twice as much as expected).
+In the 20 countries with the most publications, we found an overrepresentation of honorees affiliated with institutions and companies in the US (97 speakers more than expected, LOE = 0.6, 95% CI (0.5, 0.8)) and Israel (12 speakers more than expected, LOR = 1.6 (0.9, 2.3)) and an underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India (Fig. @fig:country-enrichment).
+
+| Country        | Author proportion | Observed | Expected | Observed - Expected | Enrichment | Log~2~(Enrichment) | 95% Confidence Interval |
+|----------------|-------------------|----------|----------|---------------------|------------|------------------|-------------------------|
+| United States  | 38.76%            | 237.5    | 152.7    | 84.8                | 1.6        | 0.6              | (0.5, 0.8)              |
+| United Kingdom | 8.36%             | 36.0     | 32.9     | 3.1                 | 1.1        | 0.1              | (-0.3, 0.6)             |
+| Germany        | 7.55%             | 27.0     | 29.7     | -2.7                | 0.9        | -0.1             | (-0.7, 0.4)             |
+| China          | 5.82%             | 3.0      | 22.9     | -19.9               | 0.1        | -2.9             | (-4.5, -1.3)            |
+| France         | 3.86%             | 4.0      | 15.2     | -11.2               | 0.3        | -1.9             | (-3.3, -0.5)            |
+| Italy          | 3.04%             | 2.0      | 12.0     | -10.0               | 0.2        | -2.6             | (-4.5, -0.6)            |
+| Canada         | 3.03%             | 12.0     | 11.9     | 0.1                 | 1.0        | 0.0              | (-0.8, 0.8)             |
+| Japan          | 2.44%             | 9.0      | 9.6      | -0.6                | 0.9        | -0.1             | (-1, 0.8)               |
+| Spain          | 2.39%             | 6.0      | 9.4      | -3.4                | 0.6        | -0.7             | (-1.8, 0.5)             |
+| Australia      | 2.33%             | 5.0      | 9.2      | -4.2                | 0.5        | -0.9             | (-2.1, 0.4)             |
+| Netherlands    | 1.91%             | 1.0      | 7.5      | -6.5                | 0.1        | -2.9             | (-5.6, -0.2)            |
+| Switzerland    | 1.81%             | 7.0      | 7.1      | -0.1                | 1.0        | -0.0             | (-1.1, 1)               |
+| Israel         | 1.46%             | 17.5     | 5.8      | 11.7                | 3.0        | 1.6              | (0.9, 2.3)              |
+| Sweden         | 1.34%             | 6.0      | 5.3      | 0.7                 | 1.1        | 0.2              | (-1, 1.3)               |
+| Korea          | 1.30%             | 1.0      | 5.1      | -4.1                | 0.2        | -2.4             | (-5.1, 0.3)             |
+| Taiwan         | 1.25%             | 0.0      | 4.9      | -4.9                | 0.0        |                  | (-Inf, -Inf)            |
+| India          | 1.20%             | 0.0      | 4.7      | -4.7                | 0.0        |                  | (-Inf, -Inf)            |
+| Belgium        | 1.04%             | 1.0      | 4.1      | -3.1                | 0.2        | -2.0             | (-4.7, 0.7)             |
+| Singapore      | 0.88%             | 1.0      | 3.5      | -2.5                | 0.3        | -1.8             | (-4.5, 0.9)             |
+| Finland        | 0.85%             | 0.0      | 3.4      | -3.4                | 0.0        |                  | (-Inf, -Inf)            |
+
+Table: **Enrichment and depletion in proportion of ISCB honorees compared to Pubmed corresponding authors of 20 countries with the most publications.**
+The table lists the countries and their corresponding enrichment, which we computed by dividing the observed proportion of honorees by expected proportion of honorees.
+The expected proportion was calculated using corresponding author proportions.
+A positive Log~2~(Enrichment) indicated a higher proportion of honorees than corresponding authors affiliated with that country.
+The full table with all countries can be browsed interactively in the corresponding [analysis notebook](https://greenelab.github.io/iscb-diversity/15.analyze-affiliation.html#enrichment_tab).
+{#tbl:country-enrichment}
+
+![The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India. 
+For each country, enrichment is computed by dividing the observed proportion of honorees by the expected proportion of honorees whose affiliations are in that country, and 95% confidence interval of the log is estimated with the delta method (left). 
+Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right. 
+Countries are ordered based on the proportion of authors in the field.
+
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
 
 ## Conclusions
