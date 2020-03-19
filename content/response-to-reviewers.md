@@ -66,7 +66,7 @@ Please see further discussion at <https://github.com/greenelab/iscb-diversity-ma
 > not been quantified, with the appropriate statistical measures.
 
 We have added statistical measures at different analysis steps, including the comparison of gender prediction, race prediction and affiliation analysis between authors and iscb honorees.
-Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/44>
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/44>.
 
 > A few questions:
 >
@@ -75,7 +75,12 @@ Please see further discussion at <https://github.com/greenelab/iscb-diversity-ma
 > I would have certainly benefited by understanding a basis for this classification.
 > Even in "Nameprism" that the authors cite, the basis is unclear.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/45>
+We agree with the reviewer that the names of the groups of countries are not appropriate.
+In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
+Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
+This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+By integrating different methods we hope to alleviate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/45>.
 
 > 2\. I was not able to parse the subtle implications of
 > "We suggest that considering equity may be more appropriate than strictly diversity" that the authors
@@ -87,7 +92,10 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/46>
 > Finally, while I think the paper is interesting addressing the social/demographics of the
 > ISCB community, it is outside the scope of the technical program of ISMB.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/47>
+These are important topics, but we do not have a way to assess them within the paper.
+To our knowledge, currently, ISCB does not have a robust program to obtain from its members the necessary information to study these elements and provide it to researchers in an anonymized way.
+Hence, any comments on these topics are out of the scope of the present paper.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/47>.
 
 
 ## Review 3
