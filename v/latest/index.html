@@ -67,13 +67,13 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2001465edf8ac343a7d4b0026fd72f4ad0518ede/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/2001465edf8ac343a7d4b0026fd72f4ad0518ede/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -83,12 +83,12 @@
 <header id="title-block-header">
 <h1 class="title">Analysis of ISCB honorees and keynotes reveals disparities</h1>
 </header>
-<p>This version of the manuscript <a href="https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...5dc6311c9519b47e4aa088c2b776aeab3d8a3e80">contains changes</a> subsequent to the <a href="https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0">version 1.0 release</a>.</p>
+<p>This version of the manuscript <a href="https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...2001465edf8ac343a7d4b0026fd72f4ad0518ede">contains changes</a> subsequent to the <a href="https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0">version 1.0 release</a>.</p>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/2001465edf8ac343a7d4b0026fd72f4ad0518ede/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/5dc6311c9519b47e4aa088c2b776aeab3d8a3e80">greenelab/iscb-diversity-manuscript@5dc6311</a>
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/2001465edf8ac343a7d4b0026fd72f4ad0518ede">greenelab/iscb-diversity-manuscript@2001465</a>
 on March 19, 2020.
 </em></small></p>
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -251,6 +251,10 @@ When a match was found, we extracted the country containing the location.
 This approach returns a single country for an affiliation when successful.
 When labeling affiliations with countries, we only used these values when geotext did not return results or had ambiguity amongst countries without multiple matches.
 For more details on this approach, consult the accompanying <a href="https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/07.affiliations-to-countries.ipynb">notebook</a> and <a href="https://github.com/greenelab/iscb-diversity/blob/5213ba3451520af3967f74d8f58553dade0a826c/data/affiliations/geocode.jsonl">label dataset</a>.</p>
+<p>For ISCB honorees, during the curation process, if an honoree was listed with their affiliation at the time, we recorded this affiliation for analysis.
+For ISCB Fellows, we used the affiliation listed on the ISCB page.
+Because we could not find affiliations for the 1997 and 1998 RECOMB keynote speakers’ listed for these years, they were left blank.
+If an author or speaker had more than one affiliation, each was inversely weighted by the number of affiliations that individual had.</p>
 <h3 id="estimation-of-gender">Estimation of Gender</h3>
 <p>We predicted the gender of honorees and authors using the <a href="https://genderize.io" class="uri">https://genderize.io</a> API, which produces predictions trained on over 100 million name-gender pairings collected from the web.
 We used author and honoree first names to retrieve predictions from genderize.io.
@@ -373,11 +377,10 @@ Full information about which countries comprised each region can be found in the
 </table>
 </div>
 <h3 id="affiliation-analysis">Affiliation Analysis</h3>
-<p>Along with the corresponding author names, we collected their affiliations recorded in each publication for this analysis.
-During the honoree curation process, if an honoree was listed with their affiliation at the time, we recorded this affiliation for analysis.
-For ISCB Fellows, we used the affiliation listed on the ISCB page.
-Because we could not find affiliations for the 1997 and 1998 RECOMB keynote speakers’ listed for these years, they were left blank.
-If an author or speaker has more than one affiliation, each is inversely weighted by the number of affiliations that individual has.</p>
+<p>For each country, we computed the expected number of honorees by multiplying the proportion of authors whose affiliations were in that country with the total number of honorees.
+We then performed an enrichment analysis to examine the difference in country affiliation proportions between ISCB honorees and field-specific corresponding authors.
+We calculated each country’s enrichment by dividing the observed proportion of honorees by the expected proportion of honorees.
+The variance of the log<sub>2</sub> enrichment was estimated using the delta method with a small continuity correction to avoid dividing by 0 <span class="citation" data-cites="wH0Hk1gE">[<a href="#ref-wH0Hk1gE" role="doc-biblioref">20</a>]</span>.</p>
 <h2 id="results">Results</h2>
 <h3 id="curated-honorees-and-literature-derived-potential-honorees">Curated Honorees and Literature-derived Potential Honorees</h3>
 <p>We curated a dataset of ISCB honorees that included 411 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
@@ -398,7 +401,7 @@ Therefore, without first and middle names, we do not have author gender predicti
 <p>We observed a slow increase of the proportion of predicted female authors, arriving at just over 20% in 2019 (Fig. <a href="#fig:gender_breakdown">2</a>, left).
 We observe very similar trend within each journal, but estimated female proportion has increased the least in <em>PLOS Computational Biology</em> (see <a href="https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1">notebook</a>).
 ISCB Fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. <a href="#fig:gender_breakdown">2</a>, right); however, it has not yet reached parity.
-Further, taking all the years together, a Welch two-sample t-test does not reveal any statistically significant difference in the mean probability of ISCB speakers predicted to be female compared to that of authors (<span class="math inline">\(t_{418} = 0.753\)</span>, <span class="math inline">\(p = 0.226\)</span>).
+Further, taking all the years together, a Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB honorees predicted to be female compared to that of authors (t<sub>418</sub> = 0.753, <em>p</em> = 0.226).
 We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (see <a href="https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1">notebook</a>), which markedly increased after 2015.
 Through 2019, there were a number of examples of meetings or ISCB Fellow classes with a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
 However, the 2020 PSB keynotes, though outside of the primary range of our analyses, had nearly all the probability ascribed to female speakers.</p>
@@ -429,8 +432,8 @@ For each race/ethnicity category, the mean predicted probability of Pubmed artic
 </figure>
 </div>
 <p>We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Fig. <a href="#fig:racial_makeup">3</a>E).
-We found that, over the years, white honorees have been significantly overrepresented (<span class="math inline">\(t_{348} = 15.0\)</span>, <span class="math inline">\(p &lt; 10^{-16}\)</span>) and Asian honorees have been significantly underrepresented (<span class="math inline">\(t_{368} = -21.8\)</span>, <span class="math inline">\(p &lt; 10^{-16}\)</span>).
-We also observed a higher mean probability of ISCB speakers predicted to be in Other categories compared to authors (<span class="math inline">\(t_{336} = 2.18\)</span>, <span class="math inline">\(p = 0.0296\)</span>).</p>
+We found that, over the years, white honorees have been significantly overrepresented (t<sub>348</sub> = 15.0, <em>p</em> &lt; 10<sup>-16</sup>) and Asian honorees have been significantly underrepresented (t<sub>368</sub> = -21.8, <em>p</em> &lt; 10<sup>-16</sup>).
+We also observed a higher mean probability of ISCB speakers predicted to be in Other categories compared to authors (t<sub>336</sub> = 2.18, <em>p</em> = 0.0296).</p>
 <h3 id="predicting-name-origin-groups-with-lstm-neural-networks-and-wikipedia">Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia</h3>
 <p>We next aimed to predict the name origin groups of honorees and authors.
 We constructed a training dataset with more than 700,000 name-nationality pairs by parsing the English-language Wikipedia.
@@ -471,6 +474,254 @@ was computed as the average of prediction probabilities of Pubmed articles or IS
 (B) For each region, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.</figcaption>
 </figure>
 </div>
+<h3 id="affiliation-analysis-1">Affiliation Analysis</h3>
+<p>We analyzed the countries of affiliation between corresponding authors and ISCB honorees.
+For each country, we report a value of log enrichment (LOE) and its 95% confidence intervals (Table <a href="#tbl:country-enrichment">2</a>).
+A positive value of LOE indicates a higher proportion of honorees affiliated with that country compared to authors.
+A LOE value of 1 represents a one-fold enrichment (i.e., observed number of honorees is twice as much as expected).
+In the 20 countries with the most publications, we found an overrepresentation of honorees affiliated with institutions and companies in the US (97 speakers more than expected, LOE = 0.6, 95% CI (0.5, 0.8)) and Israel (12 speakers more than expected, LOR = 1.6 (0.9, 2.3)) and an underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India (Fig. <a href="#fig:country-enrichment">6</a>).</p>
+<div id="tbl:country-enrichment" class="tablenos">
+<table style="width:100%;">
+<caption><span>Table 2:</span> <strong>Enrichment and depletion in proportion of ISCB honorees compared to Pubmed corresponding authors of 20 countries with the most publications.</strong>
+The table lists the countries and their corresponding enrichment, which we computed by dividing the observed proportion of honorees by expected proportion of honorees.
+The expected proportion was calculated using corresponding author proportions.
+A positive Log<sub>2</sub>(Enrichment) indicated a higher proportion of honorees than corresponding authors affiliated with that country.
+The full table with all countries can be browsed interactively in the corresponding <a href="https://greenelab.github.io/iscb-diversity/15.analyze-affiliation.html#enrichment_tab">analysis notebook</a>.
+</caption>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 14%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 16%" />
+<col style="width: 9%" />
+<col style="width: 13%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Country</th>
+<th>Author proportion</th>
+<th>Observed</th>
+<th>Expected</th>
+<th>Observed - Expected</th>
+<th>Enrichment</th>
+<th>Log<sub>2</sub>(Enrichment)</th>
+<th>95% Confidence Interval</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>United States</td>
+<td>38.76%</td>
+<td>237.5</td>
+<td>152.7</td>
+<td>84.8</td>
+<td>1.6</td>
+<td>0.6</td>
+<td>(0.5, 0.8)</td>
+</tr>
+<tr class="even">
+<td>United Kingdom</td>
+<td>8.36%</td>
+<td>36.0</td>
+<td>32.9</td>
+<td>3.1</td>
+<td>1.1</td>
+<td>0.1</td>
+<td>(-0.3, 0.6)</td>
+</tr>
+<tr class="odd">
+<td>Germany</td>
+<td>7.55%</td>
+<td>27.0</td>
+<td>29.7</td>
+<td>-2.7</td>
+<td>0.9</td>
+<td>-0.1</td>
+<td>(-0.7, 0.4)</td>
+</tr>
+<tr class="even">
+<td>China</td>
+<td>5.82%</td>
+<td>3.0</td>
+<td>22.9</td>
+<td>-19.9</td>
+<td>0.1</td>
+<td>-2.9</td>
+<td>(-4.5, -1.3)</td>
+</tr>
+<tr class="odd">
+<td>France</td>
+<td>3.86%</td>
+<td>4.0</td>
+<td>15.2</td>
+<td>-11.2</td>
+<td>0.3</td>
+<td>-1.9</td>
+<td>(-3.3, -0.5)</td>
+</tr>
+<tr class="even">
+<td>Italy</td>
+<td>3.04%</td>
+<td>2.0</td>
+<td>12.0</td>
+<td>-10.0</td>
+<td>0.2</td>
+<td>-2.6</td>
+<td>(-4.5, -0.6)</td>
+</tr>
+<tr class="odd">
+<td>Canada</td>
+<td>3.03%</td>
+<td>12.0</td>
+<td>11.9</td>
+<td>0.1</td>
+<td>1.0</td>
+<td>0.0</td>
+<td>(-0.8, 0.8)</td>
+</tr>
+<tr class="even">
+<td>Japan</td>
+<td>2.44%</td>
+<td>9.0</td>
+<td>9.6</td>
+<td>-0.6</td>
+<td>0.9</td>
+<td>-0.1</td>
+<td>(-1, 0.8)</td>
+</tr>
+<tr class="odd">
+<td>Spain</td>
+<td>2.39%</td>
+<td>6.0</td>
+<td>9.4</td>
+<td>-3.4</td>
+<td>0.6</td>
+<td>-0.7</td>
+<td>(-1.8, 0.5)</td>
+</tr>
+<tr class="even">
+<td>Australia</td>
+<td>2.33%</td>
+<td>5.0</td>
+<td>9.2</td>
+<td>-4.2</td>
+<td>0.5</td>
+<td>-0.9</td>
+<td>(-2.1, 0.4)</td>
+</tr>
+<tr class="odd">
+<td>Netherlands</td>
+<td>1.91%</td>
+<td>1.0</td>
+<td>7.5</td>
+<td>-6.5</td>
+<td>0.1</td>
+<td>-2.9</td>
+<td>(-5.6, -0.2)</td>
+</tr>
+<tr class="even">
+<td>Switzerland</td>
+<td>1.81%</td>
+<td>7.0</td>
+<td>7.1</td>
+<td>-0.1</td>
+<td>1.0</td>
+<td>-0.0</td>
+<td>(-1.1, 1)</td>
+</tr>
+<tr class="odd">
+<td>Israel</td>
+<td>1.46%</td>
+<td>17.5</td>
+<td>5.8</td>
+<td>11.7</td>
+<td>3.0</td>
+<td>1.6</td>
+<td>(0.9, 2.3)</td>
+</tr>
+<tr class="even">
+<td>Sweden</td>
+<td>1.34%</td>
+<td>6.0</td>
+<td>5.3</td>
+<td>0.7</td>
+<td>1.1</td>
+<td>0.2</td>
+<td>(-1, 1.3)</td>
+</tr>
+<tr class="odd">
+<td>Korea</td>
+<td>1.30%</td>
+<td>1.0</td>
+<td>5.1</td>
+<td>-4.1</td>
+<td>0.2</td>
+<td>-2.4</td>
+<td>(-5.1, 0.3)</td>
+</tr>
+<tr class="even">
+<td>Taiwan</td>
+<td>1.25%</td>
+<td>0.0</td>
+<td>4.9</td>
+<td>-4.9</td>
+<td>0.0</td>
+<td></td>
+<td>(-Inf, -Inf)</td>
+</tr>
+<tr class="odd">
+<td>India</td>
+<td>1.20%</td>
+<td>0.0</td>
+<td>4.7</td>
+<td>-4.7</td>
+<td>0.0</td>
+<td></td>
+<td>(-Inf, -Inf)</td>
+</tr>
+<tr class="even">
+<td>Belgium</td>
+<td>1.04%</td>
+<td>1.0</td>
+<td>4.1</td>
+<td>-3.1</td>
+<td>0.2</td>
+<td>-2.0</td>
+<td>(-4.7, 0.7)</td>
+</tr>
+<tr class="odd">
+<td>Singapore</td>
+<td>0.88%</td>
+<td>1.0</td>
+<td>3.5</td>
+<td>-2.5</td>
+<td>0.3</td>
+<td>-1.8</td>
+<td>(-4.5, 0.9)</td>
+</tr>
+<tr class="even">
+<td>Finland</td>
+<td>0.85%</td>
+<td>0.0</td>
+<td>3.4</td>
+<td>-3.4</td>
+<td>0.0</td>
+<td></td>
+<td>(-Inf, -Inf)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="fig:country-enrichment" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/enrichment-plot.png" style="width:80.0%" alt="" /><figcaption><span>Figure 6:</span> The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India.
+For each country, enrichment is computed by dividing the observed proportion of honorees by the expected proportion of honorees whose affiliations are in that country, and 95% confidence interval of the log is estimated with the delta method (left).
+Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right.
+Countries are ordered based on the proportion of authors in the field.</figcaption>
+</figure>
+</div>
 <h2 id="conclusions">Conclusions</h2>
 <p>A major challenge that we faced in carrying out this work was to narrow down geographic origins for some groups of names.
 Some groupings, such as Group D, are geographically disparate.
@@ -479,7 +730,7 @@ Discrepancies in representation between these groups are thus undetectable by ou
 Group D honoree counts are influenced from Spain as well as Latin America.
 In such cases, our analyses may substantially understate the extent to which minoritized scientists are underrepresented among honorees and authors.</p>
 <p>Biases in authorship practices may also result in our underestimation of the composition of minoritized scientists within the field.
-We estimated the composition of the field using corresponding author status, but in neuroscience <span class="citation" data-cites="14PjsfIPd">[<a href="#ref-14PjsfIPd" role="doc-biblioref">20</a>]</span> and other disciplines <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">21</a>]</span> women are underrepresented among such authors.
+We estimated the composition of the field using corresponding author status, but in neuroscience <span class="citation" data-cites="14PjsfIPd">[<a href="#ref-14PjsfIPd" role="doc-biblioref">21</a>]</span> and other disciplines <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">22</a>]</span> women are underrepresented among such authors.
 Such an effect would cause us to underestimate the number of women in the field.
 Though this effect has been studied with respect to gender, we are not aware of similar work examining race, ethnicity, or name origins.</p>
 <p>We acknowledged that our supervised learning approaches are neither error free nor bias free.
@@ -491,9 +742,9 @@ In this setting, we observe disparities by name groups.
 Because invitation and honor patterns could be driven by biases associated with name groups, geography, or other factors, we cross-referenced name group predictions with author affiliations could help to disentangle the relationship between geographic regions, name groups and invitation probabilities.</p>
 <p>An important questions to ask when measuring representation is what the right level of representation is.
 We suggest that considering equity may be more appropriate than strictly diversity.
-In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often <span class="citation" data-cites="9TNbcewU">[<a href="#ref-9TNbcewU" role="doc-biblioref">22</a>]</span>, invited by journals to submit papers less often <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">21</a>]</span>, suggested as reviewers less often <span class="citation" data-cites="1EYk4f8Mu">[<a href="#ref-1EYk4f8Mu" role="doc-biblioref">24</a>]</span>, and receive significantly worse review scores <span class="citation" data-cites="5HWeup6K">[<a href="#ref-5HWeup6K" role="doc-biblioref">23</a>]</span>.
-Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which, for example, may lead to higher persistence for undergraduate women in geoscience <span class="citation" data-cites="1FX4fLEIy">[<a href="#ref-1FX4fLEIy" role="doc-biblioref">25</a>]</span>.
-Efforts are underway to create Wikipedia entries for more female <span class="citation" data-cites="zdS2Wmy2">[<a href="#ref-zdS2Wmy2" role="doc-biblioref">26</a>]</span> and black, Asian, and minority scientists <span class="citation" data-cites="yaljvCUU">[<a href="#ref-yaljvCUU" role="doc-biblioref">27</a>]</span>, which can help early-career scientists identify role models.
+In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often <span class="citation" data-cites="9TNbcewU">[<a href="#ref-9TNbcewU" role="doc-biblioref">23</a>]</span>, invited by journals to submit papers less often <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">22</a>]</span>, suggested as reviewers less often <span class="citation" data-cites="1EYk4f8Mu">[<a href="#ref-1EYk4f8Mu" role="doc-biblioref">25</a>]</span>, and receive significantly worse review scores <span class="citation" data-cites="5HWeup6K">[<a href="#ref-5HWeup6K" role="doc-biblioref">24</a>]</span>.
+Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which, for example, may lead to higher persistence for undergraduate women in geoscience <span class="citation" data-cites="1FX4fLEIy">[<a href="#ref-1FX4fLEIy" role="doc-biblioref">26</a>]</span>.
+Efforts are underway to create Wikipedia entries for more female <span class="citation" data-cites="zdS2Wmy2">[<a href="#ref-zdS2Wmy2" role="doc-biblioref">27</a>]</span> and black, Asian, and minority scientists <span class="citation" data-cites="yaljvCUU">[<a href="#ref-yaljvCUU" role="doc-biblioref">28</a>]</span>, which can help early-career scientists identify role models.
 We find that ISCB’s honorees and keynote speakers, though not yet reaching gender parity, appear to be more evenly split between men and women than the field as a whole.
 On the other hand, honorees include significantly fewer people of color than the field as a whole, and Asian scientists are dramatically underrepresented among honorees.
 Although we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
@@ -503,7 +754,7 @@ Even many nominally objective methods of assessing excellence (e.g., h-index, gr
 These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer’s own background <span class="citation" data-cites="hP9R3Quu">[<a href="#ref-hP9R3Quu" role="doc-biblioref">1</a>]</span>.
 Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.</p>
 <h2 id="data-and-resource-availability">Data and Resource Availability</h2>
-<p>This manuscript was written <a href="https://github.com/greenelab/iscb-diversity-manuscript">openly on GitHub</a> using Manubot <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">28</a>]</span>.
+<p>This manuscript was written <a href="https://github.com/greenelab/iscb-diversity-manuscript">openly on GitHub</a> using Manubot <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">29</a>]</span>.
 The Manubot HTML version is available under a Creative Commons Attribution (CC BY 4.0) License at <a href="https://greenelab.github.io/iscb-diversity-manuscript/" class="uri">https://greenelab.github.io/iscb-diversity-manuscript/</a>.
 Our analysis of authors and ISCB-associated honorees is available under CC BY 4.0 at <a href="https://github.com/greenelab/iscb-diversity" class="uri">https://github.com/greenelab/iscb-diversity</a>, with source code also distributed under a BSD 3-Clause License.
 Rendered Python and R notebooks from this repository are browsable at <a href="https://greenelab.github.io/iscb-diversity/" class="uri">https://greenelab.github.io/iscb-diversity/</a>.
@@ -618,55 +869,61 @@ Junting Ye, Shuchu Han, Yifan Hu, Baris Coskun, Meizhu Liu, Hong Qin, Steven Ski
 <em>Association for Computing Machinery (ACM)</em> (2017) <a href="https://doi.org/ggjc78">https://doi.org/ggjc78</a><br />
 DOI: <a href="https://doi.org/10.1145/3132847.3133008">10.1145/3132847.3133008</a></p>
 </div>
+<div id="ref-wH0Hk1gE">
+<p>20. <strong>Statistics in epidemiology: methods, techniques, and applications</strong><br />
+Hardeo Sahai, Anwer Khurshid<br />
+<em>CRC Press</em> (1996)<br />
+ISBN: <a href="https://worldcat.org/isbn/9780849394447">9780849394447</a></p>
+</div>
 <div id="ref-14PjsfIPd">
-<p>20. <strong>Persistent Underrepresentation of Women’s Science in High Profile Journals</strong><br />
+<p>21. <strong>Persistent Underrepresentation of Women’s Science in High Profile Journals</strong><br />
 Yiqin Alicia Shen, Jason M. Webster, Yuichi Shoda, Ione Fine<br />
 <em>bioRxiv</em> (2018-03-08) <a href="https://doi.org/cmh5">https://doi.org/cmh5</a><br />
 DOI: <a href="https://doi.org/10.1101/275362">10.1101/275362</a></p>
 </div>
 <div id="ref-17aOPYsbT">
-<p>21. <strong>The gender gap in science: How long until women are equally represented?</strong><br />
+<p>22. <strong>The gender gap in science: How long until women are equally represented?</strong><br />
 Luke Holman, Devi Stuart-Fox, Cindy E. Hauser<br />
 <em>PLOS Biology</em> (2018-04-19) <a href="https://doi.org/gdb9db">https://doi.org/gdb9db</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pbio.2004956">10.1371/journal.pbio.2004956</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29672508">29672508</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5908072">PMC5908072</a></p>
 </div>
 <div id="ref-9TNbcewU">
-<p>22. <strong>The extent and drivers of gender imbalance in neuroscience reference lists</strong><br />
+<p>23. <strong>The extent and drivers of gender imbalance in neuroscience reference lists</strong><br />
 Jordan D. Dworkin, Kristin A. Linn, Erin G. Teich, Perry Zurn, Russell T. Shinohara, Danielle S. Bassett<br />
 <em>arXiv</em> (2020-01-07) <a href="https://arxiv.org/abs/2001.01002">https://arxiv.org/abs/2001.01002</a></p>
 </div>
 <div id="ref-5HWeup6K">
-<p>23. <strong>Gender differences in peer review outcomes and manuscript impact at six journals of ecology and evolution</strong><br />
+<p>24. <strong>Gender differences in peer review outcomes and manuscript impact at six journals of ecology and evolution</strong><br />
 Charles W. Fox, C. E. Timothy Paine<br />
 <em>Ecology and Evolution</em> (2019-03-04) <a href="https://doi.org/gfwjjb">https://doi.org/gfwjjb</a><br />
 DOI: <a href="https://doi.org/10.1002/ece3.4993">10.1002/ece3.4993</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30962913">30962913</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6434606">PMC6434606</a></p>
 </div>
 <div id="ref-1EYk4f8Mu">
-<p>24. <strong>Journals invite too few women to referee</strong><br />
+<p>25. <strong>Journals invite too few women to referee</strong><br />
 Jory Lerback, Brooks Hanson<br />
 <em>Nature</em> (2017-01-26) <a href="https://doi.org/gf4jjz">https://doi.org/gf4jjz</a><br />
 DOI: <a href="https://doi.org/10.1038/541455a">10.1038/541455a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28128272">28128272</a></p>
 </div>
 <div id="ref-1FX4fLEIy">
-<p>25. <strong>Role modeling is a viable retention strategy for undergraduate women in the geosciences</strong><br />
+<p>26. <strong>Role modeling is a viable retention strategy for undergraduate women in the geosciences</strong><br />
 Paul R. Hernandez, Brittany Bloodhart, Amanda S. Adams, Rebecca T. Barnes, Melissa Burt, Sandra M. Clinton, Wenyi Du, Elaine Godfrey, Heather Henderson, Ilana B. Pollack, Emily V. Fischer<br />
 <em>Geosphere</em> (2018-10-31) <a href="https://doi.org/gghp9d">https://doi.org/gghp9d</a><br />
 DOI: <a href="https://doi.org/10.1130/ges01659.1">10.1130/ges01659.1</a></p>
 </div>
 <div id="ref-zdS2Wmy2">
-<p>26. <strong>Why we’re editing women scientists onto Wikipedia</strong><br />
+<p>27. <strong>Why we’re editing women scientists onto Wikipedia</strong><br />
 Jess Wade, Maryam Zaringhalam<br />
 <em>Nature</em> (2018-08-14) <a href="https://doi.org/gdz52z">https://doi.org/gdz52z</a><br />
 DOI: <a href="https://doi.org/10.1038/d41586-018-05947-8">10.1038/d41586-018-05947-8</a></p>
 </div>
 <div id="ref-yaljvCUU">
-<p>27. <strong>Why we’re creating Wikipedia profiles for BAME scientists</strong><br />
+<p>28. <strong>Why we’re creating Wikipedia profiles for BAME scientists</strong><br />
 Nicola O’Reilly<br />
 <em>Nature</em> (2019-03-07) <a href="https://doi.org/gfwhcr">https://doi.org/gfwhcr</a><br />
 DOI: <a href="https://doi.org/10.1038/d41586-019-00812-8">10.1038/d41586-019-00812-8</a></p>
 </div>
 <div id="ref-YuJbg3zO">
-<p>28. <strong>Open collaborative writing with Manubot</strong><br />
+<p>29. <strong>Open collaborative writing with Manubot</strong><br />
 Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
 <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
