@@ -72,9 +72,14 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/47>
 
 ## Review 3
 
-> This is an important reflective effort to undertake, and I am glad that it was performed.  The analysis on the whole seems reasonable.  It would be good to see more citations of this type of work in other disciplines and a comparison of the results here to what has been found in other scientific organizations. It also seems that the work could have been a bit more statistically rigorous in spots, and it would be nice to see more analysis of non-Asian ethnicities.
+> This is an important reflective effort to undertake, and I am glad that it was performed. The analysis on the whole seems reasonable.  It would be good to see more citations of this type of work in other disciplines and a comparison of the results here to what has been found in other scientific organizations. It also seems that the work could have been a bit more statistically rigorous in spots, and it would be nice to see more analysis of non-Asian ethnicities.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/48>
+We agree with the reviewer that it is important to perform analyses of non-Asian ethnicities. 
+We did break down the analysis for other groups in one [analysis notebook](https://greenelab.github.io/iscb-diversity/10.predict-race.html#sup_fig_s2), but it is difficult to come to a definite conclusion due to the small sample size. However, our new affiliation analysis at the country level helps complement the previous analyses.
+We have also included all relevant literature we could find on the topic.
+Many papers on academic diversity of various disciplines, as we discussed in the Discussion section, focus on the underrepresentation of women in different academic settings (e.g. invited by journals to submit papers less often, suggested as reviewers less often, or cited less often), but only a few focus on race (e.g. proposals by Asian, black or African-American applicants were less likely to be funded).
+We have also added overall statistical measures at each analysis steps as described point-by-point below.
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/48>.
 
 > Some specific comments below.
 > 
@@ -84,11 +89,20 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/49>
 
 > p. 3, paragraph 2: research advisors don't seem to be the best proxy for senior faculty who would be invited for keynotes or honored as fellows
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/50>
+We did not make this point clear.
+What we meant was to contrast advisors with their trainees.
+In the revised manuscript, we have clarified this point at the beginning of the subsection **Corresponding author extraction**:
+
+"We assumed that, in the list of authors for a specific paper, corresponding authors (often research advisors) would be those most likely to be invited for keynotes or to be honored as Fellows."
+
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/50>.
 
 > p. 3, penultimate paragraph: if the breakdown is approximately 40/60 on first/last authors being corresponding, why take a majority rule?  Seems more rigorous to randomize the selection process according to this "weighted die"
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/51>
+We agree that an alternative method is to randomly select corresponding author (first or last) according this proportion.
+However, this method, in general, will have lower accuracy compared to our hard assignment of where the majority of corresponding authors fall.
+In other words, if we let $p$ denote the majority proportion ($0.5 < p < 1$) then $p^2 +(1-p)^2 - p = (2p-1)(p-1) < 0$, which implies $p^2 + (1-p)^2 < p$, i.e., random selection has lower chance to assume corresponding authors correctly.
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/51>.
 
 > p. 4, paragraph 2: It would be great to see citations for Genderize, especially ones that provide insights on accuracy/reliability.  It would also be nice to know how inclusive this app is in terms of names from across the world.  Without that, the 1578 missing forenames could be biased by any bias in this app.  This discussion is had with respect to wru lower down on the page, so it's natural to provide this standard here.
 
@@ -96,23 +110,35 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/52>
 
 > p. 4, paragraph 4: The terms "race" and "ethnicity" are used in the paper, but there isn't really a definition of these terms in terms of categories.  It would be nice to see that explicitly laid out, perhaps with a citation.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/53>
+We appreciate the reviewer for pointing out this oversight.
+In the revised manuscript, we have referenced guidance from the census and make it clearer in the **Estimation of Race and Ethnicity** subsection of the **Methods** section.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/53>.
 
 > p. 4, paragraph 4: Why is using the average demographic distribution a reasonable assumption to make?
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/54>
+It is not, and we modified modified the function to return NAs as to not use average demographic distribution.
+We have made clarification in the **Estimation of Race and Ethnicity** subsection of the **Methods** section of the revised manuscript:
+
+"However, in the case of names that were not observed in the census, the function outputs the average demographic distribution from the census, which may produce misleading results.
+To avoid this suboptimal imputation, we modified the function to return a status denoting that results were inconclusive (NA) instead."
+
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/54>.
 
 > p. 7, Figure 2: It would be better to see statistics provided as part of this analysis.  It strikes me that the problem at hand here is similar to sample-to-sample microbiome population analysis, which use rigorous statistics, and the same types of methods could be used for analysis in Fig. 2.  This level of statistical rigor is present as part of Figure 3, which was good to see.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/55>
+We agree.
+During revision, we have added overall statistics from 3 Welch two-sample t-tests for each prediction classes: white, Asian and Other categories.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/55>.
 
 > p. 9, Figure 4: The same point can be made here as for Figure 2.  It would be nice to see a statistical analysis and a p-value or two to justify claims beyond appealing to figures.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/56>
+During revision, we have added overall statistics overall statistics for gender comparison between authors and iscb honorees.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/56>
 
 > p. 9, Figure 4: The term "other categories" is used but these are never really defined (see previous point).  It would be good to do so, perhaps even in a supplement.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/57>
+In the revised version of the manuscript, we spefidied which regions category O contains in the caption of this figure.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/57>.
 
 ## Review 4
 
