@@ -75,8 +75,9 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/47>
 > This is an important reflective effort to undertake, and I am glad that it was performed. The analysis on the whole seems reasonable.  It would be good to see more citations of this type of work in other disciplines and a comparison of the results here to what has been found in other scientific organizations. It also seems that the work could have been a bit more statistically rigorous in spots, and it would be nice to see more analysis of non-Asian ethnicities.
 
 We agree with the reviewer that it is important to perform analyses of non-Asian ethnicities. 
-We did break down the analysis for other groups in one [analysis notebook](https://greenelab.github.io/iscb-diversity/10.predict-race.html#sup_fig_s2), but it is difficult to come to a definite conclusion due to the small sample size. However, our new affiliation analysis at the country level helps complement the previous analyses.
-We have also included all relevant literature we could find on the topic.
+We did break down the analysis for other groups in one [analysis notebook](https://greenelab.github.io/iscb-diversity/10.predict-race.html#sup_fig_s2), but it is difficult to come to a definite conclusion due to the small sample size.
+However, our new affiliation analysis at the country level helps complement the previous analyses.
+We have also cited the relevant literature we could find on the topic.
 Many papers on academic diversity of various disciplines, as we discussed in the Discussion section, focus on the underrepresentation of women in different academic settings (e.g. invited by journals to submit papers less often, suggested as reviewers less often, or cited less often), but only a few focus on race (e.g. proposals by Asian, black or African-American applicants were less likely to be funded).
 We have also added overall statistical measures at each analysis steps as described point-by-point below.
 Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/48>.
@@ -117,7 +118,7 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > p. 4, paragraph 4: Why is using the average demographic distribution a reasonable assumption to make?
 
 It is not, and we modified modified the function to return NAs as to not use average demographic distribution.
-We have made clarification in the **Estimation of Race and Ethnicity** subsection of the **Methods** section of the revised manuscript:
+We have clarified the **Estimation of Race and Ethnicity** subsection of the **Methods** section of the revised manuscript:
 
 "However, in the case of names that were not observed in the census, the function outputs the average demographic distribution from the census, which may produce misleading results.
 To avoid this suboptimal imputation, we modified the function to return a status denoting that results were inconclusive (NA) instead."
