@@ -15,7 +15,7 @@ We agree with the reviewer that the names of the groups of countries are not app
 In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
 Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
 This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
-By integrating different methods we hope to alleviate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
+By integrating different methods we hope to mitigate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
 Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/38>.
 
 > Furthermore, classifying names might reveal an origin but not a nationality and certainly not where the work was carried out. All these consideration seems to scape the analysis (i.e. considering the scientists with a greek name - that is easy to recognise as such- and got some of the ISCB award recently represent a minority when they have developed almost all their profesional time in the USA is very unclear).
@@ -79,7 +79,7 @@ We agree with the reviewer that the names of the groups of countries are not app
 In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
 Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
 This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
-By integrating different methods we hope to alleviate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
+By integrating different methods we hope to mitigate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/45>.
 
 > 2\. I was not able to parse the subtle implications of
@@ -179,9 +179,7 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > This manuscript looks at the representation issues when honoring scientists in the field of computational biology by a computational biology society (ISCB). It establishes a background distribution based on the authors of relevant journal publications and then studies subgroup representation of keynotes at three of the ISCB-affiliated conferences (ISMB, RECOMB, PSB) and ISCB fellows against that distribution. It analyzes predicted gender, nationalities, ethnicities, and race of honorees. There are several findings but the major and only stated conclusion in Abstract is that there is recognition overrepresentation of white scientists and underrepresentation of non-white scientists.
 > 
 > This topic is out of scope for the proceedings of ISMB, at least by how I interpret the scope. It has its place in the published literature (I recommend with major revisions), but there is no methodology for or the analysis of molecular and biological data. Instead it is a study about the authors of such papers and broadly speaking it characterizes the recognition and reward system for their contributions to the field.
-
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/58>
-
+>
 > To give feedback to the ISMB senior committee and also the authors about their work, I offer a critique below assuming the manuscript is within scope of the ISMB proceedings.
 > 
 > Overall this is a clearly written manuscript on a clearly important topic. The work has merits and it presents simple conclusions, but it also has deficiencies in analysis and presentation of results that need to be addressed.
@@ -195,20 +193,23 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/58>
 > 
 > * Although results might appear simple, substantial work has been completed.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/59>
+We appreciate the reviewer's positive feedback on our work.
+We strongly believe that acknowledging these disparities is an important first step toward justly recognizing contributions from minoritized scientists.
+This is the goal of the study.
 
 > Comments on the analysis:
 > \* The analysis focuses on ISCB, its fellows and its conferences. ISCB conferences are listed at: https://www.iscb.org/iscb-conferences however, justification was not provided as to why some conferences made it and others did not. PSB for example was assessed as international but this is hard to justify given its location patterns. GIW/ISCB-Asia is omitted, but no justification was given. This is of course of significant importance for the conclusions. Either justification or expanded analysis is needed.
+>
+>> \* Related to above, the selected journals for the background are of global reach (especially Bioinformatics because of rankings and $0 closed-access publication charges) whereas selected ISCB conferences (with their honorees) are more localized in Europe and North America for financial reasons. Considering the field as a whole, there are conferences that are limited to Asia, such as APBC or ISCB-Asia/Genome Informatics Workshop that are both of good quality and well known. APBC 2020 web site also shows that BMC Bioinformatics is among journals for their special issue. This suggests that the journals indeed better represent the field and that conferences are more geographically fragmented, including potentially ISCB conferences. This in turn means that the selection of conferences is critical for the outcome and appropriateness of this analysis. I think it would be appropriate to see a recognition of this fact in the manuscript and adjust the analysis.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/60>
+We agree with the reviewer that, given PSB's location patterns, it should not be considered in this study.
+We have removed this symposium out of all of the analyses.
+In the revision, we focus on ISMB and RECOMB as the two society-associated meetings that are meant to represent the society globally, aim to have an international reach, and have been held in multiple continents.
+Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/62>.
 
 > \* The background in the study is created from the publications in well-selected journals (Bioinformatics, BMC Bioinformatics and PLOS Computational Biology). That background is appropriate and provides a useful characterization but is not necessarily the most appropriate. When one talks about a society, an alternative appropriate background would be the professional membership in that society (a society has responsibilities to recognize the work of its members well). The gender information in ISCB should be publicly available so the authors can check the trends and agreements with the current background. The authors could even be able to work out a solution with ISCB to apply the predictors to the data and more deeply test their hypotheses. The conclusions could hold or not and new patterns could emerge.
 
 Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/61>
-
-> \* Related to above, the selected journals for the background are of global reach (especially Bioinformatics because of rankings and $0 closed-access publication charges) whereas selected ISCB conferences (with their honorees) are more localized in Europe and North America for financial reasons. Considering the field as a whole, there are conferences that are limited to Asia, such as APBC or ISCB-Asia/Genome Informatics Workshop that are both of good quality and well known. APBC 2020 web site also shows that BMC Bioinformatics is among journals for their special issue. This suggests that the journals indeed better represent the field and that conferences are more geographically fragmented, including potentially ISCB conferences. This in turn means that the selection of conferences is critical for the outcome and appropriateness of this analysis. I think it would be appropriate to see a recognition of this fact in the manuscript and adjust the analysis.
-
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/62>
 
 > \* Figure 1. There is no statistical analysis of this data. By eyeballing the graphs it looks like that women are not underrepresented as honorees, and might even be overrepresented. This should be discussed more formally (e.g. statistical tests) and confidence intervals or statistical significance should be provided much like in Figure 2, whatever the conclusions are.
 
@@ -240,14 +241,23 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/66>
 
 Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/67>
 
-> \* Figure 4 and the category selection for the analysis are highly problematic. I understand that the categories were selected according to NamePrism, but it is ultimately the responsibility of the authors to justify choices. What is compared is a continent (Europe, Africa), a religion (Muslim), a country (Israel), a part of the continent (East Asian, South Asian), a group of different races or ancestries that spans continents (Hispanic), and then there are Celtic English folk. This analysis needs a substantial revision to the broader and more parallel categories, even compared to previous Figures in the manuscript. The genetics community has been successful discussing continental and subcontinental populations though the problem here is to infer those from names that reflect many things. Singling out Israel as overrepresented sends a tricky message when listed right next to Muslim as underrepresented. It surprised me to see this insensitivity in a study that is meant to asse!
->  ss where we are as a community and to promote sensitivities.
+> \* Figure 4 and the category selection for the analysis are highly problematic. I understand that the categories were selected according to NamePrism, but it is ultimately the responsibility of the authors to justify choices. What is compared is a continent (Europe, Africa), a religion (Muslim), a country (Israel), a part of the continent (East Asian, South Asian), a group of different races or ancestries that spans continents (Hispanic), and then there are Celtic English folk. This analysis needs a substantial revision to the broader and more parallel categories, even compared to previous Figures in the manuscript. The genetics community has been successful discussing continental and subcontinental populations though the problem here is to infer those from names that reflect many things. Singling out Israel as overrepresented sends a tricky message when listed right next to Muslim as underrepresented. It surprised me to see this insensitivity in a study that is meant to assess where we are as a community and to promote sensitivities.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/68>
+We agree with the reviewer that the names of the groups of countries are not appropriate.
+In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
+Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
+This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+By integrating different methods we hope to mitigate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/68>
 
 > \* I would like to see discussion on the topic of how ISCB should adjust to identify scientists that merit recognition but have fallen through the cracks so far? Can a data-driven help be of use?
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/69>
+This is an important discussion point.
+In fact, we did raise this point in the Discussion section:
+
+"Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models. [...] Honorees include significantly fewer people of color than the field as a whole, and Asian scientists are dramatically underrepresented among honorees. [...] Societies can play a positive role in enhancing equity if they design policies to honor scientists in ways that counter these biases."
+
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/69>
 
 ## Review 5
 
@@ -264,22 +274,28 @@ Because wru uses the US census to make predictions, many of the missing predicti
 Therefore, we expect an underestimation of the number of these names in both the list of authors and honorees.
 We have added this limitation and our effort to alleviate this issue in the Discussion section of the revised manuscript:
 
-"We acknowledged that our supervised learning approaches are neither error free nor bias free.
-Because wru was trained on the US census to make predictions, many of the missing predictions are on names not observed in the US census.
-Although the underestimation of the proportion of these names could not be compared between the list of authors and honorees, we complemented this race/ethnicity prediction method with an additional name origin analysis.
-By integrating different methods and preserving uncertainty by analyzing prediction probabilities rather than applying a hard assignment for each prediction, we hope to alleviate these biases and discover insightful findings that correctly reflect the current representation diversity at conferences."
+"Because wru was trained on the US census to make predictions, many of the missing predictions are on names not observed in the US census.
+Although the underestimation of the proportion of these names could not be compared between the list of authors and honorees, we complemented this race/ethnicity prediction method with an additional name origin analysis."
 
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/70>
 
 > There are assumptions and analysis issues. Did the author check if the association between predicted race/ethnicity and author Affiliation?  Was Asian bias by country or ethnicity?  For example, are American-Asians represented in ISCB honorees but Asians who are geographically located in Asia under-represented. Is this associated with geographic attendance at ISCB meetings? One might expect local awardees in the host country. For example, the authors note that ISMB keynotes had more probability attributable to Israel, while RECOMB had more attributable to East Asian countries.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/71>
+We agree with the reviewer that the names of the groups of countries are not appropriate.
+In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
+Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
+This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+We also limit our race/ethnicity analysis to only US-affiliated scientists to avoid further biases.
+
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/71>.
 
 > Given this small pool of 411, some names of which were duplicated (fellows and keynotes etc), were they manually checked for accuracy.
 
-We did not manually check names and photos to guess gender or name origins to avoid any biases.
-Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/72>
+We did not manually check names and photos to guess gender or name origins to avoid inducing bias.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/72>.
 
 > There are non-random missing data. European Spanish/Portuguese/Italian are called Hispanic. Assignment of the race (white/black/Asian) based surname is difficult to extrapolate to a multi-cultural society where last name and skin color are maybe discordant.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/73>
+We acknowledged that our supervised learning approaches are neither error free nor bias free.
+However, once again, we hope that the newly added affiliation analysis at the country level without groupings will complement the approaches in the earlier version of the study.
+By integrating different methods, we hope to mitigate the existing issues and discover insightful findings that correctly reflect the current representation diversity at conferences.
