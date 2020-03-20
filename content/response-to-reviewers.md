@@ -137,7 +137,7 @@ Please see further discussion at <https://github.com/greenelab/iscb-diversity-ma
 
 In the revised manuscript, we have added two citations for genderize.io regarding its accuracy and bias:
 
-""
+"TODO"
 
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/52>
 
@@ -179,7 +179,10 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > This manuscript looks at the representation issues when honoring scientists in the field of computational biology by a computational biology society (ISCB). It establishes a background distribution based on the authors of relevant journal publications and then studies subgroup representation of keynotes at three of the ISCB-affiliated conferences (ISMB, RECOMB, PSB) and ISCB fellows against that distribution. It analyzes predicted gender, nationalities, ethnicities, and race of honorees. There are several findings but the major and only stated conclusion in Abstract is that there is recognition overrepresentation of white scientists and underrepresentation of non-white scientists.
 > 
 > This topic is out of scope for the proceedings of ISMB, at least by how I interpret the scope. It has its place in the published literature (I recommend with major revisions), but there is no methodology for or the analysis of molecular and biological data. Instead it is a study about the authors of such papers and broadly speaking it characterizes the recognition and reward system for their contributions to the field.
->
+
+This comment is irrelevant to other future venues for submission.
+See discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/58>.
+
 > To give feedback to the ISMB senior committee and also the authors about their work, I offer a critique below assuming the manuscript is within scope of the ISMB proceedings.
 > 
 > Overall this is a clearly written manuscript on a clearly important topic. The work has merits and it presents simple conclusions, but it also has deficiencies in analysis and presentation of results that need to be addressed.
@@ -200,7 +203,7 @@ This is the goal of the study.
 > Comments on the analysis:
 > \* The analysis focuses on ISCB, its fellows and its conferences. ISCB conferences are listed at: https://www.iscb.org/iscb-conferences however, justification was not provided as to why some conferences made it and others did not. PSB for example was assessed as international but this is hard to justify given its location patterns. GIW/ISCB-Asia is omitted, but no justification was given. This is of course of significant importance for the conclusions. Either justification or expanded analysis is needed.
 >
->> \* Related to above, the selected journals for the background are of global reach (especially Bioinformatics because of rankings and $0 closed-access publication charges) whereas selected ISCB conferences (with their honorees) are more localized in Europe and North America for financial reasons. Considering the field as a whole, there are conferences that are limited to Asia, such as APBC or ISCB-Asia/Genome Informatics Workshop that are both of good quality and well known. APBC 2020 web site also shows that BMC Bioinformatics is among journals for their special issue. This suggests that the journals indeed better represent the field and that conferences are more geographically fragmented, including potentially ISCB conferences. This in turn means that the selection of conferences is critical for the outcome and appropriateness of this analysis. I think it would be appropriate to see a recognition of this fact in the manuscript and adjust the analysis.
+> \* Related to above, the selected journals for the background are of global reach (especially Bioinformatics because of rankings and $0 closed-access publication charges) whereas selected ISCB conferences (with their honorees) are more localized in Europe and North America for financial reasons. Considering the field as a whole, there are conferences that are limited to Asia, such as APBC or ISCB-Asia/Genome Informatics Workshop that are both of good quality and well known. APBC 2020 web site also shows that BMC Bioinformatics is among journals for their special issue. This suggests that the journals indeed better represent the field and that conferences are more geographically fragmented, including potentially ISCB conferences. This in turn means that the selection of conferences is critical for the outcome and appropriateness of this analysis. I think it would be appropriate to see a recognition of this fact in the manuscript and adjust the analysis.
 
 We agree with the reviewer that, given PSB's location patterns, it should not be considered in this study.
 We have removed this symposium out of all of the analyses.
