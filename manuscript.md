@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-19'
+date-meta: '2020-03-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-19" />
+  <meta name="dc.date" content="2020-03-20" />
 
-  <meta name="citation_publication_date" content="2020-03-19" />
+  <meta name="citation_publication_date" content="2020-03-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9582770796254696372ce8b465669f511a59efb6/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9582770796254696372ce8b465669f511a59efb6/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...9582770796254696372ce8b465669f511a59efb6) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@fc6d7be](https://github.com/greenelab/iscb-diversity-manuscript/tree/fc6d7be30dd4f2d1040152ac92de38c6e8cd96e4)
-on March 19, 2020.
+from [greenelab/iscb-diversity-manuscript@9582770](https://github.com/greenelab/iscb-diversity-manuscript/tree/9582770796254696372ce8b465669f511a59efb6)
+on March 20, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
