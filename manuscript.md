@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9582770796254696372ce8b465669f511a59efb6/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9582770796254696372ce8b465669f511a59efb6/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...9582770796254696372ce8b465669f511a59efb6) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9582770796254696372ce8b465669f511a59efb6/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@9582770](https://github.com/greenelab/iscb-diversity-manuscript/tree/9582770796254696372ce8b465669f511a59efb6)
+from [greenelab/iscb-diversity-manuscript@5cf46e3](https://github.com/greenelab/iscb-diversity-manuscript/tree/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f)
 on March 20, 2020.
 </em></small>
 
@@ -236,7 +236,7 @@ Challenges extend beyond gender: an analysis of awards at the NIH found that pro
 There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color's efforts to gain NIH funding [@doi:10.1097/ACM.0000000000001278].
 
 We sought to understand the extent to which honors and high-profile speaking invitations were distributed equitably among gender, race/ethnicity, and name origin groups by an international society and its associated meetings.
-As computational biologists, we focused on the [International Society for Computational Biology](https://www.iscb.org/) (ISCB), its honorary Fellows as well as its affiliated international meetings: [Intelligent Systems for Molecular Biology](https://en.wikipedia.org/wiki/Intelligent_Systems_for_Molecular_Biology) (ISMB), [Research in Computational Molecular Biology](https://en.wikipedia.org/wiki/Research_in_Computational_Molecular_Biology) (RECOMB), and [Pacific Symposium on Biocomputing](https://psb.stanford.edu/) (PSB).
+As computational biologists, we focused on the [International Society for Computational Biology](https://www.iscb.org/) (ISCB), its honorary Fellows as well as its affiliated international meetings that aim to have a global reach: [Intelligent Systems for Molecular Biology](https://en.wikipedia.org/wiki/Intelligent_Systems_for_Molecular_Biology) (ISMB) and [Research in Computational Molecular Biology](https://en.wikipedia.org/wiki/Research_in_Computational_Molecular_Biology) (RECOMB).
 
 We used multiple methods to predict the gender, race/ethnicity, and name origins of honorees.
 Existing methods were relatively US-centric because most of the data was derived in whole or in part from the US Census.
@@ -252,9 +252,10 @@ The lack of Asian scientists among keynote speakers and Fellows was particularly
 
 From [ISCB's webpage listing **ISCB Distinguished Fellows**](http://web.archive.org/web/20200116150052/https://www.iscb.org/iscb-fellows), we found recipients listed by their full names for the years 2009-2019.
 We gleaned the full name of the Fellow as well as the year in which they received the honor.
+We identified major ISCB-associated conferences as those designated flagship (ISMB) or those that had been held on many continents (RECOMB).
 To identify **ISMB Keynote Speakers**, we examined the webpage for each ISMB meeting.
-We found webpages with full names for keynote speakers for the years 2002-2019.
-On the PSB conference webpages, we found **PSB Keynote Speakers** for the years 1999-2020.
+The invited speakers at ISMB before 2001 were listed in the Preface pages of each year's proceedings, which were archived in the [ISMB collection](https://aaai.org/Library/ISMB/ismb-library.php) of the AAAI digital library.
+We found webpages with full names for keynote speakers for the years 1993-2019.
 
 For the RECOMB meeting, we found conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010-2019.
 We were able to fill in the missing years using information from the RECOMB 2016 proceedings, which summarizes the first 20 years of the RECOMB conference [@doi:10.1007/978-3-319-31957-5].
@@ -361,28 +362,11 @@ We used the estimated probabilities and did not convert to a hard group assignme
 For example, a query to <https://genderize.io> on January 26, 2020 for "Casey" returns a probability of male of 0.74 and a probability of female of 0.26, which we would add for an author with this first name.
 Because of the limitations of considering gender as a binary trait and inferring it from first names, we only consider predictions in aggregate and not as individual values for specific scientists.
 
-Of 411 ISCB honorees, genderize.io fails to provide gender predictions for two names.
-Of 34,005 corresponding authors, 45 were missing a fore name altogether in the raw paper metadata and 1,466 had fore names consisting of only initials.
+Of 412 ISCB honorees, genderize.io fails to provide gender predictions for three names.
+Of 34,005 corresponding authors, 45 were missing a fore name altogether in the raw paper metadata and 1,468 had fore names consisting of only initials.
 Of the remaining authors, genderize.io failed to predict gender for 1,578 of these fore names.
 We note that approximately 52% of these NA predictions are hyphenated names, which is likely because they are more unique and thus are more difficult to find predictions for.
 87% of these names were predicted to be of Asian origin by last name (see the race/ethnicity prediction model below).
-
-### Estimation of Race and Ethnicity
-
-We predicted the race and ethnicity of honorees and authors using the R package wru.
-wru implements methods described in Imai and Khanna [@doi:10.1093/pan/mpw001] to predict race and ethnicity using surname and location information.
-The underlying data used for prediction are derived from the US Census, in which an individual's race and ethnicity are based on their self-identification with one or more groups.
-Specifically, the race categories include White, Black or African American, American Indian or Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, Other race, and Two or more races [@url:https://factfinder.census.gov/help/en/race.htm], and ethnicity categories include Hispanic/Latino or Not Hispanic/Latino [@url:https://web.archive.org/web/20010405061504/http://www.census.gov/Press-Release/www/2001/raceqandas.html].
-wru uses similar race/ethnicity categories but groups American Indian or Alaska Native and Native Hawaiian or Other Pacific Islander to form the Other category.
-
-We used only the surname of author or honoree to make predictions via the *predict_race()* function from wru.
-However, in the case of names that were not observed in the census, the function outputs the average demographic distribution from the census, which may produce misleading results.
-To avoid this suboptimal imputation, we modified the function to return a status denoting that results were inconclusive (NA) instead.
-This prediction represents the probability of an honoree or author selecting a certain race or ethnicity on a census form if they lived within the US.
-
-Of 411 ISCB honorees, wru fails to provide race/ethnicity predictions for 98 names.
-Of 34,050 corresponding authors, 40 were missing a last name in the paper metadata, and 8,770 had a last name for which wru did not provide predictions.
-One limitation of wru and other methods that infer race, ethnicity, or nationality from last names is the potentially inaccurate prediction for scientists who changed their last name during marriage, a practice more common among women than men.
 
 ### Estimation of Name Origin Groups
 
@@ -412,29 +396,10 @@ We initially grouped names by continent, but later decided to model our categori
 The NamePrism taxonomy was derived from name-country pairs by producing an embedding of names by Twitter contact patterns and then grouping countries using the similarity of names from those countries.
 In an earlier version of this manuscript we also used category names derived from NamePrism, but the titles of the groupings were problematic, so we have recoded the groupings to letters.
 The countries associated with each grouping are shown in Fig {@fig:nameprism_countries}.
-Table @tbl:example_names shows the size of the training set for each of these groupings as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
-We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
 
 ![NamePrism groups countries by name similarity. We used this grouping and
  recoded names assigned to groups in the initial publication to letter keys.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="70%"}
-
-| Group | Training Size | Example Names |
-| ------ | ------ | -------------------- |
-| A | 280,644 | Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge |
-| B | 188,918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
-| C | 54,197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
-| D | 66,391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
-| E | 20,025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
-| F | 30,703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
-| G | 4,549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
-| H | 16,105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
-
-Table: **Predicting name-origin groups of names trained on Wikipedia's living people.**
-The table lists the 8 groups and the number of living people for each region that the LSTM was trained on.
-Example names shows actual author names that received a high prediction for each region.
-Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/iscb-diversity/blob/make-letters/data/countries/2020-01-31_groupings.tsv).
-{#tbl:example_names}
 
 ### Affiliation Analysis
 
@@ -443,15 +408,31 @@ We then performed an enrichment analysis to examine the difference in country af
 We calculated each country's enrichment by dividing the observed proportion of honorees by the expected proportion of honorees.
 The variance of the log~2~ enrichment was estimated using the delta method with a small continuity correction to avoid dividing by 0 [@isbn:978-0849394447].
 
+### Estimation of Race and Ethnicity within the US
+
+We predicted the race and ethnicity of US-affiliated honorees and authors using the R package wru.
+wru implements methods described in Imai and Khanna [@doi:10.1093/pan/mpw001] to predict race and ethnicity using surname and location information.
+The underlying data used for prediction are derived from the US Census, in which an individual's race and ethnicity are based on their self-identification with one or more groups.
+Specifically, the race categories include White, Black or African American, American Indian or Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, Other race, and Two or more races [@url:https://factfinder.census.gov/help/en/race.htm], and ethnicity categories include Hispanic/Latino or Not Hispanic/Latino [@url:https://web.archive.org/web/20010405061504/http://www.census.gov/Press-Release/www/2001/raceqandas.html].
+wru uses similar race/ethnicity categories but groups American Indian or Alaska Native and Native Hawaiian or Other Pacific Islander to form the Other category.
+
+We used only the surname of author or honoree to make predictions via the *predict_race()* function from wru.
+However, in the case of names that were not observed in the census, the function outputs the average demographic distribution from the census, which may produce misleading results.
+To avoid this suboptimal imputation, we modified the function to return a status denoting that results were inconclusive (NA) instead.
+This prediction represents the probability of an honoree or author selecting a certain race or ethnicity on a census form if they lived within the US.
+
+Of 239 US-affiliated ISCB honoree entries, wru fails to provide race/ethnicity predictions for 45 names.
+Of 11,545 US-affiliated corresponding authors, 2,352 had a last name for which wru did not provide predictions.
+One limitation of wru and other methods that infer race, ethnicity, or nationality from last names is the potentially inaccurate prediction for scientists who changed their last name during marriage, a practice more common among women than men.
+
 
 ## Results
 
 ### Curated Honorees and Literature-derived Potential Honorees
 
-We curated a dataset of ISCB honorees that included 411 honorees who were keynote speakers at international ISCB-associated conferences (ISMB, RECOMB, and PSB) as well as ISCB Fellows.
+We curated a dataset of ISCB honorees that included 412 honorees who were keynote speakers at international ISCB-associated conferences (ISMB and RECOMB) as well as ISCB Fellows.
 The ISCB Fellows set contained the complete set of Fellows named (2009-2019).
-Keynote speakers were available for ISMB for all years from 2002-2019.
-Keynote speakers from PSB were available for all years from 1999-2020.
+Keynote speakers were available for ISMB for all years from 1993-2019.
 Keynote speakers for RECOMB were available for all years from 1997-2019.
 We included individuals who were honored multiple times as separate entries.
 For example, Christine Orengo was a keynote speaker at RECOMB 2004 and became an ISCB Fellow in 2016, and thus was counted twice in this list.
@@ -473,7 +454,6 @@ ISCB Fellows and keynote speakers appear to be more evenly split between men and
 Further, taking all the years together, a Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB honorees predicted to be female compared to that of authors (t~418~ = 0.753, _p_ = 0.226).
 We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (see [notebook](https://greenelab.github.io/iscb-diversity/09.visualize-gender.html#sup_fig_s1)), which markedly increased after 2015.
 Through 2019, there were a number of examples of meetings or ISCB Fellow classes with a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
-However, the 2020 PSB keynotes, though outside of the primary range of our analyses, had nearly all the probability ascribed to female speakers.
 
 
 ![ISCB Fellows and keynote speakers appear more evenly split between men and women than PubMed authors, but the proportion has not reached parity. Estimated composition of gender prediction over the years of
@@ -482,30 +462,27 @@ However, the 2020 PSB keynotes, though outside of the primary range of our analy
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
 
-### Assessing the Racial and Ethnic Diversity of Authors and Honorees
-
-We predicted the race and ethnicity of authors and honorees using wru, which is based on US census data.
-We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}A).
-This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:racial_makeup}B, top).
-We did not observe a corresponding increase at _PLOS Computational Biology_ (Fig. {@fig:racial_makeup}B, bottom).
-Compared to Pubmed authors, ISCB honorees have a higher proportion of individuals whose last names we associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:racial_makeup}C vs. A).
-Separating honoree results by honor category did not reveal any clear differences (Fig. {@fig:racial_makeup}D).
-
-![We find an overrepresentation of white and underrepresentation of Asian honorees as compared to authors. Estimated composition of census-based race/ethnicity prediction over the years of
-  (A) all Pubmed computational biology and bioinformatics journal authors,
-  (B) authors in each journal,
-  (C) all ISCB Fellows and keynote speakers,
-  and (D) ISCB honorees in each honor category
-  was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
-  For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines (E).
-
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/racial_makeup.png){#fig:racial_makeup}
-
-We directly compared honoree and author results from 1997 to 2020 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:racial_makeup}E).
-We found that, over the years, white honorees have been significantly overrepresented (t~348~ = 15.0, _p_ < 10^-16^) and Asian honorees have been significantly underrepresented (t~368~ = -21.8, _p_ < 10^-16^).
-We also observed a higher mean probability of ISCB speakers predicted to be in Other categories compared to authors (t~336~ = 2.18, _p_ = 0.0296).
-
 ### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
+
+Table @tbl:example_names shows the size of the training set for each of these groupings as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
+We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
+
+| Group | Training Size | Example Names |
+| ------ | ------ | -------------------- |
+| A | 280,644 | Julie S. Miller, Jesse A. Livezey, Jeremy C Simpson, Chris Smith, Thomas M Drudge |
+| B | 188,918 | Sven Poths, Céline Feillet, Frederik Otzen Bagger, Lars I. Leichert, Sebastian MB Nijman |
+| C | 54,197 | Jee-Hyub Kim, Yoriko Takahashi, Xiaohua Xu, Xuehai Zhang, Yoshihiro Noguchi |
+| D | 66,391 | Beatriz Peñalver Bernabé, Diego Miranda-Saavedra, Marcelo Lobosco, Euler Guimarães Horta, Edgar E Vallejo-Clemente |
+| E | 20,025 | Mahender Kumar Singh, Vidhu Choudhary, Suraj Pradhan, Ramakant Sharma, Vinod Menon |
+| F | 30,703 | Mohammad R. K. Mofrad, Fikret Ercal, Mehdi Yousfi Monod, Ghazaleh Taherzadeh, Noora Al Muftah |
+| G | 4,549 | Tal Vider-Shalit, Itsik Pe'er, Michal Lavidor, Yoav Gothilf, Dvir Netanely |
+| H | 16,105 | Samuel A Assefa, Nyaradzo M. Mgodi, Stanley Kimbung Mbandi, Oyebode J Oyeyemi, Ezekiel Adebiyi |
+
+Table: **Predicting name-origin groups of names trained on Wikipedia's living people.**
+The table lists the 8 groups and the number of living people for each region that the LSTM was trained on.
+Example names shows actual author names that received a high prediction for each region.
+Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/iscb-diversity/blob/make-letters/data/countries/2020-01-31_groupings.tsv).
+{#tbl:example_names}
 
 We next aimed to predict the name origin groups of honorees and authors.
 We constructed a training dataset with more than 700,000 name-nationality pairs by parsing the English-language Wikipedia.
@@ -536,7 +513,6 @@ Among keynote speakers and fellows we found that the majority of honorees are pr
 Though sample sizes were small, we did observe some differences in the composition of groups between meetings.
 ISMB keynotes had more probability attributable to Group G, while RECOMB had more attributable to Group C (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-nationality.html#sup_fig_s4)).
 When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of Group A keynote speakers and a substantial underrepresentation of Group C keynote speakers ({@fig:region_breakdown}B).
-Outside of the primary range of our analyses, the two names of 2020 PSB keynote speakers were predicted to be of Group A (65% probability) and Group H (99% probability), respectively.
 
 
 ![Compared to the name collection of Pubmed authors, Group A honorees are overrepresented while Group C honorees are underrepresented. Category O represents all other groups (D, E, F, G and H, see Table @tbl:example_names). Estimated composition of name origin prediction over the years of
@@ -591,6 +567,29 @@ Observed (triangle) and expected (circle) number of honorees and their differenc
 Countries are ordered based on the proportion of authors in the field.
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
+
+### Assessing the Racial and Ethnic Diversity of US-affiliated Authors and Honorees
+
+We predicted the race and ethnicity of US-affiliated authors and honorees using wru, which is based on US census data.
+We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}A).
+This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:us_racial_makeup}B, top).
+We did not observe a corresponding increase at _PLOS Computational Biology_ (Fig. {@fig:racial_makeup}B, bottom).
+Compared to Pubmed authors, ISCB honorees with US affiliations have a higher proportion of individuals whose last names we associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}C vs. A).
+Separating honoree results by honor category did not reveal any clear differences (Fig. {@fig:us_racial_makeup}D).
+
+![We find an overrepresentation of white and underrepresentation of Asian honorees as compared to authors. Estimated composition of census-based race/ethnicity prediction over the years of
+  (A) all Pubmed computational biology and bioinformatics journal authors,
+  (B) authors in each journal,
+  (C) all ISCB Fellows and keynote speakers,
+  and (D) ISCB honorees in each honor category
+  was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
+  For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines (E).
+
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/us_racial_makeup.png){#fig:us_racial_makeup}
+
+We directly compared honoree and author results from 1993 to 2019 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:us_racial_makeup}E).
+We found that, over the years, white honorees have been significantly overrepresented (t~218~ = 14.8, _p_ < 10^-16^) and Asian honorees have been significantly underrepresented (t~236~ = -18.8, _p_ < 10^-16^).
+A Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB speakers predicted to be in Other categories compared to authors (t~203~ = 1.79, _p_ = 0.0747).
 
 
 ## Conclusions
