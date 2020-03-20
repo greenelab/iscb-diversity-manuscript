@@ -11,10 +11,13 @@ Add responses to this document.
 > 
 > There have been quite a lot of discussion on the methodological weakness of this paper  following its release on bioRxiv. The Race and Ethnicity chapter was particularly controversial, for example mixing it with religious terms was clearly an important error. Therefore, even if interesting, the technology proposed in the paper has still to mature to produce reliable results.
 
-We agree with the reviewer that the names of the groups of countries are not appropriate.
-In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
-Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
-This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+We agree with the reviewer that the names of the groups of countries were not appropriate as some were by country, some were by region, and others were by religion.
+In this revision, we have retained the data-driven groupings but selected more appropriate names for the name origin groups.
+Importantly, to complement the existing analysis, we performed an analysis of author affiliations to detect the affiliated countries for authors and honorees.
+This is a major improvement of the study because, in the past work an author's affiliation and name origin have some chance of being interlinked.
+Now we can directly examine geographic discrepancies.
+Within best represented country (the US), we can also examine differences by name origin to remove the geographic confounder.
+We find that both components (geography and name origin) still play a role.
 By integrating different methods we hope to mitigate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
 Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/38>.
 
@@ -38,7 +41,7 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > Additionally, the two main conclusions of the paper are so obvious that is difficult to understand the need of the paper. First, conferences and societies in the field are doing an effort to maintain a healthy gender balance, even if clearly far from perfect the interpretation of the results seems to show a positive trend. Instead of analysing the results he authors go into a very long discussion of the causes and consequences,  a discussion that is potentially more appropriate for an opinion paper than for a scientific paper in the conference. The second aspect, is the geographical bias. Yes, it is obvious that most of the speakers are white, the important question to understand the origin of the bias is if there are other more influential authors in the literature that the ones that have been selected in these conferences . The paper does not provide the necessary data to assess is this is the case. To assume that the ideal situation will be to have a number of invitations/honors  proportional to the number of papers by region does not make any sense from a scientific or from the conference organisation point of view.
 
 We agree that the lack of diversity has been readily apparent for some time.
-While the paper's corresponding author curated the list of honorees in 2018 and shared the issues with ISCB board of directors members, we did not observe any changes for 2019 despite these private attempts to influence diversity.
+Our paper's corresponding author curated the list of honorees in 2018 and shared the issues with ISCB board of directors members, but we did not observe any changes for 2019 despite these private attempts to influence diversity.
 Since our paper's release, ISCB has released the [2020 set of Fellows](https://www.iscb.org/iscb-fellows), which is two times larger than most years and includes two scientists with affiliations in Asia including the first ever with an affiliation in China.
 The [Award Winners](https://www.iscb.org/iscb-news-items/4249-2020-feb14-iscb-congratulates-2020-award-winners) also seem more diverse than past years.
 We believe the paper provides rigorous analysis in a public setting to back up what has been apparent to anyone who cared: the primary society that aims to represent us as computational biologists needs to do better.
@@ -51,7 +54,7 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 
 While diversity and parity is difficult to achieve in a short period of time, we strongly believe that acknowledging these disparities is an important first step toward justly recognizing contributions from minoritized scientists.
 Our study does just that.
-Now that changes have started to appear in the field of Computational Biology and Bioinformatics, we hope to see similar trend beyond the field and that minoritized scientists contribution will be properly recognized in the long term.
+Now that changes have started to appear in the field of Computational Biology and Bioinformatics, we hope to see similar trend beyond the field and that minoritized scientists' contributions will be properly recognized in the long term.
 Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/43>.
 
 
@@ -180,7 +183,9 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > 
 > This topic is out of scope for the proceedings of ISMB, at least by how I interpret the scope. It has its place in the published literature (I recommend with major revisions), but there is no methodology for or the analysis of molecular and biological data. Instead it is a study about the authors of such papers and broadly speaking it characterizes the recognition and reward system for their contributions to the field.
 
-This comment is irrelevant to other future venues for submission.
+We appreciate the reviewer's perspective.
+We felt that this work, as it focused on ISCB, was appropriate for submission as a general computational biology manuscript.
+However, it is clear that the reviewers and session organizers felt differently, so we are pursuing other venues to disseminate the work.
 See discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/58>.
 
 > To give feedback to the ISMB senior committee and also the authors about their work, I offer a critique below assuming the manuscript is within scope of the ISMB proceedings.
@@ -250,6 +255,9 @@ We agree with the reviewer that the names of the groups of countries are not app
 In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
 Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
 This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+
+We don't think it is accurate to characterize our work as an attempt to "promote sensitivities."
+Instead, we think it would be more appropriate to describe the work as an effort to examine the patterns that underlie who is and who isn't being honored by the field's major international society.
 By integrating different methods we hope to mitigate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
 Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/68>
 
@@ -300,5 +308,6 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > There are non-random missing data. European Spanish/Portuguese/Italian are called Hispanic. Assignment of the race (white/black/Asian) based surname is difficult to extrapolate to a multi-cultural society where last name and skin color are maybe discordant.
 
 We acknowledged that our supervised learning approaches are neither error free nor bias free.
+We would also note that it would be a mistake to consider race equivalent to skin color: race, as analyzed in this study, is based on self-identification and is a complex topic with its own area of research.
 However, once again, we hope that the newly added affiliation analysis at the country level without groupings will complement the approaches in the earlier version of the study.
 By integrating different methods, we hope to mitigate the existing issues and discover insightful findings that correctly reflect the current representation diversity at conferences.
