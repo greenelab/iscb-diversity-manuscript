@@ -39,8 +39,8 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 
 We agree that the lack of diversity has been readily apparent for some time.
 While the paper's corresponding author curated the list of honorees in 2018 and shared the issues with ISCB board of directors members, we did not observe any changes for 2019 despite these private attempts to influence diversity.
-Since our paper's release, ISCB has released the 2020 set of Fellows: https://www.iscb.org/iscb-fellows, which is 2x larger than most years and includes two scientists with affiliations in Asia including the first ever with an affiliation in China.
-The Award Winners also seem more diverse than past years: https://www.iscb.org/iscb-news-items/4249-2020-feb14-iscb-congratulates-2020-award-winners.
+Since our paper's release, ISCB has released the [2020 set of Fellows](https://www.iscb.org/iscb-fellows), which is two times larger than most years and includes two scientists with affiliations in Asia including the first ever with an affiliation in China.
+The [Award Winners](https://www.iscb.org/iscb-news-items/4249-2020-feb14-iscb-congratulates-2020-award-winners) also seem more diverse than past years.
 We believe the paper provides rigorous analysis in a public setting to back up what has been apparent to anyone who cared: the primary society that aims to represent us as computational biologists needs to do better.
 Now that this paper exists, changes have begun to appear.
 
