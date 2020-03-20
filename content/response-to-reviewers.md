@@ -14,10 +14,10 @@ Add responses to this document.
 We agree with the reviewer that the names of the groups of countries were not appropriate as some were by country, some were by region, and others were by religion.
 In this revision, we have retained the data-driven groupings but selected more appropriate names for the name origin groups.
 Importantly, to complement the existing analysis, we performed an analysis of author affiliations to detect the affiliated countries for authors and honorees.
-This is a major improvement of the study because, in the past work an author's affiliation and name origin have some chance of being interlinked.
+This is a major improvement of the study because, in the past work, an author's affiliation and name origin have some chance of being interlinked.
 Now we can directly examine geographic discrepancies.
-Within best represented country (the US), we can also examine differences by name origin to remove the geographic confounder.
-We find that both components (geography and name origin) still play a role.
+Within the most represented country (i.e., the US), we can also examine differences by name origin to remove the geographic confounder.
+We found that both components (geography and name origin) still play a role.
 By integrating different methods we hope to mitigate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
 Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/38>.
 
@@ -78,10 +78,13 @@ Please see further discussion at <https://github.com/greenelab/iscb-diversity-ma
 > I would have certainly benefited by understanding a basis for this classification.
 > Even in "Nameprism" that the authors cite, the basis is unclear.
 
-We agree with the reviewer that the names of the groups of countries are not appropriate.
-In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
-Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
-This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+We agree with the reviewer that the names of the groups of countries were not appropriate as some were by country, some were by region, and others were by religion.
+In this revision, we have retained the data-driven groupings but selected more appropriate names for the name origin groups.
+Importantly, to complement the existing analysis, we performed an analysis of author affiliations to detect the affiliated countries for authors and honorees.
+This is a major improvement of the study because, in the past work, an author's affiliation and name origin have some chance of being interlinked.
+Now we can directly examine geographic discrepancies.
+Within the most represented country (i.e., the US), we can also examine differences by name origin to remove the geographic confounder.
+We found that both components (geography and name origin) still play a role.
 By integrating different methods we hope to mitigate the existing biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/45>.
 
@@ -251,10 +254,13 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/67>
 
 > \* Figure 4 and the category selection for the analysis are highly problematic. I understand that the categories were selected according to NamePrism, but it is ultimately the responsibility of the authors to justify choices. What is compared is a continent (Europe, Africa), a religion (Muslim), a country (Israel), a part of the continent (East Asian, South Asian), a group of different races or ancestries that spans continents (Hispanic), and then there are Celtic English folk. This analysis needs a substantial revision to the broader and more parallel categories, even compared to previous Figures in the manuscript. The genetics community has been successful discussing continental and subcontinental populations though the problem here is to infer those from names that reflect many things. Singling out Israel as overrepresented sends a tricky message when listed right next to Muslim as underrepresented. It surprised me to see this insensitivity in a study that is meant to assess where we are as a community and to promote sensitivities.
 
-We agree with the reviewer that the names of the groups of countries are not appropriate.
-In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
-Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
-This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+We agree with the reviewer that the names of the groups of countries were not appropriate as some were by country, some were by region, and others were by religion.
+In this revision, we have retained the data-driven groupings but selected more appropriate names for the name origin groups.
+Importantly, to complement the existing analysis, we performed an analysis of author affiliations to detect the affiliated countries for authors and honorees.
+This is a major improvement of the study because, in the past work, an author's affiliation and name origin have some chance of being interlinked.
+Now we can directly examine geographic discrepancies.
+Within the most represented country (i.e., the US), we can also examine differences by name origin to remove the geographic confounder.
+We found that both components (geography and name origin) still play a role.
 
 We don't think it is accurate to characterize our work as an attempt to "promote sensitivities."
 Instead, we think it would be more appropriate to describe the work as an effort to examine the patterns that underlie who is and who isn't being honored by the field's major international society.
@@ -292,10 +298,13 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 
 > There are assumptions and analysis issues. Did the author check if the association between predicted race/ethnicity and author Affiliation?  Was Asian bias by country or ethnicity?  For example, are American-Asians represented in ISCB honorees but Asians who are geographically located in Asia under-represented. Is this associated with geographic attendance at ISCB meetings? One might expect local awardees in the host country. For example, the authors note that ISMB keynotes had more probability attributable to Israel, while RECOMB had more attributable to East Asian countries.
 
-We agree with the reviewer that the names of the groups of countries are not appropriate.
-In this revision, we have selected more appropriate names for the country grouping to avoid confusion.
-Importantly, to complement the existing analysis, we performed an affiliation analysis to detect countries of affiliation for authors and honorees.
-This is a major improvement of the study because, while examining a different component (affiliation vs. name origin and race/ethnicity), we were able to alleviate biases in the prediction models and analyze the composition of author/honoree affiliation at the country level.
+We agree with the reviewer that the names of the groups of countries were not appropriate as some were by country, some were by region, and others were by religion.
+In this revision, we have retained the data-driven groupings but selected more appropriate names for the name origin groups.
+Importantly, to complement the existing analysis, we performed an analysis of author affiliations to detect the affiliated countries for authors and honorees.
+This is a major improvement of the study because, in the past work, an author's affiliation and name origin have some chance of being interlinked.
+Now we can directly examine geographic discrepancies.
+Within the most represented country (i.e., the US), we can also examine differences by name origin to remove the geographic confounder.
+We found that both components (geography and name origin) still play a role.
 We also limit our race/ethnicity analysis to only US-affiliated scientists to avoid further biases.
 
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/71>.
