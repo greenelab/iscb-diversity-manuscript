@@ -143,7 +143,8 @@ Please see further discussion at <https://github.com/greenelab/iscb-diversity-ma
 
 In the revised manuscript, we have added two citations for genderize.io regarding its accuracy and bias:
 
-"TODO"
+"We predicted the gender of honorees and authors using the <https://genderize.io> API, which was trained on over 100 million name-gender pairings collected from the web and is one of the three widely-used gender inference services that provide gender classifications with over 98% accuracy (Santamaría and Mihaljević, 2018).
+[...] This bias of NA predictions toward non-English names has been previously observed (Weis 2016) and may have a minor influence on the final estimate of gender compositions."
 
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/52>
 
