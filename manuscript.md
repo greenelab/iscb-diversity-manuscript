@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-20'
+date-meta: '2020-03-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-20" />
+  <meta name="dc.date" content="2020-03-21" />
 
-  <meta name="citation_publication_date" content="2020-03-20" />
+  <meta name="citation_publication_date" content="2020-03-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c2a92790752a9cb1d14c8799399a3c29db28bb7e/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c2a92790752a9cb1d14c8799399a3c29db28bb7e/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...c2a92790752a9cb1d14c8799399a3c29db28bb7e) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@5cf46e3](https://github.com/greenelab/iscb-diversity-manuscript/tree/5cf46e38becd0e25f0f6edec1dd15d189eb0ae3f)
-on March 20, 2020.
+from [greenelab/iscb-diversity-manuscript@c2a9279](https://github.com/greenelab/iscb-diversity-manuscript/tree/c2a92790752a9cb1d14c8799399a3c29db28bb7e)
+on March 21, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -355,7 +355,7 @@ If an author or speaker had more than one affiliation, each was inversely weight
 
 ### Estimation of Gender
 
-We predicted the gender of honorees and authors using the <https://genderize.io> API, which produces predictions trained on over 100 million name-gender pairings collected from the web.
+We predicted the gender of honorees and authors using the <https://genderize.io> API, which was trained on over 100 million name-gender pairings collected from the web and is one of the three widely-used gender inference services that provide gender classifications with over 98% accuracy [@doi:10.7717/peerj-cs.156].
 We used author and honoree first names to retrieve predictions from genderize.io.
 The predictions represent the probability of an honoree or author being male or female.
 We used the estimated probabilities and did not convert to a hard group assignment.
@@ -367,6 +367,7 @@ Of 34,005 corresponding authors, 45 were missing a fore name altogether in the r
 Of the remaining authors, genderize.io failed to predict gender for 1,578 of these fore names.
 We note that approximately 52% of these NA predictions are hyphenated names, which is likely because they are more unique and thus are more difficult to find predictions for.
 87% of these names were predicted to be of Asian origin by last name (see the race/ethnicity prediction model below).
+This bias of NA predictions toward non-English names has been previously observed [@doi:10.32614/RJ-2016-002] and may have a minor influence on the final estimate of gender compositions.
 
 ### Estimation of Name Origin Groups
 
