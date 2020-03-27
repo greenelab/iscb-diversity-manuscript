@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-21'
+date-meta: '2020-03-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-21" />
+  <meta name="dc.date" content="2020-03-27" />
 
-  <meta name="citation_publication_date" content="2020-03-21" />
+  <meta name="citation_publication_date" content="2020-03-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/392ea6e724d1005653e99476d6479e0077ddabe5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/392ea6e724d1005653e99476d6479e0077ddabe5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/392ea6e724d1005653e99476d6479e0077ddabe5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c2a92790752a9cb1d14c8799399a3c29db28bb7e/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/392ea6e724d1005653e99476d6479e0077ddabe5/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c2a92790752a9cb1d14c8799399a3c29db28bb7e/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/392ea6e724d1005653e99476d6479e0077ddabe5/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...c2a92790752a9cb1d14c8799399a3c29db28bb7e) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...392ea6e724d1005653e99476d6479e0077ddabe5) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c2a92790752a9cb1d14c8799399a3c29db28bb7e/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/392ea6e724d1005653e99476d6479e0077ddabe5/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@c2a9279](https://github.com/greenelab/iscb-diversity-manuscript/tree/c2a92790752a9cb1d14c8799399a3c29db28bb7e)
-on March 21, 2020.
+from [greenelab/iscb-diversity-manuscript@392ea6e](https://github.com/greenelab/iscb-diversity-manuscript/tree/392ea6e724d1005653e99476d6479e0077ddabe5)
+on March 27, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -225,8 +225,10 @@ Every approach consistently suggests that white scientists are overrepresented a
 Scientists' roles in society include identifying important topics of study, undertaking an investigation of those topics, and disseminating their findings broadly.
 The scientific enterprise is largely self-governing: scientists act as peer reviewers on papers and grants, comprise hiring committees in academia, make tenure decisions, and select which applicants will be admitted to doctoral programs.
 A lack of diversity in science could lead to pernicious biases that hamper the extent to which scientific findings are relevant to minority communities.
-For example, finding that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238] could be interpreted either as minority scientists select topics in more poorly funded areas or that majority scientists consider topics of particular interest to minority scientists as less worthy of funding.
-Consequently, it is important to examine peer recognition in different scientific fields.
+For example, a recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238].
+This finding might be the result of minority scientists selecting topics in more poorly funded areas.
+Alternatively, reviewing scientists may not recognize the scientific importance of these topics, which may be of particular interest to minority scientists.
+One way to address this issue is to directly examine peer recognition in different scientific fields.
 
 Gender bias among conference speakers has been recognized as an area that can be improved with targeted interventions [@doi:10.1371/journal.pcbi.1003903; @doi:10.1126/science.caredit.aaw9742; @doi:10.1038/ni.3707; @arxiv:1502.06326].
 Having more female organizers on conference committees is associated with having more female speakers [@doi:10.1128/mBio.00846-13].
