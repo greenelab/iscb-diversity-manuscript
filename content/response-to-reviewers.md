@@ -125,9 +125,12 @@ However, we believe this paragraph corroborates the study's importance.
 Our goal was to emphasize that minority scientists might be at disadvantage in a peer recognition-based system.
 We have reworked the sentences in the revised version of the manuscript:
 
-"TODO"
+"For example, a recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [1].
+This finding might be the result of minority scientists selecting topics in more poorly funded areas.
+Alternatively, reviewing scientists may not recognize the scientific importance of these topics, which may be of particular interest to minority scientists.
+One way to address this issue is to directly examine peer recognition in different scientific fields."
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/49>
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/49>.
 
 > p. 3, paragraph 2: research advisors don't seem to be the best proxy for senior faculty who would be invited for keynotes or honored as fellows
 
@@ -269,7 +272,16 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 
 > \* Introduction: "finding that minority scientists tend to apply for awards on topics with lower success rates [1] could be interpreted either as minority scientists select topics in more poorly funded areas or that majority scientists consider topics of particular interest to minority scientists as less worthy of funding." It might look inflammatory to use terminology "less worthy" here. Maybe this was meant in a narrow technical sense, but a reader might decide to go for a broad interpretation and assess that the whole system is discriminatory.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/67>
+We appreciate the reviewer's perspective.
+We wanted to emphasize that honors, grants and other nominally objective methods of assessing excellence are based heavily on peer perception, which requires the system to be proactive in order to avoid biases.
+We have reworked this paragraph in the revised manuscript:
+
+"For example, a recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [1].
+This finding might be the result of minority scientists selecting topics in more poorly funded areas.
+Alternatively, reviewing scientists may not recognize the scientific importance of these topics, which may be of particular interest to minority scientists.
+One way to address this issue is to directly examine peer recognition in different scientific fields."
+
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/67>.
 
 > \* Figure 4 and the category selection for the analysis are highly problematic. I understand that the categories were selected according to NamePrism, but it is ultimately the responsibility of the authors to justify choices. What is compared is a continent (Europe, Africa), a religion (Muslim), a country (Israel), a part of the continent (East Asian, South Asian), a group of different races or ancestries that spans continents (Hispanic), and then there are Celtic English folk. This analysis needs a substantial revision to the broader and more parallel categories, even compared to previous Figures in the manuscript. The genetics community has been successful discussing continental and subcontinental populations though the problem here is to infer those from names that reflect many things. Singling out Israel as overrepresented sends a tricky message when listed right next to Muslim as underrepresented. It surprised me to see this insensitivity in a study that is meant to assess where we are as a community and to promote sensitivities.
 
