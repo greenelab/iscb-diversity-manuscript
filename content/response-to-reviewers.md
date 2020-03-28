@@ -92,7 +92,13 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > "We suggest that considering equity may be more appropriate than strictly diversity" that the authors
 > offer in the Conclusion section.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/46>
+We wanted to emphasize that, while diversity describes whether or not the contributors come from different backgrounds, equity concerns with the changes that drive a system toward being fair and impartial.
+We have added the following clarification in the revised manuscript:
+
+"For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors.
+However, if fewer women are in the field because of systemic factors that inhibit their participation, we would not have reached equity."
+
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/46>.
 
 > Any comments on LGBTQ, disability representation in STEM or the field of computational biology ?
 > Finally, while I think the paper is interesting addressing the social/demographics of the
