@@ -92,7 +92,13 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > "We suggest that considering equity may be more appropriate than strictly diversity" that the authors
 > offer in the Conclusion section.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/46>
+We wanted to emphasize that, while diversity describes whether or not the contributors come from different backgrounds, equity concerns with the changes that drive a system toward being fair and impartial.
+We have added the following clarification in the revised manuscript:
+
+"For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors.
+However, if fewer women are in the field because of systemic factors that inhibit their participation, we would not have reached equity."
+
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/46>.
 
 > Any comments on LGBTQ, disability representation in STEM or the field of computational biology ?
 > Finally, while I think the paper is interesting addressing the social/demographics of the
@@ -120,7 +126,17 @@ Please see further discussion at <https://github.com/greenelab/iscb-diversity-ma
 > 
 > p. 1, last paragraph: I feel that this first paragraph of the introduction is not the strongest and doesn't add much to the paper overall.  I would suggest removing or reworking.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/49>
+We appreciate the reviewer's perspective.
+However, we believe this paragraph corroborates the study's importance.
+Our goal was to emphasize that minority scientists might be at disadvantage in a peer recognition-based system.
+We have reworked the sentences in the revised version of the manuscript:
+
+"For example, a recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [1].
+This finding might be the result of minority scientists selecting topics in more poorly funded areas.
+Alternatively, reviewing scientists may not recognize the scientific importance of these topics, which may be of particular interest to minority scientists.
+One way to address this issue is to directly examine peer recognition in different scientific fields."
+
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/49>.
 
 > p. 3, paragraph 2: research advisors don't seem to be the best proxy for senior faculty who would be invited for keynotes or honored as fellows
 
@@ -143,7 +159,8 @@ Please see further discussion at <https://github.com/greenelab/iscb-diversity-ma
 
 In the revised manuscript, we have added two citations for genderize.io regarding its accuracy and bias:
 
-"TODO"
+"We predicted the gender of honorees and authors using the <https://genderize.io> API, which was trained on over 100 million name-gender pairings collected from the web and is one of the three widely-used gender inference services that provide gender classifications with over 98% accuracy (Santamaría and Mihaljević, 2018).
+[...] This bias of NA predictions toward non-English names has been previously observed (Weis 2016) and may have a minor influence on the final estimate of gender compositions."
 
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/52>
 
@@ -220,7 +237,10 @@ Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/62>
 
 > \* The background in the study is created from the publications in well-selected journals (Bioinformatics, BMC Bioinformatics and PLOS Computational Biology). That background is appropriate and provides a useful characterization but is not necessarily the most appropriate. When one talks about a society, an alternative appropriate background would be the professional membership in that society (a society has responsibilities to recognize the work of its members well). The gender information in ISCB should be publicly available so the authors can check the trends and agreements with the current background. The authors could even be able to work out a solution with ISCB to apply the predictors to the data and more deeply test their hypotheses. The conclusions could hold or not and new patterns could emerge.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/61>
+We believe it is the responsibility of the society to adequately reflect the field.
+If the society aims to be the global society, it should reflect the field globally, regardless of how diverse/non-diverse its members are.
+Therefore, we believe publications from the field comprised a more appropriate background for our analysis.
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/61>
 
 > \* Figure 1. There is no statistical analysis of this data. By eyeballing the graphs it looks like that women are not underrepresented as honorees, and might even be overrepresented. This should be discussed more formally (e.g. statistical tests) and confidence intervals or statistical significance should be provided much like in Figure 2, whatever the conclusions are.
 
@@ -246,11 +266,28 @@ Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript
 > Comments on the presentation:
 > \* The abstract lists only one conclusion in the last sentence: white scientists are overrepresented and non-white scientists are underrepresented. This strikes me as cherry picking of findings. The paper, if I understood correctly, also found that female scientists are not underrepresented. Given the current climate, wouldn't it also be a major conclusion that the honorees are reasonably distributed gender-wise? Instead, the conclusion is "but the proportion has not reached parity". This suddenly changes the focus from ISCB practices relative to the field to ISCB practices relative to the entire society, which is a different background distribution and one where ISCB has little influence on.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/66>
+We agree with the reviewer that this observation should be added to the abstract.
+However, we do not believe that "the honorees are reasonably distributed gender-wise".
+While the data shows similar gender distributions between the group of honorees and authors, we noted in the Discussion session that other biases might contribute to an underestimation of female scientists in the field.
+Nevertheless, the proportions are far from parity.
+We have revised the abstract and added:
+
+"Although we observe similar gender distributions between the group of honorees and authors, the proportion of female scientists in the field has not yet reached parity."
+
+Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/66>
 
 > \* Introduction: "finding that minority scientists tend to apply for awards on topics with lower success rates [1] could be interpreted either as minority scientists select topics in more poorly funded areas or that majority scientists consider topics of particular interest to minority scientists as less worthy of funding." It might look inflammatory to use terminology "less worthy" here. Maybe this was meant in a narrow technical sense, but a reader might decide to go for a broad interpretation and assess that the whole system is discriminatory.
 
-Discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/67>
+We appreciate the reviewer's perspective.
+We wanted to emphasize that honors, grants and other nominally objective methods of assessing excellence are based heavily on peer perception, which requires the system to be proactive in order to avoid biases.
+We have reworked this paragraph in the revised manuscript:
+
+"For example, a recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [1].
+This finding might be the result of minority scientists selecting topics in more poorly funded areas.
+Alternatively, reviewing scientists may not recognize the scientific importance of these topics, which may be of particular interest to minority scientists.
+One way to address this issue is to directly examine peer recognition in different scientific fields."
+
+Please see further discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/67>.
 
 > \* Figure 4 and the category selection for the analysis are highly problematic. I understand that the categories were selected according to NamePrism, but it is ultimately the responsibility of the authors to justify choices. What is compared is a continent (Europe, Africa), a religion (Muslim), a country (Israel), a part of the continent (East Asian, South Asian), a group of different races or ancestries that spans continents (Hispanic), and then there are Celtic English folk. This analysis needs a substantial revision to the broader and more parallel categories, even compared to previous Figures in the manuscript. The genetics community has been successful discussing continental and subcontinental populations though the problem here is to infer those from names that reflect many things. Singling out Israel as overrepresented sends a tricky message when listed right next to Muslim as underrepresented. It surprised me to see this insensitivity in a study that is meant to assess where we are as a community and to promote sensitivities.
 
