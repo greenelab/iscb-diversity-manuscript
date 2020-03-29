@@ -272,7 +272,7 @@ While the data shows similar gender distributions between the group of honorees 
 Nevertheless, the proportions are far from parity.
 We have revised the abstract and added:
 
-"Although we observe similar gender distributions between the group of honorees and authors, other biases might contribute to an underestimation of female scientists in the field, and the proportions have not reached parity."
+"Although we observe similar gender distributions between the group of honorees and authors, the proportion of female scientists in the field has not yet reached parity."
 
 Please see discussion at <https://github.com/greenelab/iscb-diversity-manuscript/issues/66>
 
