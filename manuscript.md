@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-28'
+date-meta: '2020-03-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-28" />
+  <meta name="dc.date" content="2020-03-29" />
 
-  <meta name="citation_publication_date" content="2020-03-28" />
+  <meta name="citation_publication_date" content="2020-03-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/5f3c68e4c489c1845ebc453afae8e523b09edb45/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5f3c68e4c489c1845ebc453afae8e523b09edb45/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5f3c68e4c489c1845ebc453afae8e523b09edb45/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5f3c68e4c489c1845ebc453afae8e523b09edb45/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/15a0755dc54479e1399b3e40dae1ba2fc136767a/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5f3c68e4c489c1845ebc453afae8e523b09edb45/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/15a0755dc54479e1399b3e40dae1ba2fc136767a/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...5f3c68e4c489c1845ebc453afae8e523b09edb45) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...15a0755dc54479e1399b3e40dae1ba2fc136767a) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/5f3c68e4c489c1845ebc453afae8e523b09edb45/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@5f3c68e](https://github.com/greenelab/iscb-diversity-manuscript/tree/5f3c68e4c489c1845ebc453afae8e523b09edb45)
-on March 28, 2020.
+from [greenelab/iscb-diversity-manuscript@15a0755](https://github.com/greenelab/iscb-diversity-manuscript/tree/15a0755dc54479e1399b3e40dae1ba2fc136767a)
+on March 29, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -217,7 +217,8 @@ We collected keynote speaker invitations for the international meetings held by 
 We compared these honorees with last and corresponding author contributions in field-specific journals.
 We used multiple methods to estimate the race, ethnicity, gender, and name groupings of authors and the recipients of these honors.
 To address weaknesses in existing approaches, we built a new dataset of more than 700,000 people with name-nationality pairs from Wikipedia and trained long short-term memory neural networks to make predictions.
-Every approach consistently suggests that white scientists are overrepresented among speakers and honorees, while scientists of color are underrepresented.
+Although we observe similar gender distributions between the group of honorees and authors, the proportion of female scientists in the field has not yet reached parity.
+Through each method, we find that white scientists are overrepresented among speakers and honorees, while scientists of color are underrepresented.
 
 
 ## Introduction
@@ -534,6 +535,13 @@ A positive value of LOE indicates a higher proportion of honorees affiliated wit
 A LOE value of 1 represents a one-fold enrichment (i.e., observed number of honorees is twice as much as expected).
 In the 20 countries with the most publications, we found an overrepresentation of honorees affiliated with institutions and companies in the US (97 speakers more than expected, LOE = 0.6, 95% CI (0.5, 0.8)) and Israel (12 speakers more than expected, LOR = 1.6 (0.9, 2.3)) and an underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India (Fig. @fig:country-enrichment).
 
+![The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India. 
+For each country, enrichment is computed by dividing the observed proportion of honorees by the expected proportion of honorees whose affiliations are in that country, and 95% confidence interval of the log is estimated with the delta method (left). 
+Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right. 
+Countries are ordered based on the proportion of authors in the field.
+
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
+
 | Country        | Author proportion | Observed | Expected | Observed - Expected | Enrichment | Log~2~(Enrichment) | 95% Confidence Interval |
 |----------------|-------------------|----------|----------|---------------------|------------|------------------|-------------------------|
 | United States  | 38.76%            | 237.5    | 152.7    | 84.8                | 1.6        | 0.6              | (0.5, 0.8)              |
@@ -564,12 +572,6 @@ A positive Log~2~(Enrichment) indicated a higher proportion of honorees than cor
 The full table with all countries can be browsed interactively in the corresponding [analysis notebook](https://greenelab.github.io/iscb-diversity/15.analyze-affiliation.html#enrichment_tab).
 {#tbl:country-enrichment}
 
-![The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India. 
-For each country, enrichment is computed by dividing the observed proportion of honorees by the expected proportion of honorees whose affiliations are in that country, and 95% confidence interval of the log is estimated with the delta method (left). 
-Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right. 
-Countries are ordered based on the proportion of authors in the field.
-
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
 ### Assessing the Racial and Ethnic Diversity of US-affiliated Authors and Honorees
 
@@ -636,10 +638,12 @@ Because invitation and honor patterns could be driven by biases associated with 
 
 An important questions to ask when measuring representation is what the right level of representation is.
 We suggest that considering equity may be more appropriate than strictly diversity.
+For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors.
+However, if fewer women are in the field because of systemic factors that inhibit their participation, we would not have reached equity.
 In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often [@arxiv:2001.01002, @doi:10.1002/ece3.4993], invited by journals to submit papers less often [@doi:10.1371/journal.pbio.2004956], suggested as reviewers less often [@doi:10.1038/541455a], and receive significantly worse review scores [@doi:10.1002/ece3.4993].
 Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which, for example, may lead to higher persistence for undergraduate women in geoscience [@doi:10.1130/GES01659.1].
 Efforts are underway to create Wikipedia entries for more female [@doi:10.1038/d41586-018-05947-8] and black, Asian, and minority scientists [@doi:10.1038/d41586-019-00812-8], which can help early-career scientists identify role models.
-We find that ISCB's honorees and keynote speakers, though not yet reaching gender parity, appear to be more evenly split between men and women than the field as a whole.
+We find that ISCB's honorees and keynote speakers, though not yet reaching gender parity, appear to have similar gender proportion to the field as a whole.
 On the other hand, honorees include significantly fewer people of color than the field as a whole, and Asian scientists are dramatically underrepresented among honorees.
 Although we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
 Societies can play a positive role in enhancing equity if they design policies to honor scientists in ways that counter these biases.
