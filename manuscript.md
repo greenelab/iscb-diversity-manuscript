@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/4c053bc83bb2fd3c8fed8186b405c0be1f6ee454/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/4c053bc83bb2fd3c8fed8186b405c0be1f6ee454/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/4c053bc83bb2fd3c8fed8186b405c0be1f6ee454/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/4c053bc83bb2fd3c8fed8186b405c0be1f6ee454/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/15a0755dc54479e1399b3e40dae1ba2fc136767a/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/4c053bc83bb2fd3c8fed8186b405c0be1f6ee454/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/15a0755dc54479e1399b3e40dae1ba2fc136767a/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...4c053bc83bb2fd3c8fed8186b405c0be1f6ee454) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...15a0755dc54479e1399b3e40dae1ba2fc136767a) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/4c053bc83bb2fd3c8fed8186b405c0be1f6ee454/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/15a0755dc54479e1399b3e40dae1ba2fc136767a/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@4c053bc](https://github.com/greenelab/iscb-diversity-manuscript/tree/4c053bc83bb2fd3c8fed8186b405c0be1f6ee454)
+from [greenelab/iscb-diversity-manuscript@15a0755](https://github.com/greenelab/iscb-diversity-manuscript/tree/15a0755dc54479e1399b3e40dae1ba2fc136767a)
 on March 29, 2020.
 </em></small>
 
@@ -398,18 +398,12 @@ We were able to define a name and nationality for 708,493 people by using the un
 This process produced country labels that were more fine-grained than the broader patterns that we sought to examine among honorees and authors.
 We initially grouped names by continent, but later decided to model our categorization after the hierarchical taxonomy used by [NamePrism](http://www.name-prism.com/about) [@doi:10.1145/3132847.3133008].
 The NamePrism taxonomy was derived from name-country pairs by producing an embedding of names by Twitter contact patterns and then grouping countries using the similarity of names from those countries.
+In an earlier version of this manuscript we also used category names derived from NamePrism, but the titles of the groupings were problematic, so we have recoded the groupings to letters.
 The countries associated with each grouping are shown in Fig {@fig:nameprism_countries}.
 
 ![NamePrism groups countries by name similarity. We used this grouping and
  recoded names assigned to groups in the initial publication to letter keys.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/286079d52a9ecc216f9e1364ec951e1c8dc09de8/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="90%"}
-
-In an earlier version of this manuscript, we also used category names derived from NamePrism, but a reader [pointed out](https://github.com/greenelab/iscb-diversity-manuscript/issues/27) the titles of the groupings were problematic;
-therefore, in this version, we renamed these groupings to reflect that the NamePrism approach primarily identifies groups based on linguistic patterns from name etymology rather than religious or racial similarities.
-We note that our mapping from nationality to name origins was not without error.
-For example, a scientist of Israeli nationality may not bear a Hebrew name.
-These mismatches were assessed via the heatmap of the model performance (Fig. {@fig:wiki2019_lstm}C) and complemented by the affiliation analysis below.
-An alternative approach is to assign arbitrary names to these groups such as via letter coding (e.g., A, B, C, etc.), but we did not choose this strategy because ten arbitrary letters for ten groups can greatly reduce the paper's readibility.
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="70%"}
 
 ### Affiliation Analysis
 
@@ -470,7 +464,7 @@ Through 2019, there were a number of examples of meetings or ISCB Fellow classes
   all Pubmed computational biology and bioinformatics journal authors (left),
   and all ISCB Fellows and keynote speakers (right)
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
 
 ### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
 
@@ -514,8 +508,8 @@ The values represent log~2~ fold change between the average predicted probabilit
 Scaling by group prevalence accounts for the imbalance of groups in the testing dataset.
 In all cases, the classifier predicts the true groups above the expected null probability (matrix diagonals are all purple).
 For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
-For example, the classifier does not often mistake East Asian names as Greek, but is more prone to mistaking Hebrew names as Arabic.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
+For example, the classifier does not often mistake East Asian names as Greek, but is more prone to mistaking Hebrew names as European.
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
 
 ### Assessing the Name Origin Diversity of Authors and Honorees
 
@@ -531,7 +525,7 @@ When we directly compared honoree composition with PubMed, we observed discrepan
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
   (B) For each region, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/region_breakdown.png){#fig:region_breakdown}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/region_breakdown.png){#fig:region_breakdown}
 
 ### Affiliation Analysis
 
@@ -546,7 +540,7 @@ For each country, enrichment is computed by dividing the observed proportion of 
 Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right. 
 Countries are ordered based on the proportion of authors in the field.
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
 | Country        | Author proportion | Observed | Expected | Observed - Expected | Enrichment | Log~2~(Enrichment) | 95% Confidence Interval |
 |----------------|-------------------|----------|----------|---------------------|------------|------------------|-------------------------|
@@ -596,7 +590,7 @@ Separating honoree results by honor category did not reveal any clear difference
   was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
   For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines (E).
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/us_racial_makeup.png){#fig:us_racial_makeup}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/us_racial_makeup.png){#fig:us_racial_makeup}
 
 We directly compared honoree and author results from 1993 to 2019 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:us_racial_makeup}E).
 We found that, over the years, white honorees have been significantly overrepresented (t~218~ = 14.8, _p_ < 10^-16^) and Asian honorees have been significantly underrepresented (t~236~ = -18.8, _p_ < 10^-16^).
@@ -616,7 +610,7 @@ When we directly compared honoree composition with PubMed, we observed discrepan
   was computed as the average of prediction probabilities of US-affiliated corresponding authors or ISCB honorees each year.
   (B) For each region, the mean predicted probability of US-affiliated corresponding authors is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the US-affiliated ISCB honoree predictions are shown as dark circles and vertical lines.
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/us_name_origin.png){#fig:us_name_origin}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/master/figs/us_name_origin.png){#fig:us_name_origin}
 
 
 ## Conclusions
