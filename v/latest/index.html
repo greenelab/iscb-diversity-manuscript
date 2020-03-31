@@ -67,13 +67,13 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5d910a250ce274d0d8bbdd958135d67050ab644e/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5d910a250ce274d0d8bbdd958135d67050ab644e/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6d7595f564405156d0d3a633847a2f7cc03b57f7/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6d7595f564405156d0d3a633847a2f7cc03b57f7/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -83,12 +83,12 @@
 <header id="title-block-header">
 <h1 class="title">Analysis of ISCB honorees and keynotes reveals disparities</h1>
 </header>
-<p>This version of the manuscript <a href="https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...5d910a250ce274d0d8bbdd958135d67050ab644e">contains changes</a> subsequent to the <a href="https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0">version 1.0 release</a>.</p>
+<p>This version of the manuscript <a href="https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...6d7595f564405156d0d3a633847a2f7cc03b57f7">contains changes</a> subsequent to the <a href="https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0">version 1.0 release</a>.</p>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/5d910a250ce274d0d8bbdd958135d67050ab644e">greenelab/iscb-diversity-manuscript@5d910a2</a>
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/6d7595f564405156d0d3a633847a2f7cc03b57f7">greenelab/iscb-diversity-manuscript@6d7595f</a>
 on March 31, 2020.
 </em></small></p>
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -280,10 +280,10 @@ We note that approximately 52% of these NA predictions are hyphenated names, whi
 79% of these names were predicted to be of Asian origin by last name (see the race/ethnicity prediction model below).
 This bias of NA predictions toward non-English names has been previously observed <span class="citation" data-cites="cLM5pKQN">[<a href="#ref-cLM5pKQN" role="doc-biblioref">15</a>]</span> and may have a minor influence on the final estimate of gender compositions.</p>
 <h3 id="estimation-of-name-origin-groups">Estimation of Name Origin Groups</h3>
-<p>To complement wru’s race and ethnicity estimation, we developed a model to predict geographical origins of names.
+<p>We developed a model to predict geographical origins of names.
 The existing Python package ethnicolr <span class="citation" data-cites="1Fj9uUALi">[<a href="#ref-1Fj9uUALi" role="doc-biblioref">16</a>]</span> produces reasonable predictions, but its international representation in the data curated from Wikipedia in 2009 <span class="citation" data-cites="Wcublhdw">[<a href="#ref-Wcublhdw" role="doc-biblioref">17</a>]</span> is still limited.
 For instance, 76% of the names in ethnicolr’s Wikipedia dataset are European in origin, and the dataset contains remarkably fewer Asian, African, and Middle Eastern names than wru.</p>
-<p>To address the limitations of ethnicolr, we built a similar classifier, a Long Short-term Memory (LSTM) neural network, to infer the region of origin from patterns in the sequences of letters in full names.
+<p>To address these limitations in ethnicolr, we built a similar classifier, a Long Short-term Memory (LSTM) neural network, to infer the region of origin from patterns in the sequences of letters in full names.
 We applied this model on an updated, approximately 4.5 times larger training dataset called Wiki2019 (described below).
 We tested multiple character sequence lengths and, based on this comparison, selected tri-characters for the primary results described in this work.
 We trained our prediction model on 80% of the Wiki2019 dataset and evaluated its performance using the remaining 20%.
