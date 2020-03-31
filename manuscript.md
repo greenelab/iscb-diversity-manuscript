@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5d910a250ce274d0d8bbdd958135d67050ab644e/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6d7595f564405156d0d3a633847a2f7cc03b57f7/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/5d910a250ce274d0d8bbdd958135d67050ab644e/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6d7595f564405156d0d3a633847a2f7cc03b57f7/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...5d910a250ce274d0d8bbdd958135d67050ab644e) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...6d7595f564405156d0d3a633847a2f7cc03b57f7) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/5d910a250ce274d0d8bbdd958135d67050ab644e/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@5d910a2](https://github.com/greenelab/iscb-diversity-manuscript/tree/5d910a250ce274d0d8bbdd958135d67050ab644e)
+from [greenelab/iscb-diversity-manuscript@6d7595f](https://github.com/greenelab/iscb-diversity-manuscript/tree/6d7595f564405156d0d3a633847a2f7cc03b57f7)
 on March 31, 2020.
 </em></small>
 
@@ -374,11 +374,11 @@ This bias of NA predictions toward non-English names has been previously observe
 
 ### Estimation of Name Origin Groups
 
-To complement wru's race and ethnicity estimation, we developed a model to predict geographical origins of names.
+We developed a model to predict geographical origins of names.
 The existing Python package ethnicolr [@arxiv:1805.02109] produces reasonable predictions, but its international representation in the data curated from Wikipedia in 2009 [@doi:10.1145/1557019.1557032] is still limited.
 For instance, 76% of the names in ethnicolr's Wikipedia dataset are European in origin, and the dataset contains remarkably fewer Asian, African, and Middle Eastern names than wru.
 
-To address the limitations of ethnicolr, we built a similar classifier, a Long Short-term Memory (LSTM) neural network, to infer the region of origin from patterns in the sequences of letters in full names.
+To address these limitations in ethnicolr, we built a similar classifier, a Long Short-term Memory (LSTM) neural network, to infer the region of origin from patterns in the sequences of letters in full names.
 We applied this model on an updated, approximately 4.5 times larger training dataset called Wiki2019 (described below).
 We tested multiple character sequence lengths and, based on this comparison, selected tri-characters for the primary results described in this work.
 We trained our prediction model on 80% of the Wiki2019 dataset and evaluated its performance using the remaining 20%.
