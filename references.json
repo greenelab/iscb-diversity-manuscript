@@ -1111,14 +1111,13 @@
   {
     "id": "Hhiridja",
     "type": "webpage",
-    "title": "Race",
-    "URL": "https://factfinder.census.gov/help/en/race.htm",
+    "URL": "https://data.census.gov/cedsci/deeplinks?url=https://factfinder.census.gov/help/en/race.htm",
     "accessed": {
       "date-parts": [
         [
           "2020",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },
@@ -1142,8 +1141,8 @@
       "date-parts": [
         [
           "2020",
-          3,
-          31
+          4,
+          1
         ]
       ]
     },

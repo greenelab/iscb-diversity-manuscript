@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-31'
+date-meta: '2020-04-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-03-31" />
+  <meta name="dc.date" content="2020-04-01" />
 
-  <meta name="citation_publication_date" content="2020-03-31" />
+  <meta name="citation_publication_date" content="2020-04-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6d7595f564405156d0d3a633847a2f7cc03b57f7/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6d7595f564405156d0d3a633847a2f7cc03b57f7/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...6d7595f564405156d0d3a633847a2f7cc03b57f7) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b33bfc46a22b3ddb89c48624b9ec956791ef6eb7) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/6d7595f564405156d0d3a633847a2f7cc03b57f7/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@6d7595f](https://github.com/greenelab/iscb-diversity-manuscript/tree/6d7595f564405156d0d3a633847a2f7cc03b57f7)
-on March 31, 2020.
+from [greenelab/iscb-diversity-manuscript@b33bfc4](https://github.com/greenelab/iscb-diversity-manuscript/tree/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7)
+on April 1, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -416,7 +416,7 @@ An alternative approach is to assign arbitrary names to these groups such as via
 For each country, we computed the expected number of honorees by multiplying the proportion of authors whose affiliations were in that country with the total number of honorees.
 We then performed an enrichment analysis to examine the difference in country affiliation proportions between ISCB honorees and field-specific corresponding authors.
 We calculated each country's enrichment by dividing the observed proportion of honorees by the expected proportion of honorees.
-The variance of the log~2~ enrichment was estimated using the delta method with a small continuity correction to avoid dividing by 0 [@isbn:978-0849394447].
+The 95% confidence interval of the log~2~ enrichment was estimated using the Poisson model method [@isbn:978-0849394447, page 17-18].
 
 ### Estimation of Race and Ethnicity within the US
 
@@ -540,17 +540,17 @@ Estimated composition of name origin prediction over the years of
 ### Affiliation Analysis
 
 We analyzed the countries of affiliation between corresponding authors and ISCB honorees.
-For each country, we report a value of log enrichment (LOE) and its 95% confidence intervals  (Table @tbl:country-enrichment).
+For each country, we report a value of log~2~ enrichment (LOE) and its 95% confidence intervals (Table @tbl:country-enrichment).
 A positive value of LOE indicates a higher proportion of honorees affiliated with that country compared to authors.
 A LOE value of 1 represents a one-fold enrichment (i.e., observed number of honorees is twice as much as expected).
 In the 20 countries with the most publications, we found an overrepresentation of honorees affiliated with institutions and companies in the US (97 speakers more than expected, LOE = 0.6, 95% CI (0.5, 0.8)) and Israel (12 speakers more than expected, LOR = 1.6, 95% CI (0.9, 2.3)), and an underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India (Fig. @fig:country-enrichment).
 
-![The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India. 
-For each country, enrichment is computed by dividing the observed proportion of honorees by the expected proportion of honorees whose affiliations are in that country, and 95% confidence interval of the log is estimated with the delta method (left). 
-Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right. 
+![The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India.
+Each country's log~2~ enrichment (LOE) and its 95% confidence interval are displayed on the left.
+Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right.
 Countries are ordered based on the proportion of authors in the field.
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/a61b73ed80ba2062d31a1f111c1b8f388fda4b3a/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
 | Country        | Author proportion | Observed | Expected | Observed - Expected | Enrichment | Log~2~(Enrichment) | 95% Confidence Interval |
 |----------------|-------------------|----------|----------|---------------------|------------|------------------|-------------------------|
