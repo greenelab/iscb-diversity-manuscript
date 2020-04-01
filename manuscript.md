@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/484fe91721c607da6e09b3394e6b85256b5456c5/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/484fe91721c607da6e09b3394e6b85256b5456c5/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b33bfc46a22b3ddb89c48624b9ec956791ef6eb7) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...484fe91721c607da6e09b3394e6b85256b5456c5) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@b33bfc4](https://github.com/greenelab/iscb-diversity-manuscript/tree/b33bfc46a22b3ddb89c48624b9ec956791ef6eb7)
+from [greenelab/iscb-diversity-manuscript@484fe91](https://github.com/greenelab/iscb-diversity-manuscript/tree/484fe91721c607da6e09b3394e6b85256b5456c5)
 on April 1, 2020.
 </em></small>
 
@@ -554,26 +554,26 @@ Countries are ordered based on the proportion of authors in the field.
 
 | Country        | Author proportion | Observed | Expected | Observed - Expected | Enrichment | Log~2~(Enrichment) | 95% Confidence Interval |
 |----------------|-------------------|----------|----------|---------------------|------------|------------------|-------------------------|
-| United States  | 38.76%            | 237.5    | 152.7    | 84.8                | 1.6        | 0.6              | (0.5, 0.8)              |
-| United Kingdom | 8.36%             | 36.0     | 32.9     | 3.1                 | 1.1        | 0.1              | (-0.3, 0.6)             |
+| United States  | 38.76%            | 237.5    | 152.7    | 84.8                | 1.6        | 0.6              | (0.4, 0.8)              |
+| United Kingdom | 8.36%             | 36.0     | 32.9     | 3.1                 | 1.1        | 0.1              | (-0.4, 0.6)             |
 | Germany        | 7.55%             | 27.0     | 29.7     | -2.7                | 0.9        | -0.1             | (-0.7, 0.4)             |
-| China          | 5.82%             | 3.0      | 22.9     | -19.9               | 0.1        | -2.9             | (-4.5, -1.3)            |
-| France         | 3.86%             | 4.0      | 15.2     | -11.2               | 0.3        | -1.9             | (-3.3, -0.5)            |
-| Italy          | 3.04%             | 2.0      | 12.0     | -10.0               | 0.2        | -2.6             | (-4.5, -0.6)            |
-| Canada         | 3.03%             | 12.0     | 11.9     | 0.1                 | 1.0        | 0.0              | (-0.8, 0.8)             |
-| Japan          | 2.44%             | 9.0      | 9.6      | -0.6                | 0.9        | -0.1             | (-1, 0.8)               |
-| Spain          | 2.39%             | 6.0      | 9.4      | -3.4                | 0.6        | -0.7             | (-1.8, 0.5)             |
-| Australia      | 2.33%             | 5.0      | 9.2      | -4.2                | 0.5        | -0.9             | (-2.1, 0.4)             |
-| Netherlands    | 1.91%             | 1.0      | 7.5      | -6.5                | 0.1        | -2.9             | (-5.6, -0.2)            |
-| Switzerland    | 1.81%             | 7.0      | 7.1      | -0.1                | 1.0        | -0.0             | (-1.1, 1)               |
-| Israel         | 1.46%             | 17.5     | 5.8      | 11.7                | 3.0        | 1.6              | (0.9, 2.3)              |
-| Sweden         | 1.34%             | 6.0      | 5.3      | 0.7                 | 1.1        | 0.2              | (-1, 1.3)               |
-| Korea          | 1.30%             | 1.0      | 5.1      | -4.1                | 0.2        | -2.4             | (-5.1, 0.3)             |
-| Taiwan         | 1.25%             | 0.0      | 4.9      | -4.9                | 0.0        |                  | (-Inf, -Inf)            |
-| India          | 1.20%             | 0.0      | 4.7      | -4.7                | 0.0        |                  | (-Inf, -Inf)            |
-| Belgium        | 1.04%             | 1.0      | 4.1      | -3.1                | 0.2        | -2.0             | (-4.7, 0.7)             |
-| Singapore      | 0.88%             | 1.0      | 3.5      | -2.5                | 0.3        | -1.8             | (-4.5, 0.9)             |
-| Finland        | 0.85%             | 0.0      | 3.4      | -3.4                | 0.0        |                  | (-Inf, -Inf)            |
+| China          | 5.82%             | 3.0      | 22.9     | -19.9               | 0.1        | -2.9             | (-5.2, -1.4)            |
+| France         | 3.86%             | 4.0      | 15.2     | -11.2               | 0.3        | -1.9             | (-3.8, -0.6)            |
+| Italy          | 3.04%             | 2.0      | 12.0     | -10.0               | 0.2        | -2.6             | (-5.6, -0.7)            |
+| Canada         | 3.03%             | 12.0     | 11.9     | 0.1                 | 1.0        | 0.0              | (-1, 0.8)               |
+| Japan          | 2.44%             | 9.0      | 9.6      | -0.6                | 0.9        | -0.1             | (-1.2, 0.8)             |
+| Spain          | 2.39%             | 6.0      | 9.4      | -3.4                | 0.6        | -0.7             | (-2.1, 0.5)             |
+| Australia      | 2.33%             | 5.0      | 9.2      | -4.2                | 0.5        | -0.9             | (-2.5, 0.4)             |
+| Netherlands    | 1.91%             | 1.0      | 7.5      | -6.5                | 0.1        | -2.9             | (-8.2, -0.4)            |
+| Switzerland    | 1.81%             | 7.0      | 7.1      | -0.1                | 1.0        | -0.0             | (-1.4, 1)               |
+| Israel         | 1.46%             | 17.5     | 5.8      | 11.7                | 3.0        | 1.6              | (0.8, 2.3)              |
+| Sweden         | 1.34%             | 6.0      | 5.3      | 0.7                 | 1.1        | 0.2              | (-1.3, 1.3)             |
+| Korea          | 1.30%             | 1.0      | 5.1      | -4.1                | 0.2        | -2.4             | (-7.7, 0.1)             |
+| Taiwan         | 1.25%             | 0.0      | 4.9      | -4.9                | 0.0        | -Inf             | (-Inf, -0.4)            |
+| India          | 1.20%             | 0.0      | 4.7      | -4.7                | 0.0        | -Inf             | (-Inf, -0.3)            |
+| Belgium        | 1.04%             | 1.0      | 4.1      | -3.1                | 0.2        | -2.0             | (-7.3, 0.5)             |
+| Singapore      | 0.88%             | 1.0      | 3.5      | -2.5                | 0.3        | -1.8             | (-7.1, 0.7)             |
+| Finland        | 0.85%             | 0.0      | 3.4      | -3.4                | 0.0        | -Inf             | (-Inf, 0.1)             |
 
 Table: **Enrichment and depletion in proportion of ISCB honorees compared to Pubmed corresponding authors of 20 countries with the most publications.**
 The table lists the countries and their corresponding enrichment, which we computed by dividing the observed proportion of honorees by expected proportion of honorees.
