@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-01'
+date-meta: '2020-04-03'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-04-01" />
+  <meta name="dc.date" content="2020-04-03" />
 
-  <meta name="citation_publication_date" content="2020-04-01" />
+  <meta name="citation_publication_date" content="2020-04-03" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/484fe91721c607da6e09b3394e6b85256b5456c5/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7790135369ec495bc64faa3a4071fa150949e7f6/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/484fe91721c607da6e09b3394e6b85256b5456c5/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7790135369ec495bc64faa3a4071fa150949e7f6/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...484fe91721c607da6e09b3394e6b85256b5456c5) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...7790135369ec495bc64faa3a4071fa150949e7f6) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/484fe91721c607da6e09b3394e6b85256b5456c5/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@484fe91](https://github.com/greenelab/iscb-diversity-manuscript/tree/484fe91721c607da6e09b3394e6b85256b5456c5)
-on April 1, 2020.
+from [greenelab/iscb-diversity-manuscript@7790135](https://github.com/greenelab/iscb-diversity-manuscript/tree/7790135369ec495bc64faa3a4071fa150949e7f6)
+on April 3, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -210,15 +210,20 @@ on April 1, 2020.
 
 ## Abstract
 
-Professional societies and the conferences that they manage provide an important venue for the dissemination of scientific knowledge.
-Being invited to deliver a keynote at an international society meeting or named a fellow of such a society is a major recognition.
-We sought to understand the extent to which such recognitions reflected the composition of their corresponding field.
-We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows, an honorary group within the society.
-We compared these honorees with last and corresponding author contributions in field-specific journals.
-We used multiple methods to estimate the race, ethnicity, gender, and name groupings of authors and the recipients of these honors.
-To address weaknesses in existing approaches, we built a new dataset of more than 700,000 people with name-nationality pairs from Wikipedia and trained long short-term memory neural networks to make predictions.
-Although we observe similar gender distributions between the group of honorees and authors, the proportion of female scientists in the field has not yet reached parity.
-Through each method, we find that white scientists are overrepresented among speakers and honorees, while scientists of color are underrepresented.
+Professional societies and their conferences provide an important venue for disseminating scientific knowledge.
+Delivering a keynote for or being named a fellow by an international society is a major recognition.
+Do such recognitions reflect the composition of the field of bioinformatics?
+We compiled a list of 412 _International Society for Computational Biology_ honorees (75 fellows and 337 keynote speakers).
+To assess the composition of senior researchers in the field, we analyze the names and affiliations of corresponding authors in leading bioinformatics journals.
+Comparing to the distribution based on names and affiliations of honorees, we looked for disparities in gender, country of affiliation, race, and name-origin.
+Name-origin predictions were created using a neural network trained on 700,000 name-nationality pairs mined from Wikipedia.
+The proportion of female honorees has kept pace with increasing levels of female authorship, but neither has yet to reach gender parity.
+However, we noticed a striking geographic disparity where the proportion of honorees with an affiliation in the United States was 1.6-fold greater compared to field-specific senior authors.
+In total, we estimate the U.S. received 85 more honorees than would be expected from randomly selecting honorees from senior authors.
+Almost half of the excess in U.S. honorees was accounted for by a deficit of 41 honoree slots from China, France, and Italy.
+Furthermore, within the U.S., we identify racial disparities with an excess of white honorees and a depletion of Asian honorees.
+This pattern replicated globally, where we find names of East Asian origin have been persistently underrepresented among ISCB honorees.
+Early indications suggest the ICSB has taken note of our findings by selecting more diverse honorees.
 
 
 ## Introduction
@@ -624,6 +629,32 @@ Estimated composition of name origin prediction over the years of
   (B) For each region, the mean predicted probability of US-affiliated corresponding authors is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the US-affiliated ISCB honoree predictions are shown as dark circles and vertical lines.
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/f43f7c40371343a4d8b91438b05c021fdb88af32/figs/us_name_origin.png){#fig:us_name_origin}
+
+### Reception & Feedback
+
+We released [version 1.0](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0) of our manuscript on 2020-01-30.
+We submitted this version to the 28^th^ annual ISMB conference planned for July 2020 in Montreal.
+The study received public feedback almost immediately.
+Specifically, a community member [pointed out](https://github.com/greenelab/iscb-diversity-manuscript/issues/27) problems with the country-group names we imported from NamePrism.
+
+On 2020-02-20, ISCB released a statement on equity and inclusion that alluded to our study, but did not directly name or link to it.
+The statment contained the following paragraph:
+
+> We continually revisit our procedures for progress towards equity and inclusion and assess their efficacy.
+> We do not think that automated procedures of assessment are appropriate for this purpose.
+> Algorithms performing such categorization suffer from inherent limitations that distort the notion of balance we are striving for.
+> Specifically, categorization of disjoint regional, ethnic or gender groups of scientists, while easing classification, also functions divisively.
+
+Our ISMB submission was reviewed by 5 peer reviewers and [rejected](https://github.com/greenelab/iscb-diversity-manuscript/issues/37) on 2020-03-13.
+We thank the reviewers for their input, and have made our [responses public](https://github.com/greenelab/iscb-diversity-manuscript/blob/master/content/response-to-reviewers.md)).
+
+Much of the feedback centered around the inherent imperfections of automated detection of race or nationality.
+Therefore, we expanded our assessment to include country of affiliation, which can be detected with high fidelity from PubMed metadata.
+Adding affiliation information allowed us to examine disparities within a single country and to rule out geographic disparities as the sole factor leading to an underrepresentation of Asian honorees.
+
+We appreciate the feedback we have received.
+Early indications suggest ISCB may be heeding the findings of our analysis and increasing the diversity of honorees.
+TODO: recent ISCB honorees & actions.
 
 
 ## Conclusions
