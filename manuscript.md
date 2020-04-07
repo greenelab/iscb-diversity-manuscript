@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-03'
+date-meta: '2020-04-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-04-03" />
+  <meta name="dc.date" content="2020-04-07" />
 
-  <meta name="citation_publication_date" content="2020-04-03" />
+  <meta name="citation_publication_date" content="2020-04-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/a9213f7a6759d08a8483a404b1d579cdbbb4508c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/a9213f7a6759d08a8483a404b1d579cdbbb4508c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/a9213f7a6759d08a8483a404b1d579cdbbb4508c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7790135369ec495bc64faa3a4071fa150949e7f6/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/a9213f7a6759d08a8483a404b1d579cdbbb4508c/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7790135369ec495bc64faa3a4071fa150949e7f6/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/a9213f7a6759d08a8483a404b1d579cdbbb4508c/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,15 +133,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...7790135369ec495bc64faa3a4071fa150949e7f6) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...a9213f7a6759d08a8483a404b1d579cdbbb4508c) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/7790135369ec495bc64faa3a4071fa150949e7f6/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/a9213f7a6759d08a8483a404b1d579cdbbb4508c/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@7790135](https://github.com/greenelab/iscb-diversity-manuscript/tree/7790135369ec495bc64faa3a4071fa150949e7f6)
-on April 3, 2020.
+from [greenelab/iscb-diversity-manuscript@a9213f7](https://github.com/greenelab/iscb-diversity-manuscript/tree/a9213f7a6759d08a8483a404b1d579cdbbb4508c)
+on April 7, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -637,8 +637,8 @@ We submitted this version to the 28^th^ annual ISMB conference planned for July 
 The study received public feedback almost immediately.
 Specifically, a community member [pointed out](https://github.com/greenelab/iscb-diversity-manuscript/issues/27) problems with the country-group names we imported from NamePrism.
 
-On 2020-02-20, ISCB released a statement on equity and inclusion that alluded to our study, but did not directly name or link to it.
-The statment contained the following paragraph:
+On 2020-02-20, ISCB released a [statement on equity and inclusion](https://www.iscb.org/iscb-news-items/4257-2020-feb20-iscb-announcement) that alluded to our study, but did not directly name or link to it.
+The statement contained the following paragraph:
 
 > We continually revisit our procedures for progress towards equity and inclusion and assess their efficacy.
 > We do not think that automated procedures of assessment are appropriate for this purpose.
