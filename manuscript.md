@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/cbdf745fe44728aed51e6c5d4b1e2219d3700c58/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/cbdf745fe44728aed51e6c5d4b1e2219d3700c58/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/cbdf745fe44728aed51e6c5d4b1e2219d3700c58/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/cbdf745fe44728aed51e6c5d4b1e2219d3700c58/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6bda862974e77beb98697f39c18027683af158cb/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/cbdf745fe44728aed51e6c5d4b1e2219d3700c58/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6bda862974e77beb98697f39c18027683af158cb/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -133,14 +133,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...cbdf745fe44728aed51e6c5d4b1e2219d3700c58) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...6bda862974e77beb98697f39c18027683af158cb) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/cbdf745fe44728aed51e6c5d4b1e2219d3700c58/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@cbdf745](https://github.com/greenelab/iscb-diversity-manuscript/tree/cbdf745fe44728aed51e6c5d4b1e2219d3700c58)
+from [greenelab/iscb-diversity-manuscript@6bda862](https://github.com/greenelab/iscb-diversity-manuscript/tree/6bda862974e77beb98697f39c18027683af158cb)
 on April 11, 2020.
 </em></small>
 
@@ -654,7 +654,9 @@ Adding affiliation information allowed us to examine disparities within a single
 
 We appreciate the feedback we have received.
 Early indications suggest ISCB may be heeding the findings of our analysis and increasing the diversity of honorees.
-TODO: recent ISCB honorees & actions.
+In 2020, among 12 ISCB Fellows and 5 ISMB keynote speakers, the mean predicted probability of each honoree having an East Asian name is 33%, higher than any estimate in previous years (see [notebook](https://greenelab.github.io/iscb-diversity/15.analyze-2020.html)).
+The set of honorees also includes the first ISCB Fellow from China.
+Compared to past years, the 2020 honorees appear to better reflect the diversity of scientists in the computational biology field.
 
 
 ## Conclusions
