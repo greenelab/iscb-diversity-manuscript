@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-11'
+date-meta: '2020-04-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-04-11" />
+  <meta name="dc.date" content="2020-04-14" />
 
-  <meta name="citation_publication_date" content="2020-04-11" />
+  <meta name="citation_publication_date" content="2020-04-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6bda862974e77beb98697f39c18027683af158cb/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/30361854724e91dcdc2f7c397b8a8bafd3a9016c/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/6bda862974e77beb98697f39c18027683af158cb/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/30361854724e91dcdc2f7c397b8a8bafd3a9016c/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -132,16 +132,17 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 
 
+_A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...6bda862974e77beb98697f39c18027683af158cb) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...30361854724e91dcdc2f7c397b8a8bafd3a9016c) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@6bda862](https://github.com/greenelab/iscb-diversity-manuscript/tree/6bda862974e77beb98697f39c18027683af158cb)
-on April 11, 2020.
+from [greenelab/iscb-diversity-manuscript@3036185](https://github.com/greenelab/iscb-diversity-manuscript/tree/30361854724e91dcdc2f7c397b8a8bafd3a9016c)
+on April 14, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
