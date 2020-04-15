@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-14'
+date-meta: '2020-04-15'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-04-14" />
+  <meta name="dc.date" content="2020-04-15" />
 
-  <meta name="citation_publication_date" content="2020-04-14" />
+  <meta name="citation_publication_date" content="2020-04-15" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/30361854724e91dcdc2f7c397b8a8bafd3a9016c/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/172d6e00eaad2cd71528efa568763c4bb2367a38/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/30361854724e91dcdc2f7c397b8a8bafd3a9016c/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/172d6e00eaad2cd71528efa568763c4bb2367a38/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...30361854724e91dcdc2f7c397b8a8bafd3a9016c) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...172d6e00eaad2cd71528efa568763c4bb2367a38) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/30361854724e91dcdc2f7c397b8a8bafd3a9016c/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@3036185](https://github.com/greenelab/iscb-diversity-manuscript/tree/30361854724e91dcdc2f7c397b8a8bafd3a9016c)
-on April 14, 2020.
+from [greenelab/iscb-diversity-manuscript@172d6e0](https://github.com/greenelab/iscb-diversity-manuscript/tree/172d6e00eaad2cd71528efa568763c4bb2367a38)
+on April 15, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -382,7 +382,7 @@ This bias of NA predictions toward non-English names has been previously observe
 
 We developed a model to predict geographical origins of names.
 The existing Python package ethnicolr [@arxiv:1805.02109] produces reasonable predictions, but its international representation in the data curated from Wikipedia in 2009 [@doi:10.1145/1557019.1557032] is still limited.
-For instance, 76% of the names in ethnicolr's Wikipedia dataset are European in origin, and the dataset contains remarkably fewer Asian, African, and Middle Eastern names than wru.
+For instance, 76% of the names in ethnicolr's Wikipedia dataset are European in origin.
 
 To address these limitations in ethnicolr, we built a similar classifier, a Long Short-term Memory (LSTM) neural network, to infer the region of origin from patterns in the sequences of letters in full names.
 We applied this model on an updated, approximately 4.5 times larger training dataset called Wiki2019 (described below).
