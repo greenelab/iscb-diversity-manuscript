@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-15'
+date-meta: '2020-04-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-04-15" />
+  <meta name="dc.date" content="2020-04-23" />
 
-  <meta name="citation_publication_date" content="2020-04-15" />
+  <meta name="citation_publication_date" content="2020-04-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/8257986b23335d76b03a577e7668abce31235ad5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/8257986b23335d76b03a577e7668abce31235ad5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/8257986b23335d76b03a577e7668abce31235ad5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/172d6e00eaad2cd71528efa568763c4bb2367a38/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/8257986b23335d76b03a577e7668abce31235ad5/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/172d6e00eaad2cd71528efa568763c4bb2367a38/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/8257986b23335d76b03a577e7668abce31235ad5/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...172d6e00eaad2cd71528efa568763c4bb2367a38) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...8257986b23335d76b03a577e7668abce31235ad5) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/172d6e00eaad2cd71528efa568763c4bb2367a38/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/8257986b23335d76b03a577e7668abce31235ad5/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@172d6e0](https://github.com/greenelab/iscb-diversity-manuscript/tree/172d6e00eaad2cd71528efa568763c4bb2367a38)
-on April 15, 2020.
+from [greenelab/iscb-diversity-manuscript@8257986](https://github.com/greenelab/iscb-diversity-manuscript/tree/8257986b23335d76b03a577e7668abce31235ad5)
+on April 23, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -205,6 +205,7 @@ on April 15, 2020.
     [greenescientist](https://twitter.com/greenescientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania; Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
+     · Funded by the Gordon and Betty Moore Foundation (GBMF 4552)
   </small>
 
 
