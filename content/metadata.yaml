@@ -52,5 +52,6 @@ authors:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
       - Childhood Cancer Data Lab, Alex's Lemonade Stand Foundation
+    funders: the Gordon and Betty Moore Foundation (GBMF 4552)
 pandoc:
   manubot-fail-on-errors: True
