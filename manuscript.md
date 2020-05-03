@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/deaa7e2f6536f827710a76736c457a858e06aa6f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/deaa7e2f6536f827710a76736c457a858e06aa6f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/deaa7e2f6536f827710a76736c457a858e06aa6f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/deaa7e2f6536f827710a76736c457a858e06aa6f/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9500171d7d1a72cb69edd2ec8adb2264db210b8a/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/deaa7e2f6536f827710a76736c457a858e06aa6f/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9500171d7d1a72cb69edd2ec8adb2264db210b8a/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,14 +134,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...deaa7e2f6536f827710a76736c457a858e06aa6f) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...9500171d7d1a72cb69edd2ec8adb2264db210b8a) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/deaa7e2f6536f827710a76736c457a858e06aa6f/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@deaa7e2](https://github.com/greenelab/iscb-diversity-manuscript/tree/deaa7e2f6536f827710a76736c457a858e06aa6f)
+from [greenelab/iscb-diversity-manuscript@9500171](https://github.com/greenelab/iscb-diversity-manuscript/tree/9500171d7d1a72cb69edd2ec8adb2264db210b8a)
 on May 3, 2020.
 </em></small>
 
@@ -467,6 +467,48 @@ Early indications suggest ISCB may be heeding the findings of our analysis and i
 In 2020, among 12 ISCB Fellows and 5 ISMB keynote speakers, the mean predicted probability of each honoree having an East Asian name is 33%, higher than any estimate in previous years (see [notebook](https://greenelab.github.io/iscb-diversity/15.analyze-2020.html)).
 The set of honorees also includes the first ISCB Fellow from China.
 Compared to past years, the 2020 honorees appear to better reflect the diversity of scientists in the computational biology field.
+
+
+## Discussion
+
+A major challenge that we faced in carrying out this work was to narrow down geographic origins for some groups of names.
+Some name origin groups, such as Hispanic names, are geographically disparate.
+We were unable to construct a classifier that could distinguish between names from Iberian countries (Spain and Portugal) from those in Latin America in the group of Hispanic names.
+Discrepancies in representation between these groups are thus undetectable by our classifier.
+Honoree counts of those with Hispanic names are influenced from Spain as well as Latin America.
+In such cases, our analyses may substantially understate the extent to which minoritized scientists are underrepresented among honorees and authors.
+
+Biases in authorship practices may also result in our underestimation of the composition of minoritized scientists within the field.
+We estimated the composition of the field using corresponding author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956] women are underrepresented among such authors.
+Such an effect would cause us to underestimate the number of women in the field.
+Though this effect has been studied with respect to gender, we are not aware of similar work examining race, ethnicity, or name origins.
+
+We acknowledged that our supervised learning approaches are neither error free nor bias free.
+Because wru was trained on the US census to make predictions, many of the missing predictions are on names not observed in the US census.
+Although the underestimation of the proportion of these names could not be quantified in the list of authors and honorees, we complemented this race/ethnicity prediction method with an additional name origin analysis.
+By integrating different methods and preserving uncertainty by analyzing prediction probabilities rather than applying a hard assignment for each prediction, we hope to alleviate these biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
+
+Focusing on an international society and meetings, we measured honor and authorship rates worldwide.
+In this setting, we observe disparities by name groups.
+Because invitation and honor patterns could be driven by biases associated with name groups, geography, or other factors, we cross-referenced name group predictions with author affiliations to disentangle the relationship between geographic regions, name groups and invitation probabilities.
+We found that disparities persisted even within the group of honorees with a US affiliation.
+
+An important questions to ask when measuring representation is what the right level of representation is.
+We suggest that considering equity may be more appropriate than strictly diversity.
+For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors.
+However, if fewer women are in the field because of systemic factors that inhibit their participation, we would not have reached equity.
+In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often [@arxiv:2001.01002, @doi:10.1002/ece3.4993], invited by journals to submit papers less often [@doi:10.1371/journal.pbio.2004956], suggested as reviewers less often [@doi:10.1038/541455a], and receive significantly worse review scores [@doi:10.1002/ece3.4993].
+Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which, for example, may lead to higher persistence for undergraduate women in geoscience [@doi:10.1130/GES01659.1].
+Efforts are underway to create Wikipedia entries for more female [@doi:10.1038/d41586-018-05947-8] and black, Asian, and minority scientists [@doi:10.1038/d41586-019-00812-8], which can help early-career scientists identify role models.
+We find that ISCB's honorees and keynote speakers, though not yet reaching gender parity, appear to have similar gender proportion to the field as a whole.
+On the other hand, honorees include significantly fewer people of color than the field as a whole, and Asian scientists are dramatically underrepresented among honorees.
+Although we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
+Societies can play a positive role in enhancing equity if they design policies to honor scientists in ways that counter these biases.
+
+The central role that scientists play in evaluating each other and each other's findings makes equity critical.
+Even many nominally objective methods of assessing excellence (e.g., h-index, grant funding obtained, number of high-impact peer-reviewed publications, and total number of peer-reviewed publications) are subject to the bias of peers during review.
+These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer's own background [@doi:10.1126/sciadv.aaw7238].
+Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.
 
 
 ## Materials and Methods
