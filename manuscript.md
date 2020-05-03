@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9500171d7d1a72cb69edd2ec8adb2264db210b8a/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/9500171d7d1a72cb69edd2ec8adb2264db210b8a/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,14 +134,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...9500171d7d1a72cb69edd2ec8adb2264db210b8a) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...feaa661bb327f8d927603c542f1d7b5f9f4a3a79) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/9500171d7d1a72cb69edd2ec8adb2264db210b8a/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@9500171](https://github.com/greenelab/iscb-diversity-manuscript/tree/9500171d7d1a72cb69edd2ec8adb2264db210b8a)
+from [greenelab/iscb-diversity-manuscript@feaa661](https://github.com/greenelab/iscb-diversity-manuscript/tree/feaa661bb327f8d927603c542f1d7b5f9f4a3a79)
 on May 3, 2020.
 </em></small>
 
@@ -227,18 +227,19 @@ Globally, names of East Asian origin have been persistently underrepresented amo
 
 Scientists' roles in society include identifying important topics of study, undertaking an investigation of those topics, and disseminating their findings broadly.
 The scientific enterprise is largely self-governing: scientists act as peer reviewers on papers and grants, comprise hiring committees in academia, make tenure decisions, and select which applicants will be admitted to doctoral programs.
-A lack of diversity in science could lead to pernicious biases that hamper the extent to which scientific findings are relevant to minority communities.
-For example, a recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238].
-This finding might be the result of minority scientists selecting topics in more poorly funded areas.
-Alternatively, reviewing scientists may not recognize the scientific importance of these topics, which may be of particular interest to minority scientists.
-One way to address this issue is to directly examine peer recognition in different scientific fields.
+A lack of diversity in science could lead to pernicious biases that hamper the extent to which scientific findings are relevant to minoritized communities.
+One first step to address this issue is to directly examine peer recognition in different scientific fields.
 
 Gender bias among conference speakers has been recognized as an area that can be improved with targeted interventions [@doi:10.1371/journal.pcbi.1003903; @doi:10.1126/science.caredit.aaw9742; @doi:10.1038/ni.3707; @arxiv:1502.06326].
 Having more female organizers on conference committees is associated with having more female speakers [@doi:10.1128/mBio.00846-13].
 At medical conferences in the US and Canada, the proportion of female speakers is increasing at a modest rate [@doi:10.1001/jamanetworkopen.2019.2103].
 Gender bias appears to also influence funding decisions: an examination of scoring of proposals in Canada found that reviewers asked to assess the science produced a smaller gender gap in scoring than reviewers asked to assess the applicant [@doi:10/djc5].
+
 Challenges extend beyond gender: an analysis of awards at the NIH found that proposals by Asian, black or African-American applicants were less likely to be funded than those by white applicants [@doi:10.1126/science.1196783].
 There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color's efforts to gain NIH funding [@doi:10.1097/ACM.0000000000001278].
+Another recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238].
+This finding might be the result of minority scientists selecting topics in more poorly funded areas.
+Alternatively, reviewing scientists may not recognize the scientific importance of these topics, which may be of particular interest to minority scientists.
 
 We sought to understand the extent to which honors and high-profile speaking invitations were distributed equitably among gender, race/ethnicity, and name origin groups by an international society and its associated meetings.
 As computational biologists, we focused on the [International Society for Computational Biology](https://www.iscb.org/) (ISCB), its honorary Fellows as well as its affiliated international meetings that aim to have a global reach: [Intelligent Systems for Molecular Biology](https://en.wikipedia.org/wiki/Intelligent_Systems_for_Molecular_Biology) (ISMB) and [Research in Computational Molecular Biology](https://en.wikipedia.org/wiki/Research_in_Computational_Molecular_Biology) (RECOMB).
@@ -253,8 +254,6 @@ The lack of Asian scientists among keynote speakers and Fellows was particularly
 
 ## Results
 
-### Curated Honorees and Literature-derived Potential Honorees
-
 We curated a dataset of ISCB honorees that included 412 honorees who were keynote speakers at international ISCB-associated conferences (ISMB and RECOMB) as well as ISCB Fellows.
 The ISCB Fellows set contained the complete set of Fellows named (2009--2019).
 Keynote speakers were available for ISMB for all years from 1993--2019.
@@ -268,72 +267,28 @@ We downloaded the metadata of manuscripts published in these journals from PubMe
 However, although PubMed provides author order, it does not provide corresponding author information.
 To determine corresponding authors for an article, we used the PMC corresponding author information when it was available (20,696 articles) and the PubMed last author as a fallback when corresponding author information was missing (9,053 articles).
 
-### Assessing Gender Diversity of Authors and Honorees
+### Similar gender proportion between ISCB's honorees and the field
 
 Although _Bioinformatics_ was established in 1998 and _BMC Bioinformatics_ in 2000, the metadata for these journal papers before 2002 only have initials for first and/or middle author names.
 Therefore, without first and middle names, we do not have author gender predictions before this year.
 
 We observed a slow increase of the proportion of predicted female authors, arriving at just over 20% in 2019 (Fig. {@fig:gender_breakdown}, left).
 We observe very similar trend within each journal, but estimated female proportion has increased the most in _BMC Bioinformatics_ (see [notebook](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1)).
-In recent years, ISCB Fellows and keynote speakers appear to be more evenly split between men and women compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}, right); however, it has not yet reached parity.
+In recent years, ISCB Fellows and keynote speakers appear to have similar gender proportion compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}, right); however, it has not yet reached parity.
 Further, taking all the years together, a Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB honorees predicted to be female compared to that of authors (t~418~ = 0.753, _p_ = 0.226).
 We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (see [notebook](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1)), which markedly increased after 2015.
 Through 2019, there were a number of years when meetings or ISCB Fellow classes have a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
 
 
-![ISCB Fellows and keynote speakers appear more evenly split between men and women than PubMed authors in recent years, but the proportion has not reached parity. Estimated composition of gender prediction over the years of
+![Estimated composition of gender prediction over the years of
   all Pubmed computational biology and bioinformatics journal authors (left),
-  and all ISCB Fellows and keynote speakers (right)
-  was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
+  and all ISCB Fellows and keynote speakers (right).
+  Male proportion (yellow) was computed as the average of the probability of being male of corresponding authors (weight accordingly) or ISCB honorees each year.
+  Female proportion (blue) was the complement of the male proportion.
+  ISCB Fellows and keynote speakers appear have similar gender proportion compared to that of PubMed authors, but the proportion has not reached parity. 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
 
-### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
-
-Table @tbl:example_names shows the size of the training set for each of the name origin groups as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
-We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
-
-| Group | Training Size | Example Names |
-| ------ | ------ | -------------------- |
-| Celtic/English names | 154,890 | Adam O Hebb, Oliver G Pybus, David W Ritchie, James WJ Anderson, James W MacDonald, Robert Clarke |
-| European names | 78,157 | Tracey M Filzen, Jos H Beijnen, Caroline Louis-Jeune, Christian Lorenzi, Boris Vassilev, Verena Heinrich |
-| Hispanic names | 66,931 | Ramón Latorre, Antonio J Jimeno-Yepes, Felipe A Simão, Paulo S L de Oliveira, Juan Carlos Rodríguez-Manzaneque, Natalia Acevedo-Luna |
-| East Asian names | 54,588 | Heejoon Chae, Wenchao Jiang, Haizhou Liu, Miho Uchida, Wenxuan Zhang, Jiali Feng |
-| Arabic names | 31,418 | Hamidreza Chitsaz, Farzad Sangi, Habib Motieghader, Berke Ç Toptas, Ali Aliyari, Bülent Arman Aksoy |
-| Nordic names | 28,978 | Cecilia M Lindgren, Ellen Larsen, Jesper R Gådin, Janne H Korhonen, Johan Åqvist, Jens Nilsson |
-| South Asian names | 20,025 | Amitabh Chak, Matthew G Seetin, Matrika Gupta, Sumudu P Leelananda, VS Kumar Kolli, Swanand Gore |
-| African names | 17,826 | Timothy Kinyanjui, Jammbe Z Musoro, Nyaradzo M Mgodi, Magambo Phillip Kimuda, Probhonjon Baruah, Adaoha E C Ihekwaba |
-| Hebrew names | 4,549 | Alexander J Sadovsky, Boris Shraiman, Gil Goldshlager, Eytan Adar, Aviva Peleg, Nir Esterman |
-| Greek names | 4,138 | Gianni Panagiotou, Themis Lazaridis, Eleni Mijalis, Nikolaos Tsiantis, Konstantinos A Kyritsis, Dimitris E Messinis |
-
-Table: **Predicting name-origin groups of names trained on Wikipedia's living people.**
-The table lists the 10 groups and the number of living people for each region that the LSTM was trained on.
-Example names shows actual author names that received a high prediction for each region.
-Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/iscb-diversity/blob/make-letters/data/countries/2020-01-31_groupings.tsv).
-{#tbl:example_names}
-
-We next aimed to predict the name origin groups of honorees and authors.
-We constructed a training dataset with more than 700,000 name-nationality pairs by parsing the English-language Wikipedia.
-We trained a LSTM neural network on n-grams to predict name groups.
-We found similar performance across 1, 2, and 3-grams;
-however, because the classifier required fewer epochs to train with 3-grams, we used this length in the model that we term Wiki2019-LSTM.
-Our Wiki2019-LSTM returns, for each given name, a probability of that name originating from each of the specified 10 groups.
-We observed a multiclass area under the receiver operating characteristic curve (AUC) score of 95.9% for the classifier, indicating that the classifier can recapitulate name origins with high sensitivity and specificity.
-For each individual group, the high AUC (above 92%, Fig. {@fig:wiki2019_lstm}A) suggests that our classifier was sufficient for use in a broad-scale examination of disparities.
-We also observed that the model was well calibrated (Fig. {@fig:wiki2019_lstm}B).
-We also examined potential systematic errors between pairs of name origin groupings with a confusion heatmap and did not find off-diagonal enrichment for any pairing (Fig. {@fig:wiki2019_lstm}C).
-
-![The Wiki2019-LSTM model performs well on the testing dataset.
-The area under the ROC curve is above 92% for each category, showing strong performance across origin categories (A).
-A calibration curve, computed with the caret R package, shows consistency between the predicted probabilities (midpoints of each fixed-width bin) and the observed fraction of names in each bin (B).
-Heatmap showing whether names from a given group (x-axis) received higher (purple) or lower (green) predictions for each group (y-axis) than would be expected by group prevalence alone (C).
-The values represent log~2~ fold change between the average predicted probability and the prevalence of the corresponding predicted group in the testing dataset (null).
-Scaling by group prevalence accounts for the imbalance of groups in the testing dataset.
-In all cases, the classifier predicts the true groups above the expected null probability (matrix diagonals are all purple).
-For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
-For example, the classifier does not often mistake East Asian names as Greek, but is more prone to mistaking South Asian names as Celtic/English.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
-
-### Assessing the Name Origin Diversity of Authors and Honorees
+### Honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented
 
 We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of corresponding authors.
 We found that the proportion of authors with Celtic/English names had decreased (Fig. {@fig:region_breakdown}A, left), particularly for papers published in _Bioinformatics_ and _BMC Bioinformatics_ (see [notebook](https://greenelab.github.io/iscb-diversity/11.visualize-name-origins.html#sup_fig_s4)).
@@ -342,102 +297,68 @@ When we directly compared honoree composition with PubMed, we observed discrepan
 No statistically significant difference was observed between the proportion of honorees and authors with European names (t~425~ = 0.0282, _p_ = 0.489) or in other categories (see Table @tbl:example_names, t~425~ = -0.176, _p_ = 0.860).
 
 
-![Compared to the name collection of Pubmed authors, honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented. 
-No statistically significant difference was observed between the proportion of honorees and authors with European names or in other categories (see Table @tbl:example_names).
-Estimated composition of name origin prediction over the years of
-  (A, left) all Pubmed computational biology and bioinformatics journal authors,
-  and (A, right) all ISCB Fellows and keynote speakers
-  was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
+![(A) Estimated composition of name origin prediction over the years of
+  all Pubmed computational biology and bioinformatics journal authors (left),
+  and all ISCB Fellows and keynote speakers (right).
   (B) For each region, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
+  Compared to the name collection of Pubmed authors, honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented.
+  No statistically significant difference was observed between the proportion of honorees and authors with European names or in other categories (see Table @tbl:example_names).
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/region_breakdown.png){#fig:region_breakdown}
 
-### Affiliation Analysis
+### Overrepresentation of US-affiliated honorees
 
 We analyzed the countries of affiliation between corresponding authors and ISCB honorees.
 For each country, we report a value of log~2~ enrichment (LOE) and its 95% confidence intervals (Table @tbl:country-enrichment).
 A positive value of LOE indicates a higher proportion of honorees affiliated with that country compared to authors.
 A LOE value of 1 represents a one-fold enrichment (i.e., observed number of honorees is twice as much as expected).
 In the 20 countries with the most publications, we found an overrepresentation of honorees affiliated with institutions and companies in the US (97 speakers more than expected, LOE = 0.6, 95% CI (0.5, 0.8)) and Israel (12 speakers more than expected, LOR = 1.6, 95% CI (0.9, 2.3)), and an underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India (Fig. @fig:country-enrichment).
+The full table with all countries and their corresponding enrichment can be browsed interactively in the corresponding [analysis notebook](https://greenelab.github.io/iscb-diversity/12.analyze-affiliation.html#enrichment_tab).
 
-![The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India.
-Each country's log~2~ enrichment (LOE) and its 95% confidence interval are displayed on the left.
-Observed (triangle) and expected (circle) number of honorees and their differences (observed - expected) are shown in square-root scale on the right.
+![Each country's log~2~ enrichment (LOE) and its 95% confidence interval (left),
+and the absolute difference between observed (triangle) and expected (circle) number of honorees (right).
 Countries are ordered based on the proportion of authors in the field.
+The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India.
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
-| Country        | Author proportion | Observed | Expected | Observed - Expected | Enrichment | Log~2~(Enrichment) | 95% Confidence Interval |
-|----------------|-------------------|----------|----------|---------------------|------------|------------------|-------------------------|
-| United States  | 38.76%            | 237.5    | 152.7    | 84.8                | 1.6        | 0.6              | (0.4, 0.8)              |
-| United Kingdom | 8.36%             | 36.0     | 32.9     | 3.1                 | 1.1        | 0.1              | (-0.4, 0.6)             |
-| Germany        | 7.55%             | 27.0     | 29.7     | -2.7                | 0.9        | -0.1             | (-0.7, 0.4)             |
-| China          | 5.82%             | 3.0      | 22.9     | -19.9               | 0.1        | -2.9             | (-5.2, -1.4)            |
-| France         | 3.86%             | 4.0      | 15.2     | -11.2               | 0.3        | -1.9             | (-3.8, -0.6)            |
-| Italy          | 3.04%             | 2.0      | 12.0     | -10.0               | 0.2        | -2.6             | (-5.6, -0.7)            |
-| Canada         | 3.03%             | 12.0     | 11.9     | 0.1                 | 1.0        | 0.0              | (-1, 0.8)               |
-| Japan          | 2.44%             | 9.0      | 9.6      | -0.6                | 0.9        | -0.1             | (-1.2, 0.8)             |
-| Spain          | 2.39%             | 6.0      | 9.4      | -3.4                | 0.6        | -0.7             | (-2.1, 0.5)             |
-| Australia      | 2.33%             | 5.0      | 9.2      | -4.2                | 0.5        | -0.9             | (-2.5, 0.4)             |
-| Netherlands    | 1.91%             | 1.0      | 7.5      | -6.5                | 0.1        | -2.9             | (-8.2, -0.4)            |
-| Switzerland    | 1.81%             | 7.0      | 7.1      | -0.1                | 1.0        | -0.0             | (-1.4, 1)               |
-| Israel         | 1.46%             | 17.5     | 5.8      | 11.7                | 3.0        | 1.6              | (0.8, 2.3)              |
-| Sweden         | 1.34%             | 6.0      | 5.3      | 0.7                 | 1.1        | 0.2              | (-1.3, 1.3)             |
-| Korea          | 1.30%             | 1.0      | 5.1      | -4.1                | 0.2        | -2.4             | (-7.7, 0.1)             |
-| Taiwan         | 1.25%             | 0.0      | 4.9      | -4.9                | 0.0        | -Inf             | (-Inf, -0.4)            |
-| India          | 1.20%             | 0.0      | 4.7      | -4.7                | 0.0        | -Inf             | (-Inf, -0.3)            |
-| Belgium        | 1.04%             | 1.0      | 4.1      | -3.1                | 0.2        | -2.0             | (-7.3, 0.5)             |
-| Singapore      | 0.88%             | 1.0      | 3.5      | -2.5                | 0.3        | -1.8             | (-7.1, 0.7)             |
-| Finland        | 0.85%             | 0.0      | 3.4      | -3.4                | 0.0        | -Inf             | (-Inf, 0.1)             |
-
-Table: **Enrichment and depletion in proportion of ISCB honorees compared to Pubmed corresponding authors of 20 countries with the most publications.**
-The table lists the countries and their corresponding enrichment, which we computed by dividing the observed proportion of honorees by expected proportion of honorees.
-The expected proportion was calculated using corresponding author proportions.
-A positive Log~2~(Enrichment) indicated a higher proportion of honorees than corresponding authors affiliated with that country.
-The full table with all countries can be browsed interactively in the corresponding [analysis notebook](https://greenelab.github.io/iscb-diversity/12.analyze-affiliation.html#enrichment_tab).
-{#tbl:country-enrichment}
-
-
-### Assessing the Racial and Ethnic Diversity of US-affiliated Authors and Honorees
+### Overrepresentation of white and underrepresentation of Asian honorees among US-affiliated scientists
 
 We predicted the race and ethnicity of US-affiliated authors and honorees using wru, which is based on US census data.
 We found that an increasing proportion of authors in computational biology and bioinformatics journals had last names associated with selecting Asian as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}A).
-This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:us_racial_makeup}B, top).
-We did not observe a corresponding increase at _PLOS Computational Biology_ (Fig. {@fig:us_racial_makeup}B, bottom).
-Compared to Pubmed authors, ISCB honorees with US affiliations have a higher proportion of individuals whose last names we associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}C vs. A).
+This was primarily driven by publications in _Bioinformatics_ and _BMC Bioinformatics_ (Fig. {@fig:us_racial_makeup}C, top).
+We did not observe a corresponding increase at _PLOS Computational Biology_ (Fig. {@fig:us_racial_makeup}C, bottom).
+Compared to Pubmed authors, ISCB honorees with US affiliations have a higher proportion of individuals whose last names we associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}B vs. A).
 Separating honoree results by honor category did not reveal any clear differences (Fig. {@fig:us_racial_makeup}D).
 
-![We find an overrepresentation of white and underrepresentation of Asian honorees as compared to authors. Estimated composition of census-based race/ethnicity prediction over the years of
+![Estimated composition of census-based race/ethnicity prediction over the years of
   (A) all Pubmed computational biology and bioinformatics journal authors,
-  (B) authors in each journal,
-  (C) all ISCB Fellows and keynote speakers,
-  and (D) ISCB honorees in each honor category
-  was computed as the average of prediction probabilities of Pubmed articles or ISCB honorees each year.
-  For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines (E).
-
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/us_racial_makeup.png){#fig:us_racial_makeup}
+  (B) all ISCB Fellows and keynote speakers,
+  (C) authors in each journal,
+  and (D) ISCB honorees in each honor category.
+  (E) For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
+  The large difference between the means and the lack of overlaping of the confidence intervals in most years indicates an overrepresentation of white and underrepresentation of Asian honorees as compared to authors.
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/0d63bf4e9dbaf19e0a2a53157e4f8bb5e0c97f16/figs/us_racial_makeup.png){#fig:us_racial_makeup}
 
 We directly compared honoree and author results from 1993 to 2019 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:us_racial_makeup}E).
 We found that, over the years, white honorees have been significantly overrepresented (t~218~ = 14.8, _p_ < 10^-16^) and Asian honorees have been significantly underrepresented (t~236~ = -18.8, _p_ < 10^-16^).
 A Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB speakers predicted to be in Other categories compared to authors (t~203~ = 1.79, _p_ = 0.0747).
 
-### Assessing the Name Origin Diversity of US-affiliated Authors and Honorees
+### Substantial underrepresentation of honorees with East Asian names among US-affiliated scientists
 
 We applied our Wiki2019-LSTM model to US-affiliated authors and honorees and found similar pattern as when we considered all authors and honorees.
 We note that the US was not included in the training of the Wiki2019-LSTM model (see Methods).
 Specifically, the proportion of authors with Celtic/English names had decreased (Fig. {@fig:us_name_origin}A, left), particularly for papers published in _Bioinformatics_ and _BMC Bioinformatics_ (see [notebook](https://greenelab.github.io/iscb-diversity/14.us-name-origin.html#sup_fig_s6)).
 Meanwhile, the majority of honorees are predicted to have Celtic/English or European names (Fig. {@fig:us_name_origin}A, right).
 When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups, namely a large overrepresentation of honorees with Celtic/English names (t~247~ = 6.46, _p_ < 10^-9^), a smaller overrepresentation of honorees with European names (t~250~ = 2.54, _p_ = 0.0059), and a substantial underrepresentation of honorees with East Asian names (t~329~ = -20.6, _p_ < 10^-16^) (Fig. {@fig:us_name_origin}B).
-
-
-![Compared to the name collection of US-affiliated Pubmed authors, US-affiliated honorees with Celtic/English and European names are overrepresented while US-affiliated honorees with East Asian names are underrepresented.
 No statistically significant difference was observed between the proportion of honorees and authors with names in other categories (see Table @tbl:example_names, t~252~ = -0.152, _p_ = 0.879).
-Estimated composition of name origin prediction over the years of
-  (A, left) US-affiliated journal authors,
-  and (A, right) all US-affiliated Fellows and keynote speakers
-  was computed as the average of prediction probabilities of US-affiliated corresponding authors or ISCB honorees each year.
-  (B) For each region, the mean predicted probability of US-affiliated corresponding authors is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the US-affiliated ISCB honoree predictions are shown as dark circles and vertical lines.
 
+![(A) Estimated composition of name origin prediction over the years of
+  US-affiliated journal authors (left)),
+  and all US-affiliated Fellows and keynote speakers (right).
+  (B) For each region, the mean predicted probability of US-affiliated corresponding authors is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the US-affiliated ISCB honoree predictions are shown as dark circles and vertical lines.
+  Compared to the name collection of US-affiliated Pubmed authors, US-affiliated honorees with Celtic/English and European names are overrepresented while US-affiliated honorees with East Asian names are underrepresented.
+  
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/us_name_origin.png){#fig:us_name_origin}
 
 ### Reception & Feedback
@@ -672,6 +593,54 @@ We note that our mapping from nationality to name origins was not without error.
 For example, a scientist of Israeli nationality may not bear a Hebrew name.
 These mismatches were assessed via the heatmap of the model performance (Fig. {@fig:wiki2019_lstm}C) and complemented by the affiliation analysis below.
 An alternative approach is to assign arbitrary names to these groups such as via letter coding (e.g., A, B, C, etc.), but we did not choose this strategy because ten arbitrary letters for ten groups can greatly reduce the paper's readibility.
+
+
+### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
+
+
+Table @tbl:example_names shows the size of the training set for each of the name origin groups as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
+We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
+
+| Group | Training Size | Example Names |
+| ------ | ------ | -------------------- |
+| Celtic/English names | 154,890 | Adam O Hebb, Oliver G Pybus, David W Ritchie, James WJ Anderson, James W MacDonald, Robert Clarke |
+| European names | 78,157 | Tracey M Filzen, Jos H Beijnen, Caroline Louis-Jeune, Christian Lorenzi, Boris Vassilev, Verena Heinrich |
+| Hispanic names | 66,931 | Ramón Latorre, Antonio J Jimeno-Yepes, Felipe A Simão, Paulo S L de Oliveira, Juan Carlos Rodríguez-Manzaneque, Natalia Acevedo-Luna |
+| East Asian names | 54,588 | Heejoon Chae, Wenchao Jiang, Haizhou Liu, Miho Uchida, Wenxuan Zhang, Jiali Feng |
+| Arabic names | 31,418 | Hamidreza Chitsaz, Farzad Sangi, Habib Motieghader, Berke Ç Toptas, Ali Aliyari, Bülent Arman Aksoy |
+| Nordic names | 28,978 | Cecilia M Lindgren, Ellen Larsen, Jesper R Gådin, Janne H Korhonen, Johan Åqvist, Jens Nilsson |
+| South Asian names | 20,025 | Amitabh Chak, Matthew G Seetin, Matrika Gupta, Sumudu P Leelananda, VS Kumar Kolli, Swanand Gore |
+| African names | 17,826 | Timothy Kinyanjui, Jammbe Z Musoro, Nyaradzo M Mgodi, Magambo Phillip Kimuda, Probhonjon Baruah, Adaoha E C Ihekwaba |
+| Hebrew names | 4,549 | Alexander J Sadovsky, Boris Shraiman, Gil Goldshlager, Eytan Adar, Aviva Peleg, Nir Esterman |
+| Greek names | 4,138 | Gianni Panagiotou, Themis Lazaridis, Eleni Mijalis, Nikolaos Tsiantis, Konstantinos A Kyritsis, Dimitris E Messinis |
+
+Table: **Predicting name-origin groups of names trained on Wikipedia's living people.**
+The table lists the 10 groups and the number of living people for each region that the LSTM was trained on.
+Example names shows actual author names that received a high prediction for each region.
+Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/iscb-diversity/blob/make-letters/data/countries/2020-01-31_groupings.tsv).
+{#tbl:example_names}
+
+We next aimed to predict the name origin groups of honorees and authors.
+We constructed a training dataset with more than 700,000 name-nationality pairs by parsing the English-language Wikipedia.
+We trained a LSTM neural network on n-grams to predict name groups.
+We found similar performance across 1, 2, and 3-grams;
+however, because the classifier required fewer epochs to train with 3-grams, we used this length in the model that we term Wiki2019-LSTM.
+Our Wiki2019-LSTM returns, for each given name, a probability of that name originating from each of the specified 10 groups.
+We observed a multiclass area under the receiver operating characteristic curve (AUC) score of 95.9% for the classifier, indicating that the classifier can recapitulate name origins with high sensitivity and specificity.
+For each individual group, the high AUC (above 92%, Fig. {@fig:wiki2019_lstm}A) suggests that our classifier was sufficient for use in a broad-scale examination of disparities.
+We also observed that the model was well calibrated (Fig. {@fig:wiki2019_lstm}B).
+We also examined potential systematic errors between pairs of name origin groupings with a confusion heatmap and did not find off-diagonal enrichment for any pairing (Fig. {@fig:wiki2019_lstm}C).
+
+![The Wiki2019-LSTM model performs well on the testing dataset.
+The area under the ROC curve is above 92% for each category, showing strong performance across origin categories (A).
+A calibration curve, computed with the caret R package, shows consistency between the predicted probabilities (midpoints of each fixed-width bin) and the observed fraction of names in each bin (B).
+Heatmap showing whether names from a given group (x-axis) received higher (purple) or lower (green) predictions for each group (y-axis) than would be expected by group prevalence alone (C).
+The values represent log~2~ fold change between the average predicted probability and the prevalence of the corresponding predicted group in the testing dataset (null).
+Scaling by group prevalence accounts for the imbalance of groups in the testing dataset.
+In all cases, the classifier predicts the true groups above the expected null probability (matrix diagonals are all purple).
+For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
+For example, the classifier does not often mistake East Asian names as Greek, but is more prone to mistaking South Asian names as Celtic/English.
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
 
 ### Affiliation Analysis
 
