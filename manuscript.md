@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-05-03'
+date-meta: '2020-05-04'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-05-03" />
+  <meta name="dc.date" content="2020-05-04" />
 
-  <meta name="citation_publication_date" content="2020-05-03" />
+  <meta name="citation_publication_date" content="2020-05-04" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...feaa661bb327f8d927603c542f1d7b5f9f4a3a79) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f6df8a2ff091640ef403a61a61fae6d1b03f89ce) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/feaa661bb327f8d927603c542f1d7b5f9f4a3a79/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@feaa661](https://github.com/greenelab/iscb-diversity-manuscript/tree/feaa661bb327f8d927603c542f1d7b5f9f4a3a79)
-on May 3, 2020.
+from [greenelab/iscb-diversity-manuscript@f6df8a2](https://github.com/greenelab/iscb-diversity-manuscript/tree/f6df8a2ff091640ef403a61a61fae6d1b03f89ce)
+on May 4, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -275,7 +275,7 @@ Therefore, without first and middle names, we do not have author gender predicti
 We observed a slow increase of the proportion of predicted female authors, arriving at just over 20% in 2019 (Fig. {@fig:gender_breakdown}, left).
 We observe very similar trend within each journal, but estimated female proportion has increased the most in _BMC Bioinformatics_ (see [notebook](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1)).
 In recent years, ISCB Fellows and keynote speakers appear to have similar gender proportion compared to the population of authors published in computational biology and bioinformatics journals (Fig. {@fig:gender_breakdown}, right); however, it has not yet reached parity.
-Further, taking all the years together, a Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB honorees predicted to be female compared to that of authors (t~418~ = 0.753, _p_ = 0.226).
+Further, taking all the years together, a Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB honorees predicted to be female compared to that of authors (t~419~ = 0.840, _p_ = 0.402).
 We observed an increasing trend of honorees who were women in each honor category, especially in the group of ISCB Fellows (see [notebook](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1)), which markedly increased after 2015.
 Through 2019, there were a number of years when meetings or ISCB Fellow classes have a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
 
@@ -309,14 +309,15 @@ No statistically significant difference was observed between the proportion of h
 ### Overrepresentation of US-affiliated honorees
 
 We analyzed the countries of affiliation between corresponding authors and ISCB honorees.
-For each country, we report a value of log~2~ enrichment (LOE) and its 95% confidence intervals (Table @tbl:country-enrichment).
+For each country, we report a value of log~2~ enrichment (LOE) and its 95% confidence intervals.
+The full table with all countries and their corresponding enrichment can be browsed interactively in the corresponding [analysis notebook](https://greenelab.github.io/iscb-diversity/12.analyze-affiliation.html#enrichment_tab).
 A positive value of LOE indicates a higher proportion of honorees affiliated with that country compared to authors.
 A LOE value of 1 represents a one-fold enrichment (i.e., observed number of honorees is twice as much as expected).
 In the 20 countries with the most publications, we found an overrepresentation of honorees affiliated with institutions and companies in the US (97 speakers more than expected, LOE = 0.6, 95% CI (0.5, 0.8)) and Israel (12 speakers more than expected, LOR = 1.6, 95% CI (0.9, 2.3)), and an underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India (Fig. @fig:country-enrichment).
-The full table with all countries and their corresponding enrichment can be browsed interactively in the corresponding [analysis notebook](https://greenelab.github.io/iscb-diversity/12.analyze-affiliation.html#enrichment_tab).
 
 ![Each country's log~2~ enrichment (LOE) and its 95% confidence interval (left),
 and the absolute difference between observed (triangle) and expected (circle) number of honorees (right).
+Positive value of LOE indicates a higher proportion of honorees affiliated with that country compared to authors.
 Countries are ordered based on the proportion of authors in the field.
 The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India.
 
@@ -340,7 +341,7 @@ Separating honoree results by honor category did not reveal any clear difference
   The large difference between the means and the lack of overlaping of the confidence intervals in most years indicates an overrepresentation of white and underrepresentation of Asian honorees as compared to authors.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/0d63bf4e9dbaf19e0a2a53157e4f8bb5e0c97f16/figs/us_racial_makeup.png){#fig:us_racial_makeup}
 
-We directly compared honoree and author results from 1993 to 2019 for the predicted proportion of white, Asian, and other categories (Fig. {@fig:us_racial_makeup}E).
+We directly compared honoree and author results from 1993 to 2019 for the predicted proportion of white, Asian, and other categories (see [notebook](https://greenelab.github.io/iscb-diversity/13.us-race-analysis.html#what-about-p-values) and Fig. {@fig:us_racial_makeup}E).
 We found that, over the years, white honorees have been significantly overrepresented (t~218~ = 14.8, _p_ < 10^-16^) and Asian honorees have been significantly underrepresented (t~236~ = -18.8, _p_ < 10^-16^).
 A Welch two-sample t-test did not reveal any statistically significant difference in the mean probability of ISCB speakers predicted to be in Other categories compared to authors (t~203~ = 1.79, _p_ = 0.0747).
 
