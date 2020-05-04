@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/80251c077e8f7bceec614419547217dd93b984fa/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/80251c077e8f7bceec614419547217dd93b984fa/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,14 +134,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f6df8a2ff091640ef403a61a61fae6d1b03f89ce) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...80251c077e8f7bceec614419547217dd93b984fa) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f6df8a2ff091640ef403a61a61fae6d1b03f89ce/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@f6df8a2](https://github.com/greenelab/iscb-diversity-manuscript/tree/f6df8a2ff091640ef403a61a61fae6d1b03f89ce)
+from [greenelab/iscb-diversity-manuscript@80251c0](https://github.com/greenelab/iscb-diversity-manuscript/tree/80251c077e8f7bceec614419547217dd93b984fa)
 on May 4, 2020.
 </em></small>
 
@@ -286,7 +286,7 @@ Through 2019, there were a number of years when meetings or ISCB Fellow classes 
   Male proportion (yellow) was computed as the average of the probability of being male of corresponding authors (weight accordingly) or ISCB honorees each year.
   Female proportion (blue) was the complement of the male proportion.
   ISCB Fellows and keynote speakers appear have similar gender proportion compared to that of PubMed authors, but the proportion has not reached parity. 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/20d21504463c0487aa844be0ff236b3a51c70fa4/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
 
 ### Honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented
 
@@ -304,7 +304,7 @@ No statistically significant difference was observed between the proportion of h
   Compared to the name collection of Pubmed authors, honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented.
   No statistically significant difference was observed between the proportion of honorees and authors with European names or in other categories (see Table @tbl:example_names).
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/region_breakdown.png){#fig:region_breakdown}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/20d21504463c0487aa844be0ff236b3a51c70fa4/figs/region_breakdown.png){#fig:region_breakdown}
 
 ### Overrepresentation of US-affiliated honorees
 
@@ -321,7 +321,7 @@ Positive value of LOE indicates a higher proportion of honorees affiliated with 
 Countries are ordered based on the proportion of authors in the field.
 The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, the Netherlands, Taiwan, and India.
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/20d21504463c0487aa844be0ff236b3a51c70fa4/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
 ### Overrepresentation of white and underrepresentation of Asian honorees among US-affiliated scientists
 
@@ -339,7 +339,7 @@ Separating honoree results by honor category did not reveal any clear difference
   and (D) ISCB honorees in each honor category.
   (E) For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
   The large difference between the means and the lack of overlaping of the confidence intervals in most years indicates an overrepresentation of white and underrepresentation of Asian honorees as compared to authors.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/0d63bf4e9dbaf19e0a2a53157e4f8bb5e0c97f16/figs/us_racial_makeup.png){#fig:us_racial_makeup}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/20d21504463c0487aa844be0ff236b3a51c70fa4/figs/us_racial_makeup.png){#fig:us_racial_makeup}
 
 We directly compared honoree and author results from 1993 to 2019 for the predicted proportion of white, Asian, and other categories (see [notebook](https://greenelab.github.io/iscb-diversity/13.us-race-analysis.html#what-about-p-values) and Fig. {@fig:us_racial_makeup}E).
 We found that, over the years, white honorees have been significantly overrepresented (t~218~ = 14.8, _p_ < 10^-16^) and Asian honorees have been significantly underrepresented (t~236~ = -18.8, _p_ < 10^-16^).
@@ -360,7 +360,7 @@ No statistically significant difference was observed between the proportion of h
   (B) For each region, the mean predicted probability of US-affiliated corresponding authors is shown as teal LOESS curve, and the mean probability and 95% confidence interval of the US-affiliated ISCB honoree predictions are shown as dark circles and vertical lines.
   Compared to the name collection of US-affiliated Pubmed authors, US-affiliated honorees with Celtic/English and European names are overrepresented while US-affiliated honorees with East Asian names are underrepresented.
   
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/us_name_origin.png){#fig:us_name_origin}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/20d21504463c0487aa844be0ff236b3a51c70fa4/figs/us_name_origin.png){#fig:us_name_origin}
 
 ### Reception & Feedback
 
@@ -586,7 +586,7 @@ The countries associated with each grouping are shown in Fig {@fig:nameprism_cou
 NamePrism excluded the US, Canada and Australia because these countries have been populated by a mix of immigrant groups [@doi:10.1145/3132847.3133008].
 
 ![NamePrism groups countries by name similarity. We used this grouping but renamed the groups to focus on the linguistic patterns based on name etymology identified by NamePrism.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="90%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/20d21504463c0487aa844be0ff236b3a51c70fa4/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="90%"}
 
 In an earlier version of this manuscript, we also used category names derived from NamePrism, but a reader [pointed out](https://github.com/greenelab/iscb-diversity-manuscript/issues/27) the titles of the groupings were problematic;
 therefore, in this version, we renamed these groupings to reflect that the NamePrism approach primarily identifies groups based on linguistic patterns from name etymology rather than religious or racial similarities.
@@ -641,7 +641,7 @@ Scaling by group prevalence accounts for the imbalance of groups in the testing 
 In all cases, the classifier predicts the true groups above the expected null probability (matrix diagonals are all purple).
 For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
 For example, the classifier does not often mistake East Asian names as Greek, but is more prone to mistaking South Asian names as Celtic/English.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/3853a20773764cedcf6aa61f38f062b26bd7655d/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/20d21504463c0487aa844be0ff236b3a51c70fa4/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
 
 ### Affiliation Analysis
 
