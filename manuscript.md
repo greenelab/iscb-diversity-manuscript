@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-05-04'
+date-meta: '2020-05-05'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-05-04" />
+  <meta name="dc.date" content="2020-05-05" />
 
-  <meta name="citation_publication_date" content="2020-05-04" />
+  <meta name="citation_publication_date" content="2020-05-05" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/80251c077e8f7bceec614419547217dd93b984fa/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/80251c077e8f7bceec614419547217dd93b984fa/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...80251c077e8f7bceec614419547217dd93b984fa) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/80251c077e8f7bceec614419547217dd93b984fa/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@80251c0](https://github.com/greenelab/iscb-diversity-manuscript/tree/80251c077e8f7bceec614419547217dd93b984fa)
-on May 4, 2020.
+from [greenelab/iscb-diversity-manuscript@d7a810d](https://github.com/greenelab/iscb-diversity-manuscript/tree/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7)
+on May 5, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -220,7 +220,7 @@ The proportion of female fellows and keynote speakers was similar to that of the
 However, fellows and keynote speakers with an affiliation in the United States were over-represented by a factor of 1.6;
 moreover, almost half of this excess was accounted for by a deficit of 41 fellows and keynote authors from China, France and Italy.
 Furthermore, within the US we found an excess of white fellows and keynote speakers, and a depletion of Asian fellows and keynote speakers.
-Globally, names of East Asian origin have been persistently underrepresented among fellows and keynote speakers
+Globally, names of East Asian origin have been persistently underrepresented among fellows and keynote speakers.
 
 
 ## Introduction
