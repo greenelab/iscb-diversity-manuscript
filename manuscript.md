@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-05-05'
+date-meta: '2020-05-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-05-05" />
+  <meta name="dc.date" content="2020-05-06" />
 
-  <meta name="citation_publication_date" content="2020-05-05" />
+  <meta name="citation_publication_date" content="2020-05-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/711edb01f5335a4c1bb8e1e0575618586a7abf9b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/711edb01f5335a4c1bb8e1e0575618586a7abf9b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/711edb01f5335a4c1bb8e1e0575618586a7abf9b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/711edb01f5335a4c1bb8e1e0575618586a7abf9b/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/711edb01f5335a4c1bb8e1e0575618586a7abf9b/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...711edb01f5335a4c1bb8e1e0575618586a7abf9b) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/711edb01f5335a4c1bb8e1e0575618586a7abf9b/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@d7a810d](https://github.com/greenelab/iscb-diversity-manuscript/tree/d7a810dd2e07983e2a5db15b70c4e6b91f3a19c7)
-on May 5, 2020.
+from [greenelab/iscb-diversity-manuscript@711edb0](https://github.com/greenelab/iscb-diversity-manuscript/tree/711edb01f5335a4c1bb8e1e0575618586a7abf9b)
+on May 6, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -215,12 +215,22 @@ on May 5, 2020.
 
 Delivering a keynote talk at a conference organized by a scientific society, or being named as a fellow by such a society, indicates that a scientist is held in high regard by their colleagues.
 To explore if the distribution of such indicators of esteem in the field of bioinformatics reflects the composition of this field,
-we compared the gender, country of affiliation, race/ethnicity and name-origin of 412 researchers who had been recognized by the _International Society for Computational Biology_ (75 fellows and 337 keynote speakers) with 34,050 researchers who had been the corresponding authors on papers in three leading bioinformatics journals between 1993 and 2019.
+we compared the gender, name-origin, country of affiliation and race/ethnicity of 412 researchers who had been recognized by the _International Society for Computational Biology_ (75 fellows and 337 keynote speakers) with 34,050 researchers who had been the corresponding authors on papers in three leading bioinformatics journals between 1993 and 2019.
 The proportion of female fellows and keynote speakers was similar to that of the field overall.
-However, fellows and keynote speakers with an affiliation in the United States were over-represented by a factor of 1.6;
-moreover, almost half of this excess was accounted for by a deficit of 41 fellows and keynote authors from China, France and Italy.
-Furthermore, within the US we found an excess of white fellows and keynote speakers, and a depletion of Asian fellows and keynote speakers.
-Globally, names of East Asian origin have been persistently underrepresented among fellows and keynote speakers.
+However, names of East Asian origin have been persistently underrepresented among fellows and keynote speakers.
+Moreover, fellows and keynote speakers with an affiliation in the United States were overrepresented by a factor of 1.6;
+almost half of this excess was accounted for by a deficit of 41 fellows and keynote authors from China, France and Italy.
+Within the US, we found an excess of white fellows and keynote speakers and a depletion of Asian fellows and keynote speakers.
+
+<!-- Short abstract
+Delivering a keynote talk at a conference or being named as a fellow by a scientific society indicates that a scientist is held in high regard by their colleagues.
+To explore if the distribution of such indicators of esteem in the field of bioinformatics reflects the composition of this field, 
+we compared the gender, name-origin, country of affiliation, and race/ethnicity of 412 researchers who had been recognized by the International Society for Computational Biology (honorees) with 34,050 researchers who had been the corresponding authors on papers in three leading bioinformatics journals between 1993 and 2019.
+The proportion of female honorees was similar to that of the field.
+However, names of East Asian origin have been persistently underrepresented among honorees.
+Moreover, honorees with an affiliation in the US were overrepresented by a factor of 1.6.
+Within the US, we found an excess of white honorees and a depletion of Asian honorees.
+-->
 
 
 ## Introduction
