@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/d36f2602f65ca990e48b4ecb6434775c47bbd4bd/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/64361a3444a46353ee8944984ce01cda1ba35807/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d36f2602f65ca990e48b4ecb6434775c47bbd4bd/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/64361a3444a46353ee8944984ce01cda1ba35807/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d36f2602f65ca990e48b4ecb6434775c47bbd4bd/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/64361a3444a46353ee8944984ce01cda1ba35807/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d36f2602f65ca990e48b4ecb6434775c47bbd4bd/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/64361a3444a46353ee8944984ce01cda1ba35807/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d36f2602f65ca990e48b4ecb6434775c47bbd4bd/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/64361a3444a46353ee8944984ce01cda1ba35807/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,14 +134,14 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...d36f2602f65ca990e48b4ecb6434775c47bbd4bd) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...64361a3444a46353ee8944984ce01cda1ba35807) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/d36f2602f65ca990e48b4ecb6434775c47bbd4bd/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/64361a3444a46353ee8944984ce01cda1ba35807/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@d36f260](https://github.com/greenelab/iscb-diversity-manuscript/tree/d36f2602f65ca990e48b4ecb6434775c47bbd4bd)
+from [greenelab/iscb-diversity-manuscript@64361a3](https://github.com/greenelab/iscb-diversity-manuscript/tree/64361a3444a46353ee8944984ce01cda1ba35807)
 on September 1, 2020.
 </em></small>
 
@@ -303,7 +303,7 @@ We applied our Wiki2019-LSTM model to both our computational biology honorees da
 We found that the proportion of authors with Celtic/English names had decreased (Fig. {@fig:region_breakdown}A, left).
 Among keynote speakers and fellows, we found that the majority of honorees are predicted to have Celtic/English or European names (Fig. {@fig:region_breakdown}A, right).
 When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups (Fig. {@fig:region_breakdown}B).
-A name coming from the group of honorees has significantly higher probability of being Celtic/English ($\beta$~Celtic/English~ = 0.11924, _p_ < 10^-9^) and lower probability of being East Asian ($\beta$~East Asian~ = -0.14791, _p_ < 10^-9^).
+A name coming from the group of honorees has significantly higher probability of being Celtic/English ($\beta$~Celtic/English~ = 0.11924, _p_ < 10^-9^) and lower probability of being East Asian ($\beta$~East\ Asian~ = -0.14791, _p_ < 10^-9^).
 The two groups of scientists did not have a significant association with names predicted to be European and in Other categories (_p_ = 0.39475 and _p_ = 0.48625, respectively).
 
 ![(A) Estimated composition of name origin prediction over the years of
@@ -317,7 +317,7 @@ The two groups of scientists did not have a significant association with names p
 
 We reached similar conclusion when applying the Wiki2019-LSTM model to the name origins of only US-affiliated scientists.
 We note that the US was not included in the training of the Wiki2019-LSTM model (see Methods).
-We found an overrepresentation of honorees with Celtic/English names ($\beta$~Celtic/English~ = 0.053, _p_ = 0.031), a smaller overrepresentation of honorees with European names ($\beta$~European~ = 0.046, _p_ = 0.042) and substantial underrepresentation of honorees with East Asian names ($\beta$~East Asian~ = -0.010, _p_ = 3.6×10^-5^).
+We found an overrepresentation of honorees with Celtic/English names ($\beta$~Celtic/English~ = 0.053, _p_ = 0.031), a smaller overrepresentation of honorees with European names ($\beta$~European~ = 0.046, _p_ = 0.042) and substantial underrepresentation of honorees with East Asian names ($\beta$~East\ Asian~ = -0.010, _p_ = 3.6×10^-5^).
 No statistically significant difference was observed between the proportion of honorees and authors with names in Other categories (see Table @tbl:example_names, _p_ = 0.95).
 Please see [analysis notebook](https://greenelab.github.io/iscb-diversity/14.us-name-origin.html) for more details.
 
