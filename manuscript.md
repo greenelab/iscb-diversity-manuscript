@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-22'
+date-meta: '2020-09-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-09-22" />
+  <meta name="dc.date" content="2020-09-23" />
 
-  <meta name="citation_publication_date" content="2020-09-22" />
+  <meta name="citation_publication_date" content="2020-09-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b3729836b2476a73031a18a9a32d60364f21135e/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b3729836b2476a73031a18a9a32d60364f21135e/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b3729836b2476a73031a18a9a32d60364f21135e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b3729836b2476a73031a18a9a32d60364f21135e/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7e85b0995ddac1db0a2569e1949d583615e98089/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b3729836b2476a73031a18a9a32d60364f21135e/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7e85b0995ddac1db0a2569e1949d583615e98089/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...b3729836b2476a73031a18a9a32d60364f21135e) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...7e85b0995ddac1db0a2569e1949d583615e98089) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b3729836b2476a73031a18a9a32d60364f21135e/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@b372983](https://github.com/greenelab/iscb-diversity-manuscript/tree/b3729836b2476a73031a18a9a32d60364f21135e)
-on September 22, 2020.
+from [greenelab/iscb-diversity-manuscript@7e85b09](https://github.com/greenelab/iscb-diversity-manuscript/tree/7e85b0995ddac1db0a2569e1949d583615e98089)
+on September 23, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -294,7 +294,7 @@ A multiple linear regression of this proportion for the groups and year did not 
   Male proportion (yellow) was computed as the average of the probability of being male of last authors (weight accordingly) or ISCB honorees each year.
   Female proportion (blue) was the complement of the male proportion.
   ISCB Fellows and keynote speakers appear have similar gender proportion compared to that of PubMed authors, but the proportion has not reached parity. 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f7b8a119faf269f072886bd4e50d533a0913252a/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/gender_breakdown.png){#fig:gender_breakdown width="70%"}
 
 
 ### Honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented
@@ -313,7 +313,7 @@ The two groups of scientists did not have a significant association with names p
   Compared to the name collection of Pubmed authors, honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented.
   No statistically significant difference was observed between the proportion of honorees and authors with European names or in other categories (see Table @tbl:example_names).
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f7b8a119faf269f072886bd4e50d533a0913252a/figs/region_breakdown.png){#fig:region_breakdown}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/region_breakdown.png){#fig:region_breakdown}
 
 We reached similar conclusion when applying the Wiki2019-LSTM model to the name origins of only US-affiliated scientists.
 We note that the US was not included in the training of the Wiki2019-LSTM model (see Methods).
@@ -337,7 +337,7 @@ Positive value of LOE indicates a higher proportion of honorees affiliated with 
 Countries are ordered based on the proportion of authors in the field.
 The overrepresentation of honorees affiliated with institutions and companies in the US and Israel contrasts the underrepresentation of honorees affiliated with those in China, France, Italy, India, the Netherlands, Korea, Brazil and Taiwan.
 
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f7b8a119faf269f072886bd4e50d533a0913252a/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
 
 ### Overrepresentation of white and underrepresentation of Asian honorees among US-affiliated scientists
@@ -353,7 +353,7 @@ Separating honoree results by honor category did not reveal any clear difference
   (A) all Pubmed computational biology and bioinformatics journal authors(left) and all ISCB Fellows and keynote speakers (right),
   (B) For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal generalized additive model (GAM) curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
   The large difference between the means and the lack of overlaping of the confidence intervals in most years indicates an overrepresentation of white and underrepresentation of Asian honorees as compared to authors.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f7b8a119faf269f072886bd4e50d533a0913252a/figs/us_racial_makeup.png){#fig:us_racial_makeup}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/us_racial_makeup.png){#fig:us_racial_makeup}
 
 
 ### Improvements to Honoree Diversity Subsequent to Our Primary Analysis
@@ -471,7 +471,7 @@ In this case, we assign France to this affiliation.
 This country extraction method accommodates multiple countries.
 Although ideally each affiliation record would refer to one and only one research organization, sometimes journals deposit multiple affiliations in a single structured affiliation.
 In these cases, we assigned multiple countries to the article.
-For more details on this approach, please consult the accompanying [notebook](https://github.com/greenelab/iscb-diversity/blob/f7b8a119faf269f072886bd4e50d533a0913252a/07.affiliations-to-countries.ipynb) and [label dataset](https://github.com/greenelab/iscb-diversity/blob/f7b8a119faf269f072886bd4e50d533a0913252a/data/affiliations/geocode.jsonl).
+For more details on this approach, please consult the accompanying [notebook](https://github.com/greenelab/iscb-diversity/blob/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/07.affiliations-to-countries.ipynb) and [label dataset](https://github.com/greenelab/iscb-diversity/blob/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/data/affiliations/geocode.jsonl).
 
 When geotext did not return results, we use the geopy approach, which returns a single country for an affiliation when successful.
 Its `geocoders.Nominatim` function converts names / addresses to geographic coordinates using the OpenStreetMap's [Nomatim](https://nominatim.org/) service.
@@ -538,7 +538,7 @@ The countries associated with each grouping are shown in Fig {@fig:nameprism_cou
 NamePrism excluded the US, Canada and Australia because these countries have been populated by a mix of immigrant groups [@doi:10.1145/3132847.3133008].
 
 ![NamePrism groups countries by name similarity. We used this grouping but renamed the groups to focus on the linguistic patterns based on name etymology identified by NamePrism.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f7b8a119faf269f072886bd4e50d533a0913252a/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="90%"}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/2020-01-31_groupings.png){#fig:nameprism_countries width="90%"}
 
 In an earlier version of this manuscript, we also used category names derived from NamePrism, but a reader [pointed out](https://github.com/greenelab/iscb-diversity-manuscript/issues/27) the titles of the groupings were problematic;
 therefore, in this version, we renamed these groupings to reflect that the NamePrism approach primarily identifies groups based on linguistic patterns from name etymology rather than religious or racial similarities.
@@ -559,7 +559,7 @@ We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`
 | European names | 78,157 | Tracey M Filzen, Jos H Beijnen, Caroline Louis-Jeune, Christian Lorenzi, Boris Vassilev, Verena Heinrich |
 | Hispanic names | 66,931 | Ramón Latorre, Antonio J Jimeno-Yepes, Felipe A Simão, Paulo S L de Oliveira, Juan Carlos Rodríguez-Manzaneque, Natalia Acevedo-Luna |
 | East Asian names | 54,588 | Heejoon Chae, Wenchao Jiang, Haizhou Liu, Miho Uchida, Wenxuan Zhang, Jiali Feng |
-| Arabic names | 31,418 | Hamidreza Chitsaz, Farzad Sangi, Habib Motieghader, Berke Ç Toptas, Ali Aliyari, Bülent Arman Aksoy |
+| Arabic/Turkic/Persian names | 31,418 | Hamidreza Chitsaz, Farzad Sangi, Habib Motieghader, Berke Ç Toptas, Ali Aliyari, Bülent Arman Aksoy |
 | Nordic names | 28,978 | Cecilia M Lindgren, Ellen Larsen, Jesper R Gådin, Janne H Korhonen, Johan Åqvist, Jens Nilsson |
 | South Asian names | 20,025 | Amitabh Chak, Matthew G Seetin, Matrika Gupta, Sumudu P Leelananda, VS Kumar Kolli, Swanand Gore |
 | African names | 17,826 | Timothy Kinyanjui, Jammbe Z Musoro, Nyaradzo M Mgodi, Magambo Phillip Kimuda, Probhonjon Baruah, Adaoha E C Ihekwaba |
@@ -569,7 +569,7 @@ We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`
 Table: **Predicting name-origin groups of names trained on Wikipedia's living people.**
 The table lists the 10 groups and the number of living people for each region that the LSTM was trained on.
 Example names shows actual author names that received a high prediction for each region.
-Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/iscb-diversity/blob/f7b8a119faf269f072886bd4e50d533a0913252a/data/countries/2020-01-31_groupings.tsv).
+Full information about which countries comprised each region can be found in the online dataset [`country_to_region.tsv`](https://github.com/greenelab/iscb-diversity/blob/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/data/countries/2020-01-31_groupings.tsv).
 {#tbl:example_names}
 
 We next aimed to predict the name origin groups of honorees and authors.
@@ -592,7 +592,7 @@ Scaling by group prevalence accounts for the imbalance of groups in the testing 
 In all cases, the classifier predicts the true groups above the expected null probability (matrix diagonals are all purple).
 For off-diagonal cells, darker green indicates a lower mean prediction compared to the null.
 For example, the classifier does not often mistake East Asian names as Greek, but is more prone to mistaking South Asian names as Celtic/English.
-](https://raw.githubusercontent.com/greenelab/iscb-diversity/f7b8a119faf269f072886bd4e50d533a0913252a/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
+](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/fig_3.png){#fig:wiki2019_lstm width=100%}
 
 Applying Wiki2019-LSTM on the author and honoree datasets, we obtained name origin estimates for all honorees' and authors' name, except the 12,429 that did not have fore names (see breakdown in the Estimation of Gender section above).
 Once again, because the large majority of author fore names prior to 2002 were recorded with initials only, predictions were not possible, and we excluded 1998--2001 when comparing name origin compositions between two groups.
