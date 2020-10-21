@@ -7,7 +7,7 @@ author-meta:
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-23'
+date-meta: '2020-10-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-09-23" />
+  <meta name="dc.date" content="2020-10-21" />
 
-  <meta name="citation_publication_date" content="2020-09-23" />
+  <meta name="citation_publication_date" content="2020-10-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7e85b0995ddac1db0a2569e1949d583615e98089/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/87b943b7b0a2f54541a20c13907da7e23820ac70/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/7e85b0995ddac1db0a2569e1949d583615e98089/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/87b943b7b0a2f54541a20c13907da7e23820ac70/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...7e85b0995ddac1db0a2569e1949d583615e98089) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...87b943b7b0a2f54541a20c13907da7e23820ac70) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/7e85b0995ddac1db0a2569e1949d583615e98089/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@7e85b09](https://github.com/greenelab/iscb-diversity-manuscript/tree/7e85b0995ddac1db0a2569e1949d583615e98089)
-on September 23, 2020.
+from [greenelab/iscb-diversity-manuscript@87b943b](https://github.com/greenelab/iscb-diversity-manuscript/tree/87b943b7b0a2f54541a20c13907da7e23820ac70)
+on October 21, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -220,7 +220,7 @@ The proportion of female fellows and keynote speakers was similar to that of the
 However, names of East Asian origin have been persistently underrepresented among fellows and keynote speakers.
 Moreover, fellows and keynote speakers with an affiliation in the United States were overrepresented by a factor of 2.1;
 almost two thirds of this excess was accounted for by a deficit of 101 fellows and keynote authors from China, India, France and Italy.
-Within the US, we found an excess of white fellows and keynote speakers and a depletion of Asian fellows and keynote speakers.
+Within the US, we found an excess of White fellows and keynote speakers and a depletion of Asian fellows and keynote speakers.
 
 <!-- Short abstract
 Delivering a keynote talk at a conference or being named as a fellow by a scientific society indicates that a scientist is held in high regard by their colleagues.
@@ -229,7 +229,7 @@ we compared the gender, name-origin, country of affiliation, and race/ethnicity 
 The proportion of female honorees was similar to that of the field.
 However, names of East Asian origin have been persistently underrepresented among honorees.
 Moreover, honorees with an affiliation in the US were overrepresented by a factor of 1.6.
-Within the US, we found an excess of white honorees and a depletion of Asian honorees.
+Within the US, we found an excess of White honorees and a depletion of Asian honorees.
 -->
 
 
@@ -246,7 +246,7 @@ Having more female organizers on conference committees is associated with having
 At medical conferences in the US and Canada, the proportion of female speakers is increasing at a modest rate [@doi:10.1001/jamanetworkopen.2019.2103].
 Gender bias appears to also influence funding decisions: an examination of scoring of proposals in Canada found that reviewers asked to assess the science produced a smaller gender gap in scoring than reviewers asked to assess the applicant [@doi:10/djc5].
 
-Challenges extend beyond gender: an analysis of awards at the NIH found that proposals by Asian, black or African-American applicants were less likely to be funded than those by white applicants [@doi:10.1126/science.1196783].
+Challenges extend beyond gender: an analysis of awards at the NIH found that proposals by Asian, black or African-American applicants were less likely to be funded than those by White applicants [@doi:10.1126/science.1196783].
 There are also potential interaction effects between gender and race or ethnicity that may particularly affect women of color's efforts to gain NIH funding [@doi:10.1097/ACM.0000000000001278].
 Another recent analysis found that minority scientists tend to apply for awards on topics with lower success rates [@doi:10.1126/sciadv.aaw7238].
 This finding might be the result of minority scientists selecting topics in more poorly funded areas.
@@ -259,7 +259,7 @@ We used multiple methods to predict the gender, race/ethnicity, and name origins
 Existing methods were relatively US-centric because most of the data was derived in whole or in part from the US Census.
 We scraped more than 700,000 entries from English-language Wikipedia that contained nationality information to complement these existing methods and built multiple machine learning classifiers to predict name origin.
 We also examined the last authors for more than 170,000 computational biology publications to establish a field-specific baseline using the same metrics.
-The results were consistent across all approaches: we found a dearth of non-white speakers and honorees.
+The results were consistent across all approaches: we found a dearth of non-White speakers and honorees.
 The lack of Asian scientists among keynote speakers and Fellows was particularly pronounced when compared against the field-specific background.
 
 
@@ -340,19 +340,19 @@ The overrepresentation of honorees affiliated with institutions and companies in
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/enrichment-plot.png){#fig:country-enrichment width="80%"}
 
 
-### Overrepresentation of white and underrepresentation of Asian honorees among US-affiliated scientists
+### Overrepresentation of White honorees and underrepresentation of Asian honorees among US-affiliated scientists
 
 We predicted the race and ethnicity of US-affiliated authors and honorees using wru, which is based on US census data.
 We found that an increasing proportion of last authors of computational biology papers whose last names associated with selecting Asian as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}A left).
-Compared to Pubmed authors, ISCB honorees with US affiliations have a higher proportion of individuals whose last names were associated with selecting white as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}A).
-Specifically, a name coming from the group of honorees has significantly higher probability of being white ($\beta$~white~ = 0.0975, _p_ = 1.4×10^-5^) and lower probability of being Asian, ($\beta$~Asian~ = - 0.1122, _p_ = 1.7×10^-6^). 
+Compared to Pubmed authors, ISCB honorees with US affiliations have a higher proportion of individuals whose last names were associated with selecting White as a race/ethnicity category in the US census (Fig. {@fig:us_racial_makeup}A).
+Specifically, a name coming from the group of honorees has significantly higher probability of being White ($\beta$~White~ = 0.0975, _p_ = 1.4×10^-5^) and lower probability of being Asian, ($\beta$~Asian~ = - 0.1122, _p_ = 1.7×10^-6^). 
 The two groups of scientists did not have a significant association with names predicted to be in Other categories (_p_ = 0.16662).
 Separating honoree results by honor category did not reveal any clear differences among the categories (see [notebook](https://greenelab.github.io/iscb-diversity/13.us-race-analysis.html#hypothesis-testing).
 
 ![Estimated composition of census-based race/ethnicity prediction over the years of
   (A) all Pubmed computational biology and bioinformatics journal authors(left) and all ISCB Fellows and keynote speakers (right),
   (B) For each race/ethnicity category, the mean predicted probability of Pubmed articles is shown as teal generalized additive model (GAM) curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
-  The large difference between the means and the lack of overlaping of the confidence intervals in most years indicates an overrepresentation of white and underrepresentation of Asian honorees as compared to authors.
+  The large difference between the means and the lack of overlaping of the confidence intervals in most years indicates an overrepresentation of White and underrepresentation of Asian honorees as compared to authors.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/d3b0774b35c10939cf905edcfb3b7fc5564d8cfa/figs/us_racial_makeup.png){#fig:us_racial_makeup}
 
 
@@ -404,7 +404,7 @@ A recent analysis of gender inequality across different disciplines showed that,
 We found that ISCB's honorees and keynote speakers, though not yet reaching gender parity, appear to have similar gender proportion to the field as a whole.
 On the other hand, honorees include significantly fewer people of color than the field as a whole, and Asian scientists are dramatically underrepresented among honorees.
 Societies' honoree selection process failing to reflect the diversity of the field can play a part in why minoritized scientists' innovations are discounted [@doi:10.1073/pnas.1915378117].
-Although we estimate the fraction of non-white and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
+Although we estimate the fraction of non-White and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
 
 Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which can boost young students' interests in STEM [@doi:10.1073/pnas.1014871108] and, for example, lead to higher persistence for undergraduate women in geoscience [@doi:10.1130/GES01659.1].
 Efforts are underway to create Wikipedia entries for more female [@doi:10.1038/d41586-018-05947-8] and black, Asian, and minority scientists [@doi:10.1038/d41586-019-00812-8], which can help early-career scientists identify role models.
