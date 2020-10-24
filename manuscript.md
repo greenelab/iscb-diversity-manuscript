@@ -2,12 +2,12 @@
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
-- Ariel A. Hippen Anderson
+- Ariel A. Hippen
 - Matthew R. Gazzara
 - Casey S. Greene
 bibliography:
 - content/manual-references.json
-date-meta: '2020-10-21'
+date-meta: '2020-10-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,9 +26,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
 
-  <meta name="dc.date" content="2020-10-21" />
+  <meta name="dc.date" content="2020-10-24" />
 
-  <meta name="citation_publication_date" content="2020-10-21" />
+  <meta name="citation_publication_date" content="2020-10-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -58,13 +58,13 @@ header-includes: '<!--
 
   <meta name="twitter:creator" content="@dhimmel" />
 
-  <meta name="citation_author" content="Ariel A. Hippen Anderson" />
+  <meta name="citation_author" content="Ariel A. Hippen" />
 
   <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania" />
 
   <meta name="citation_author_orcid" content="0000-0001-9336-6543" />
 
-  <meta name="twitter:creator" content="@AHippenAnderson" />
+  <meta name="twitter:creator" content="@ariel_hippen" />
 
   <meta name="citation_author" content="Matthew R. Gazzara" />
 
@@ -96,19 +96,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/788a0802c75a57e967c706c373bfb85432c0f0b3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/788a0802c75a57e967c706c373bfb85432c0f0b3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/788a0802c75a57e967c706c373bfb85432c0f0b3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/87b943b7b0a2f54541a20c13907da7e23820ac70/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/788a0802c75a57e967c706c373bfb85432c0f0b3/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/87b943b7b0a2f54541a20c13907da7e23820ac70/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/788a0802c75a57e967c706c373bfb85432c0f0b3/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -134,15 +134,15 @@ title: Analysis of ISCB honorees and keynotes reveals disparities
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...87b943b7b0a2f54541a20c13907da7e23820ac70) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...788a0802c75a57e967c706c373bfb85432c0f0b3) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/87b943b7b0a2f54541a20c13907da7e23820ac70/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/788a0802c75a57e967c706c373bfb85432c0f0b3/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@87b943b](https://github.com/greenelab/iscb-diversity-manuscript/tree/87b943b7b0a2f54541a20c13907da7e23820ac70)
-on October 21, 2020.
+from [greenelab/iscb-diversity-manuscript@788a080](https://github.com/greenelab/iscb-diversity-manuscript/tree/788a0802c75a57e967c706c373bfb85432c0f0b3)
+on October 24, 2020.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -175,13 +175,13 @@ on October 21, 2020.
      · Funded by the Gordon and Betty Moore Foundation ([GBMF4552](https://www.moore.org/grant-detail?grantId=GBMF4552))
   </small>
 
-+ **Ariel A. Hippen Anderson**<br>
++ **Ariel A. Hippen**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-9336-6543](https://orcid.org/0000-0001-9336-6543)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [arielah](https://github.com/arielah)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [AHippenAnderson](https://twitter.com/AHippenAnderson)<br>
+    [ariel_hippen](https://twitter.com/ariel_hippen)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania
   </small>
