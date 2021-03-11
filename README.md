@@ -83,6 +83,7 @@ The build process aims to detect common errors, such as invalid citations.
 If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
 
 When a commit to the `master` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/greenelab/iscb-diversity-manuscript/tree/gh-pages) and [`output`](https://github.com/greenelab/iscb-diversity-manuscript/tree/output) branches.
+
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
 + **HTML manuscript** at https://greenelab.github.io/iscb-diversity-manuscript/
