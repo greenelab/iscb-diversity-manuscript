@@ -15,7 +15,7 @@ Being invited to deliver a keynote at an international society meeting or named 
 We sought to understand the extent to which such recognitions reflected the composition of their corresponding field.
 We collected keynote speaker invitations for the international meetings held by the International Society for Computational Biology as well as the names of Fellows.
 We compared these individuals with last and corresponding author contributions in the society’s partner journals.
-We used multiple methods to estimate the race, ethnicity, gender, and nationality of authors and the recipients of these honors.
+We used multiple methods to estimate the gender and nationality of authors and the recipients of these honors.
 Individuals from certain ancestries and countries appear to be under-recognized among honorees.
 
 ## Manubot
