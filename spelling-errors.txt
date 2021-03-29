@@ -9,6 +9,7 @@ arielah
 Arman
 arxiv
 AUC
+authorships
 Aviva
 Baruah
 Beijnen
@@ -24,7 +25,7 @@ Chae
 Chak
 Chitsaz
 citable
-curation
+Curation
 dataset
 datasets
 dhimmel
@@ -39,7 +40,6 @@ Farzad
 Feng
 Filzen
 Gådin
-GAM
 Gazzara
 GBMF
 genderize
@@ -53,13 +53,12 @@ greenescientist
 Habib
 Haizhou
 Hamidreza
-heatmap
+Heatmap
 Hebb
 Heejoon
 Himmelstein
-Hippen
+hippen
 Ihekwaba
-Imai
 impactful
 ISCB
 ISCB’s
@@ -74,7 +73,6 @@ Jiang
 Jimeno
 Johan
 Jos
-Khanna
 Kimuda
 Kinyanjui
 Kolli
@@ -111,7 +109,6 @@ Nyaradzo
 Oliveira
 OpenStreetMap’s
 Orengo
-overlaping
 Overrepresentation
 overrepresented
 Panagiotou
@@ -135,7 +132,6 @@ Sangi
 Seetin
 Shraiman
 Simão
-suboptimal
 subterms
 Sumudu
 Swanand
@@ -156,7 +152,5 @@ webpages
 Wenchao
 Wenxuan
 WJ
-wru
-wru’s
 Yepes
 Zhang
