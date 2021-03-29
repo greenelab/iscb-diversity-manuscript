@@ -102,7 +102,7 @@ Motieghader
 mrgazzara
 multiclass
 Musoro
-NamePrism
+nameprism
 Nikolaos
 Nilsson
 Nir
@@ -112,7 +112,7 @@ Oliveira
 OpenStreetMap’s
 Orengo
 overlaping
-overrepresentation
+Overrepresentation
 overrepresented
 Panagiotou
 Paulo
