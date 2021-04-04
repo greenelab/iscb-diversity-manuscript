@@ -15,7 +15,6 @@ Baruah
 Beijnen
 Berke
 bioinformatics
-biorxiv
 Biostatistics
 browsable
 Bülent
@@ -87,7 +86,7 @@ Lindgren
 Liu
 LOE
 Lorenzi
-LSTM
+lstm
 Magambo
 Manzaneque
 Matrika
@@ -100,7 +99,7 @@ Motieghader
 mrgazzara
 multiclass
 Musoro
-nameprism
+NamePrism
 Nikolaos
 Nilsson
 Nir
@@ -114,7 +113,6 @@ overrepresented
 Panagiotou
 Paulo
 Peleg
-preprint
 probablity
 Probhonjon
 pubmedpy
@@ -137,7 +135,7 @@ Sumudu
 Swanand
 Themis
 Toptas
-trang
+Trang
 Translational
 tri
 Tsiantis

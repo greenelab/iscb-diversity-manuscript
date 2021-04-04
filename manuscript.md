@@ -1,11 +1,11 @@
 ---
-title: Analysis of ISCB honorees and keynotes reveals disparities
+title: Analysis of ISCB honors reveals disparities
 keywords:
 - computational biology
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-03-29'
+date-meta: '2021-04-04'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -19,12 +19,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
-  <meta name="citation_title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
-  <meta property="og:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
-  <meta property="twitter:title" content="Analysis of ISCB honorees and keynotes reveals disparities" />
-  <meta name="dc.date" content="2021-03-29" />
-  <meta name="citation_publication_date" content="2021-03-29" />
+  <meta name="dc.title" content="Analysis of ISCB honors reveals disparities" />
+  <meta name="citation_title" content="Analysis of ISCB honors reveals disparities" />
+  <meta property="og:title" content="Analysis of ISCB honors reveals disparities" />
+  <meta property="twitter:title" content="Analysis of ISCB honors reveals disparities" />
+  <meta name="dc.date" content="2021-04-04" />
+  <meta name="citation_publication_date" content="2021-04-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/94fc5c9ee806b726c0280611c9b554d6872bb29b/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/94fc5c9ee806b726c0280611c9b554d6872bb29b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/94fc5c9ee806b726c0280611c9b554d6872bb29b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/94fc5c9ee806b726c0280611c9b554d6872bb29b/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/94fc5c9ee806b726c0280611c9b554d6872bb29b/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/45f778da125ac069b0e143f8172a5647cfbc3a39/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/45f778da125ac069b0e143f8172a5647cfbc3a39/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -81,15 +81,15 @@ manubot-clear-requests-cache: false
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...94fc5c9ee806b726c0280611c9b554d6872bb29b) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...45f778da125ac069b0e143f8172a5647cfbc3a39) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/94fc5c9ee806b726c0280611c9b554d6872bb29b/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@94fc5c9](https://github.com/greenelab/iscb-diversity-manuscript/tree/94fc5c9ee806b726c0280611c9b554d6872bb29b)
-on March 29, 2021.
+from [greenelab/iscb-diversity-manuscript@45f778d](https://github.com/greenelab/iscb-diversity-manuscript/tree/45f778da125ac069b0e143f8172a5647cfbc3a39)
+on April 4, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -162,16 +162,16 @@ on March 29, 2021.
 
 Delivering a keynote talk at a conference organized by a scientific society, or being named as a fellow by such a society, indicates that a scientist is held in high regard by their colleagues.
 To explore if the distribution of such indicators of esteem in the field of bioinformatics reflects the composition of this field,
-we compared the gender, name-origin and country of affiliation of 412 researchers who had been recognized by the _International Society for Computational Biology_ (75 fellows and 337 keynote speakers) with over 170,000 researchers who had been the last authors on computational biology papers between 1993 and 2019.
-The proportion of female fellows and keynote speakers was similar to that of the field overall.
+we compared the gender, name-origin and country of affiliation of 412 honorees from the _International Society for Computational Biology_ (75 fellows and 337 keynote speakers) with over 170,000 last authorships on computational biology papers between 1993 and 2019.
+The proportion of honors bestowed on women was similar to that of the field's overall last authorship rate.
 However, names of East Asian origin have been persistently underrepresented among fellows and keynote speakers.
-Moreover, fellows and keynote speakers with an affiliation in the United States were overrepresented by a factor of 2.0;
-almost three quarters of this excess was accounted for by a deficit of 89 fellows and keynote authors from China, India, France and Italy.
-Within the US, we found an excess of White fellows and keynote speakers and a depletion of Asian fellows and keynote speakers.
+Moreover, there were roughly twice as many honors bestowed on scientists with an affiliation in the United States as expected based on literature authorship;
+almost three quarters of this excess was accounted for by a deficit of 89 honorees from China, India, France and Italy.
+We found similar name origin disparities in an analysis of US-affiliated scientists as in our international comparison suggesting that disparities arise partly, but not exclusively, from geography.
 
 <!-- Short abstract
 Delivering a keynote talk at a conference or being named as a fellow by a scientific society indicates that a scientist is held in high regard by their colleagues.
-To explore if the distribution of such indicators of esteem in the field of bioinformatics reflects the composition of this field, 
+To explore if the distribution of such indicators of esteem in the field of bioinformatics reflects the composition of this field,
 we compared the gender, name-origin, and country of affiliation of 412 researchers who had been recognized by the International Society for Computational Biology (honorees) with 34,050 researchers who had been the corresponding authors on papers in three leading bioinformatics journals between 1993 and 2019.
 The proportion of female honorees was similar to that of the field.
 However, names of East Asian origin have been persistently underrepresented among honorees.
@@ -202,17 +202,17 @@ Alternatively, reviewing scientists may not recognize the scientific importance 
 We sought to understand the extent to which honors and high-profile speaking invitations were distributed equitably among gender and name origin groups by an international society and its associated meetings.
 As computational biologists, we focused on the [International Society for Computational Biology](https://www.iscb.org/) (ISCB), its honorary Fellows as well as its affiliated international meetings that aim to have a global reach: [Intelligent Systems for Molecular Biology](https://en.wikipedia.org/wiki/Intelligent_Systems_for_Molecular_Biology) (ISMB) and [Research in Computational Molecular Biology](https://en.wikipedia.org/wiki/Research_in_Computational_Molecular_Biology) (RECOMB).
 
-We used multiple methods to predict the gender and name origins of honorees.
 Existing methods were relatively US-centric because most of the data was derived in whole or in part from the US Census.
-We scraped more than 700,000 entries from English-language Wikipedia that contained nationality information to complement these existing methods and built multiple machine learning classifiers to predict name origin.
-We also examined the last authors for more than 170,000 computational biology publications to establish a field-specific baseline using the same metrics.
-The results were consistent across all approaches: we found a dearth of non-White speakers and honorees.
-The lack of Asian scientists among keynote speakers and Fellows was particularly pronounced when compared against the field-specific background.
+We scraped more than 700,000 entries from English-language Wikipedia that contained nationality information and built machine learning classifiers to predict name origin.
+We also examined last authorships for more than 170,000 computational biology publications to establish a field-specific baseline using the same metrics.
+We used methods to predict the gender and name origins of honor recipients and also examined the affiliations of authorships and honor recipients.
+Analysis of affiliations by country revealed disparities between authorships and honoree affiliations.
+We also observed fewer honors to scientists with East Asian name origin than expected from authorship set, an effect that persisted even after we controlled for affiliation by restricting analysis to only US-affiliated scientists.
 
 
 ## Results
 
-We curated a dataset of ISCB honorees that included 412 honorees who were keynote speakers at international ISCB-associated conferences (ISMB and RECOMB) as well as ISCB Fellows.
+We curated a dataset of ISCB honors that included 412 keynote speakers at international ISCB-associated conferences (ISMB and RECOMB) as well as ISCB Fellows.
 The ISCB Fellows set contained the complete set of Fellows named (2009--2019).
 Keynote speakers were available for ISMB for all years from 1993--2019.
 Keynote speakers for RECOMB were available for all years from 1997--2019.
@@ -220,56 +220,58 @@ We included individuals who were honored multiple times as separate entries.
 For example, Christine Orengo was a keynote speaker at RECOMB 2004 and became an ISCB Fellow in 2016, and thus was counted twice in this list.
 
 We sought to compare this dataset with a background distribution of potential speakers, which we considered to be last authors of bioinformatics and computational biology manuscripts.
+We used authorships instead of authors as our metric for the field's composition under the expectation that honorees would be drawn in a manner weighted by the number of last author contributions.
+Using authorships also does not require accurate name disambiguation, which is an open challenge.
 We scraped PubMed for manuscripts written in English from 1993--2019 with the MeSH term ["computational biology"](https://pubmed.ncbi.nlm.nih.gov/?term=%22Computational+Biology%22%5BMeSH+Terms%5D+).
 We downloaded the metadata of manuscripts published in these journals from PubMed, which provided 176,110 articles for evaluation.
 For each article, we extracted its last author's fore name and last name for analysis.
 
-### Technical considerations
+### Technical Considerations for Representation Analyses
 
-Selecting an optimal study design is the important first step to acquire an accurate and thorough answer to any research question.
-This study is not an exception: we were faced with multiple decisions at many analysis steps.
-We are grateful to all the reviewers whose input made the study more rigorous after each revision.
-As we discussed and revised the analysis, we committed to stay transparent and documented the reasoning and potential caveats of each decision.
-Details of these discussions can be found under the [Issues page](https://github.com/greenelab/iscb-diversity-manuscript/issues?q=is%3Aissue+is%3Aclosed) on the study GitHub repository.
-We highlighted here four important decisions we made and how each one may affect the result (Fig. {@fig:versions}).
+Defining an appropriate background distribution is key to determining the extent to which representation diverges from that background.
+We were faced with multiple decisions as we sought to define a field-specific distribution.
+We focused on four key decisions and have performed analyses in three different ways across those decisions (Fig. {@fig:versions}).
+Our findings across different versions of the study were consistent with respect to the broad conclusions, though the numerical results differed.
 
 ![
 Study progression.
-In [version 1](https://greenelab.github.io/iscb-diversity-manuscript/v/711edb01f5335a4c1bb8e1e0575618586a7abf9b/) of this work, instead of last authors, we examined corresponding authors of articles in three well-recognized computational biology journals, 
-and the results were consistent with our findings in [version 2](https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/), where we expanded the article dataset to include all PubMed articles with the MeSH terms "computational biology". 
-Finally, in this [latest version](https://greenelab.github.io/iscb-diversity-manuscript/), we used citation count to weight articles to account for the impact variation of research contributions.
+In [version 1](https://greenelab.github.io/iscb-diversity-manuscript/v/711edb01f5335a4c1bb8e1e0575618586a7abf9b/) of this work, instead of last authors, we examined corresponding authors of articles in three well-recognized computational biology journals,
+and the results were consistent with our findings in [version 2](https://greenelab.github.io/iscb-diversity-manuscript/v/6bda862974e77beb98697f39c18027683af158cb/), where we expanded the article dataset to include all PubMed articles with the MeSH terms "computational biology".
+Finally, in [this version](https://greenelab.github.io/iscb-diversity-manuscript/), we used citation count to weight articles to account for the impact variation of research contributions.
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/a61d67806a5212488b4c574078f80467cbd8cf5d/figs/versions.png){#fig:versions width="90%"}
 
-Our findings across different versions of the study were generally consistent.
-We first expanded the article set from 29,755 journal-specific to 176,110 all computational biology PubMed articles, making the sample size nearly six times larger than previously.
+In our first version of the analysis pipeline, we sought to characterize the distribution of authorships in the field using field-specific journals.
+This resulted in an analysis set of 29,755 authorships.
+We also examined corresponding authors, as we considered that senior authors may occasionally occupy a different position [@doi:10.1177/0306312716650046], and only fell back to last authors in cases where corresponding author annotations were unavailable.
+
+In the next version of the analysis, we extended the analysis to all 176,110 computational biology PubMed articles, substantially increasing the sample size.
 We also extracted names of last authors instead of other potential selections to better capture the honoree population.
 Our assumption was that, among the authors of a specific paper, the last author (often research advisors) would be most likely to be invited for a keynote or honored as a fellow.
 Also, the availability of information on corresponding authors was limited, and extracting last author became a more consistent approach.
-However, we acknowledged that we might have miss corresponding authors in the first position who can be considered for keynote speakers or fellows [@doi:10.1177/0306312716650046].
 
-In version 3, instead of considering all articles equally as in the earlier versions, we used citation count to weight articles to control for the differential impact of research contributions.
-However, we note a potential bias with the use of citation counts: female scientists of different disciplines are cited less often than their male counterparts [@arxiv:2001.01002; @doi:10.1002/ece3.4993; @doi:10.1038/s41550-017-0141].
-To the extent that there may be a bias in citation practices, we should expect that the bias for honorees would align with one for citations, meaning that our analysis would understate the severity of disparities.
+In version 3, instead of weighting all articles equally as in the earlier versions, we used citation count to weight articles to control for the differential impact of research contributions.
+Using citation counts has key limitations: female scientists of different disciplines are cited less often than their male counterparts [@arxiv:2001.01002; @doi:10.1002/ece3.4993; @doi:10.1038/s41550-017-0141].
 Furthermore, the act of being honored, particularly with a keynote at an international meeting, could lead to work being more recognized and cited, which would reverse the arrow of causality.
-This would also lead to our analyses understating the difference.
-Previously in version 1--2, without citation counts, we found even more pronounced differences between the two groups of authors and honorees.
+We expected this approach to be overly conservative, leading to an acceptance of the null hypothesis of no disparities even if disparities existed.
+We present this version of the results in this paper, referring to supplementary figures for other versions of the analyses where warranted.
 
-Finally, in all versions of the analysis, rather than applying a hard assignment for each prediction, we analyzed the raw prediction probability values to capture the uncertainty of the prediction model, improving the accuracy of the aggregate statistics.
-Although our final estimates of the effect size may be conservative (see more in Discussion), the general conclusion remained robust throughout different sets of study design parameters.
-If other researchers aim to answer similar questions of their field, our recommendation is to take caution when making these decisions and account for field-specific factors such as authorship practice.
+Finally, in all versions of the analysis, rather than applying a hard assignment for each prediction, we analyzed the raw prediction probability values to capture the uncertainty of the prediction model.
+Although we expect our estimates of disparities for citation-weighted analyses to be conservative, through each analysis, the overall findings remained consistent.
+We recommend that researchers aiming to answer similar questions within their own fields approach these decisions with caution.
+It may be most appropriate to perform the analyses at least with and without citation weighting to determine whether any disparities first exist when compared with the unweighted literature and second if those disparities are large enough to overcome existing disparities in citation patterns.
 
 ### Similar gender proportion between ISCB's honorees and the field
 
-We observed a gradual increase of the proportion of predicted female authors, arriving at an average of approximately 27% in 2017-2019 (Fig. {@fig:gender_breakdown}, left).
+We observed a gradual increase of the proportion of predicted female authorships, arriving at an average of approximately 27% in 2017-2019 (Fig. {@fig:gender_breakdown}, left).
 In recent years, ISCB Fellows and keynote speakers appear to have similar gender proportions compared to the population of authors published in computational biology and bioinformatics journals (averaged around 30% in the last three years, Fig. {@fig:gender_breakdown}, right).
 Examining each honor category, we observed an increasing trend of honorees who were women, especially in the group of ISCB Fellows (see [notebook](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1)), which markedly increased after 2015.
-Through 2019, there were a number of years when meetings or ISCB Fellow classes have a high probability of recognizing only male honorees and none that appeared to have exclusively female honorees.
-We sought to examine whether or not there was a difference in the proportion of female names between authors and honorees. 
+Through 2019, there were a number of years when meetings or ISCB Fellow classes have a high proportion of honors for male honorees and none that appeared to have exclusively female honorees.
+We sought to examine whether or not there was a difference in the proportion of female names between authorships and honors.
 A multiple linear regression of this proportion for the groups and year did not reveal a significant difference (_p_ = 0.237).
 Interaction terms did not predict the group of scientists over and above the main effect of gender probability and year.
 
 ![Estimated composition of gender prediction over the years of
-  all Pubmed computational biology and bioinformatics journal authors (left),
+  all PubMed computational biology and bioinformatics journal authors (left),
   and all ISCB Fellows and keynote speakers (right).
   Male proportion (yellow) was computed as the average of the probability of being male of last authors (weight accordingly) or ISCB honorees each year.
   Female proportion (blue) was the complement of the male proportion.
@@ -279,33 +281,33 @@ Interaction terms did not predict the group of scientists over and above the mai
 
 ### Honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented
 
-We applied our Wiki2019-LSTM model to both our computational biology honorees dataset and our dataset of last authors.
-We found that the proportion of authors with Celtic/English names had decreased (Fig. {@fig:region_breakdown}A, left).
-Among keynote speakers and fellows, we found that the majority of honorees are predicted to have Celtic/English or European names (Fig. {@fig:region_breakdown}A, right).
+We applied our Wiki2019-LSTM model to both our computational biology honors dataset and our dataset of authorships.
+We found that the proportion of authorships with Celtic/English names had decreased (Fig. {@fig:region_breakdown}A, left).
+Among keynote speakers and fellows, we found that the majority were predicted to have Celtic/English or European names (Fig. {@fig:region_breakdown}A, right).
 When we directly compared honoree composition with PubMed, we observed discrepancies between the two groups (Fig. {@fig:region_breakdown}B).
-Compared to other names, a Celtic/English name has significantly higher odds of being selected as an honoree (OR~Celtic/English~ = 1.21, $\beta$~Celtic/English~ = 0.19, _p_ = 6.7×10^-4^).
-Meanwhile, an East Asian name has significantly lower odds of being selected as an honoree compared to other names (OR~East\ Asian~ = 0.19, $\beta$~East\ Asian~ = -1.67, _p_ = 5.9×10^-9^).
+Compared to other names, there was an overabundance of Celtic/English name among the honors (OR~Celtic/English~ = 1.21, $\beta$~Celtic/English~ = 0.19, _p_ = 6.7×10^-4^).
+Meanwhile, an East Asian name has significantly lower odds of being selected for an honor compared to other names (OR~East\ Asian~ = 0.19, $\beta$~East\ Asian~ = -1.67, _p_ = 5.9×10^-9^).
 The two groups of scientists did not have a significant association with names predicted to be European and in Other categories (_p_ = 0.37 and _p_ = 0.44, respectively).
 Interaction terms did not predict the group of scientists over and above the main effect of name origin probability and year.
 
 ![(A) Estimated composition of name origin prediction over the years of
-  all Pubmed computational biology and bioinformatics journal authors (left),
-  and all ISCB Fellows and keynote speakers (right).
-  (B) For each region, the mean predicted probability of Pubmed articles is shown as teal generalized additive model curve, and the mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
-  Compared to the name collection of Pubmed authors, honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented.
-  No statistically significant difference was observed between the proportion of honorees and authors with European names or in other categories (see Table @tbl:example_names).
+  all PubMed computational biology and bioinformatics journal authorships (left),
+  and all ISCB honors (right).
+  (B) For each region, the mean predicted probability of PubMed articles is shown as the teal generalized additive model curve.
+  The mean probability and 95% confidence interval of the ISCB honoree predictions are shown as dark circles and vertical lines.
+  Compared to the name collection of PubMed authors, honors for Celtic/English names and underrepresented among East Asian names.
+  We did not observe a statistically significant difference in other categories (see Table @tbl:example_names).
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/ac43b098a2a994cbe3788bf7a19f541fc533b3de/figs/region_breakdown.png){#fig:region_breakdown}
 
-When applying the Wiki2019-LSTM model to the name origins of only US-affiliated scientists, we found a similar underrepresentation of honorees with East Asian names (OR~East\ Asian~ = 0.18, $\beta$~East\ Asian~ = -1.71, _p_ = 6.5×10^-4^).
-We observed no statistically significant difference between the proportion of honorees and authors with Celtic/English names, European names, or names in Other categories (_p_ = 0.61, _p_ = 0.12, and _p_ = 0.72, respectively).
-We note that the US was not included in the training of the Wiki2019-LSTM model (see Methods).
+When applying the Wiki2019-LSTM model to the name origins of only US-affiliated scientists, we found a similar underrepresentation of honors to scientists with East Asian names (OR~East\ Asian~ = 0.18, $\beta$~East\ Asian~ = -1.71, _p_ = 6.5×10^-4^).
+We observed no statistically significant difference between the proportion of honors given to authors with Celtic/English names, European names, or names in Other categories (_p_ = 0.61, _p_ = 0.12, and _p_ = 0.72, respectively).
 Please see [analysis notebook](https://greenelab.github.io/iscb-diversity/14.us-name-origin.html) for more details.
 
 
 ### Overrepresentation of US-affiliated honorees
 
-We analyzed the countries of affiliation between last authors and ISCB honorees.
+We analyzed the countries of affiliation between last authorships and ISCB honors.
 For each country, we report a value of log~2~ enrichment (LOE) and its 95% confidence intervals.
 The full table with all countries and their corresponding enrichment can be browsed interactively in the corresponding [analysis notebook](https://greenelab.github.io/iscb-diversity/12.analyze-affiliation.html#enrichment_tab).
 A positive value of LOE indicates a higher proportion of honorees affiliated with that country compared to authors.
@@ -323,51 +325,59 @@ The overrepresentation of honorees affiliated with institutions and companies in
 
 ### Improvements to Honoree Diversity Subsequent to Our Primary Analysis
 
-While our study was primarily designed to assess the diversity of honorees, the findings raise important questions about what can be done to address the disparities.
-By publishing our original findings on the biorxiv preprint server, we could begin to answer these questions by examining changes subsequent to our initial report.
+While our study was primarily designed to assess the diversity of honor recipients, the findings raise important questions about what can be done to address the disparities.
+We examined changes subsequent to our initial report for suggestions that increased awareness may drive improvements in the practice of honoree suggestion.
 We released [version 1.0](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0) of our manuscript on 2020-01-30.
-Early indications suggest ISCB is now increasing the diversity of honorees.
-In 2020, among 12 ISCB Fellows and 5 ISMB keynote speakers, the mean predicted probability of each honoree having an East Asian name is 33%, higher than any estimate in previous years (see [notebook](https://greenelab.github.io/iscb-diversity/15.analyze-2020.html)).
-The set of honorees also includes the first ISCB Fellow from China.
-Compared to past years, the 2020 honorees appear to better reflect the diversity of scientists in the computational biology field.
-These new results suggest: 1) deserving honorees who were members of under-recognized groups existed but had not been recognized until now, and 2) simply examining honoree distribution's alignment with the field can trigger changes that address issues of unequal representation.
+Early indications suggested an increased the diversity of honorees.
+In 2020, among 12 ISCB Fellows and 5 ISMB keynote speakers, the mean predicted probability of each honoree having an East Asian name was 33%, higher than any estimate in previous years (see [notebook](https://greenelab.github.io/iscb-diversity/15.analyze-2020.html)).
+The set of honorees also included the first ISCB Fellow from China.
+Compared to past years, the 2020 honorees appeared to better reflect the diversity of scientists in the computational biology field.
+These new results suggested: 1) deserving honorees who were members of under-recognized groups existed but had not been recognized, and 2) examining honoree distribution's alignment with the field may trigger changes that begin to address issues of unequal representation.
 However, we note that this analysis dealt only with more senior scientists (the last authors on scientific manuscripts) in the context of honors and that many years of changed honoree distributions will be required for the set of honored scientists to better reflect the field's senior author contributions.
 
 
 ## Discussion
 
-A major challenge that we faced in carrying out this work was to narrow down geographic origins for some groups of names.
-Some name origin groups, such as Hispanic names, are geographically disparate.
-We were unable to construct a classifier that could distinguish between names from Iberian countries (Spain and Portugal) from those in Latin America in the group of Hispanic names.
+There are significant technical and ethical challenges that one faces in carrying out retrospective work to examine the fairness of scientific practices.
+A major technical challenge was to narrow down geographic origins for some groups of names.
+Specific name origin groups, such as Hispanic names, are geographically disparate.
+We were unable to construct a classifier that could distinguish names from Iberian countries (Spain and Portugal) from those in Latin America in the group of Hispanic names.
 Discrepancies in representation between these groups are thus undetectable by our classifier.
 Honoree counts of those with Hispanic names are influenced from Spain as well as Latin America.
 In such cases, our analyses may substantially understate the extent to which minoritized scientists are underrepresented among honorees and authors.
+Another technical challenge is that supervised machine learning approaches are neither error free nor bias free.
+By integrating different lines of evidence and preserving uncertainty by analyzing prediction probabilities rather than applying a hard assignment for each prediction, we aimed to alleviate method-specific biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
 
-Biases in authorship practices may also result in our underestimation of the composition of minoritized scientists within the field.
-We estimated the composition of the field using last author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956] women are underrepresented among such authors.
+A key ethical challenge with retrospective work to examine disparities is that algorithmic approaches to infer characteristics are often required.
+This leads to significant limitations such as considering gender as a binary variable.
+While this situation limits retroactive examination, there is a substantial opportunity for scientific societies, grant-making organizations, publishers, and others to proactively collect self-identified demographic information.
+It is equally crucial that this information is properly used to continuously evaluate inclusion practices.
+
+A difficulty that straddles the ethical and technical divide for studies examining the representation of honorees is that the background that can be best assessed, which we assess here, is the current field composition.
+Scientific societies exist to promote the discipline, and many, including ISCB, include diversity as a value.
+In these cases, the ideal background distribution would be the population of senior computational biologists in the absence of systemic barriers to participation.
+The implication would be that scientific societies exist to reflect what the field could be, not just what it is.
+However, we are limited to measuring the field as it is.
+Furthermore, authorships, which we use to assess the field's composition, are also affected by systemic barriers to participation.
+We estimated the composition of the field using last author status, but in neuroscience [@doi:10.1101/275362] and other disciplines [@doi:10.1371/journal.pbio.2004956], women are underrepresented in this position.
 Such an effect would cause us to underestimate the number of women in the field.
 Similarly, other studies have showed that underrepresented groups are less likely to be last authors [@doi:10.1257/pandp.20181111], and Hispanic and Black scientists were underrepresented in academic publishing in general [@doi:10.1007/s11192-012-0893-4].
+Thus, systemic barriers that reduce representation within our estimation of the field would reduce apparent disparities in honor distributions as long as those systemic barriers did not also have a particular influence on the honoree selection process as well.
 
-We acknowledged that our supervised learning approaches are neither error free nor bias free.
-By integrating different methods and preserving uncertainty by analyzing prediction probabilities rather than applying a hard assignment for each prediction, we hope to alleviate these biases and discover insightful findings that correctly reflect the current representation diversity at conferences.
-Because of the bias in citation practices, potentially overestimated number of US-affiliated authors, ambiguity in geographic origins of Hispanic names, our estimation would render a conservative one.
-In other words, it is likely that the actual underrepresentation of East Asian honorees and overrepresentation of US-affiliated honorees is more severe, and there can be an underrepresentation of women and other minoritized scientists if the estimates of the proportions of these scientists in the field were more accurate.
-
-Focusing on an international society and meetings, we measured honor and authorship rates worldwide.
-In this setting, we observe disparities by name groups.
-Because invitation and honor patterns could be driven by biases associated with name groups, geography, or other factors, we cross-referenced name group predictions with author affiliations to disentangle the relationship between geographic regions, name groups and invitation probabilities.
-We found that disparities persisted even within the group of honorees with a US affiliation.
-
-An important questions to ask when measuring representation is what the right level of representation is.
-We suggest that considering equity may be more appropriate than strictly diversity.
-For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors.
-However, if fewer women are in the field because of systemic factors that inhibit their participation, we would not have reached equity.
+An important ethical question to ask when measuring representation is what the right level of representation is.
+Societies should examine their processes to determine whether the process of selecting honorees should be equal or equitable.
+For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors and that there may be equality during the honoree selection process.
+However, if fewer women are in the field because of systemic factors that inhibit their participation, reaching equality is not equivalent to reaching equity.
 In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often [@arxiv:2001.01002, @doi:10.1002/ece3.4993, @doi:10.1038/s41550-017-0141, @pmid:24350369], invited by journals to submit papers less often [@doi:10.1371/journal.pbio.2004956], suggested as reviewers less often [@doi:10.1038/541455a], and receive significantly worse review scores [@doi:10.1002/ece3.4993].
 Meanwhile, a review of women's underrepresentation in math-intensive fields argued that today's underrepresentation is not explained by historic forms of discrimination but factors surrounding fertility decisions and lifestyle choices, whether freely made or constrained by biology and society [@doi:10.1073/pnas.1014871108].
 A recent analysis of gender inequality across different disciplines showed that, although both gender groups have equivalent annual productivity, women scientists have higher dropout rates throughout their scientific careers [@doi:10.1073/pnas.1914221117].
-Therefore, although we found that ISCB's honorees and keynote speakers appear to have similar gender proportion to the field as a whole, the gender proportions have not reached parity due to these systemic inequalities that obstruct women's progress in science.
+Therefore, although we found that ISCB's honorees and keynote speakers appear to have similar gender proportion to the field as a whole, the gender proportions have not reached parity.
+To the extent that this gap is due to systemic barriers, the process may have reached equality but not equity.
 
-Additionally, we found that honorees include significantly fewer people of color than the field as a whole, and Asian scientists are dramatically underrepresented among honorees.
+It is also possible to have processes that reach neither equality nor equity.
+We find that honorees include significantly fewer people of color than the field as a whole, and Asian scientists are dramatically underrepresented among honorees.
+Because invitation and honor patterns could be driven by biases associated with name groups, geography, or other factors, we cross-referenced name group predictions with author affiliations to disentangle the relationship between geographic regions, name groups and invitation probabilities.
+We found that disparities persisted even within the group of honorees with a US affiliation.
 Societies' honoree selection process failing to reflect the diversity of the field can play a part in why minoritized scientists' innovations are discounted [@doi:10.1073/pnas.1915378117].
 Although we estimate the fraction of non-White and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.
 
