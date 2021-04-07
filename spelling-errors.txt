@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-Curation
+curation
 dataset
 datasets
 dhimmel
@@ -52,11 +52,11 @@ greenescientist
 Habib
 Haizhou
 Hamidreza
-Heatmap
+heatmap
 Hebb
 Heejoon
 Himmelstein
-hippen
+Hippen
 Ihekwaba
 impactful
 ISCB
@@ -86,7 +86,7 @@ Lindgren
 Liu
 LOE
 Lorenzi
-lstm
+LSTM
 Magambo
 Manzaneque
 Matrika
@@ -108,7 +108,7 @@ Nyaradzo
 Oliveira
 OpenStreetMap’s
 Orengo
-Overrepresentation
+overrepresentation
 overrepresented
 Panagiotou
 Paulo

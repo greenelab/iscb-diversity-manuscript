@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-04-04'
+date-meta: '2021-04-07'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="og:title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of ISCB honors reveals disparities" />
-  <meta name="dc.date" content="2021-04-04" />
-  <meta name="citation_publication_date" content="2021-04-04" />
+  <meta name="dc.date" content="2021-04-07" />
+  <meta name="citation_publication_date" content="2021-04-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/35727e4c0c2cd158bc36ecace1ee6868781c3ba2/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/35727e4c0c2cd158bc36ecace1ee6868781c3ba2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/35727e4c0c2cd158bc36ecace1ee6868781c3ba2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/45f778da125ac069b0e143f8172a5647cfbc3a39/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/45f778da125ac069b0e143f8172a5647cfbc3a39/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/35727e4c0c2cd158bc36ecace1ee6868781c3ba2/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/35727e4c0c2cd158bc36ecace1ee6868781c3ba2/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -81,15 +81,15 @@ manubot-clear-requests-cache: false
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...45f778da125ac069b0e143f8172a5647cfbc3a39) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...35727e4c0c2cd158bc36ecace1ee6868781c3ba2) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/35727e4c0c2cd158bc36ecace1ee6868781c3ba2/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@45f778d](https://github.com/greenelab/iscb-diversity-manuscript/tree/45f778da125ac069b0e143f8172a5647cfbc3a39)
-on April 4, 2021.
+from [greenelab/iscb-diversity-manuscript@35727e4](https://github.com/greenelab/iscb-diversity-manuscript/tree/35727e4c0c2cd158bc36ecace1ee6868781c3ba2)
+on April 7, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -431,7 +431,7 @@ To automate and generalize these tasks, we created the [pubmedpy](https://github
 From PubMed, we compiled a catalog of 176,773 journal articles that were published from 1993 through 2019 that were written in English and tagged with the MeSH term ["computational biology"](https://pubmed.ncbi.nlm.nih.gov/?term=%22Computational+Biology%22%5BMeSH+Terms%5D+), which is [equivalent](https://www.ncbi.nlm.nih.gov/mesh/68019295) to "bioinformatics" and includes categories such as genomics and systems biology (via PubMed's term explosion to include subterms).
 Excluding 663 articles with no author information and years with less than 200 articles/year, we analyzed 176,110 articles from 1998--2019.
 We extracted the number of times an article has been cited by PubMed Central articles from the `PmcRefCount` of the PubMed DocSum XML records.
-Under the rationale that authors of more impactful articles have higher chance of being recognized, we used the PubMed Central citation count as a relative estimate of an article's impact to weigh each author's prediction probability (please see the Statistical Analysis subsection).
+Under the rationale that authors of more impactful articles have higher chance of being recognized, we used the PubMed Central citation count as a relative estimate of an article's impact to weight each author's prediction probability (please see the Statistical Analysis subsection).
 
 ### Countries of Affiliations
 
