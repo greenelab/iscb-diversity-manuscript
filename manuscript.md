@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-04-08'
+date-meta: '2021-06-04'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="og:title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of ISCB honors reveals disparities" />
-  <meta name="dc.date" content="2021-04-08" />
-  <meta name="citation_publication_date" content="2021-04-08" />
+  <meta name="dc.date" content="2021-06-04" />
+  <meta name="citation_publication_date" content="2021-06-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/bb8c47f54b09507a0cdd6038f4e670fa31916f00/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/bb8c47f54b09507a0cdd6038f4e670fa31916f00/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/bb8c47f54b09507a0cdd6038f4e670fa31916f00/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/bb8c47f54b09507a0cdd6038f4e670fa31916f00/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/bb8c47f54b09507a0cdd6038f4e670fa31916f00/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/554ff149944dddc6a75034d117fdbf1e9d9b4318/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/554ff149944dddc6a75034d117fdbf1e9d9b4318/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -81,15 +81,15 @@ manubot-clear-requests-cache: false
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...bb8c47f54b09507a0cdd6038f4e670fa31916f00) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...554ff149944dddc6a75034d117fdbf1e9d9b4318) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/bb8c47f54b09507a0cdd6038f4e670fa31916f00/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@bb8c47f](https://github.com/greenelab/iscb-diversity-manuscript/tree/bb8c47f54b09507a0cdd6038f4e670fa31916f00)
-on April 8, 2021.
+from [greenelab/iscb-diversity-manuscript@554ff14](https://github.com/greenelab/iscb-diversity-manuscript/tree/554ff149944dddc6a75034d117fdbf1e9d9b4318)
+on June 4, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -252,7 +252,7 @@ Also, the availability of information on corresponding authors was limited, and 
 In version 3, instead of weighting all articles equally as in the earlier versions, we used citation count to weight articles to control for the differential impact of research contributions.
 Using citation counts has key limitations: female scientists of different disciplines are cited less often than their male counterparts [@arxiv:2001.01002; @doi:10.1002/ece3.4993; @doi:10.1038/s41550-017-0141].
 Furthermore, the act of being honored, particularly with a keynote at an international meeting, could lead to work being more recognized and cited, which would reverse the arrow of causality.
-We expected this approach to be overly conservative, leading to an acceptance of the null hypothesis of no disparities even if disparities existed.
+We expected this approach to be overly conservative, leading to a failure to reject the null hypothesis of no disparities even if disparities existed.
 We present this version of the results in this paper.
 Parallel analyses for the other versions are available in supplementary figure S1.
 
@@ -286,9 +286,9 @@ We applied our Wiki2019-LSTM model to both our computational biology honors data
 We found that the proportion of authorships with Celtic/English names had decreased (Fig. {@fig:region_breakdown}A, left).
 Among keynote speakers and fellows, we found that the majority were predicted to have Celtic/English or European names (Fig. {@fig:region_breakdown}A, right).
 When we directly compared honor composition with PubMed, we observed discrepancies between the two groups (Fig. {@fig:region_breakdown}B).
-Compared to other names, there was an overabundance of Celtic/English name among the honors (OR~Celtic/English~ = 1.21, $\beta$~Celtic/English~ = 0.19, _p_ = 6.7×10^-4^).
-Meanwhile, an East Asian name has significantly lower odds of being selected for an honor compared to other names (OR~East\ Asian~ = 0.19, $\beta$~East\ Asian~ = -1.67, _p_ = 5.9×10^-9^).
-The two groups of scientists did not have a significant association with names predicted to be European and in Other categories (_p_ = 0.37 and _p_ = 0.44, respectively).
+Compared to other names, there was an overabundance of Celtic/English name among the honors (OR~Celtic/English~ = 1.21, $\beta$~Celtic/English~ = 0.19, _p_ = 5.5×10^-4^).
+Meanwhile, an East Asian name has significantly lower odds of being selected for an honor compared to other names (OR~East\ Asian~ = 0.19, $\beta$~East\ Asian~ = -1.67, _p_ = 6.0×10^-9^).
+The two groups of scientists did not have a significant association with names predicted to be European and in Other categories (_p_ = 0.39 and _p_ = 0.45, respectively).
 Interaction terms did not predict the group of scientists over and above the main effect of name origin probability and year.
 
 ![(A) Estimated composition of name origin prediction over the years of
@@ -301,10 +301,16 @@ Interaction terms did not predict the group of scientists over and above the mai
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/ac43b098a2a994cbe3788bf7a19f541fc533b3de/figs/region_breakdown.png){#fig:region_breakdown}
 
-When applying the Wiki2019-LSTM model to the name origins of only US-affiliated scientists, we found a similar underrepresentation of honors to scientists with East Asian names (OR~East\ Asian~ = 0.18, $\beta$~East\ Asian~ = -1.71, _p_ = 6.5×10^-4^).
-We observed no statistically significant difference between the proportion of honors given to authors with Celtic/English names, European names, or names in Other categories (_p_ = 0.61, _p_ = 0.12, and _p_ = 0.72, respectively).
-Please see [analysis notebook](https://greenelab.github.io/iscb-diversity/14.us-name-origin.html) for more details.
+Consistent disparities were also apparent with an alternative approach that considered each pair of forename and last name as the unit of measurement.
+In addition, a time-lagged model, which might be appropriate if we assume that honors accrue ten years after an authors most prolifically cited year, 
+results in a similar underrepresentation of East Asian scientists' names in the group of honorees, though the effect size is smaller.
+For example, the proportion of honor associated with East Asian name origins in 2019 is still substantially less than the proportion of senior authorships associated with East Asian names in 2009.
+The [analysis notebook](https://greenelab.github.io/iscb-diversity/11.name-origin.html) for this portion provides the results in these scenarios.
 
+We sought to disentangle geography from other factors by examining results for the country with the most affiliated scientists receiving honors, the US.
+When applying the Wiki2019-LSTM model to the name origins of only US-affiliated scientists, we found a similar underrepresentation of honors to scientists with East Asian names (OR~East\ Asian~ = 0.17, $\beta$~East\ Asian~ = -1.77, _p_ = 4.3×10^-4^).
+We observed no statistically significant difference between the proportion of honors given to authors with Celtic/English names, European names, or names in Other categories (_p_ = 0.60, _p_ = 0.11, and _p_ = 0.70, respectively).
+Please see the [US analysis notebook](https://greenelab.github.io/iscb-diversity/14.us-name-origin.html) for more details.
 
 ### Overrepresentation of US-affiliated honorees
 
@@ -591,12 +597,19 @@ $$g = \beta_0 + \beta_1 prob' + \beta_2 y + \epsilon.$$
 The variable $prob'$ is the adjusted prediction probablity of a demographic variable (gender and name origin) for names of scientists in group $g$ (honoree or author) during year $y$.
 $\epsilon \sim N(0, \sigma^2)$ accounts for random variation.
 
+We emphasize that the units in this analysis are honors and authorships.
+Therefore, each row of the input data frame represents either an honor or authorship with the scientist's name's adjusted gender probability and its probability from the name origin classifier ($prob'$).
+Our rationale was that, if a scientist was honored three times, these three honoree slots represented distinct selections and should be considered separately.
+We also performed an alternative approach in which each pair of forename and last name as the unit of measurement and the citations were totaled across different papers whose last author had that name.
+Controlling for each name's citations, this method tested the demographic effects but did not account for names honored more than once and may be affected by name collisions.
+
 To obtain $prob'$ for each last author of an article, we adjusted the raw probability $prob$ by the article's citation count compared to other articles of the same year.
 For example, for an article published in 2010, its author has an adjusted probability of being male:
 $$prob_{male}' = prob_{male} \times \frac{\sqrt{c+1}}{1/n\sum_{i} \sqrt{c_i+1}},$$
 where $c$ is the number of times that article has been cited, $c_i$ is the number of times article $i$ in 2010 has been cited, and $n$ is the total number of articles published in 2010.
 This weight is similar to the article's normalized citation score by year [@doi:10.1016/j.joi.2010.08.001;@doi:10.1007/s11192-019-03140-w], assuming that all the articles belong in one field (i.e., computational biology).
 We applied the square root transformation to account for the skewed distribution of citation counts and the addition of 1 to avoid dropping articles with no citation.
+We used this adjustment on the probability for each gender as well as country of origin in all of the analyses presented here.
 
 To reiterate, we only consider the prediction probabilities in aggregate and not as individual values for specific scientists.
 Moreover, although the average of the adjusted probabilities is not exactly "proportion", we use the phrase "estimated proportion" for readability.

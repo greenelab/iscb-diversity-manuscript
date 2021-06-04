@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-Curation
+curation
 dataset
 datasets
 dhimmel
@@ -56,7 +56,7 @@ Heatmap
 Hebb
 Heejoon
 Himmelstein
-hippen
+Hippen
 Ihekwaba
 impactful
 ISCB
@@ -99,7 +99,7 @@ Motieghader
 mrgazzara
 multiclass
 Musoro
-nameprism
+NamePrism
 Nikolaos
 Nilsson
 Nir
