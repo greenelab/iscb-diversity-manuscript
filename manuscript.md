@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-06-04'
+date-meta: '2021-06-07'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="og:title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of ISCB honors reveals disparities" />
-  <meta name="dc.date" content="2021-06-04" />
-  <meta name="citation_publication_date" content="2021-06-04" />
+  <meta name="dc.date" content="2021-06-07" />
+  <meta name="citation_publication_date" content="2021-06-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/487b50bd8c030b42888511253369167134e5eebf/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/487b50bd8c030b42888511253369167134e5eebf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/487b50bd8c030b42888511253369167134e5eebf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/554ff149944dddc6a75034d117fdbf1e9d9b4318/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/554ff149944dddc6a75034d117fdbf1e9d9b4318/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/487b50bd8c030b42888511253369167134e5eebf/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/487b50bd8c030b42888511253369167134e5eebf/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -81,15 +81,15 @@ manubot-clear-requests-cache: false
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...554ff149944dddc6a75034d117fdbf1e9d9b4318) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...487b50bd8c030b42888511253369167134e5eebf) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/554ff149944dddc6a75034d117fdbf1e9d9b4318/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/487b50bd8c030b42888511253369167134e5eebf/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@554ff14](https://github.com/greenelab/iscb-diversity-manuscript/tree/554ff149944dddc6a75034d117fdbf1e9d9b4318)
-on June 4, 2021.
+from [greenelab/iscb-diversity-manuscript@487b50b](https://github.com/greenelab/iscb-diversity-manuscript/tree/487b50bd8c030b42888511253369167134e5eebf)
+on June 7, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -608,8 +608,8 @@ For example, for an article published in 2010, its author has an adjusted probab
 $$prob_{male}' = prob_{male} \times \frac{\sqrt{c+1}}{1/n\sum_{i} \sqrt{c_i+1}},$$
 where $c$ is the number of times that article has been cited, $c_i$ is the number of times article $i$ in 2010 has been cited, and $n$ is the total number of articles published in 2010.
 This weight is similar to the article's normalized citation score by year [@doi:10.1016/j.joi.2010.08.001;@doi:10.1007/s11192-019-03140-w], assuming that all the articles belong in one field (i.e., computational biology).
-We applied the square root transformation to account for the skewed distribution of citation counts and the addition of 1 to avoid dropping articles with no citation.
-We used this adjustment on the probability for each gender as well as country of origin in all of the analyses presented here.
+We applied the square root transformation to account for the skewed distribution of citation counts and the addition of 1 to avoid dropping articles that have not yet been cited.
+The same adjustment is applied to the probability for each gender and country of origin in all of the analyses.
 
 To reiterate, we only consider the prediction probabilities in aggregate and not as individual values for specific scientists.
 Moreover, although the average of the adjusted probabilities is not exactly "proportion", we use the phrase "estimated proportion" for readability.
