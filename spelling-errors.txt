@@ -56,7 +56,7 @@ heatmap
 Hebb
 Heejoon
 Himmelstein
-hippen
+Hippen
 Ihekwaba
 impactful
 ISCB
@@ -86,7 +86,7 @@ Lindgren
 Liu
 LOE
 Lorenzi
-lstm
+LSTM
 Magambo
 Manzaneque
 Matrika
@@ -99,7 +99,7 @@ Motieghader
 mrgazzara
 multiclass
 Musoro
-NamePrism
+nameprism
 Nikolaos
 Nilsson
 Nir

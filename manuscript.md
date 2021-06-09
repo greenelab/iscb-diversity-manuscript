@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/597ce7f5e394960d1afb8dfc6fda688e22c09b93/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/597ce7f5e394960d1afb8dfc6fda688e22c09b93/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/597ce7f5e394960d1afb8dfc6fda688e22c09b93/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c9f2bd7520f86dc97544d42d3cf21f69ab5ccace/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c9f2bd7520f86dc97544d42d3cf21f69ab5ccace/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c9f2bd7520f86dc97544d42d3cf21f69ab5ccace/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/597ce7f5e394960d1afb8dfc6fda688e22c09b93/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/597ce7f5e394960d1afb8dfc6fda688e22c09b93/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c9f2bd7520f86dc97544d42d3cf21f69ab5ccace/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c9f2bd7520f86dc97544d42d3cf21f69ab5ccace/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -81,14 +81,14 @@ manubot-clear-requests-cache: false
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...597ce7f5e394960d1afb8dfc6fda688e22c09b93) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...c9f2bd7520f86dc97544d42d3cf21f69ab5ccace) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/597ce7f5e394960d1afb8dfc6fda688e22c09b93/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c9f2bd7520f86dc97544d42d3cf21f69ab5ccace/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@597ce7f](https://github.com/greenelab/iscb-diversity-manuscript/tree/597ce7f5e394960d1afb8dfc6fda688e22c09b93)
+from [greenelab/iscb-diversity-manuscript@c9f2bd7](https://github.com/greenelab/iscb-diversity-manuscript/tree/c9f2bd7520f86dc97544d42d3cf21f69ab5ccace)
 on June 9, 2021.
 </em></small>
 
@@ -301,7 +301,7 @@ Interaction terms did not predict the group of scientists over and above the mai
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/ac43b098a2a994cbe3788bf7a19f541fc533b3de/figs/region_breakdown.png){#fig:region_breakdown}
 
-Consistent disparities were also apparent with an alternative approach that considered each pair of forename and last name as the unit of measurement.
+Consistent disparities were also apparent with an alternative approach that considered each pair of forename and last name was the unit of measurement.
 In addition, a time-lagged model, which might be appropriate if we assume that honors accrue ten years after an author's most prolifically cited year, 
 results in a similar underrepresentation of East Asian scientists' names in the group of honorees, though the effect size is smaller.
 For example, the proportion of honor associated with East Asian name origins in 2019 is still substantially less than the proportion of senior authorships associated with East Asian names in 2009.
