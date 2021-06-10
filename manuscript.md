@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/d9f643daddfe2cdc806a2abedcbd993b2360c5ec/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d9f643daddfe2cdc806a2abedcbd993b2360c5ec/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/d9f643daddfe2cdc806a2abedcbd993b2360c5ec/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d9f643daddfe2cdc806a2abedcbd993b2360c5ec/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/d9f643daddfe2cdc806a2abedcbd993b2360c5ec/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f1742982f977553f78dea53f0f3bc5b878f73c52/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f1742982f977553f78dea53f0f3bc5b878f73c52/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -81,14 +81,14 @@ manubot-clear-requests-cache: false
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...d9f643daddfe2cdc806a2abedcbd993b2360c5ec) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f1742982f977553f78dea53f0f3bc5b878f73c52) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/d9f643daddfe2cdc806a2abedcbd993b2360c5ec/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@d9f643d](https://github.com/greenelab/iscb-diversity-manuscript/tree/d9f643daddfe2cdc806a2abedcbd993b2360c5ec)
+from [greenelab/iscb-diversity-manuscript@f174298](https://github.com/greenelab/iscb-diversity-manuscript/tree/f1742982f977553f78dea53f0f3bc5b878f73c52)
 on June 10, 2021.
 </em></small>
 
@@ -597,7 +597,7 @@ $\epsilon \sim N(0, \sigma^2)$ accounts for random variation.
 An effect was deemed statistically significant if its corresponding _p_ < $\alpha$ = 0.01.
 
 We emphasize that the units in this analysis are honors and authorships.
-Therefore, each row of the input data frame represents either an honor or authorship with the scientist's name's gender probability and its probability from the name origin classifier ($prob$).
+Therefore, each row of the input data frame represents either an honor or authorship with the scientist's name's probability value from the gender or name origin classifier ($prob$).
 Our rationale was that, if a scientist was honored three times, these three honoree slots represented distinct selections and should be considered separately.
 We also performed an alternative approach in which each pair of forename and last name as the unit of measurement and the citations were totaled across different papers whose last author had that name.
 Controlling for each name's citations, this method tested the demographic effects but did not account for names honored more than once and may be affected by name collisions.

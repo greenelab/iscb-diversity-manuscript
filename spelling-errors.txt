@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-curation
+Curation
 dataset
 datasets
 dhimmel
@@ -52,7 +52,7 @@ greenescientist
 Habib
 Haizhou
 Hamidreza
-heatmap
+Heatmap
 Hebb
 Heejoon
 Himmelstein
@@ -98,7 +98,7 @@ Motieghader
 mrgazzara
 multiclass
 Musoro
-NamePrism
+nameprism
 Nikolaos
 Nilsson
 Nir
