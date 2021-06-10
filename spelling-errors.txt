@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-Curation
+curation
 dataset
 datasets
 dhimmel
@@ -58,7 +58,6 @@ Heejoon
 Himmelstein
 Hippen
 Ihekwaba
-impactful
 ISCB
 ISCB’s
 ISMB
@@ -99,7 +98,7 @@ Motieghader
 mrgazzara
 multiclass
 Musoro
-nameprism
+NamePrism
 Nikolaos
 Nilsson
 Nir
