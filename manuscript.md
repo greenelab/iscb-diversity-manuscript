@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-06-10'
+date-meta: '2021-06-12'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="og:title" content="Analysis of ISCB honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of ISCB honors reveals disparities" />
-  <meta name="dc.date" content="2021-06-10" />
-  <meta name="citation_publication_date" content="2021-06-10" />
+  <meta name="dc.date" content="2021-06-12" />
+  <meta name="citation_publication_date" content="2021-06-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/e9427bdc0fb8079195cfeaa83f8450c39b205af4/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e9427bdc0fb8079195cfeaa83f8450c39b205af4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e9427bdc0fb8079195cfeaa83f8450c39b205af4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f1742982f977553f78dea53f0f3bc5b878f73c52/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/f1742982f977553f78dea53f0f3bc5b878f73c52/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e9427bdc0fb8079195cfeaa83f8450c39b205af4/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e9427bdc0fb8079195cfeaa83f8450c39b205af4/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -81,15 +81,15 @@ manubot-clear-requests-cache: false
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
 
-This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...f1742982f977553f78dea53f0f3bc5b878f73c52) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
+This version of the manuscript [contains changes](https://github.com/greenelab/iscb-diversity-manuscript/compare/v1.0...e9427bdc0fb8079195cfeaa83f8450c39b205af4) subsequent to the [version 1.0 release](https://github.com/greenelab/iscb-diversity-manuscript/releases/tag/v1.0).
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/f1742982f977553f78dea53f0f3bc5b878f73c52/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/e9427bdc0fb8079195cfeaa83f8450c39b205af4/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@f174298](https://github.com/greenelab/iscb-diversity-manuscript/tree/f1742982f977553f78dea53f0f3bc5b878f73c52)
-on June 10, 2021.
+from [greenelab/iscb-diversity-manuscript@e9427bd](https://github.com/greenelab/iscb-diversity-manuscript/tree/e9427bdc0fb8079195cfeaa83f8450c39b205af4)
+on June 12, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -262,7 +262,7 @@ Examining the literature with and without citation weighting, we learned that di
 
 ### Similar gender proportion between ISCB's honorees and the field
 
-We observed a gradual increase of the proportion of predicted female authorships, arriving at an average of approximately 27% in 2017-2019 (Fig. {@fig:gender_breakdown}, left).
+We observed a gradual increase of the proportion of predicted female authorships, arriving at an average of approximately 28% in 2017-2019 (Fig. {@fig:gender_breakdown}, left).
 In recent years, ISCB Fellows and keynote speakers appear to have similar gender proportions compared to the population of authors published in computational biology and bioinformatics journals (averaged around 30% in the last three years, Fig. {@fig:gender_breakdown}, right).
 Examining each honor category, we observed an increasing trend of honorees who were women, especially in the group of ISCB Fellows (see [notebook](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1)), which markedly increased after 2015.
 Through 2019, there were a number of years when meetings or ISCB Fellow classes have a high proportion of honors for male honorees and none that appeared to have exclusively female honorees.

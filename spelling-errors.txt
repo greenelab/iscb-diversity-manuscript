@@ -56,7 +56,7 @@ Heatmap
 Hebb
 Heejoon
 Himmelstein
-Hippen
+hippen
 Ihekwaba
 ISCB
 ISCB’s
@@ -98,7 +98,7 @@ Motieghader
 mrgazzara
 multiclass
 Musoro
-nameprism
+NamePrism
 Nikolaos
 Nilsson
 Nir
