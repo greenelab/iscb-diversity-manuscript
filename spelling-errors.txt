@@ -24,12 +24,13 @@ Chae
 Chak
 Chitsaz
 citable
-Curation
+curation
 dataset
 datasets
 dhimmel
 Dimitris
 DocSum
+DOIs
 Eleni
 Esterman
 ethnicolr
@@ -52,7 +53,7 @@ greenescientist
 Habib
 Haizhou
 Hamidreza
-Heatmap
+heatmap
 Hebb
 Heejoon
 Himmelstein
@@ -106,8 +107,7 @@ Nomatim
 Nyaradzo
 Oliveira
 OpenStreetMap’s
-Orengo
-Overrepresentation
+overrepresentation
 overrepresented
 Panagiotou
 Paulo
@@ -122,7 +122,6 @@ Ramón
 readibility
 RECOMB
 Ritchie
-ROC
 Rodríguez
 Sadovsky
 Sangi
@@ -150,4 +149,5 @@ Wenchao
 Wenxuan
 WJ
 Yepes
+Zenodo
 Zhang
