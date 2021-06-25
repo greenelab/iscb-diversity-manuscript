@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-curation
+Curation
 dataset
 datasets
 dhimmel
@@ -107,7 +107,7 @@ Nomatim
 Nyaradzo
 Oliveira
 OpenStreetMap’s
-overrepresentation
+Overrepresentation
 overrepresented
 Panagiotou
 Paulo
@@ -133,7 +133,7 @@ Sumudu
 Swanand
 Themis
 Toptas
-trang
+Trang
 Translational
 tri
 Tsiantis

@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/39dbfc4242fc026e1454e51dfc432534796fac39/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/39dbfc4242fc026e1454e51dfc432534796fac39/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/39dbfc4242fc026e1454e51dfc432534796fac39/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/dde6d54a542ee8b05e58ca9cfc82e7340da98ae9/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dde6d54a542ee8b05e58ca9cfc82e7340da98ae9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dde6d54a542ee8b05e58ca9cfc82e7340da98ae9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/39dbfc4242fc026e1454e51dfc432534796fac39/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/39dbfc4242fc026e1454e51dfc432534796fac39/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/dde6d54a542ee8b05e58ca9cfc82e7340da98ae9/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/dde6d54a542ee8b05e58ca9cfc82e7340da98ae9/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,9 +84,9 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/39dbfc4242fc026e1454e51dfc432534796fac39/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/dde6d54a542ee8b05e58ca9cfc82e7340da98ae9/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@39dbfc4](https://github.com/greenelab/iscb-diversity-manuscript/tree/39dbfc4242fc026e1454e51dfc432534796fac39)
+from [greenelab/iscb-diversity-manuscript@dde6d54](https://github.com/greenelab/iscb-diversity-manuscript/tree/dde6d54a542ee8b05e58ca9cfc82e7340da98ae9)
 on June 25, 2021.
 </em></small>
 
@@ -258,7 +258,7 @@ Study framework. We extracted full names and affiliations of the last authors of
 
 We observed a gradual increase of the proportion of predicted female authorships, arriving at an average of approximately 28% in 2017-2019 (Fig. {@fig:gender_breakdown}, left).
 In recent years, ISCB Fellows and keynote speakers appear to have similar gender proportions compared to the population of authors published in computational biology and bioinformatics journals (averaged around 30% in the last three years, Fig. {@fig:gender_breakdown}, right).
-Examining each honor category, we [observed](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1) an increasing trend of honorees who were women, especially in the group of ISCB Fellows, which markedly increased after 2015.
+Examining each honor category, we observed in [10.visualize-gender](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1) an increasing trend of honorees who were women, especially in the group of ISCB Fellows, which markedly increased after 2015.
 Through 2019, there were a number of years when meetings or ISCB Fellow classes have a high proportion of honors for male honorees and none that appeared to have exclusively female honorees.
 We sought to examine whether or not there was a difference in the proportion of female names between authorships and honors.
 A multiple logistic regression of this proportion for the groups and year did not reveal a significant difference (_p_ = 0.19).
