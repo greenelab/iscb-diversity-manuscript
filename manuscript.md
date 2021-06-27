@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-06-25'
+date-meta: '2021-06-27'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="og:title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of scientific society-awarded honors reveals disparities" />
-  <meta name="dc.date" content="2021-06-25" />
-  <meta name="citation_publication_date" content="2021-06-25" />
+  <meta name="dc.date" content="2021-06-27" />
+  <meta name="citation_publication_date" content="2021-06-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/dff190612e295895b1c2053d44d6236a77be3203/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dff190612e295895b1c2053d44d6236a77be3203/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/dff190612e295895b1c2053d44d6236a77be3203/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/dff190612e295895b1c2053d44d6236a77be3203/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/dff190612e295895b1c2053d44d6236a77be3203/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/42df8629bcf79b85bb0e7b333331671fb77f9f72/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/42df8629bcf79b85bb0e7b333331671fb77f9f72/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,10 +84,10 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/dff190612e295895b1c2053d44d6236a77be3203/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@dff1906](https://github.com/greenelab/iscb-diversity-manuscript/tree/dff190612e295895b1c2053d44d6236a77be3203)
-on June 25, 2021.
+from [greenelab/iscb-diversity-manuscript@42df862](https://github.com/greenelab/iscb-diversity-manuscript/tree/42df8629bcf79b85bb0e7b333331671fb77f9f72)
+on June 27, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -248,7 +248,7 @@ We found that corresponding authors were often first and/or last suggesting that
 Given the convention and the observation that corresponding authors were more often last, we selected the last author as the most appropriate in this setting.
 
 We present the results with the selected strategy (Fig. {@fig:workflow}); however, we performed this work through multiple iterations varying these parameters to examine the extent to which they influenced the results.
-Our findings across different combinations of the above choices were consistent with respect to the broad conclusions, though the numerical results differed (see Methods and supplementary figure S3).
+Our findings across different combinations of the above choices were consistent with respect to the broad conclusions, though the numerical results differed (see Methods).
 
 ![
 Study framework. We extracted full names and affiliations of the last authors of 176,110 computational biology PubMed articles and those of 412 honorees. We estimated the gender, name-origin group and country of affiliation of each scientist and compared the probability values between these two groups (see Methods).
