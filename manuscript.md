@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e863755c6e2381df07a46b460086156a8ec0a7c0/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e863755c6e2381df07a46b460086156a8ec0a7c0/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b297a361632a7ae3f5d11637a246d486dde89e96/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b297a361632a7ae3f5d11637a246d486dde89e96/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,9 +84,9 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@e863755](https://github.com/greenelab/iscb-diversity-manuscript/tree/e863755c6e2381df07a46b460086156a8ec0a7c0)
+from [greenelab/iscb-diversity-manuscript@b297a36](https://github.com/greenelab/iscb-diversity-manuscript/tree/b297a361632a7ae3f5d11637a246d486dde89e96)
 on July 2, 2021.
 </em></small>
 
@@ -156,7 +156,7 @@ on July 2, 2021.
 
 
 
-## Abstract
+## Summary
 
 Delivering a keynote talk at a conference organized by a scientific society, or being named as a fellow by such a society, indicates that a scientist is held in high regard by their colleagues.
 To explore if the distribution of such indicators of esteem in the field of bioinformatics reflects the composition of this field,
@@ -397,9 +397,39 @@ These could be affected by explicit biases, implicit biases, or pernicious biase
 Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.
 
 
-## Materials and Methods
+## STAR Methods
+### Key resources table
 
-### Honoree Curation
+
+### Resource Availability
+
+#### Lead Contact
+Further information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, Casey Greene (casey.s.greene@cuanschutz.edu).
+
+#### Materials Availability
+
+This study did not generate new materials. 
+
+#### Data and Code Availability
+
+All data have been deposited at <https://github.com/greenelab/iscb-diversity> and are publicly available as of the date of publication.
+DOIs are listed in the key resources table.
+Our Wikipedia name dataset is dedicated to the public domain under CC0 License at <https://github.com/greenelab/wiki-nationality-estimate>, with source code to construct the dataset available under a BSD 3-Clause License.
+
+All original code has been deposited at Zenodo and is publicly available as of the date of publication.
+DOIs are listed in the key resources table.
+Specifically, our analysis of authors and ISCB-associated honorees is available under CC BY 4.0 at <https://github.com/greenelab/iscb-diversity>, with source code also distributed under a BSD 3-Clause License [@doi:10.5281/zenodo.5014756].
+Rendered Python and R notebooks from this repository are browsable at [greenelab.github.io/iscb-diversity](https://greenelab.github.io/iscb-diversity/).
+Our analysis of PubMed, PubMed Central, and author names relies on the Python pubmedpy package, developed as part of this project and available under a Blue Oak Model License 1.0 at <https://github.com/dhimmel/pubmedpy> and on [PyPI](https://pypi.org/project/pubmedpy/).
+No additional information is required to reanalyze the data reported in this paper.
+
+This manuscript was written openly on GitHub at [github.com/greenelab/iscb-diversity-manuscript](https://github.com/greenelab/iscb-diversity-manuscript) using Manubot [@doi:10.1371/journal.pcbi.1007128].
+The Manubot HTML version is available under a Creative Commons Attribution (CC BY 4.0) License at [greenelab.github.io/iscb-diversity-manuscript](https://greenelab.github.io/iscb-diversity-manuscript/).
+
+
+### Method details
+
+#### Honoree Curation
 
 From [ISCB's webpage listing **ISCB Distinguished Fellows**](http://web.archive.org/web/20200116150052/https://www.iscb.org/iscb-fellows), we found recipients listed by their full names for the years 2009--2019.
 We gleaned the full name of the Fellow as well as the year in which they received the honor.
@@ -416,7 +446,7 @@ Although Jun Wang was not included in these tables, we were able to confirm that
 Marian Walhout was invited as a keynote speaker but had to [cancel](http://recomb2015.mimuw.edu.pl/node/18.html) the talk due to other obligations.
 Because her name was neither mentioned in the 2015 proceedings [@doi:10.1007/978-3-319-16706-0] nor in the above-mentioned tables, we excluded this speaker from our dataset.
 
-#### Name processing
+##### Name processing
 
 When extracting honoree names, we began with the full name as provided on the site.
 Because our prediction methods required separated first and last names, we chose the first non-initial name as the first name and the final name as the last name.
@@ -426,7 +456,7 @@ For metadata from PubMed and PMC where first (fore) and last names are coded sep
 We created [functions to simplify names](https://git.dhimmel.com/pubmedpy/names.html) in the pubmedpy Python package to support standardized fore and last name processing.
 
 
-### Last author extraction
+#### Last author extraction
 
 We assumed that, in the list of authors for a specific paper, last authors (often research advisors) would be most likely to be invited for keynotes or to be honored as fellows.
 Therefore, we utilized [PubMed](https://pubmed.ncbi.nlm.nih.gov/) to retrieve last author names to assess the composition of the field.
@@ -438,7 +468,7 @@ From PubMed, we compiled a catalog of 176,773 journal articles that were publish
 Excluding 663 articles with no author information and years with less than 200 articles/year, we analyzed 176,110 articles from 1998--2019.
 We extracted the number of times an article has been cited by PubMed Central articles from the `PmcRefCount` of the PubMed DocSum XML records.
 
-### Countries of Affiliations
+#### Countries of Affiliations
 
 Publications often provide affiliation lists for authors, which generally associate authors with research organizations and their corresponding physical addresses.
 We implemented affiliation extraction in the pubmedpy Python package for both PubMed and PMC XML records.
@@ -470,7 +500,7 @@ For ISCB Fellows, we used the affiliation listed on the ISCB page.
 Because we could not find affiliations for the 1997 and 1998 RECOMB keynote speakers' listed for these years, they were left blank.
 If an author or speaker had more than one affiliation, each was inversely weighted by the number of affiliations that individual had.
 
-### Estimation of Gender
+#### Estimation of Gender
 
 We predicted the gender of honorees and authors using the <https://genderize.io> API, which was trained on over 100 million name-gender pairings collected from the web and is one of the three widely-used gender inference services [@doi:10.7717/peerj-cs.156].
 We used author and honoree first names to retrieve predictions from genderize.io.
@@ -489,7 +519,7 @@ We note that approximately 42% of these NA predictions are hyphenated names, whi
 <!-- 82% of these names were predicted to be of Asian origin by last name (see the race/ethnicity prediction model below). -->
 This bias of NA predictions toward non-English names has been previously observed [@doi:10.32614/RJ-2016-002] and may have a minor influence on the final estimate of gender compositions.
 
-### Estimation of Name Origin Groups
+#### Estimation of Name Origin Groups
 
 We developed a model to predict geographical origins of names.
 The existing Python package ethnicolr [@arxiv:1805.02109] produces reasonable predictions, but its international representation in the data curated from Wikipedia in 2009 [@doi:10.1145/1557019.1557032] is still limited.
@@ -531,7 +561,7 @@ These mismatches were assessed via the heatmap of the model performance (supplem
 An alternative approach is to assign arbitrary names to these groups such as via letter coding (e.g., A, B, C, etc.), but we did not choose this strategy because ten arbitrary letters for ten groups can greatly reduce the paper's readibility.
 
 
-### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
+#### Predicting Name Origin Groups with LSTM Neural Networks and Wikipedia
 
 Table @tbl:example_names shows the size of the training set for each of the name origin groups as well as a few examples of PubMed author names that had at least 90% prediction probability in that group.
 We refer to this dataset as Wiki2019 (available online in [`annotated_names.tsv`](https://github.com/greenelab/wiki-nationality-estimate/blob/master/data/annotated_names.tsv)).
@@ -580,7 +610,7 @@ For example, the classifier does not often mistake East Asian names as Greek, bu
 Applying Wiki2019-LSTM on the author and honoree datasets, we obtained name origin estimates for all honorees' and authors' name, except the 12,512 that did not have fore names (see breakdown in the Estimation of Gender section above).
 Once again, because the large majority of author fore names prior to 2002 were recorded with initials only, predictions were not possible, and we excluded 1998--2001 when comparing name origin compositions between two groups.
 
-### Affiliation Analysis
+#### Affiliation Analysis
 
 For each country, we computed the expected number of honorees by multiplying the proportion of authors whose affiliations were in that country with the total number of honorees.
 We then performed an enrichment analysis to examine the difference in country affiliation proportions between ISCB honorees and field-specific last authors.
@@ -588,7 +618,7 @@ We calculated each country's enrichment by dividing the observed proportion of h
 The 95% confidence interval of the log~2~ enrichment was estimated using the Poisson model method [@isbn:978-0849394447, page 17-18].
 
 
-### Statistical Analysis
+#### Statistical Analysis
 
 We estimated the levels of representation by performing the following logistic regression of the group of scientists on each name's prediction probability while controlling for year:
 $$g = \beta_0 + \beta_1 prob + \beta_2 y + \epsilon.$$
@@ -605,7 +635,7 @@ To reiterate, we only consider the prediction probabilities in aggregate and not
 Moreover, although the average of the probabilities is not exactly "proportion", we use the phrase "estimated proportion" for readability.
 For example, the average of the probabilities of authors having an East Asian name origin is the estimate for the proportion of authors with East Asian names.
 
-### Iterative Research Process
+#### Iterative Research Process
 
 Parallel analyses for the other versions are available in supplementary figure S3.
 In our [first version](https://greenelab.github.io/iscb-diversity-manuscript/v/711edb01f5335a4c1bb8e1e0575618586a7abf9b/) of the analysis pipeline, we sought to characterize the distribution of authorships in the field using field-specific journals.
@@ -625,32 +655,6 @@ In [version 4](https://greenelab.github.io/iscb-diversity-manuscript/), we retur
 Finally, in all versions of the analysis, rather than applying a hard assignment for each prediction, we analyzed the raw prediction probability values to capture the uncertainty of the prediction model.
 Although we expect our estimates of disparities for citation-weighted analyses to be conservative, through each analysis, the overall findings remained consistent.
 Examining the literature with and without citation weighting, we learned that disparities exist and these disparities are large enough to overcome existing disparities in citation patterns.
-
-
-## Resource Availability
-
-### Lead Contact
-Further information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, Casey Greene (casey.s.greene@cuanschutz.edu).
-
-### Materials Availability
-
-This study did not generate new materials. 
-
-## Data and Code Availability
-
-All data have been deposited at <https://github.com/greenelab/iscb-diversity> and are publicly available as of the date of publication.
-DOIs are listed in the key resources table.
-Our Wikipedia name dataset is dedicated to the public domain under CC0 License at <https://github.com/greenelab/wiki-nationality-estimate>, with source code to construct the dataset available under a BSD 3-Clause License.
-
-All original code has been deposited at Zenodo and is publicly available as of the date of publication.
-DOIs are listed in the key resources table.
-Specifically, our analysis of authors and ISCB-associated honorees is available under CC BY 4.0 at <https://github.com/greenelab/iscb-diversity>, with source code also distributed under a BSD 3-Clause License [@doi:10.5281/zenodo.5014756].
-Rendered Python and R notebooks from this repository are browsable at [greenelab.github.io/iscb-diversity](https://greenelab.github.io/iscb-diversity/).
-Our analysis of PubMed, PubMed Central, and author names relies on the Python pubmedpy package, developed as part of this project and available under a Blue Oak Model License 1.0 at <https://github.com/dhimmel/pubmedpy> and on [PyPI](https://pypi.org/project/pubmedpy/).
-No additional information is required to reanalyze the data reported in this paper.
-
-This manuscript was written openly on GitHub at [github.com/greenelab/iscb-diversity-manuscript](https://github.com/greenelab/iscb-diversity-manuscript) using Manubot [@doi:10.1371/journal.pcbi.1007128].
-The Manubot HTML version is available under a Creative Commons Attribution (CC BY 4.0) License at [greenelab.github.io/iscb-diversity-manuscript](https://greenelab.github.io/iscb-diversity-manuscript/).
 
 
 ## References {.page_break_before}
