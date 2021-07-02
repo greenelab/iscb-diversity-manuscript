@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-06-27'
+date-meta: '2021-07-02'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="og:title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of scientific society-awarded honors reveals disparities" />
-  <meta name="dc.date" content="2021-06-27" />
-  <meta name="citation_publication_date" content="2021-06-27" />
+  <meta name="dc.date" content="2021-07-02" />
+  <meta name="citation_publication_date" content="2021-07-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/42df8629bcf79b85bb0e7b333331671fb77f9f72/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/42df8629bcf79b85bb0e7b333331671fb77f9f72/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e863755c6e2381df07a46b460086156a8ec0a7c0/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e863755c6e2381df07a46b460086156a8ec0a7c0/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,10 +84,10 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@42df862](https://github.com/greenelab/iscb-diversity-manuscript/tree/42df8629bcf79b85bb0e7b333331671fb77f9f72)
-on June 27, 2021.
+from [greenelab/iscb-diversity-manuscript@e863755](https://github.com/greenelab/iscb-diversity-manuscript/tree/e863755c6e2381df07a46b460086156a8ec0a7c0)
+on July 2, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -256,6 +256,12 @@ Study framework. We extracted full names and affiliations of the last authors of
 
 ### Similar gender proportion between ISCB's honorees and the field
 
+We predicted the gender of honorees and authors using the <https://genderize.io> API, which was trained on over 100 million name-gender pairings collected from the web (see the STAR Methods for more details) and is one of the three widely-used gender inference services [@doi:10.7717/peerj-cs.156].
+The predictions represent the estimated probability of an honoree or author being male or female based on their first name; we did not convert probabilities to a hard group assignment.
+For example, a query to <https://genderize.io> on January 26, 2020 for "Casey" returns a probability of male of 0.74 and a probability of female of 0.26, which we would add for an author with this first name.
+Because of technical limitations, our analysis only considered two binary gender categories, and we used "male" and "female" to refer to the gender of the scientists.
+However, as described in the Discussion, we recognize the limitation of not accounting for non-binary gender categories and only considered predictions in aggregate and not as individual values for specific scientists.
+
 We observed a gradual increase of the proportion of predicted female authorships, arriving at an average of approximately 28% in 2017-2019 (Fig. {@fig:gender_breakdown}, left).
 In recent years, ISCB Fellows and keynote speakers appear to have similar gender proportions compared to the population of authors published in computational biology and bioinformatics journals (averaged around 30% in the last three years, Fig. {@fig:gender_breakdown}, right).
 Examining each honor category, we observed in [10.visualize-gender](https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1) an increasing trend of honorees who were women, especially in the group of ISCB Fellows, which markedly increased after 2015.
@@ -275,7 +281,7 @@ Interaction terms did not predict the group of scientists over and above the mai
 
 ### Honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented
 
-We applied our Wiki2019-LSTM model to both our computational biology honors dataset and our dataset of authorships (see Methods).
+We inferred the geographical region of origin of authors' names using a Long Short-Term Memory (LSTM) neural network trained on a dataset of 708,493 names called Wiki2019 (see the STAR Methods for details); the resulting model was called Wiki2019-LSTM.
 We found that the proportion of authorships with Celtic/English names had decreased (Fig. {@fig:region_breakdown}A, left).
 Among keynote speakers and fellows, we found that the majority were predicted to have Celtic/English or European names (Fig. {@fig:region_breakdown}A, right).
 When we directly compared honor composition with PubMed, we observed discrepancies between the two groups (Fig. {@fig:region_breakdown}B).

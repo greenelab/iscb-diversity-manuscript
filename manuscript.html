@@ -9,7 +9,7 @@
   <meta name="author" content="Ariel A. Hippen" />
   <meta name="author" content="Matthew R. Gazzara" />
   <meta name="author" content="Casey S. Greene" />
-  <meta name="dcterms.date" content="2021-06-27" />
+  <meta name="dcterms.date" content="2021-07-02" />
   <meta name="keywords" content="computational biology, iscb, disparities" />
   <title>Analysis of scientific society-awarded honors reveals disparities</title>
   <style>
@@ -32,8 +32,8 @@
   <meta name="citation_title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="og:title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of scientific society-awarded honors reveals disparities" />
-  <meta name="dc.date" content="2021-06-27" />
-  <meta name="citation_publication_date" content="2021-06-27" />
+  <meta name="dc.date" content="2021-07-02" />
+  <meta name="citation_publication_date" content="2021-07-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -67,13 +67,13 @@
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/42df8629bcf79b85bb0e7b333331671fb77f9f72/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/42df8629bcf79b85bb0e7b333331671fb77f9f72/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e863755c6e2381df07a46b460086156a8ec0a7c0/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/e863755c6e2381df07a46b460086156a8ec0a7c0/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -86,10 +86,10 @@
 <p><em>A DOI-citable version of this manuscript is available at <a href="https://doi.org/10.1101/2020.04.14.927251" class="uri">https://doi.org/10.1101/2020.04.14.927251</a></em>.</p>
 <p><small><em>
 This manuscript
-(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/42df8629bcf79b85bb0e7b333331671fb77f9f72/">permalink</a>)
+(<a href="https://greenelab.github.io/iscb-diversity-manuscript/v/e863755c6e2381df07a46b460086156a8ec0a7c0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/42df8629bcf79b85bb0e7b333331671fb77f9f72">greenelab/iscb-diversity-manuscript@42df862</a>
-on June 27, 2021.
+from <a href="https://github.com/greenelab/iscb-diversity-manuscript/tree/e863755c6e2381df07a46b460086156a8ec0a7c0">greenelab/iscb-diversity-manuscript@e863755</a>
+on July 2, 2021.
 </em></small></p>
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
 <p><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></p>
@@ -228,6 +228,11 @@ Our findings across different combinations of the above choices were consistent 
 </figure>
 </div>
 <h3 id="similar-gender-proportion-between-iscbs-honorees-and-the-field">Similar gender proportion between ISCB’s honorees and the field</h3>
+<p>We predicted the gender of honorees and authors using the <a href="https://genderize.io" class="uri">https://genderize.io</a> API, which was trained on over 100 million name-gender pairings collected from the web (see the STAR Methods for more details) and is one of the three widely-used gender inference services <span class="citation" data-cites="ODb9u77d">[<a href="#ref-ODb9u77d" role="doc-biblioref">12</a>]</span>.
+The predictions represent the estimated probability of an honoree or author being male or female based on their first name; we did not convert probabilities to a hard group assignment.
+For example, a query to <a href="https://genderize.io" class="uri">https://genderize.io</a> on January 26, 2020 for “Casey” returns a probability of male of 0.74 and a probability of female of 0.26, which we would add for an author with this first name.
+Because of technical limitations, our analysis only considered two binary gender categories, and we used “male” and “female” to refer to the gender of the scientists.
+However, as described in the Discussion, we recognize the limitation of not accounting for non-binary gender categories and only considered predictions in aggregate and not as individual values for specific scientists.</p>
 <p>We observed a gradual increase of the proportion of predicted female authorships, arriving at an average of approximately 28% in 2017-2019 (Fig. <a href="#fig:gender_breakdown">2</a>, left).
 In recent years, ISCB Fellows and keynote speakers appear to have similar gender proportions compared to the population of authors published in computational biology and bioinformatics journals (averaged around 30% in the last three years, Fig. <a href="#fig:gender_breakdown">2</a>, right).
 Examining each honor category, we observed in <a href="https://greenelab.github.io/iscb-diversity/10.visualize-gender.html#sup_fig_s1">10.visualize-gender</a> an increasing trend of honorees who were women, especially in the group of ISCB Fellows, which markedly increased after 2015.
@@ -246,7 +251,7 @@ ISCB honors appear to have similar gender proportions compared to that of PubMed
 </figure>
 </div>
 <h3 id="honorees-with-celticenglish-names-are-overrepresented-while-honorees-with-east-asian-names-are-underrepresented">Honorees with Celtic/English names are overrepresented while honorees with East Asian names are underrepresented</h3>
-<p>We applied our Wiki2019-LSTM model to both our computational biology honors dataset and our dataset of authorships (see Methods).
+<p>We inferred the geographical region of origin of authors’ names using a Long Short-Term Memory (LSTM) neural network trained on a dataset of 708,493 names called Wiki2019 (see the STAR Methods for details); the resulting model was called Wiki2019-LSTM.
 We found that the proportion of authorships with Celtic/English names had decreased (Fig. <a href="#fig:region_breakdown">3</a>A, left).
 Among keynote speakers and fellows, we found that the majority were predicted to have Celtic/English or European names (Fig. <a href="#fig:region_breakdown">3</a>A, right).
 When we directly compared honor composition with PubMed, we observed discrepancies between the two groups (Fig. <a href="#fig:region_breakdown">3</a>B).
@@ -320,17 +325,17 @@ In these cases, the ideal background distribution would be the population of sen
 The implication would be that scientific societies exist to reflect what the field could be, not just what it is.
 However, we are limited to measuring the field as it is.
 Furthermore, authorships, which we use to assess the field’s composition, are also affected by systemic barriers to participation.
-We estimated the composition of the field using last author status, but in neuroscience <span class="citation" data-cites="14PjsfIPd">[<a href="#ref-14PjsfIPd" role="doc-biblioref">12</a>]</span> and other disciplines <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">13</a>]</span>, women are underrepresented in this position.
+We estimated the composition of the field using last author status, but in neuroscience <span class="citation" data-cites="14PjsfIPd">[<a href="#ref-14PjsfIPd" role="doc-biblioref">13</a>]</span> and other disciplines <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">14</a>]</span>, women are underrepresented in this position.
 Such an effect would cause us to underestimate the number of women in the field.
-Similarly, other studies have showed that underrepresented groups are less likely to be last authors <span class="citation" data-cites="RC8qcaWy">[<a href="#ref-RC8qcaWy" role="doc-biblioref">14</a>]</span>, and Hispanic and Black scientists were underrepresented in academic publishing in general <span class="citation" data-cites="NyXcBvbT">[<a href="#ref-NyXcBvbT" role="doc-biblioref">15</a>]</span>.
+Similarly, other studies have showed that underrepresented groups are less likely to be last authors <span class="citation" data-cites="RC8qcaWy">[<a href="#ref-RC8qcaWy" role="doc-biblioref">15</a>]</span>, and Hispanic and Black scientists were underrepresented in academic publishing in general <span class="citation" data-cites="NyXcBvbT">[<a href="#ref-NyXcBvbT" role="doc-biblioref">16</a>]</span>.
 Thus, systemic barriers that reduce representation within our estimation of the field would reduce apparent disparities in honor distributions as long as those systemic barriers did not also have a particular influence on the honoree selection process as well.</p>
 <p>An important ethical question to ask when measuring representation is what the right level of representation is.
 Societies should examine their processes to determine whether the process of selecting honorees should be equal or equitable.
 For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors and that there may be equality during the honoree selection process.
 However, if fewer women are in the field because of systemic factors that inhibit their participation, reaching equality is not equivalent to reaching equity.
-In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often <span class="citation" data-cites="9TNbcewU">[<a href="#ref-9TNbcewU" role="doc-biblioref">16</a>]</span>, invited by journals to submit papers less often <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">13</a>]</span>, suggested as reviewers less often <span class="citation" data-cites="1EYk4f8Mu">[<a href="#ref-1EYk4f8Mu" role="doc-biblioref">20</a>]</span>, and receive significantly worse review scores <span class="citation" data-cites="5HWeup6K">[<a href="#ref-5HWeup6K" role="doc-biblioref">17</a>]</span>.
-Meanwhile, a review of women’s underrepresentation in math-intensive fields argued that today’s underrepresentation is not explained by historic forms of discrimination but factors surrounding fertility decisions and lifestyle choices, whether freely made or constrained by biology and society <span class="citation" data-cites="90sAeq8V">[<a href="#ref-90sAeq8V" role="doc-biblioref">21</a>]</span>.
-A recent analysis of gender inequality across different disciplines showed that, although both gender groups have equivalent annual productivity, women scientists have higher dropout rates throughout their scientific careers <span class="citation" data-cites="1MA6Qfbo">[<a href="#ref-1MA6Qfbo" role="doc-biblioref">22</a>]</span>.
+In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often <span class="citation" data-cites="9TNbcewU">[<a href="#ref-9TNbcewU" role="doc-biblioref">17</a>]</span>, invited by journals to submit papers less often <span class="citation" data-cites="17aOPYsbT">[<a href="#ref-17aOPYsbT" role="doc-biblioref">14</a>]</span>, suggested as reviewers less often <span class="citation" data-cites="1EYk4f8Mu">[<a href="#ref-1EYk4f8Mu" role="doc-biblioref">21</a>]</span>, and receive significantly worse review scores <span class="citation" data-cites="5HWeup6K">[<a href="#ref-5HWeup6K" role="doc-biblioref">18</a>]</span>.
+Meanwhile, a review of women’s underrepresentation in math-intensive fields argued that today’s underrepresentation is not explained by historic forms of discrimination but factors surrounding fertility decisions and lifestyle choices, whether freely made or constrained by biology and society <span class="citation" data-cites="90sAeq8V">[<a href="#ref-90sAeq8V" role="doc-biblioref">22</a>]</span>.
+A recent analysis of gender inequality across different disciplines showed that, although both gender groups have equivalent annual productivity, women scientists have higher dropout rates throughout their scientific careers <span class="citation" data-cites="1MA6Qfbo">[<a href="#ref-1MA6Qfbo" role="doc-biblioref">23</a>]</span>.
 Therefore, although we found that ISCB’s honorees and keynote speakers appear to have similar gender proportion to the field as a whole, the gender proportions have not reached parity.
 To the extent that this gap is due to systemic barriers, the process may have reached equality but not equity.</p>
 <p>It is also possible to have processes that reach neither equality nor equity.
@@ -339,8 +344,8 @@ Because invitation and honor patterns could be driven by biases associated with 
 We found that disparities persisted even within the group of honorees with a US affiliation.
 Societies’ honoree selection process failing to reflect the diversity of the field can play a part in why minoritized scientists’ innovations are discounted <span class="citation" data-cites="1Slc5L0l">[<a href="#ref-1Slc5L0l" role="doc-biblioref">1</a>]</span>.
 Although we estimate the fraction of non-White and non-Asian authors to be relatively similar to the estimated honoree rate, we note that both are represented at levels substantially lower than in the US population.</p>
-<p>Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which can boost young students’ interests in STEM <span class="citation" data-cites="90sAeq8V">[<a href="#ref-90sAeq8V" role="doc-biblioref">21</a>]</span> and, for example, lead to higher persistence for undergraduate women in geoscience <span class="citation" data-cites="1FX4fLEIy">[<a href="#ref-1FX4fLEIy" role="doc-biblioref">23</a>]</span>.
-Efforts are underway to create Wikipedia entries for more female <span class="citation" data-cites="zdS2Wmy2">[<a href="#ref-zdS2Wmy2" role="doc-biblioref">24</a>]</span> and black, Asian, and minority scientists <span class="citation" data-cites="yaljvCUU">[<a href="#ref-yaljvCUU" role="doc-biblioref">25</a>]</span>, which can help early-career scientists identify role models.
+<p>Societies, both through their honorees and the individuals who deliver keynotes at their meetings, can play a positive role in improving the presence of female STEM role models, which can boost young students’ interests in STEM <span class="citation" data-cites="90sAeq8V">[<a href="#ref-90sAeq8V" role="doc-biblioref">22</a>]</span> and, for example, lead to higher persistence for undergraduate women in geoscience <span class="citation" data-cites="1FX4fLEIy">[<a href="#ref-1FX4fLEIy" role="doc-biblioref">24</a>]</span>.
+Efforts are underway to create Wikipedia entries for more female <span class="citation" data-cites="zdS2Wmy2">[<a href="#ref-zdS2Wmy2" role="doc-biblioref">25</a>]</span> and black, Asian, and minority scientists <span class="citation" data-cites="yaljvCUU">[<a href="#ref-yaljvCUU" role="doc-biblioref">26</a>]</span>, which can help early-career scientists identify role models.
 Societies can contribute toward equity if they design policies to honor scientists in ways that counter these biases such as ensuring diversity in the selection committees.</p>
 <p>The central role that scientists play in evaluating each other and each other’s findings makes equity critical.
 Even many nominally objective methods of assessing excellence (e.g., h-index, grant funding obtained, number of high-impact peer-reviewed publications, and total number of peer-reviewed publications) are subject to the bias of peers during review.
@@ -355,12 +360,12 @@ To identify <strong>ISMB Keynote Speakers</strong>, we examined the webpage for 
 The invited speakers at ISMB before 2001 were listed in the Preface pages of each year’s proceedings, which were archived in the <a href="https://aaai.org/Library/ISMB/ismb-library.php">ISMB collection</a> of the AAAI digital library.
 We found full names of all keynote speakers for the years 1993–2019.</p>
 <p>For the RECOMB meeting, we found conference webpages with keynote speakers for 1999, 2000, 2001, 2004, 2007, 2008, and 2010–2019.
-We were able to fill in the missing years using information from the RECOMB 2016 proceedings, which summarizes the first 20 years of the RECOMB conference <span class="citation" data-cites="1Bji9UOxF">[<a href="#ref-1Bji9UOxF" role="doc-biblioref">27</a>]</span>.
+We were able to fill in the missing years using information from the RECOMB 2016 proceedings, which summarizes the first 20 years of the RECOMB conference <span class="citation" data-cites="1Bji9UOxF">[<a href="#ref-1Bji9UOxF" role="doc-biblioref">28</a>]</span>.
 This volume has two tables of keynote speakers from 1997–2006 (Table 14, page XXVII) and 2007–2016 (Table 4, page 8).
 Using these tables to verify the conference speaker lists, we arrived at two special instances of inclusion/exclusion.
-Although Jun Wang was not included in these tables, we were able to confirm that he was a keynote speaker in 2011 with the RECOMB 2011 proceedings <span class="citation" data-cites="DBJsvxt7">[<a href="#ref-DBJsvxt7" role="doc-biblioref">28</a>]</span>, and thus we included this speaker in the dataset.
+Although Jun Wang was not included in these tables, we were able to confirm that he was a keynote speaker in 2011 with the RECOMB 2011 proceedings <span class="citation" data-cites="DBJsvxt7">[<a href="#ref-DBJsvxt7" role="doc-biblioref">29</a>]</span>, and thus we included this speaker in the dataset.
 Marian Walhout was invited as a keynote speaker but had to <a href="http://recomb2015.mimuw.edu.pl/node/18.html">cancel</a> the talk due to other obligations.
-Because her name was neither mentioned in the 2015 proceedings <span class="citation" data-cites="aziMb8CD">[<a href="#ref-aziMb8CD" role="doc-biblioref">29</a>]</span> nor in the above-mentioned tables, we excluded this speaker from our dataset.</p>
+Because her name was neither mentioned in the 2015 proceedings <span class="citation" data-cites="aziMb8CD">[<a href="#ref-aziMb8CD" role="doc-biblioref">30</a>]</span> nor in the above-mentioned tables, we excluded this speaker from our dataset.</p>
 <h4 id="name-processing">Name processing</h4>
 <p>When extracting honoree names, we began with the full name as provided on the site.
 Because our prediction methods required separated first and last names, we chose the first non-initial name as the first name and the final name as the last name.
@@ -403,7 +408,7 @@ For ISCB Fellows, we used the affiliation listed on the ISCB page.
 Because we could not find affiliations for the 1997 and 1998 RECOMB keynote speakers’ listed for these years, they were left blank.
 If an author or speaker had more than one affiliation, each was inversely weighted by the number of affiliations that individual had.</p>
 <h3 id="estimation-of-gender">Estimation of Gender</h3>
-<p>We predicted the gender of honorees and authors using the <a href="https://genderize.io" class="uri">https://genderize.io</a> API, which was trained on over 100 million name-gender pairings collected from the web and is one of the three widely-used gender inference services <span class="citation" data-cites="ODb9u77d">[<a href="#ref-ODb9u77d" role="doc-biblioref">30</a>]</span>.
+<p>We predicted the gender of honorees and authors using the <a href="https://genderize.io" class="uri">https://genderize.io</a> API, which was trained on over 100 million name-gender pairings collected from the web and is one of the three widely-used gender inference services <span class="citation" data-cites="ODb9u77d">[<a href="#ref-ODb9u77d" role="doc-biblioref">12</a>]</span>.
 We used author and honoree first names to retrieve predictions from genderize.io.
 The predictions represent the probability of an honoree or author being male or female.
 We used the estimated probabilities and did not convert to a hard group assignment.
@@ -578,7 +583,7 @@ We also extracted names of last authors instead of other potential selections to
 Our assumption was that, among the authors of a specific paper, the last author (often research advisors) would be most likely to be invited for a keynote or honored as a fellow.
 Also, the availability of information on corresponding authors was limited, and extracting last author became a more consistent approach.</p>
 <p>In <a href="https://greenelab.github.io/iscb-diversity-manuscript/v/45f778da125ac069b0e143f8172a5647cfbc3a39/">version 3</a>, instead of weighting all articles equally as in the earlier versions, we used citation count to weight articles to control for the differential impact of research contributions.
-Using citation counts has key limitations: female scientists of different disciplines are cited less often than their male counterparts <span class="citation" data-cites="9TNbcewU 5HWeup6K epV1ywR4">[<a href="#ref-9TNbcewU" role="doc-biblioref">16</a>,<a href="#ref-5HWeup6K" role="doc-biblioref">17</a>,<a href="#ref-epV1ywR4" role="doc-biblioref">18</a>]</span>.
+Using citation counts has key limitations: female scientists of different disciplines are cited less often than their male counterparts <span class="citation" data-cites="9TNbcewU 5HWeup6K epV1ywR4">[<a href="#ref-9TNbcewU" role="doc-biblioref">17</a>,<a href="#ref-5HWeup6K" role="doc-biblioref">18</a>,<a href="#ref-epV1ywR4" role="doc-biblioref">19</a>]</span>.
 Furthermore, the act of being honored, particularly with a keynote at an international meeting, could lead to work being more recognized and cited, which would reverse the arrow of causality.
 In <a href="https://greenelab.github.io/iscb-diversity-manuscript/">version 4</a>, we returned to the equal weight for all articles.</p>
 <p>Finally, in all versions of the analysis, rather than applying a hard assignment for each prediction, we analyzed the raw prediction probability values to capture the uncertainty of the prediction model.
@@ -669,119 +674,119 @@ Travis A. Hoppe, Aviva Litovitz, Kristine A. Willis, Rebecca A. Meseroll, Matthe
 <em>Science Advances</em> (2019-10-09) <a href="https://doi.org/gghp8t">https://doi.org/gghp8t</a> <br />
 DOI: <a href="https://doi.org/10.1126/sciadv.aaw7238">10.1126/sciadv.aaw7238</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31633016">31633016</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6785250">PMC6785250</a></p>
 </div>
+<div id="ref-ODb9u77d">
+<p>12. <strong>Comparison and benchmark of name-to-gender inference services</strong> <br />
+Lucía Santamaría, Helena Mihaljević<br />
+<em>PeerJ Computer Science</em> (2018-07-16) <a href="https://doi.org/ggpbn6">https://doi.org/ggpbn6</a> <br />
+DOI: <a href="https://doi.org/10.7717/peerj-cs.156">10.7717/peerj-cs.156</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33816809">33816809</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7924484">PMC7924484</a></p>
+</div>
 <div id="ref-14PjsfIPd">
-<p>12. <strong>Persistent Underrepresentation of Women’s Science in High Profile Journals</strong> <br />
+<p>13. <strong>Persistent Underrepresentation of Women’s Science in High Profile Journals</strong> <br />
 Yiqin Alicia Shen, Jason M. Webster, Yuichi Shoda, Ione Fine<br />
 <em>Cold Spring Harbor Laboratory</em> (2018-03-08) <a href="https://doi.org/cmh5">https://doi.org/cmh5</a> <br />
 DOI: <a href="https://doi.org/10.1101/275362">10.1101/275362</a></p>
 </div>
 <div id="ref-17aOPYsbT">
-<p>13. <strong>The gender gap in science: How long until women are equally represented?</strong> <br />
+<p>14. <strong>The gender gap in science: How long until women are equally represented?</strong> <br />
 Luke Holman, Devi Stuart-Fox, Cindy E. Hauser<br />
 <em>PLOS Biology</em> (2018-04-19) <a href="https://doi.org/gdb9db">https://doi.org/gdb9db</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pbio.2004956">10.1371/journal.pbio.2004956</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29672508">29672508</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5908072">PMC5908072</a></p>
 </div>
 <div id="ref-RC8qcaWy">
-<p>14. <strong>Last Place? The Intersection of Ethnicity, Gender, and Race in Biomedical Authorship</strong> <br />
+<p>15. <strong>Last Place? The Intersection of Ethnicity, Gender, and Race in Biomedical Authorship</strong> <br />
 Gerald Marschke, Allison Nunez, Bruce A. Weinberg, Huifeng Yu<br />
 <em>AEA Papers and Proceedings</em> (2018-05-01) <a href="https://doi.org/gjg9k8">https://doi.org/gjg9k8</a> <br />
 DOI: <a href="https://doi.org/10.1257/pandp.20181111">10.1257/pandp.20181111</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30197432">30197432</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6124503">PMC6124503</a></p>
 </div>
 <div id="ref-NyXcBvbT">
-<p>15. <strong>Disparities in publication patterns by gender, race and ethnicity based on a survey of a random sample of authors</strong> <br />
+<p>16. <strong>Disparities in publication patterns by gender, race and ethnicity based on a survey of a random sample of authors</strong> <br />
 Allison L. Hopkins, James W. Jawitz, Christopher McCarty, Alex Goldman, Nandita B. Basu<br />
 <em>Scientometrics</em> (2012-11-10) <a href="https://doi.org/gffmpv">https://doi.org/gffmpv</a> <br />
 DOI: <a href="https://doi.org/10.1007/s11192-012-0893-4">10.1007/s11192-012-0893-4</a></p>
 </div>
 <div id="ref-9TNbcewU">
-<p>16. <strong>The extent and drivers of gender imbalance in neuroscience reference lists</strong> <br />
+<p>17. <strong>The extent and drivers of gender imbalance in neuroscience reference lists</strong> <br />
 Jordan D. Dworkin, Kristin A. Linn, Erin G. Teich, Perry Zurn, Russell T. Shinohara, Danielle S. Bassett<br />
 <em>arXiv</em> (2020-08-28) <a href="https://arxiv.org/abs/2001.01002">https://arxiv.org/abs/2001.01002</a> <br />
 DOI: <a href="https://doi.org/10.1038/s41593-020-0658-y">10.1038/s41593-020-0658-y</a></p>
 </div>
 <div id="ref-5HWeup6K">
-<p>17. <strong>Gender differences in peer review outcomes and manuscript impact at six journals of ecology and evolution</strong> <br />
+<p>18. <strong>Gender differences in peer review outcomes and manuscript impact at six journals of ecology and evolution</strong> <br />
 Charles W. Fox, C. E. Timothy Paine<br />
 <em>Ecology and Evolution</em> (2019-03-04) <a href="https://doi.org/gfwjjb">https://doi.org/gfwjjb</a> <br />
 DOI: <a href="https://doi.org/10.1002/ece3.4993">10.1002/ece3.4993</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30962913">30962913</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6434606">PMC6434606</a></p>
 </div>
 <div id="ref-epV1ywR4">
-<p>18. <strong>Quantitative evaluation of gender bias in astronomical publications from citation counts</strong> <br />
+<p>19. <strong>Quantitative evaluation of gender bias in astronomical publications from citation counts</strong> <br />
 Neven Caplar, Sandro Tacchella, Simon Birrer<br />
 <em>Nature Astronomy</em> (2017-05-26) <a href="https://doi.org/b8rn">https://doi.org/b8rn</a> <br />
 DOI: <a href="https://doi.org/10.1038/s41550-017-0141">10.1038/s41550-017-0141</a></p>
 </div>
 <div id="ref-TDlPnz0i">
-<p>19. <strong>Bibliometrics: global gender disparities in science.</strong> <br />
+<p>20. <strong>Bibliometrics: global gender disparities in science.</strong> <br />
 Vincent Larivière, Chaoqun Ni, Yves Gingras, Blaise Cronin, Cassidy R Sugimoto<br />
 <em>Nature</em> (2013-12-12) <a href="https://www.ncbi.nlm.nih.gov/pubmed/24350369">https://www.ncbi.nlm.nih.gov/pubmed/24350369</a> <br />
 DOI: <a href="https://doi.org/10.1038/504211a">10.1038/504211a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24350369">24350369</a></p>
 </div>
 <div id="ref-1EYk4f8Mu">
-<p>20. <strong>Journals invite too few women to referee</strong> <br />
+<p>21. <strong>Journals invite too few women to referee</strong> <br />
 Jory Lerback, Brooks Hanson<br />
 <em>Nature</em> (2017-01-26) <a href="https://doi.org/gf4jjz">https://doi.org/gf4jjz</a> <br />
 DOI: <a href="https://doi.org/10.1038/541455a">10.1038/541455a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28128272">28128272</a></p>
 </div>
 <div id="ref-90sAeq8V">
-<p>21. <strong>Understanding current causes of women’s underrepresentation in science</strong> <br />
+<p>22. <strong>Understanding current causes of women’s underrepresentation in science</strong> <br />
 S. J. Ceci, W. M. Williams<br />
 <em>Proceedings of the National Academy of Sciences</em> (2011-02-07) <a href="https://doi.org/dsrczk">https://doi.org/dsrczk</a> <br />
 DOI: <a href="https://doi.org/10.1073/pnas.1014871108">10.1073/pnas.1014871108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21300892">21300892</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3044353">PMC3044353</a></p>
 </div>
 <div id="ref-1MA6Qfbo">
-<p>22. <strong>Historical comparison of gender inequality in scientific careers across countries and disciplines</strong> <br />
+<p>23. <strong>Historical comparison of gender inequality in scientific careers across countries and disciplines</strong> <br />
 Junming Huang, Alexander J. Gates, Roberta Sinatra, Albert-László Barabási<br />
 <em>Proceedings of the National Academy of Sciences</em> (2020-03-03) <a href="https://doi.org/ggk89f">https://doi.org/ggk89f</a> <br />
 DOI: <a href="https://doi.org/10.1073/pnas.1914221117">10.1073/pnas.1914221117</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32071248">32071248</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7060730">PMC7060730</a></p>
 </div>
 <div id="ref-1FX4fLEIy">
-<p>23. <strong>Role modeling is a viable retention strategy for undergraduate women in the geosciences</strong> <br />
+<p>24. <strong>Role modeling is a viable retention strategy for undergraduate women in the geosciences</strong> <br />
 Paul R. Hernandez, Brittany Bloodhart, Amanda S. Adams, Rebecca T. Barnes, Melissa Burt, Sandra M. Clinton, Wenyi Du, Elaine Godfrey, Heather Henderson, Ilana B. Pollack, Emily V. Fischer<br />
 <em>Geosphere</em> (2018-10-31) <a href="https://doi.org/gghp9d">https://doi.org/gghp9d</a> <br />
 DOI: <a href="https://doi.org/10.1130/ges01659.1">10.1130/ges01659.1</a></p>
 </div>
 <div id="ref-zdS2Wmy2">
-<p>24. <strong>Why we’re editing women scientists onto Wikipedia</strong> <br />
+<p>25. <strong>Why we’re editing women scientists onto Wikipedia</strong> <br />
 Jess Wade, Maryam Zaringhalam<br />
 <em>Nature</em> (2018-08-14) <a href="https://doi.org/gdz52z">https://doi.org/gdz52z</a> <br />
 DOI: <a href="https://doi.org/10.1038/d41586-018-05947-8">10.1038/d41586-018-05947-8</a></p>
 </div>
 <div id="ref-yaljvCUU">
-<p>25. <strong>Why we’re creating Wikipedia profiles for BAME scientists</strong> <br />
+<p>26. <strong>Why we’re creating Wikipedia profiles for BAME scientists</strong> <br />
 Nicola O’Reilly<br />
 <em>Nature</em> (2019-03-07) <a href="https://doi.org/gfwhcr">https://doi.org/gfwhcr</a> <br />
 DOI: <a href="https://doi.org/10.1038/d41586-019-00812-8">10.1038/d41586-019-00812-8</a></p>
 </div>
 <div id="ref-I8gFMDx6">
-<p>26. <strong>Author-Reviewer Homophily in Peer Review</strong> <br />
+<p>27. <strong>Author-Reviewer Homophily in Peer Review</strong> <br />
 Dakota Murray, Kyle Siler, Vincent Larivière, Wei Mun Chan, Andrew M. Collings, Jennifer Raymond, Cassidy R. Sugimoto<br />
 <em>Cold Spring Harbor Laboratory</em> (2019-08-04) <a href="https://doi.org/ddzr">https://doi.org/ddzr</a> <br />
 DOI: <a href="https://doi.org/10.1101/400515">10.1101/400515</a></p>
 </div>
 <div id="ref-1Bji9UOxF">
-<p>27. <strong>Research in Computational Molecular Biology</strong> <br />
+<p>28. <strong>Research in Computational Molecular Biology</strong> <br />
 Lecture Notes in Computer Science<br />
 (2016) <a href="https://doi.org/gghp87">https://doi.org/gghp87</a> <br />
 DOI: <a href="https://doi.org/10.1007/978-3-319-31957-5">10.1007/978-3-319-31957-5</a></p>
 </div>
 <div id="ref-DBJsvxt7">
-<p>28. <strong>Research in Computational Molecular Biology</strong> <br />
+<p>29. <strong>Research in Computational Molecular Biology</strong> <br />
 Lecture Notes in Computer Science<br />
 (2011) <a href="https://doi.org/dvwjgg">https://doi.org/dvwjgg</a> <br />
 DOI: <a href="https://doi.org/10.1007/978-3-642-20036-6">10.1007/978-3-642-20036-6</a></p>
 </div>
 <div id="ref-aziMb8CD">
-<p>29. <strong>Research in Computational Molecular Biology</strong> <br />
+<p>30. <strong>Research in Computational Molecular Biology</strong> <br />
 Lecture Notes in Computer Science<br />
 (2015) <a href="https://doi.org/gghwjh">https://doi.org/gghwjh</a> <br />
 DOI: <a href="https://doi.org/10.1007/978-3-319-16706-0">10.1007/978-3-319-16706-0</a></p>
-</div>
-<div id="ref-ODb9u77d">
-<p>30. <strong>Comparison and benchmark of name-to-gender inference services</strong> <br />
-Lucía Santamaría, Helena Mihaljević<br />
-<em>PeerJ Computer Science</em> (2018-07-16) <a href="https://doi.org/ggpbn6">https://doi.org/ggpbn6</a> <br />
-DOI: <a href="https://doi.org/10.7717/peerj-cs.156">10.7717/peerj-cs.156</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33816809">33816809</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7924484">PMC7924484</a></p>
 </div>
 <div id="ref-cLM5pKQN">
 <p>31. <strong>Gender Prediction Methods Based on First Names with genderizeR</strong> <br />
