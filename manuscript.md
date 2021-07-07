@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-07-02'
+date-meta: '2021-07-07'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="og:title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of scientific society-awarded honors reveals disparities" />
-  <meta name="dc.date" content="2021-07-02" />
-  <meta name="citation_publication_date" content="2021-07-02" />
+  <meta name="dc.date" content="2021-07-07" />
+  <meta name="citation_publication_date" content="2021-07-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b297a361632a7ae3f5d11637a246d486dde89e96/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b297a361632a7ae3f5d11637a246d486dde89e96/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,10 +84,10 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b297a361632a7ae3f5d11637a246d486dde89e96/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@b297a36](https://github.com/greenelab/iscb-diversity-manuscript/tree/b297a361632a7ae3f5d11637a246d486dde89e96)
-on July 2, 2021.
+from [greenelab/iscb-diversity-manuscript@8789c73](https://github.com/greenelab/iscb-diversity-manuscript/tree/8789c73c15384d16c7ef8afdcd0486dc1b3de5af)
+on July 7, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
@@ -156,16 +156,23 @@ on July 2, 2021.
 
 
 
+## Highlights
+<!-- 3–4 bullet points of no more than 85 characters in length, including spaces,  -->
+- proportion of women honorees was similar to that of the field
+- scientists of East Asian origin have been underrepresented among honorees
+- disparities arise partly, but not exclusively, from geography
+- honorees with an affiliation in the US were overrepresented by a factor of 2.0
+
 ## Summary
 
 Delivering a keynote talk at a conference organized by a scientific society, or being named as a fellow by such a society, indicates that a scientist is held in high regard by their colleagues.
 To explore if the distribution of such indicators of esteem in the field of bioinformatics reflects the composition of this field,
 we compared the gender, name-origin and country of affiliation of 412 honorees from the _International Society for Computational Biology_ (75 fellows and 337 keynote speakers) with over 170,000 last authorships on computational biology papers between 1993 and 2019.
 The proportion of honors bestowed on women was similar to that of the field's overall last authorship rate.
-However, names of East Asian origin have been persistently underrepresented among fellows and keynote speakers.
-Moreover, there were roughly twice as many honors bestowed on scientists with an affiliation in the United States as expected based on literature authorship;
-almost three quarters of this excess was accounted for by a deficit of 89 honorees from China, India, France and Italy.
-We found similar name origin disparities in an analysis of US-affiliated scientists as in our international comparison suggesting that disparities arise partly, but not exclusively, from geography.
+However, names of East Asian origin have been persistently underrepresented among honorees.
+Moreover, there were roughly twice as many honors bestowed on scientists with an affiliation in the United States as expected based on literature authorship.
+<!-- almost three quarters of this excess was accounted for by a deficit of 89 honorees from China, India, France and Italy.
+We found similar name origin disparities in an analysis of US-affiliated scientists as in our international comparison suggesting that disparities arise partly, but not exclusively, from geography. -->
 
 A record of this paper’s Transparent Peer Review process is included in the Supplemental Information.
 <!-- Short abstract
@@ -397,9 +404,45 @@ These could be affected by explicit biases, implicit biases, or pernicious biase
 Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.
 
 
+## Acknowledgments
+
+We would like to thank the Gordon and Betty Moore Foundation whose support makes the study possible (GBMF4552 to D.S.H. and GBMF4552 to C.S.G.). 
+We thank the reviewers and editors for their insightful input to improve the quality of the study.
+
+## Author Contributions
+
+Conceptualization, C.S.G.;
+Methodology, T.T.L., D.S.H., A.A.H., M.R.G. and C.S.G.;
+Software, T.T.L., D.S.H., A.A.H. and M.R.G.;
+Investigation T.T.L., D.S.H., A.A.H., M.R.G. and C.S.G.;
+Data Curation, T.T.L., D.S.H., A.A.H., M.R.G. and C.S.G.;
+Writing – Original Draft, T.T.L, D.S.H and C.S.G;
+Writing – Review & Editing, T.T.L and C.S.G;
+Visualization, T.T.L and D.S.H;
+Supervision, C.S.G;
+Project Administration, C.S.G;
+Funding Acquisition, D.S.H and C.S.G
+
+## Declaration of Interests
+The authors declare no competing interests.
+
+
 ## STAR Methods
 ### Key resources table
-
+| **REAGENT or RESOURCE**          | **SOURCE**                                           | **IDENTIFIER**                                         |
+| -------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ |
+| _Software and algorithms_        |
+| Data and code Zenodo deposit     | This paper                                           | https://doi.org/10.5281/zenodo.5014756               |
+| Source code on GitHub            | This paper                                           | https://github.com/greenelab/iscb-diversity            |
+| Browsable Python and R notebooks | This paper                                           | https://greenelab.github.io/iscb-diversity/            |
+| PubmedPy                         | This paper                                           | https://github.com/dhimmel/pubmedpy                    |
+| Manubot                          | Himmelstein et al., 2019                             | https://doi.org/10.1371/journal.pcbi.1007128         |
+| Name origin prediction           | This paper                                           | https://github.com/greenelab/wiki-nationality-estimate |
+| Geotext                          | Yaser Martinez Palenzuela <yaser.martinez@gmail.com> | https://github.com/elyase/geotext                      |
+| Geopy Nominatim                  | https://github.com/geopy/geopy                       | https://geopy.readthedocs.io/en/stable/#nominatim      |
+| Genderize.io                     | https://genderize.io/                                | https://genderize.io/                                  |
+| _Other_                          |
+| Manuscript repository            | This paper                                           | https://github.com/greenelab/iscb-diversity-manuscript |
 
 ### Resource Availability
 

@@ -16,7 +16,7 @@ Beijnen
 Berke
 bioinformatics
 Biostatistics
-browsable
+Browsable
 Bülent
 centric
 cgreene
@@ -44,7 +44,7 @@ Gazzara
 GBMF
 genderize
 GeoNames
-geopy
+Geopy
 geoscience
 geotext
 Gianni
@@ -104,11 +104,13 @@ Nikolaos
 Nilsson
 Nir
 Nomatim
+Nominatim
 Nyaradzo
 Oliveira
 OpenStreetMap’s
 overrepresentation
 overrepresented
+Palenzuela
 Panagiotou
 Paulo
 Peleg
@@ -133,7 +135,7 @@ Sumudu
 Swanand
 Themis
 Toptas
-trang
+Trang
 Translational
 tri
 Tsiantis
@@ -148,6 +150,7 @@ webpages
 Wenchao
 Wenxuan
 WJ
+Yaser
 Yepes
 Zenodo
 Zhang
