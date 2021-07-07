@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-Curation
+curation
 dataset
 datasets
 dhimmel
@@ -44,9 +44,9 @@ Gazzara
 GBMF
 genderize
 GeoNames
-Geopy
+geopy
 geoscience
-geotext
+Geotext
 Gianni
 Goldshlager
 greenescientist
@@ -57,7 +57,7 @@ heatmap
 Hebb
 Heejoon
 Himmelstein
-hippen
+Hippen
 Ihekwaba
 ISCB
 ISCB’s

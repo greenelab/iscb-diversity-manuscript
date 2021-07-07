@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/b44d6070020e719a99af57d38fe77620139ab27a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b44d6070020e719a99af57d38fe77620139ab27a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/b44d6070020e719a99af57d38fe77620139ab27a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b44d6070020e719a99af57d38fe77620139ab27a/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/b44d6070020e719a99af57d38fe77620139ab27a/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,9 +84,9 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/8789c73c15384d16c7ef8afdcd0486dc1b3de5af/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/b44d6070020e719a99af57d38fe77620139ab27a/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@8789c73](https://github.com/greenelab/iscb-diversity-manuscript/tree/8789c73c15384d16c7ef8afdcd0486dc1b3de5af)
+from [greenelab/iscb-diversity-manuscript@b44d607](https://github.com/greenelab/iscb-diversity-manuscript/tree/b44d6070020e719a99af57d38fe77620139ab27a)
 on July 7, 2021.
 </em></small>
 
@@ -303,7 +303,7 @@ Interaction terms did not predict the group of scientists over and above the mai
   (B) For each region, the mean predicted probability of PubMed authorships is shown as the teal generalized additive model curve.
   The mean probability and 95% confidence interval of the ISCB honor predictions are shown as dark circles and vertical lines.
   Compared to PubMed authorships, honors were more frequently associated with Celtic/English names and less frequently with East Asian names.
-  We did not observe a statistically significant difference in other categories (see Table @tbl:example_names).
+  We did not observe a statistically significant difference in other categories (see STAR Methods Table @tbl:example_names).
 
 ](https://raw.githubusercontent.com/greenelab/iscb-diversity/3bd34a600e34c49816420207fc47458b61f3949d/figs/region_breakdown.png){#fig:region_breakdown}
 
