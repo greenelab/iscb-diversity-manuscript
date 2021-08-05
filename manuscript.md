@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/45c6d5b57774a209853e24661bf82c5d189ddc8e/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/45c6d5b57774a209853e24661bf82c5d189ddc8e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/45c6d5b57774a209853e24661bf82c5d189ddc8e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/45c6d5b57774a209853e24661bf82c5d189ddc8e/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/45c6d5b57774a209853e24661bf82c5d189ddc8e/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,9 +84,9 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/45c6d5b57774a209853e24661bf82c5d189ddc8e/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@45c6d5b](https://github.com/greenelab/iscb-diversity-manuscript/tree/45c6d5b57774a209853e24661bf82c5d189ddc8e)
+from [greenelab/iscb-diversity-manuscript@c5db1cf](https://github.com/greenelab/iscb-diversity-manuscript/tree/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5)
 on August 5, 2021.
 </em></small>
 

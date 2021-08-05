@@ -16,7 +16,7 @@ Beijnen
 Berke
 bioinformatics
 Biostatistics
-Browsable
+browsable
 Bülent
 centric
 cgreene
@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-Curation
+curation
 dataset
 datasets
 dhimmel
@@ -44,7 +44,7 @@ Gazzara
 GBMF
 Genderize
 GeoNames
-Geopy
+geopy
 geoscience
 geotext
 Gianni
@@ -57,7 +57,7 @@ heatmap
 Hebb
 Heejoon
 Himmelstein
-hippen
+Hippen
 Ihekwaba
 ISCB
 ISCB’s
@@ -108,7 +108,7 @@ Nominatim
 Nyaradzo
 Oliveira
 OpenStreetMap’s
-overrepresentation
+Overrepresentation
 overrepresented
 Palenzuela
 Panagiotou
@@ -116,7 +116,7 @@ Paulo
 Peleg
 probablity
 Probhonjon
-PubmedPy
+pubmedpy
 PubMed’s
 Pybus
 PyPI
@@ -135,7 +135,7 @@ Sumudu
 Swanand
 Themis
 Toptas
-trang
+Trang
 Translational
 tri
 Tsiantis
