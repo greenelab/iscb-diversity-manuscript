@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,9 +84,9 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@c5db1cf](https://github.com/greenelab/iscb-diversity-manuscript/tree/c5db1cfffa16024fb4eea1e4feeb7848a45a64c5)
+from [greenelab/iscb-diversity-manuscript@22f7376](https://github.com/greenelab/iscb-diversity-manuscript/tree/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3)
 on August 5, 2021.
 </em></small>
 
@@ -381,7 +381,7 @@ An important ethical question to ask when measuring representation is what the r
 Societies should examine their processes to determine whether the process of selecting honorees should be equal or equitable.
 For example, we found similar representation of women between authors and honorees, which suggests honoree diversity is similar to that of authors and that there may be equality during the honoree selection process.
 However, if fewer women are in the field because of systemic factors that inhibit their participation, reaching equality is not equivalent to reaching equity.
-In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often [@arxiv:2001.01002, @doi:10.1002/ece3.4993, @doi:10.1038/s41550-017-0141, @pmid:24350369], invited by journals to submit papers less often [@doi:10.1371/journal.pbio.2004956], suggested as reviewers less often [@doi:10.1038/541455a], and receive significantly worse review scores [@doi:10.1002/ece3.4993].
+In addition to holding fewer corresponding authorship positions, on average, female scientists of different disciplines are cited less often [@arxiv:2001.01002;@doi:10.1002/ece3.4993;@doi:10.1038/s41550-017-0141;@pmid:24350369], invited by journals to submit papers less often [@doi:10.1371/journal.pbio.2004956], suggested as reviewers less often [@doi:10.1038/541455a], and receive significantly worse review scores [@doi:10.1002/ece3.4993].
 Meanwhile, a review of women's underrepresentation in math-intensive fields argued that today's underrepresentation is not explained by historic forms of discrimination but factors surrounding fertility decisions and lifestyle choices, whether freely made or constrained by biology and society [@doi:10.1073/pnas.1014871108].
 A recent analysis of gender inequality across different disciplines showed that, although both gender groups have equivalent annual productivity, women scientists have higher dropout rates throughout their scientific careers [@doi:10.1073/pnas.1914221117].
 Therefore, although we found that ISCB's honorees and keynote speakers appear to have similar gender proportion to the field as a whole, the gender proportions have not reached parity.
@@ -400,7 +400,7 @@ Societies can contribute toward equity if they design policies to honor scientis
 
 The central role that scientists play in evaluating each other and each other's findings makes equity critical.
 Even many nominally objective methods of assessing excellence (e.g., h-index, grant funding obtained, number of high-impact peer-reviewed publications, and total number of peer-reviewed publications) are subject to the bias of peers during review.
-These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer's own background [@doi:10.1126/sciadv.aaw7238, @doi:10.1101/400515].
+These could be affected by explicit biases, implicit biases, or pernicious biases in which a reviewer might consider a path of inquiry, as opposed to an individual, to be more or less meritorious based on the reviewer's own background [@doi:10.1126/sciadv.aaw7238;@doi:10.1101/400515].
 Our efforts to measure the diversity of honorees in an international society suggests that, while a focus on gender parity may be improving some aspects of diversity among honorees, contributions from scientists of color are underrecognized.
 
 
