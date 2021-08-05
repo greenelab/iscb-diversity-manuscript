@@ -57,7 +57,7 @@ heatmap
 Hebb
 Heejoon
 Himmelstein
-hippen
+Hippen
 Ihekwaba
 ISCB
 ISCB’s
@@ -108,7 +108,7 @@ Nominatim
 Nyaradzo
 Oliveira
 OpenStreetMap’s
-overrepresentation
+Overrepresentation
 overrepresented
 Palenzuela
 Panagiotou
@@ -116,7 +116,7 @@ Paulo
 Peleg
 probablity
 Probhonjon
-PubmedPy
+pubmedpy
 PubMed’s
 Pybus
 PyPI
@@ -135,7 +135,7 @@ Sumudu
 Swanand
 Themis
 Toptas
-Trang
+trang
 Translational
 tri
 Tsiantis

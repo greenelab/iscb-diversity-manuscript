@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -84,9 +84,9 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.11
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@22f7376](https://github.com/greenelab/iscb-diversity-manuscript/tree/22f73761b9d8cafdab1faf5d7d7ef477ec41c4b3)
+from [greenelab/iscb-diversity-manuscript@c98b9ba](https://github.com/greenelab/iscb-diversity-manuscript/tree/c98b9ba0b70a756820a738d3447bb4ee1f5687aa)
 on August 5, 2021.
 </em></small>
 
@@ -437,7 +437,7 @@ The authors declare no competing interests.
 | Browsable Python and R notebooks | This paper                                           | https://greenelab.github.io/iscb-diversity/            |
 | PubmedPy                         | This paper                                           | https://github.com/dhimmel/pubmedpy                    |
 | Manubot                          | Himmelstein et al., 2019                             | https://doi.org/10.1371/journal.pcbi.1007128         |
-| Name origin prediction           | This paper                                           | https://github.com/greenelab/wiki-nationality-estimate |
+| Name origin prediction Wiki2019-LSTM | This paper                                           | https://github.com/greenelab/wiki-nationality-estimate |
 | Geotext                          | Yaser Martinez Palenzuela <yaser.martinez@gmail.com> | https://github.com/elyase/geotext                      |
 | Geopy Nominatim                  | https://github.com/geopy/geopy                       | https://geopy.readthedocs.io/en/stable/#nominatim      |
 | Genderize.io                     | https://genderize.io/                                | https://genderize.io/                                  |
