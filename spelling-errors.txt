@@ -24,7 +24,7 @@ Chae
 Chak
 Chitsaz
 citable
-curation
+Curation
 dataset
 datasets
 dhimmel
@@ -42,11 +42,11 @@ Filzen
 Gådin
 Gazzara
 GBMF
-genderize
+Genderize
 GeoNames
-geopy
+Geopy
 geoscience
-Geotext
+geotext
 Gianni
 Goldshlager
 greenescientist
@@ -57,7 +57,7 @@ heatmap
 Hebb
 Heejoon
 Himmelstein
-Hippen
+hippen
 Ihekwaba
 ISCB
 ISCB’s
@@ -116,7 +116,7 @@ Paulo
 Peleg
 probablity
 Probhonjon
-pubmedpy
+PubmedPy
 PubMed’s
 Pybus
 PyPI
@@ -135,7 +135,7 @@ Sumudu
 Swanand
 Themis
 Toptas
-Trang
+trang
 Translational
 tri
 Tsiantis
