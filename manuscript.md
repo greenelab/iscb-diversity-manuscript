@@ -5,7 +5,7 @@ keywords:
 - iscb
 - disparities
 lang: en-US
-date-meta: '2021-08-05'
+date-meta: '2021-09-07'
 author-meta:
 - Trang T. Le
 - Daniel S. Himmelstein
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="og:title" content="Analysis of scientific society-awarded honors reveals disparities" />
   <meta property="twitter:title" content="Analysis of scientific society-awarded honors reveals disparities" />
-  <meta name="dc.date" content="2021-08-05" />
-  <meta name="citation_publication_date" content="2021-08-05" />
+  <meta name="dc.date" content="2021-09-07" />
+  <meta name="citation_publication_date" content="2021-09-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,13 +58,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/iscb-diversity-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/iscb-diversity-manuscript/v/23502a03b57f9a3bc772e839edf42be879fa9655/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/23502a03b57f9a3bc772e839edf42be879fa9655/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/iscb-diversity-manuscript/v/23502a03b57f9a3bc772e839edf42be879fa9655/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/23502a03b57f9a3bc772e839edf42be879fa9655/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/iscb-diversity-manuscript/raw/23502a03b57f9a3bc772e839edf42be879fa9655/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -79,15 +79,15 @@ manubot-clear-requests-cache: false
 
 
 
-_A DOI-citable version of this manuscript is available at <https://doi.org/10.1101/2020.04.14.927251>_.
+_A DOI-citable version of this manuscript is available at <https://doi.org/10.1016/j.cels.2021.07.007>_.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/))
+([permalink](https://greenelab.github.io/iscb-diversity-manuscript/v/23502a03b57f9a3bc772e839edf42be879fa9655/))
 was automatically generated
-from [greenelab/iscb-diversity-manuscript@c98b9ba](https://github.com/greenelab/iscb-diversity-manuscript/tree/c98b9ba0b70a756820a738d3447bb4ee1f5687aa)
-on August 5, 2021.
+from [greenelab/iscb-diversity-manuscript@23502a0](https://github.com/greenelab/iscb-diversity-manuscript/tree/23502a03b57f9a3bc772e839edf42be879fa9655)
+on September 7, 2021.
 </em></small>
 
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->

@@ -1438,15 +1438,15 @@
   {
     "id": "wH0Hk1gE",
     "type": "book",
-    "title": "Statistics in epidemiology: methods, techniques, and applications",
-    "publisher": "CRC Press",
-    "publisher-place": "Boca Raton",
-    "number-of-pages": "321",
-    "source": "Library of Congress ISBN",
+    "call-number": "RA652.2.M3 S24 1996",
     "event-place": "Boca Raton",
     "ISBN": "9780849394447",
-    "call-number": "RA652.2.M3 S24 1996",
-    "shortTitle": "Statistics in epidemiology",
+    "number-of-pages": "321",
+    "publisher": "CRC Press",
+    "publisher-place": "Boca Raton",
+    "source": "Library of Congress ISBN",
+    "title": "Statistics in epidemiology: methods, techniques, and applications",
+    "title-short": "Statistics in epidemiology",
     "author": [
       {
         "family": "Sahai",
