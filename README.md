@@ -6,6 +6,15 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://greenelab.github.io/iscb-diversity-manuscript/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/greenelab/iscb-diversity-manuscript/workflows/Manubot/badge.svg)](https://github.com/greenelab/iscb-diversity-manuscript/actions)
 
+## Citation
+
+This manuscript is now published at:
+
+> **Analysis of scientific society honors reveals disparities**
+Trang T Le, Daniel S Himmelstein, Ariel A Hippen, Matthew R Gazzara, Casey S Greene
+*Cell Systems* (2021-08) <https://doi.org/gmhq49>
+DOI: [10.1016/j.cels.2021.07.007](https://doi.org/10.1016/j.cels.2021.07.007)
+
 ## Manuscript description
 
 <!-- usage note: edit this section. -->
