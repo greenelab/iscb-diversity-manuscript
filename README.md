@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/iscb-diversity-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://greenelab.github.io/iscb-diversity-manuscript/>.
-The permalink for this webpage version is <https://greenelab.github.io/iscb-diversity-manuscript/v/c98b9ba0b70a756820a738d3447bb4ee1f5687aa/>.
+The permalink for this webpage version is <https://greenelab.github.io/iscb-diversity-manuscript/v/23502a03b57f9a3bc772e839edf42be879fa9655/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://greenelab.github.io/iscb-diversity-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`c98b9ba0b70a756820a738d3447bb4ee1f5687aa`](https://github.com/greenelab/iscb-diversity-manuscript/commit/c98b9ba0b70a756820a738d3447bb4ee1f5687aa).
+[`23502a03b57f9a3bc772e839edf42be879fa9655`](https://github.com/greenelab/iscb-diversity-manuscript/commit/23502a03b57f9a3bc772e839edf42be879fa9655).
